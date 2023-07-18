@@ -1,0 +1,226 @@
+Advanced Network Configuration
+Akonadi Console
+Akregator
+Alligator
+Angelfish
+Ark
+ArmCord
+ArmCord
+Artikulate
+AudioTube
+Avahi SSH Server Browser
+Avahi VNC Server Browser
+Avahi Zeroconf Browser
+Blinken
+Bluetooth
+Bomber
+Bovo
+CMake
+Calculator
+Cantor
+Cervisia
+Chromium
+Chromium
+Clock
+Contact Print Theme Editor
+Contact Theme Editor
+Crashed Processes Viewer
+Discover
+Dolphin
+Dragon Player
+Echomixer
+Elisa
+Emoji Selector
+Envy24 Control
+Falkon
+Filelight
+Files
+Firefox Web Browser
+Granatier
+Gwenview
+HDAJackRetask
+HDSPConf
+HDSPMixer
+Hardware Locality lstopo
+Help
+Htop
+Hwmixvolume
+IBus Preferences
+IM Contacts
+Icon Browser
+Info Center
+Install System
+Journald Browser
+JuK
+K3b
+KAddressBook
+KAlarm
+KAlgebra
+KAlgebra Mobile
+KAppTemplate
+KAtomic
+KBackup
+KBlackBox
+KBlocks
+KBounce
+KBreakOut
+KBruch
+KCachegrind
+KCalc
+KCharSelect
+KColorChooser
+KDE Connect
+KDE Connect Indicator
+KDE Connect SMS
+KDE Connect Settings
+KDE IM Log Viewer
+KDE Itinerary
+KDE Marble
+KDE Partition Manager
+KDE System Settings
+KDebugSettings
+KDevelop
+KDevelop (Pick Session)
+KDiamond
+KDiskFree
+KFind
+KFloppy
+KFourInLine
+KGeography
+KGet
+KGoldrunner
+KGpg
+KHangMan
+KImageMapEditor
+KJumpingCube
+KLettres
+KMag
+KMahjongg
+KMail
+KMail Header Theme Editor
+KMail Import Wizard
+KMail Refresh Settings
+KMines
+KMix
+KMouseTool
+KMouth
+KNetWalk
+KNotes
+KOrganizer
+KPatience
+KRDC
+KReversi
+KRuler
+KSnakeDuel
+KSpaceDuel
+KSquares
+KSudoku
+KSystemLog
+KTeaTime
+KTimer
+KTnef
+KTorrent
+KTouch
+KTrip
+KTurtle
+KUIViewer
+KWalletManager
+KWordQuiz
+KWrite
+Kajongg
+Kalendar
+Kalzium
+Kamoso
+Kanagram
+Kapman
+Kasts
+Kate
+Kdenlive
+Keysmith
+Kig
+Kigo
+Killbots
+Kirigami Gallery
+Kiriki
+Kiten
+Kleopatra
+Klickety
+Klipper
+KmPlot
+Knights
+Koko
+Kolf
+Kollision
+Kolor Lines
+KolourPaint
+Kompare
+Kongress
+Konqueror
+Konquest
+Konsole
+Kontact
+Kontrast
+Konversation
+Kopete
+Krfb
+KsirK
+KsirK Skin Editor
+Kubrick
+Kwave Sound Editor
+KwikDisk
+LSkat
+Lokalize
+MBoxImporter
+Menu Editor
+Minuet
+Naval Battle
+NeoChat
+Okular
+Open on connected device via KDE Connect
+PIM Data Exporter
+Palapeli
+Parley
+Picmi
+PlasmaTube
+Potato Guy
+PulseAudio Volume Control
+Qt Assistant
+Qt Designer
+Qt Linguist
+Qt QDBusViewer 
+Qt V4L2 test Utility
+Qt V4L2 video capture utility
+Recorder
+Rocs
+SameGame
+Shisen-Sho
+Shutter
+Sieve Editor
+Skanlite
+Skanpage
+Spectacle
+Spotify
+Step
+Sweeper
+System Monitor
+System Settings
+Tokodon
+Tweaks
+Umbrello
+UserFeedback Console
+VLC media player
+Vim
+Visual Studio Code
+Visual Studio Code
+Weather
+Welcome Center
+YAD settings
+Yakuake
+Zanshin
+btop++
+fish
+ghostwriter
+kitty
+mpv Media Player
+ncspot
+telly-skout
