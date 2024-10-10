@@ -1,0 +1,173 @@
+# vim: ft=cfg
+# Basic options
+default_keybindings = false
+use_nerdfont = false
+notify = true
+gapless = true
+flip_status_indicators=true
+shuffle = false
+repeat = 'playlist'
+
+[keybindings]
+## unbinded: nN, c, eE, xX
+######################################
+# Song controls
+######################################
+
+##################
+# Fast forward / rewind
+##################
+"b" = "seek -1000"
+"f" = "seek +1000"
+"B" = "seek -10000"
+"F" = "seek +10000"
+
+##################
+# Play / pause
+##################
+"p" = "playpause"
+"Enter" = "play"
+"s" = "stop"
+
+##################
+# Track manipulation
+##################
+"H" = "previous"
+"L" = "next"
+"r" = "repeat"
+"z" = "shuffle"
+"D" = "delete"
+"S" = "save"
+# Open context menu
+"O" = "open current"
+"o" = "open selected"
+"A" = "goto artist"
+"a" = "goto album"
+
+##################
+# Queue
+##################
+# Add to queue
+" " = "queue"
+"Ctrl+s" = "save queue"
+# Move selected song up/down in the queue
+"J" = "shift down 1"
+"K" = "shift up 1"
+"C" = "clear"
+# Open the context menu for a Spotify link in the clipboard
+"Ctrl+v" = "insert"
+
+######################################
+# Sound
+######################################
+"=" = "volup 1"
+"-" = "voldown 1"
+"[" = "volup 5"
+"]" = "voldown 5"
+
+
+######################################
+# Movements
+######################################
+"F1" = "focus queue"
+"F2" = "focus library"
+"F3" = "focus search"
+"1" = "focus queue"
+"2" = "focus library"
+"Ctrl+q" = "focus queue"
+# Navigation
+"Down" = "move down 1"
+"G" = "move bottom"
+"g" = "move top"
+"Left" = "move left 1"
+"Right" = "move right 1"
+"Ctrl+d" = "move down 5"
+"Ctrl+u" = "move up 5"
+"Up" = "move up 1"
+"h" = "move left 1"
+"j" = "move down 1"
+"k" = "move up 1"
+"Ctrl+e" = "move down 1"
+"Ctrl+y" = "move up 1"
+"l" = "move right 1"
+"." = "move playing"
+"q" = "back"
+
+######################################
+# Sorting
+######################################
+"t" = "sort added d"
+"T" = "sort title a"
+
+######################################
+# Sharing
+######################################
+"Y" = "share selected"
+"y" = "share current"
+
+######################################
+# Other
+######################################
+"Q" = "quit"
+"Z" = "quit"
+"?" = "help"
+"U" = "update"
+
+
+# Gruvbox dark [ originally based on base16 by Dawid Kurek (dawikur@gmail.com) ]
+[theme]
+background = "default"
+primary = "#a89984"
+secondary = "#928374"
+title = "#8ec07c"
+playing = "#689d6a"
+playing_bg = "#383838"
+playing_selected = "#ebdbb2"
+highlight = "#d5c4a1"
+highlight_bg = "#484848"
+error = "#fbf1c7"
+error_bg = "#cc241d"
+statusbar_progress = "#458588"
+statusbar_bg = "#282828"
+statusbar = "#98971a"
+cmdline = "#d5c4a1"
+cmdline_bg = "#383838"
+search_match = "#fabd2f"
+
+## Base16 solarized dark, originally form https://github.com/gidsi/base16-ncspot
+# [theme]
+# background = "#002b36"
+# primary = "#eee8d5"
+# secondary = "#2aa198"
+# title = "#859900"
+# playing = "#268bd2"
+# playing_selected = "light green"
+# playing_bg = "#002b36"
+# highlight = "#93a1a1"
+# highlight_bg = "#484848"
+# error = "#93a1a1"
+# error_bg = "#fdf6e3"
+# statusbar = "#002b36"
+# statusbar_progress = "#dc322f"
+# statusbar_bg = "#859900"
+# cmdline = "#93a1a1"
+# cmdline_bg = "#002b36"
+
+## Spotify
+# [theme]
+# background = "black"
+# primary = "light white"
+# secondary = "light black"
+# title = "green"
+# playing = "green"
+# playing_selected = "light green"
+# playing_bg = "black"
+# highlight = "light white"
+# highlight_bg = "#484848"
+# error = "light white"
+# error_bg = "red"
+# statusbar = "black"
+# statusbar_progress = "green"
+# statusbar_bg = "green"
+# cmdline = "light white"
+# cmdline_bg = "black"

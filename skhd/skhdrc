@@ -1,0 +1,147 @@
+# === Session defaults ===
+# reset border color in default mode
+
+
+:: default : yabai -m config active_window_border_color 0xE0f5c2e7
+# kickstart yabai 
+ralt - y : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+# lock screen immediately
+ralt - escape : pmset displaysleepnow 
+# logout
+# ralt + shift - e : osascript -e 'tell app "System Events" to log out'
+# power down 
+# ralt + shift - p : osascript -e 'tell app "System Events" to shut down'
+# reboot
+# ralt + shift - b : osascript -e 'tell app "System Events" to restart'
+# sleep 
+ralt + shift - s : osascript -e 'tell application "System Events" to sleep'
+
+
+# === launch commands ===
+# open kitty terminal, blazingly fast compared to iTerm/ralt
+ralt - return : open -na /Applications/WezTerm.app
+# open firefox
+ralt + shift - return : open -na /Applications/Firefox\ Nightly.app
+# open vscode
+ralt + ctrl - return : open -na /Applications/Visual\ Studio\ Code.app/
+# open finder
+ralt + shift - n : open `pwd`
+# open system preferences
+ralt - c : open -na /Applications/Visual\ Studio\ Code.app/
+# === Resize Mode ===
+# Set resize border color 
+:: resize @ : yabai -m config active_window_border_color 0xFFFF00FF
+# toggle resize mode 
+resize < ralt - r ; default
+default < ralt - r ; resize
+# resize commands
+resize < left : yabai -m window --resize left:-50:0; \
+                  yabai -m window --resize right:-50:0
+resize < down : yabai -m window --resize bottom:0:50; \
+                  yabai -m window --resize top:0:50
+resize < up   : yabai -m window --resize top:0:-50; \
+                  yabai -m window --resize bottom:0:-50
+resize < right : yabai -m window --resize right:50:0; \
+                  yabai -m window --resize left:50:0
+
+# === Navigation ===
+# window focus
+ralt - a : yabai -m window --focus west
+ralt - s : yabai -m window --focus south
+ralt - w : yabai -m window --focus north
+ralt - d : yabai -m window --focus east
+
+ralt - left : yabai -m window --focus west
+ralt - down : yabai -m window --focus south
+ralt - up : yabai -m window --focus north
+ralt - right : yabai -m window --focus east
+
+# space focus and creation
+ralt - tab : yabai -m space --focus next || yabai -m space --focus first
+ralt + shift - tab : yabai -m space --focus prev || yabai -m space --focus last
+ralt - x : yabai -m space --focus recent
+ralt - 1 : yabai -m space --focus 1
+ralt - 2 : yabai -m space --focus 2
+ralt - 3 : yabai -m space --focus 3
+ralt - 4 : yabai -m space --focus 4
+ralt - 5 : yabai -m space --focus 5
+ralt - 6 : yabai -m space --focus 6
+ralt - 7 : yabai -m space --focus 7
+ralt - 8 : yabai -m space --focus 8
+ralt - 9 : yabai -m space --focus 9
+
+# create a space
+ralt - n : yabai -m space --create && yabai -m space --focus last
+
+# destroy current space
+ralt + shift - d : yabai -m space --destroy
+
+# === Modification === 
+# Move window relatively
+ralt + shift - a : yabai -m window --warp west
+ralt + shift - s : yabai -m window --warp south
+ralt + shift - w : yabai -m window --warp north
+ralt + shift - d : yabai -m window --warp east
+
+ralt + shift - left : yabai -m window --warp west
+ralt + shift - down : yabai -m window --warp south
+ralt + shift - up : yabai -m window --warp north
+ralt + shift - right : yabai -m window --warp east
+
+# send window to space 
+ralt + shift - x : yabai -m window --space recent
+ralt + shift - 1 : yabai -m window --space 1
+ralt + shift - 2 : yabai -m window --space 2
+ralt + shift - 3 : yabai -m window --space 3
+ralt + shift - 4 : yabai -m window --space 4
+ralt + shift - 5 : yabai -m window --space 5
+ralt + shift - 6 : yabai -m window --space 6
+ralt + shift - 7 : yabai -m window --space 7
+ralt + shift - 8 : yabai -m window --space 8
+
+# Move focus + window to space
+ralt + ctrl - m : yabai -m window --space last; yabai -m space --focus last
+ralt + ctrl - p : yabai -m window --space prev; yabai -m space --focus prev
+ralt + ctrl - n : yabai -m window --space next; yabai -m space --focus next
+ralt + ctrl - 1 : yabai -m window --space 1; yabai -m space --focus 1
+ralt + ctrl - 2 : yabai -m window --space 2; yabai -m space --focus 2
+ralt + ctrl - 3 : yabai -m window --space 3; yabai -m space --focus 3
+ralt + ctrl - 4 : yabai -m window --space 4; yabai -m space --focus 4
+
+# Equalize size of windows
+ralt - e : yabai -m space --balance
+
+# Enable / Disable gaps in current workspace
+ralt - i : yabai -m space --toggle padding; \
+	  yabai -m space --toggle gap; \
+	  yabai -m config external_bar all:30:0; \
+	  sketchybar --bar hidden=false;
+
+ralt - i : yabai -m space --toggle padding; \
+	 yabai -m space --toggle gap; \
+	 yabai -m config external_bar all:30:0;\
+	 sketchybar --bar hidden=false;
+
+# Rotate windows clockwise and anticlockwise
+alt - r         : yabai -m space --rotate 270
+shift + alt - r : yabai -m space --rotate 90
+
+# Rotate on X and Y Axis
+shift + alt - x : yabai -m space --mirror x-axis
+shift + alt - y : yabai -m space --mirror y-axis
+
+# Set insertion point for focused container
+ralt - v : yabai -m window --insert south
+ralt - h : yabai -m window --insert east
+# shift + lctrl + alt - j : yabai -m window --insert south
+# shift + lctrl + alt - k : yabai -m window --insert north
+# shift + lctrl + alt - l : yabai -m window --insert east
+
+# Float / Unfloat window
+shift + alt - space : \
+    yabai -m window --toggle float; \
+    yabai -m window --toggle border
+
+# Make window native fullscreen
+alt - f         : yabai -m window --toggle zoom-fullscreen
+shift + alt - f : yabai -m window --toggle native-fullscreen
