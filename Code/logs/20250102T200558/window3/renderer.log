@@ -1,0 +1,31 @@
+2025-01-02 20:06:58.445 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 20:06:58.445 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 20:06:58.445 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 20:06:58.824 [info] Started local extension host with pid 158199.
+2025-01-02 20:07:00.144 [info] Settings Sync: Token updated for the account hrtowii
+2025-01-02 20:07:00.180 [info] Settings Sync: Account status changed from uninitialized to available
+2025-01-02 20:07:01.970 [info] [perf] Render performance baseline is 53ms
+2025-01-02 20:07:02.470 [error] [Extension Host] (node:158199) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-01-02 20:07:02.631 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-02 20:07:08.078 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-01-02 20:07:08.078 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-01-02 20:07:08.101 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-01-02 20:07:08.101 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-01-02 20:10:53.913 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 20:43:33.077 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 20:53:20.741 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 20:54:31.510 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 20:59:25.844 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 21:00:27.640 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 21:03:47.825 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 21:07:29.102 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 21:09:13.051 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 22:49:16.641 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 22:51:27.137 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 22:51:41.669 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 22:51:43.153 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 22:51:59.336 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 22:52:00.667 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 22:52:24.103 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-02 22:52:26.234 [error] lock() request could not be registered.: Error: lock() request could not be registered.

@@ -1,0 +1,583 @@
+Locating server…
+Checking if /home/violet/.config/Vencord/settings/quickCss.css may be Tailwind-related…
+Checking if /home/violet/.config/Vencord/themes/catppuccin-mocha.theme.css may be Tailwind-related…
+Checking if /home/violet/.config/Vencord/themes/tokyonight.theme.css may be Tailwind-related…
+Checking if /home/violet/.config/Vencord/themes/gruvbox-material.theme.css may be Tailwind-related…
+Checking if /home/violet/.config/Vencord/dist/renderer.css may be Tailwind-related…
+Checking if /home/violet/.config/gtk-3.0/gtk.css may be Tailwind-related…
+Checking if /home/violet/.config/gtk-4.0/gtk.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/CustomApps/marketplace/style.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/SharkBlue/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Dreary/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Nightlight/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Blossom/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Matte/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Turntable/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-now-playing-bar.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-venues.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/playlist-leavebehinds.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-concerts.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-video-player.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Flow/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/concerts-on-tour-playlist-card.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/4168.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-all-show-ads.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/text/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-concert.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-participant-list-page.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Ziro/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-feature-activation.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/legacy-hpto-compatibility.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-episode.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/StarryNight/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-queue-page.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/BurntSienna/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Dribbblish/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-root-dialogs.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-page-error-template.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/3282.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/5727.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-whats-new-feed.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Sleek/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-search.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-lyrics.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-home-chips-row.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-desktop-settings.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-feedback-bar.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-blend.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/home-ad-card.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/vendor~xpui.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Themes/Onepunch/user.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-all-show-ads.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-leaderboard-component.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-venues.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/9705.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-cultural-moment-hub.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/login/login.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-buddy-feed.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-collection-concerts.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-playlist.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-see-all-playlist-leavebehinds.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/playlist-leavebehinds.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/7037.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/concerts-on-tour-playlist-card.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-desktop-modals.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/4168.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/dwp-video-player.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/dwp-now-playing-bar.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-songs.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/your-sound-capsule-modal.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/home-hpto.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-offline-empty-state.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-watch-feed-view-container.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/dwp-participant-list-page.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-play-history-page.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-concert.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/pip-mini-player.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-local-files.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-feature-activation.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/debug-locales.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/legacy-hpto-compatibility.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-episode-more-like-this.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/4884.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-show.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-episode.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-profile.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-queue-page.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-buddy-feed-legacy.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-stage-page.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/login/login.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/dwp-feedback-bar.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/dwp-home-chips-row.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-search.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-pip-mini-player.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-stage-page.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-offline-browse.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/browse-v2.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-recent-searches.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/vendor~xpui.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/home-ad-card.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-desktop-settings.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-lyrics.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/3282.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/5727.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-debug-window-contents.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/dwp-whats-new-feed.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-root-dialogs.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/dwp-page-error-template.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-album.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-full-screen-mode-container.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Themed/xpui/xpui-routes-blend.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-lyrics-cinema-mode-container.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-your-library-x.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-collection-episodes.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-album-prerelease.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-billboard-ad.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/dwp-panel-section.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-offline-browse.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/browse-v2.css may be Tailwind-related…
+Checking if /home/violet/.config/spicetify/Extracted/Raw/xpui/xpui-routes-recent-searches.css may be Tailwind-related…
+Checking if /home/violet/.config/wlogout/style.css may be Tailwind-related…
+Checking if /home/violet/.config/ags/scss/_dock.scss may be Tailwind-related…
+Checking if /home/violet/.config/ags/scss/_notifications.scss may be Tailwind-related…
+Checking if /home/violet/.config/ags/scss/main.scss may be Tailwind-related…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true}}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true}}
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+[Info  - 8:07:23 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/user_options.js',
+  normalPath: '/home/violet/.config/ags/user_options.js'
+}
+[Info  - 8:07:23 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/user_options.js',
+  normalPath: '/home/violet/.config/ags/user_options.js'
+}
+[Info  - 8:07:23 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/user_options.js',
+  normalPath: '/home/violet/.config/ags/user_options.js'
+}
+[Info  - 8:07:24 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/variables.js',
+  normalPath: '/home/violet/.config/ags/variables.js'
+}
+[Info  - 8:07:24 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/variables.js',
+  normalPath: '/home/violet/.config/ags/variables.js'
+}
+[Info  - 8:07:24 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/variables.js',
+  normalPath: '/home/violet/.config/ags/variables.js'
+}
+[Info  - 8:07:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/init.js',
+  normalPath: '/home/violet/.config/ags/init.js'
+}
+[Info  - 8:07:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/init.js',
+  normalPath: '/home/violet/.config/ags/init.js'
+}
+[Info  - 8:07:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/init.js',
+  normalPath: '/home/violet/.config/ags/init.js'
+}
+[Info  - 8:07:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/variables.js',
+  normalPath: '/home/violet/.config/ags/variables.js'
+}
+[Info  - 8:07:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/variables.js',
+  normalPath: '/home/violet/.config/ags/variables.js'
+}
+[Info  - 8:07:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/variables.js',
+  normalPath: '/home/violet/.config/ags/variables.js'
+}
+[Info  - 8:07:51 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/i18n/locales/Default.json',
+  normalPath: '/home/violet/.config/ags/i18n/locales/Default.json'
+}
+[Info  - 8:07:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/main.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/main.js'
+}
+[Info  - 8:07:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/main.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/main.js'
+}
+[Info  - 8:07:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/main.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/main.js'
+}
+[Info  - 8:08:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js'
+}
+[Info  - 8:08:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js'
+}
+[Info  - 8:08:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js'
+}
+[Info  - 8:08:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js'
+}
+[Info  - 8:08:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js'
+}
+[Info  - 8:10:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:10:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:10:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:10:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:10:46 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:00 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:01 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:01 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:03 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:03 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:07 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:11 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:11 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:13 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:17 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:17 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:17 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:47 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:50 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:50 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:11:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:12:05 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:12:06 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:12:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css',
+  normalPath: '/home/violet/.config/Vencord/themes/tokyonight.theme.css'
+}
+[Info  - 8:12:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js'
+}
+[Info  - 8:12:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/main.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/main.js'
+}
+[Info  - 8:12:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/i18n/locales/Default.json',
+  normalPath: '/home/violet/.config/ags/i18n/locales/Default.json'
+}
+[Info  - 8:12:33 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/fish/config.fish',
+  normalPath: '/home/violet/.config/fish/config.fish'
+}
+[Info  - 8:12:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/fish/auto-Hypr.fish',
+  normalPath: '/home/violet/.config/fish/auto-Hypr.fish'
+}
+[Info  - 8:12:47 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/fish/fish_variables',
+  normalPath: '/home/violet/.config/fish/fish_variables'
+}
+[Info  - 8:12:51 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/fish/config.fish',
+  normalPath: '/home/violet/.config/fish/config.fish'
+}
+[Info  - 8:13:05 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/spicetify/Themes/text/color.ini',
+  normalPath: '/home/violet/.config/spicetify/Themes/text/color.ini'
+}
+[Info  - 8:15:29 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/fish/config.fish',
+  normalPath: '/home/violet/.config/fish/config.fish'
+}
+[Info  - 8:15:41 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/keybinds.js'
+}
+[Info  - 8:15:41 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/keybinds.js'
+}
+[Info  - 8:15:41 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/keybinds.js'
+}
+[Info  - 8:15:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/periodictable.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/periodictable.js'
+}
+[Info  - 8:15:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/periodictable.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/periodictable.js'
+}
+[Info  - 8:15:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/periodictable.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/periodictable.js'
+}
+[Info  - 8:15:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/main.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/main.js'
+}
+[Info  - 8:15:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/main.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/main.js'
+}
+[Info  - 8:15:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/main.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/main.js'
+}
+[Info  - 8:16:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js'
+}
+[Info  - 8:16:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js'
+}
+[Info  - 8:16:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js'
+}
+[Info  - 8:19:54 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/main.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/main.js'
+}
+[Info  - 8:19:54 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js'
+}
+[Info  - 8:19:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/keybinds.js'
+}
+[Info  - 8:19:56 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js'
+}
+[Info  - 8:19:57 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/fish/config.fish',
+  normalPath: '/home/violet/.config/fish/config.fish'
+}
+[Info  - 8:19:57 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js'
+}
+[Info  - 8:20:10 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland.conf'
+}
+[Info  - 8:20:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js',
+  normalPath: '/home/violet/.config/ags/modules/cheatsheet/data_keybinds.js'
+}
+[Info  - 8:20:17 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/colors.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/colors.conf'
+}
+[Info  - 8:20:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprlock/status.sh',
+  normalPath: '/home/violet/.config/hypr/hyprlock/status.sh'
+}
+[Info  - 8:29:49 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/colors.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/colors.conf'
+}
+[Info  - 8:29:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/keybinds.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/keybinds.conf'
+}
+[Info  - 8:47:31 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/keybinds.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/keybinds.conf'
+}
+[Info  - 8:47:53 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/foot/foot.ini',
+  normalPath: '/home/violet/.config/foot/foot.ini'
+}
+[Info  - 8:48:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/keybinds.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/keybinds.conf'
+}
+[Info  - 8:48:08 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/fish/config.fish',
+  normalPath: '/home/violet/.config/fish/config.fish'
+}
+[Info  - 8:48:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/keybinds.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/keybinds.conf'
+}
+[Info  - 8:53:30 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/execs.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/execs.conf'
+}
+[Info  - 8:53:47 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/general.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/general.conf'
+}
+[Info  - 8:59:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/keybinds.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/keybinds.conf'
+}
+[Info  - 9:05:00 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js'
+}
+[Info  - 9:05:00 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js'
+}
+[Info  - 9:05:00 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js',
+  normalPath: '/home/violet/.config/ags/modules/desktopbackground/wallpaper.js'
+}
+[Info  - 9:05:10 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/keybinds.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/keybinds.conf'
+}
+[Info  - 9:05:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/config_overviewOnly.js',
+  normalPath: '/home/violet/.config/ags/config_overviewOnly.js'
+}
+[Info  - 9:05:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/config_overviewOnly.js',
+  normalPath: '/home/violet/.config/ags/config_overviewOnly.js'
+}
+[Info  - 9:05:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/config_overviewOnly.js',
+  normalPath: '/home/violet/.config/ags/config_overviewOnly.js'
+}
+[Info  - 9:05:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/config.js',
+  normalPath: '/home/violet/.config/ags/config.js'
+}
+[Info  - 9:05:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/config.js',
+  normalPath: '/home/violet/.config/ags/config.js'
+}
+[Info  - 9:05:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/config.js',
+  normalPath: '/home/violet/.config/ags/config.js'
+}
+[Info  - 9:06:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/config_overviewOnly.js',
+  normalPath: '/home/violet/.config/ags/config_overviewOnly.js'
+}
+[Info  - 9:06:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/keybinds.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/keybinds.conf'
+}
+[Info  - 9:06:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/i18n/locales/Default.json',
+  normalPath: '/home/violet/.config/ags/i18n/locales/Default.json'
+}
+[Info  - 9:06:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Code/User/History/5441bf4d/yrOl.conf',
+  normalPath: '/home/violet/.config/Code/User/History/5441bf4d/yrOl.conf'
+}
+[Info  - 9:06:33 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/ags/i18n/locales/Default.json',
+  normalPath: '/home/violet/.config/ags/i18n/locales/Default.json'
+}
+[Info  - 9:06:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/Code/CachedProfilesData/__default__profile__/extensions.user.cache',
+  normalPath: '/home/violet/.config/Code/CachedProfilesData/__default__profile__/extensions.user.cache'
+}
+[Info  - 9:06:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/keybinds.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/keybinds.conf'
+}
+[Info  - 9:07:48 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/foot/foot.ini',
+  normalPath: '/home/violet/.config/foot/foot.ini'
+}
+[Info  - 9:08:07 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/violet/.config/hypr/hyprland/keybinds.conf',
+  normalPath: '/home/violet/.config/hypr/hyprland/keybinds.conf'
+}

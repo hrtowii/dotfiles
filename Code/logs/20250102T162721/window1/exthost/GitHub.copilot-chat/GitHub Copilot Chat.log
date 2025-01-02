@@ -1,0 +1,153 @@
+2025-01-02 16:27:28.542 [info] Using the Electron fetcher.
+2025-01-02 16:27:28.542 [info] Initializing Git extension service.
+2025-01-02 16:27:28.542 [info] Successfully activated the vscode.git extension.
+2025-01-02 16:27:28.542 [info] Enablement state of the vscode.git extension: true.
+2025-01-02 16:27:28.542 [info] Successfully registered Git commit message provider.
+2025-01-02 16:27:31.244 [warning] GitHub login failed
+2025-01-02 16:27:31.246 [info] copilot token chat_enabled: undefined, sku: 
+2025-01-02 16:27:31.599 [warning] GitHub login failed
+2025-01-02 16:27:31.602 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at IZ.waitForChatEnabled (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13713)
+    at IZ.run (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13432)
+    at w0.askToUpgradeAuthPermissions (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:12870): Failed to get copilot token
+2025-01-02 16:27:31.602 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-02 16:27:31.602 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 16:27:31.602 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-02 16:27:31.603 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 16:27:31.603 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+    at Y0._registerEmbeddings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2787)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tB.waitForActivationBlockers (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:13668)
+    at /home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4201
+    at Frr (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4014)
+    at K0.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+    at K0.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+    at K0.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-01-02 16:27:31.603 [info] activationBlocker from 'languageModelAccess' took for 450ms
+2025-01-02 16:27:31.652 [warning] GitHub login failed
+2025-01-02 16:27:31.654 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-02 16:27:31.654 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 16:27:31.654 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+2025-01-02 16:27:31.741 [warning] GitHub login failed
+2025-01-02 16:27:31.741 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 16:27:31.741 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-02 16:28:32.669 [info] Logged in as hrtowii
+2025-01-02 16:28:33.879 [info] Got Copilot token for hrtowii
+2025-01-02 16:28:33.977 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-02 16:28:34.007 [info] Registering default platform agent...
+2025-01-02 16:28:34.013 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-01-02 16:28:34.013 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-01-02 16:28:34.013 [info] Successfully registered GitHub PR title and description provider.
+2025-01-02 16:28:34.897 [info] Fetched model metadata in 854ms c72b59c2-dbc3-4d16-af52-241fd59c4e17
+2025-01-02 16:28:57.275 [info] Logged in as hrtowii
+2025-01-02 16:28:58.040 [info] Got Copilot token for hrtowii
+2025-01-02 16:28:58.080 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-02 16:31:29.860 [info] Using the Electron fetcher.
+2025-01-02 16:31:29.860 [info] Initializing Git extension service.
+2025-01-02 16:31:29.860 [info] Successfully activated the vscode.git extension.
+2025-01-02 16:31:29.860 [info] Enablement state of the vscode.git extension: true.
+2025-01-02 16:31:29.860 [info] Successfully registered Git commit message provider.
+2025-01-02 16:31:30.701 [warning] GitHub login failed
+2025-01-02 16:31:30.704 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at IZ.waitForChatEnabled (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13713)
+    at IZ.run (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13432)
+    at w0.askToUpgradeAuthPermissions (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:12870): Failed to get copilot token
+2025-01-02 16:31:30.704 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-02 16:31:30.704 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 16:31:30.704 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-02 16:31:30.704 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 16:31:30.704 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+    at Y0._registerEmbeddings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2787)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tB.waitForActivationBlockers (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:13668)
+    at /home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4201
+    at Frr (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4014)
+    at K0.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+    at K0.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+    at K0.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-01-02 16:31:30.705 [info] activationBlocker from 'languageModelAccess' took for 856ms
+2025-01-02 16:31:34.294 [warning] GitHub login failed
+2025-01-02 16:31:34.295 [info] copilot token chat_enabled: undefined, sku: 
+2025-01-02 16:31:35.116 [warning] GitHub login failed
+2025-01-02 16:31:35.119 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-02 16:31:35.119 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 16:31:35.119 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-02 16:31:35.119 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 16:31:35.119 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+2025-01-02 16:31:35.706 [warning] [repo:hrtowii/llm-tui] Error fetching code search. Error: bad request: Authorization header is badly formatted
+. Retrying in 1ms. Query: text
+2025-01-02 16:31:36.061 [warning] [repo:hrtowii/llm-tui] Error fetching code search. Error: bad request: Authorization header is badly formatted
+. Retrying in 2ms. Query: text
+2025-01-02 16:31:36.422 [warning] [repo:hrtowii/llm-tui] Error fetching code search. Error: bad request: Authorization header is badly formatted
+. Retrying in 3ms. Query: text
+2025-01-02 16:31:36.523 [warning] [repo:hrtowii/llm-tui] Max Retry Error thrown while querying 'text'
+2025-01-02 16:46:35.135 [warning] GitHub login failed
+2025-01-02 16:46:35.136 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 16:46:35.136 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-02 17:01:35.145 [warning] GitHub login failed
+2025-01-02 17:01:35.145 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 17:01:35.146 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)

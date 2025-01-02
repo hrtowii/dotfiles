@@ -1,0 +1,101 @@
+2025-01-02 17:20:52.564 [info] Using the Electron fetcher.
+2025-01-02 17:20:52.564 [info] Initializing Git extension service.
+2025-01-02 17:20:52.564 [info] Successfully activated the vscode.git extension.
+2025-01-02 17:20:52.564 [info] Enablement state of the vscode.git extension: true.
+2025-01-02 17:20:52.564 [info] Successfully registered Git commit message provider.
+2025-01-02 17:20:52.907 [warning] GitHub login failed
+2025-01-02 17:20:52.911 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at IZ.waitForChatEnabled (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13713)
+    at IZ.run (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13432)
+    at w0.askToUpgradeAuthPermissions (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:12870): Failed to get copilot token
+2025-01-02 17:20:52.911 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-02 17:20:52.911 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 17:20:52.911 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-02 17:20:52.911 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 17:20:52.911 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+    at Y0._registerEmbeddings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2787)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tB.waitForActivationBlockers (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:13668)
+    at /home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4201
+    at Frr (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4014)
+    at K0.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+    at K0.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+    at K0.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-01-02 17:20:52.911 [info] activationBlocker from 'languageModelAccess' took for 357ms
+2025-01-02 17:20:55.351 [warning] GitHub login failed
+2025-01-02 17:20:55.352 [info] copilot token chat_enabled: undefined, sku: 
+2025-01-02 17:20:55.859 [warning] GitHub login failed
+2025-01-02 17:20:55.861 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-02 17:20:55.861 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 17:20:55.861 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-01-02 17:20:55.861 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-02 17:20:55.861 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3909)
+    at B0.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+2025-01-02 17:20:56.552 [warning] [repo:hrtowii/llm-tui] Error fetching code search. Error: bad request: Authorization header is badly formatted
+. Retrying in 1ms. Query: text
+2025-01-02 17:20:56.885 [warning] [repo:hrtowii/llm-tui] Error fetching code search. Error: bad request: Authorization header is badly formatted
+. Retrying in 2ms. Query: text
+2025-01-02 17:20:57.228 [warning] [repo:hrtowii/llm-tui] Error fetching code search. Error: bad request: Authorization header is badly formatted
+. Retrying in 3ms. Query: text
+2025-01-02 17:20:57.329 [warning] [repo:hrtowii/llm-tui] Max Retry Error thrown while querying 'text'
+2025-01-02 17:21:05.645 [info] Logged in as hrtowii
+2025-01-02 17:21:06.403 [info] Got Copilot token for hrtowii
+2025-01-02 17:21:06.469 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-02 17:21:06.495 [info] Registering default platform agent...
+2025-01-02 17:21:06.497 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-01-02 17:21:06.497 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-01-02 17:21:06.497 [info] Successfully registered GitHub PR title and description provider.
+2025-01-02 17:21:07.397 [info] Fetched model metadata in 812ms bc13bd85-1f0d-45fb-9276-e7d5c93d54da
+2025-01-02 17:21:35.186 [info] Logged in as hrtowii
+2025-01-02 17:21:36.030 [info] Got Copilot token for hrtowii
+2025-01-02 17:21:36.062 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-02 17:21:51.455 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:21:51.461 [info] request done: requestId: [7ff62065-1975-4ff6-92a7-1b4b92504803] model deployment ID: []
+2025-01-02 17:22:01.265 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:22:01.267 [info] request done: requestId: [5935e3df-eb4d-4d26-812c-a7af9addec6d] model deployment ID: []
+2025-01-02 17:22:13.065 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:22:13.066 [info] request done: requestId: [f0d83782-aec0-4e30-b6db-01ec9c44f58f] model deployment ID: []
+2025-01-02 17:22:39.675 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:22:39.676 [info] request done: requestId: [0f726100-c401-4aef-8bab-d6512e289bf9] model deployment ID: []
+2025-01-02 17:23:07.280 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:23:07.283 [info] request done: requestId: [396e0a07-bbb1-457c-8b64-2d50c7ae893a] model deployment ID: []
+2025-01-02 17:23:28.340 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:23:28.341 [info] request done: requestId: [dfa5607d-3faf-446f-8de7-6e3053ddffd7] model deployment ID: []
+2025-01-02 17:23:29.638 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:23:29.639 [info] request done: requestId: [f9f92e3d-ae72-4e6d-a2cf-cc8302c3d0a7] model deployment ID: []
+2025-01-02 17:23:44.844 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:23:44.845 [info] request done: requestId: [1a8c055c-9620-4de8-a277-c6e22f89c0a6] model deployment ID: []
+2025-01-02 17:23:45.457 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:23:45.457 [info] request done: requestId: [4f409e21-9957-4259-b09f-89b50fd17d7d] model deployment ID: []
+2025-01-02 17:23:45.754 [info] message 0 returned. finish reason: [stop]
+2025-01-02 17:23:45.755 [info] request done: requestId: [244e625a-b458-4b33-9655-4a99648ebde4] model deployment ID: []
+2025-01-02 17:23:58.242 [info] srequest done: requestId: [c19b7808-be1c-4534-917b-69acc492bc19]
+2025-01-02 17:36:37.071 [info] Fetched model metadata in 996ms 5f2afdac-453b-4146-9d86-601fdc4cf67b
+2025-01-02 17:46:36.041 [info] Logged in as hrtowii
+2025-01-02 17:46:36.829 [info] Got Copilot token for hrtowii
+2025-01-02 17:46:36.855 [info] copilot token chat_enabled: true, sku: free_educational

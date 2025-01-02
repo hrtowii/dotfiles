@@ -1,0 +1,160 @@
+2025-01-02 20:06:59.645 [info] Extension host with pid 158199 started
+2025-01-02 20:06:59.645 [info] Skipping acquiring lock for /home/violet/.config/Code/User/workspaceStorage/2de091c6f87fd951457d162f6c8bca3f.
+2025-01-02 20:06:59.901 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-02 20:07:00.113 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-01-02 20:07:00.140 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-02 20:07:00.218 [info] Eager extensions activated
+2025-01-02 20:07:00.257 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:00.261 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:00.294 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:00.306 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:00.594 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:00.739 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:00.972 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:02.063 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: GitHub.vscode-pull-request-github
+2025-01-02 20:07:02.995 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-01-02 20:07:03.311 [info] ExtensionService#_doActivateExtension be5invis.vscode-custom-css, startup: false, activationEvent: '*'
+2025-01-02 20:07:03.330 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:03.389 [info] ExtensionService#_doActivateExtension dnicolson.binary-plist, startup: false, activationEvent: '*'
+2025-01-02 20:07:03.419 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:03.913 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:04.525 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2025-01-02 20:07:04.536 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:07:08.131 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/sync/globalState/preview/globalState.json'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:07:08.132 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/sync/globalState/preview'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:07:08.133 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/workspaceStorage/2de091c6f87fd951457d162f6c8bca3f/state.vscdb-journal'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:07:17.002 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-02 20:07:23.823 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-02 20:07:23.953 [info] ExtensionService#_doActivateExtension Prisma.prisma, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-02 20:07:24.089 [info] ExtensionService#_doActivateExtension unifiedjs.vscode-mdx, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-02 20:07:24.158 [info] ExtensionService#_doActivateExtension xaver.clang-format, startup: false, activationEvent: 'onLanguage:javascript'
+2025-01-02 20:07:51.894 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-02 20:07:51.920 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-02 20:07:51.945 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-01-02 20:07:52.035 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-01-02 20:10:46.016 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-01-02 20:12:30.210 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/workspaceStorage/2de091c6f87fd951457d162f6c8bca3f/state.vscdb-journal'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:12:48.507 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/spotify/Users/leonghongkit-user/ad-state-storage.bnk.tmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:12:48.596 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/spotify/Users/leonghongkit-user/log-tracked'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:17:25.763 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/spotify/Users/leonghongkit-user/log-tracked'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:19:09.520 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/discord/.org.chromium.Chromium.AcRBs7'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:21:02.168 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/discord/.org.chromium.Chromium.CfwkTz'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:23:36.234 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/discord/.org.chromium.Chromium.ElBDmu'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:24:24.758 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/discord/Local Storage/leveldb/000066.ldb'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:27:12.552 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/.org.chromium.Chromium.vnYGJ4'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:37:34.023 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/discord/.org.chromium.Chromium.DfGqtx'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:40:02.506 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/discord/.org.chromium.Chromium.9kphfr'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:42:22.595 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/discord/.org.chromium.Chromium.1bYUVa'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:47:15.758 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/state.vscdb-journal'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:47:15.761 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/workspaceStorage/2de091c6f87fd951457d162f6c8bca3f/state.vscdb-journal'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:47:52.861 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:54:22.222 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/state.vscdb-journal'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:54:22.225 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/workspaceStorage/2de091c6f87fd951457d162f6c8bca3f/state.vscdb-journal'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 20:54:45.323 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 21:00:27.938 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 21:11:20.985 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/discord/.org.chromium.Chromium.AYCu6n'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 22:51:27.732 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 22:51:54.069 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 22:51:54.865 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 22:57:27.766 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/workspaceStorage/e65d81a21fe58fcec80b89055526a2ae/state.vscdb-journal'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 23:04:35.635 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 23:07:10.953 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 23:10:32.338 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 23:10:43.240 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/spotify/Users/leonghongkit-user/pending-messages.tmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-02 23:12:28.879 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/violet/.config/Code/User/globalStorage/storage.json.vsctmp'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/violet/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)

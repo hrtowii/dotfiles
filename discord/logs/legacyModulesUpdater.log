@@ -1,0 +1,610 @@
+1/2/2025, 4:59:55 AM GMT+8 [Modules] Modules initializing
+1/2/2025, 4:59:55 AM GMT+8 [Modules] Distribution: remote
+1/2/2025, 4:59:55 AM GMT+8 [Modules] Host updates: enabled
+1/2/2025, 4:59:55 AM GMT+8 [Modules] Module updates: enabled
+1/2/2025, 4:59:55 AM GMT+8 [Modules] Module install path: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 4:59:55 AM GMT+8 [Modules] Module installed file path: /home/violet/.config/discord/0.0.78/modules/installed.json
+1/2/2025, 4:59:55 AM GMT+8 [Modules] Module download path: /home/violet/.config/discord/0.0.78/modules/pending
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Bootstrapping...
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Finished module installations. [success: 0] [failure: 6]
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Host is up to date.
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Module update available: discord_erlpack@1 [installed: 0]
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Module update available: discord_utils@1 [installed: 0]
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Module update available: discord_voice@1 [installed: 0]
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Module update available: discord_zstd@1 [installed: 0]
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+1/2/2025, 4:59:56 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 1%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 2%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 3%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 5%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 8%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 10%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 16%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 21%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 27%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 38%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 40%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 56%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 62%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 64%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 68%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 73%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 76%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 80%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 84%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 90%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 92%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_desktop_core@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip: 100%
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+1/2/2025, 4:59:57 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip: 3%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip: 15%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip: 38%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip: 59%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip: 68%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip: 83%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip: 93%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip: 96%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_erlpack@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip: 100%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 1%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 2%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 3%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 4%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 5%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 6%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 7%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 8%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 9%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 10%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 11%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 12%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 13%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 14%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 15%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 16%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 17%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 18%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 19%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 20%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 21%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 22%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 23%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 24%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 25%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 26%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 27%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 28%
+1/2/2025, 4:59:58 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 29%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 30%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 31%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 32%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 33%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 34%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 35%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 36%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 37%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 38%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 39%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 40%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 41%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 42%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 43%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 44%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 45%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 46%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 47%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 48%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 49%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 50%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 51%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 52%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 53%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 54%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 55%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 56%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 57%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 58%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 59%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 61%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 62%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 64%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 65%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 68%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 69%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 70%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 72%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 74%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 75%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 76%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 78%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 79%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 80%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 81%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 82%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 83%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 84%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 85%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 86%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 87%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 88%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 89%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 90%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 91%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 92%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 93%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 94%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 95%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 96%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 97%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 98%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 99%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_spellcheck@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip: 100%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 1%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 3%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 6%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 8%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 11%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 13%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 15%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 17%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 20%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 22%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 23%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 26%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 30%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 31%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 34%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 40%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 41%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 42%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 45%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 47%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 49%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 51%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 52%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 55%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 56%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 57%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 58%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 59%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 60%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 61%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 63%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 65%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 67%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 68%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 69%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 72%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 73%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 75%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 77%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 78%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 79%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 80%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 81%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 82%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 83%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 84%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 85%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 86%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 87%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 88%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 89%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 90%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 92%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 95%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 96%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 97%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 98%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 99%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip: 100%
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+1/2/2025, 4:59:59 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 1%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 2%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 3%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 4%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 5%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 6%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 7%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 8%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 9%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 10%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 11%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 12%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 13%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 14%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 15%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 16%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 17%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 18%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 19%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 20%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 21%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 22%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 23%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 24%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 25%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 26%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 27%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 28%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 29%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 30%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 31%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 32%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 33%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 34%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 35%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 36%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 37%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 38%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 39%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 40%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 41%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 42%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 43%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 44%
+1/2/2025, 5:00:00 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 45%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 46%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 47%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 48%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 49%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 50%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 51%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 52%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 53%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 54%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 55%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 56%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 57%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 58%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 59%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 60%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 61%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 62%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 63%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 64%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 65%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 66%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 67%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 68%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 69%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 70%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 71%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 72%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 73%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 74%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 75%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 76%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 77%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 78%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 79%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 80%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 81%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 82%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 83%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 84%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 85%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 86%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 87%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 89%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 90%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 91%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 92%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 93%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 94%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 96%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 97%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 98%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 99%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_voice@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip: 100%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_zstd@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_zstd-1.zip
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_zstd@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_zstd-1.zip: 1%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_zstd@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_zstd-1.zip: 11%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_zstd@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_zstd-1.zip: 22%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_zstd@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_zstd-1.zip: 38%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_zstd@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_zstd-1.zip: 66%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_zstd@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_zstd-1.zip: 83%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Streaming discord_zstd@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_zstd-1.zip: 100%
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Finished module downloads. [success: 6] [failure: 0]
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Installing updates...
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Installing discord_desktop_core@1 from /home/violet/.config/discord/0.0.78/modules/pending/discord_desktop_core-1.zip
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Installing discord_erlpack@1 from /home/violet/.config/discord/0.0.78/modules/pending/discord_erlpack-1.zip
+1/2/2025, 5:00:01 AM GMT+8 [Modules] Installing discord_spellcheck@1 from /home/violet/.config/discord/0.0.78/modules/pending/discord_spellcheck-1.zip
+1/2/2025, 5:00:04 AM GMT+8 [Modules] Installing discord_utils@1 from /home/violet/.config/discord/0.0.78/modules/pending/discord_utils-1.zip
+1/2/2025, 5:00:04 AM GMT+8 [Modules] Installing discord_voice@1 from /home/violet/.config/discord/0.0.78/modules/pending/discord_voice-1.zip
+1/2/2025, 5:00:05 AM GMT+8 [Modules] Installing discord_zstd@1 from /home/violet/.config/discord/0.0.78/modules/pending/discord_zstd-1.zip
+1/2/2025, 5:00:05 AM GMT+8 [Modules] Finished module installations. [success: 6] [failure: 0]
+1/2/2025, 5:00:05 AM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 5:00:05 AM GMT+8 [Modules] Host is up to date.
+1/2/2025, 5:00:05 AM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 5:00:05 AM GMT+8 [Modules] No module updates available.
+1/2/2025, 5:00:08 AM GMT+8 [Modules] Starting to install discord_krisp...
+1/2/2025, 5:00:08 AM GMT+8 [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+1/2/2025, 5:00:08 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip
+1/2/2025, 5:00:08 AM GMT+8 [Modules] Starting to install discord_game_utils...
+1/2/2025, 5:00:10 AM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 5:00:10 AM GMT+8 [Modules] Starting to install discord_rpc...
+1/2/2025, 5:00:10 AM GMT+8 [Modules] Host is up to date.
+1/2/2025, 5:00:10 AM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 5:00:10 AM GMT+8 [Modules] No module updates available.
+1/2/2025, 5:00:10 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 1%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 2%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 3%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 4%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 5%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 6%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 7%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 8%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 9%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 10%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 11%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 12%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 13%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 14%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 15%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 16%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 17%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 18%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 19%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 20%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 21%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 22%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 23%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 24%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 25%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 26%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 27%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 28%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 29%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 30%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 31%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 32%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 33%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 34%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 35%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 36%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 37%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 38%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 39%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 40%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 41%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 42%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 43%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 44%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 45%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 46%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 47%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 48%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 49%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 50%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 51%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 52%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 53%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 54%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 55%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 56%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 57%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 58%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 59%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 60%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 61%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 62%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 63%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 64%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 65%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 66%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 67%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 68%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 69%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 70%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 71%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 72%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 73%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 74%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 75%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 76%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 77%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 78%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 79%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 80%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 81%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 82%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 83%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 84%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 85%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 86%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 87%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 88%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 89%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 90%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 91%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 92%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 93%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 94%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 95%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 96%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 97%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 98%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 99%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_krisp@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip: 100%
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip
+1/2/2025, 5:00:11 AM GMT+8 [Modules] Installing discord_krisp@1 from /home/violet/.config/discord/0.0.78/modules/pending/discord_krisp-1.zip
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 1%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 2%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 3%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 6%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 7%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 9%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 15%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 18%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 20%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 21%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 23%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 24%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 26%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 27%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 28%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 29%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 30%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 32%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 33%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 37%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 38%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 40%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 41%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 43%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 45%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 47%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 48%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 50%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 53%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 55%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 56%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 58%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 59%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 60%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 63%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 75%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 89%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_game_utils@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip: 100%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_rpc@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_rpc-1.zip
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Installing discord_game_utils@1 from /home/violet/.config/discord/0.0.78/modules/pending/discord_game_utils-1.zip
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Finished module installations. [success: 2] [failure: 0]
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_rpc@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_rpc-1.zip: 23%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Streaming discord_rpc@1 to /home/violet/.config/discord/0.0.78/modules/pending/discord_rpc-1.zip: 100%
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Finished module downloads. [success: 3] [failure: 0]
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Installing discord_rpc@1 from /home/violet/.config/discord/0.0.78/modules/pending/discord_rpc-1.zip
+1/2/2025, 5:00:12 AM GMT+8 [Modules] Finished module installations. [success: 1] [failure: 0]
+1/2/2025, 5:04:27 AM GMT+8 [Modules] Modules initializing
+1/2/2025, 5:04:27 AM GMT+8 [Modules] Distribution: remote
+1/2/2025, 5:04:27 AM GMT+8 [Modules] Host updates: enabled
+1/2/2025, 5:04:27 AM GMT+8 [Modules] Module updates: enabled
+1/2/2025, 5:04:27 AM GMT+8 [Modules] Module install path: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 5:04:27 AM GMT+8 [Modules] Module installed file path: /home/violet/.config/discord/0.0.78/modules/installed.json
+1/2/2025, 5:04:27 AM GMT+8 [Modules] Module download path: /home/violet/.config/discord/0.0.78/modules/pending
+1/2/2025, 5:04:27 AM GMT+8 [Modules] No updates to install
+1/2/2025, 5:04:27 AM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 5:04:28 AM GMT+8 [Modules] Host is up to date.
+1/2/2025, 5:04:28 AM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 5:04:28 AM GMT+8 [Modules] No module updates available.
+1/2/2025, 5:04:33 AM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 5:04:33 AM GMT+8 [Modules] Host is up to date.
+1/2/2025, 5:04:33 AM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 5:04:33 AM GMT+8 [Modules] No module updates available.
+1/2/2025, 2:04:36 PM GMT+8 [Modules] Modules initializing
+1/2/2025, 2:04:36 PM GMT+8 [Modules] Distribution: remote
+1/2/2025, 2:04:36 PM GMT+8 [Modules] Host updates: enabled
+1/2/2025, 2:04:36 PM GMT+8 [Modules] Module updates: enabled
+1/2/2025, 2:04:36 PM GMT+8 [Modules] Module install path: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 2:04:36 PM GMT+8 [Modules] Module installed file path: /home/violet/.config/discord/0.0.78/modules/installed.json
+1/2/2025, 2:04:36 PM GMT+8 [Modules] Module download path: /home/violet/.config/discord/0.0.78/modules/pending
+1/2/2025, 2:04:37 PM GMT+8 [Modules] No updates to install
+1/2/2025, 2:04:37 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 2:04:37 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 2:04:37 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 2:04:37 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 2:04:40 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 2:04:40 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 2:04:40 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 2:04:40 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 3:13:34 PM GMT+8 [Modules] Modules initializing
+1/2/2025, 3:13:34 PM GMT+8 [Modules] Distribution: remote
+1/2/2025, 3:13:34 PM GMT+8 [Modules] Host updates: enabled
+1/2/2025, 3:13:34 PM GMT+8 [Modules] Module updates: enabled
+1/2/2025, 3:13:34 PM GMT+8 [Modules] Module install path: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 3:13:34 PM GMT+8 [Modules] Module installed file path: /home/violet/.config/discord/0.0.78/modules/installed.json
+1/2/2025, 3:13:34 PM GMT+8 [Modules] Module download path: /home/violet/.config/discord/0.0.78/modules/pending
+1/2/2025, 3:13:35 PM GMT+8 [Modules] No updates to install
+1/2/2025, 3:13:35 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 3:13:36 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 3:13:36 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 3:13:36 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 3:13:45 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 3:13:46 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 3:13:46 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 3:13:46 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 4:13:45 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 4:13:46 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 4:13:46 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 4:13:46 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 4:56:00 PM GMT+8 [Modules] Modules initializing
+1/2/2025, 4:56:00 PM GMT+8 [Modules] Distribution: remote
+1/2/2025, 4:56:00 PM GMT+8 [Modules] Host updates: enabled
+1/2/2025, 4:56:00 PM GMT+8 [Modules] Module updates: enabled
+1/2/2025, 4:56:00 PM GMT+8 [Modules] Module install path: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 4:56:00 PM GMT+8 [Modules] Module installed file path: /home/violet/.config/discord/0.0.78/modules/installed.json
+1/2/2025, 4:56:00 PM GMT+8 [Modules] Module download path: /home/violet/.config/discord/0.0.78/modules/pending
+1/2/2025, 4:56:00 PM GMT+8 [Modules] No updates to install
+1/2/2025, 4:56:00 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 4:56:01 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 4:56:01 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 4:56:01 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 4:56:05 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 4:56:05 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 4:56:05 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 4:56:05 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 5:56:05 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 5:56:05 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 5:56:05 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 5:56:05 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 8:26:15 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 8:26:15 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 8:26:15 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 8:26:15 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Modules initializing
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Distribution: remote
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Host updates: enabled
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Module updates: enabled
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Module install path: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Module installed file path: /home/violet/.config/discord/0.0.78/modules/installed.json
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Module download path: /home/violet/.config/discord/0.0.78/modules/pending
+1/2/2025, 8:35:09 PM GMT+8 [Modules] No updates to install
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 8:35:09 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 8:35:09 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 8:35:16 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 8:35:16 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 8:35:16 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 8:35:16 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Modules initializing
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Distribution: remote
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Host updates: enabled
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Module updates: enabled
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Module install path: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Module installed file path: /home/violet/.config/discord/0.0.78/modules/installed.json
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Module download path: /home/violet/.config/discord/0.0.78/modules/pending
+1/2/2025, 9:10:49 PM GMT+8 [Modules] No updates to install
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 9:10:49 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 9:10:49 PM GMT+8 [Modules] No module updates available.
+1/2/2025, 9:10:52 PM GMT+8 [Modules] Checking for host updates.
+1/2/2025, 9:10:52 PM GMT+8 [Modules] Host is up to date.
+1/2/2025, 9:10:52 PM GMT+8 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/2/2025, 9:10:52 PM GMT+8 [Modules] No module updates available.

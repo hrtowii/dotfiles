@@ -1,0 +1,127 @@
+1/2/2025, 4:59:56 AM GMT+8 0: 
+
+----------------------------------------------
+1/2/2025, 4:59:56 AM GMT+8 1: Discord starting: {"releaseChannel":"stable","version":"0.0.78"}, modulepath: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 4:59:56 AM GMT+8 2: ✅ webContents.created web1 "index.html"
+1/2/2025, 4:59:56 AM GMT+8 3: ✅ window.created win1 "discord"
+1/2/2025, 4:59:56 AM GMT+8 4: ✅ webContents.did-finish-load web1
+1/2/2025, 5:00:05 AM GMT+8 5: ✅ webContents.created web2 ""
+1/2/2025, 5:00:05 AM GMT+8 6: ✅ window.created win2 "Discord"
+1/2/2025, 5:00:10 AM GMT+8 7: ✅ webContents.did-finish-load web2
+1/2/2025, 5:00:10 AM GMT+8 8: window.close win1
+1/2/2025, 5:00:10 AM GMT+8 9: webContents.destroyed web1
+1/2/2025, 5:00:10 AM GMT+8 10: window.closed win1
+1/2/2025, 5:04:10 AM GMT+8 11: before-quit
+1/2/2025, 5:04:10 AM GMT+8 12: window.close win2
+1/2/2025, 5:04:10 AM GMT+8 13: webContents.destroyed web2
+1/2/2025, 5:04:27 AM GMT+8 0: 
+
+----------------------------------------------
+1/2/2025, 5:04:27 AM GMT+8 1: Discord starting: {"releaseChannel":"stable","version":"0.0.78"}, modulepath: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 5:04:27 AM GMT+8 2: ✅ webContents.created web1 ""
+1/2/2025, 5:04:27 AM GMT+8 3: ✅ window.created win1 "discord"
+1/2/2025, 5:04:27 AM GMT+8 4: ✅ webContents.did-finish-load web1
+1/2/2025, 5:04:28 AM GMT+8 5: ✅ webContents.created web2 ""
+1/2/2025, 5:04:28 AM GMT+8 6: ✅ window.created win2 "Discord"
+1/2/2025, 5:04:31 AM GMT+8 7: ❌ webContents.did-fail-load web2" -3 
+1/2/2025, 5:04:33 AM GMT+8 8: ✅ webContents.did-finish-load web2
+1/2/2025, 5:04:33 AM GMT+8 9: window.close win1
+1/2/2025, 5:04:33 AM GMT+8 10: webContents.destroyed web1
+1/2/2025, 5:04:33 AM GMT+8 11: window.closed win1
+1/2/2025, 2:04:22 PM GMT+8 12: window.close win2
+1/2/2025, 2:04:27 PM GMT+8 13: before-quit
+1/2/2025, 2:04:27 PM GMT+8 14: window.close win2
+1/2/2025, 2:04:28 PM GMT+8 15: webContents.destroyed web2
+1/2/2025, 2:04:37 PM GMT+8 0: 
+
+----------------------------------------------
+1/2/2025, 2:04:37 PM GMT+8 1: Discord starting: {"releaseChannel":"stable","version":"0.0.78"}, modulepath: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 2:04:37 PM GMT+8 2: ✅ webContents.created web1 ""
+1/2/2025, 2:04:37 PM GMT+8 3: ✅ window.created win1 "discord"
+1/2/2025, 2:04:37 PM GMT+8 4: ✅ webContents.did-finish-load web1
+1/2/2025, 2:04:37 PM GMT+8 5: ✅ webContents.created web2 ""
+1/2/2025, 2:04:37 PM GMT+8 6: ✅ window.created win2 "Discord"
+1/2/2025, 2:04:40 PM GMT+8 7: ✅ webContents.did-finish-load web2
+1/2/2025, 2:04:40 PM GMT+8 8: window.close win1
+1/2/2025, 2:04:40 PM GMT+8 9: webContents.destroyed web1
+1/2/2025, 2:04:40 PM GMT+8 10: window.closed win1
+1/2/2025, 2:05:21 PM GMT+8 11: ✅ webContents.created web3 ""
+1/2/2025, 2:05:21 PM GMT+8 12: ✅ window.created win3 "Vencord QuickCSS Editor"
+1/2/2025, 2:05:21 PM GMT+8 13: ✅ webContents.did-finish-load web3
+1/2/2025, 2:05:38 PM GMT+8 14: before-quit
+1/2/2025, 2:05:38 PM GMT+8 15: window.close win2
+1/2/2025, 2:05:38 PM GMT+8 16: window.close win3
+1/2/2025, 2:05:38 PM GMT+8 17: webContents.destroyed web3
+1/2/2025, 2:05:38 PM GMT+8 18: window.closed win3
+1/2/2025, 3:13:35 PM GMT+8 0: 
+
+----------------------------------------------
+1/2/2025, 3:13:35 PM GMT+8 1: Discord starting: {"releaseChannel":"stable","version":"0.0.78"}, modulepath: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 3:13:35 PM GMT+8 2: ✅ webContents.created web1 "index.html"
+1/2/2025, 3:13:35 PM GMT+8 3: ✅ window.created win1 "discord"
+1/2/2025, 3:13:35 PM GMT+8 4: ✅ webContents.did-finish-load web1
+1/2/2025, 3:13:36 PM GMT+8 5: ✅ webContents.created web2 ""
+1/2/2025, 3:13:36 PM GMT+8 6: ✅ window.created win2 "Discord"
+1/2/2025, 3:13:47 PM GMT+8 7: ✅ webContents.did-finish-load web2
+1/2/2025, 3:13:47 PM GMT+8 8: window.close win1
+1/2/2025, 3:13:47 PM GMT+8 9: webContents.destroyed web1
+1/2/2025, 3:13:47 PM GMT+8 10: window.closed win1
+1/2/2025, 4:55:51 PM GMT+8 11: before-quit
+1/2/2025, 4:55:51 PM GMT+8 12: window.close win2
+1/2/2025, 4:55:52 PM GMT+8 13: webContents.destroyed web2
+1/2/2025, 4:55:52 PM GMT+8 14: window.closed win2
+1/2/2025, 4:56:00 PM GMT+8 0: 
+
+----------------------------------------------
+1/2/2025, 4:56:00 PM GMT+8 1: Discord starting: {"releaseChannel":"stable","version":"0.0.78"}, modulepath: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 4:56:00 PM GMT+8 2: ✅ webContents.created web1 ""
+1/2/2025, 4:56:00 PM GMT+8 3: ✅ window.created win1 "discord"
+1/2/2025, 4:56:00 PM GMT+8 4: ✅ webContents.did-finish-load web1
+1/2/2025, 4:56:01 PM GMT+8 5: ✅ webContents.created web2 ""
+1/2/2025, 4:56:01 PM GMT+8 6: ✅ window.created win2 "Discord"
+1/2/2025, 4:56:05 PM GMT+8 7: ✅ webContents.did-finish-load web2
+1/2/2025, 4:56:05 PM GMT+8 8: window.close win1
+1/2/2025, 4:56:05 PM GMT+8 9: webContents.destroyed web1
+1/2/2025, 4:56:05 PM GMT+8 10: window.closed win1
+1/2/2025, 8:02:17 PM GMT+8 11: ✅ webContents.created web3 ""
+1/2/2025, 8:02:17 PM GMT+8 12: ✅ window.created win3 "Vencord QuickCSS Editor"
+1/2/2025, 8:02:17 PM GMT+8 13: ✅ webContents.did-finish-load web3
+1/2/2025, 8:02:25 PM GMT+8 14: window.close win3
+1/2/2025, 8:02:25 PM GMT+8 15: webContents.destroyed web3
+1/2/2025, 8:02:25 PM GMT+8 16: window.closed win3
+1/2/2025, 8:34:45 PM GMT+8 17: window.closed win2
+1/2/2025, 8:35:09 PM GMT+8 0: 
+
+----------------------------------------------
+1/2/2025, 8:35:09 PM GMT+8 1: Discord starting: {"releaseChannel":"stable","version":"0.0.78"}, modulepath: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 8:35:09 PM GMT+8 2: ✅ webContents.created web1 ""
+1/2/2025, 8:35:09 PM GMT+8 3: ✅ window.created win1 "discord"
+1/2/2025, 8:35:09 PM GMT+8 4: ✅ webContents.did-finish-load web1
+1/2/2025, 8:35:10 PM GMT+8 5: ✅ webContents.created web2 ""
+1/2/2025, 8:35:10 PM GMT+8 6: ✅ window.created win2 "Discord"
+1/2/2025, 8:35:16 PM GMT+8 7: ✅ webContents.did-finish-load web2
+1/2/2025, 8:35:16 PM GMT+8 8: window.close win1
+1/2/2025, 8:35:16 PM GMT+8 9: webContents.destroyed web1
+1/2/2025, 8:35:16 PM GMT+8 10: window.closed win1
+1/2/2025, 8:37:17 PM GMT+8 11: window.close win2
+1/2/2025, 8:37:20 PM GMT+8 0: 
+
+----------------------------------------------
+1/2/2025, 8:37:20 PM GMT+8 1: Discord starting: {"releaseChannel":"stable","version":"0.0.78"}, modulepath: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 9:03:02 PM GMT+8 12: window.close win2
+1/2/2025, 9:03:05 PM GMT+8 13: before-quit
+1/2/2025, 9:03:05 PM GMT+8 14: window.close win2
+1/2/2025, 9:03:05 PM GMT+8 15: webContents.destroyed web2
+1/2/2025, 9:10:49 PM GMT+8 0: 
+
+----------------------------------------------
+1/2/2025, 9:10:49 PM GMT+8 1: Discord starting: {"releaseChannel":"stable","version":"0.0.78"}, modulepath: /home/violet/.config/discord/0.0.78/modules
+1/2/2025, 9:10:49 PM GMT+8 2: ✅ webContents.created web1 "index.html"
+1/2/2025, 9:10:49 PM GMT+8 3: ✅ window.created win1 "discord"
+1/2/2025, 9:10:49 PM GMT+8 4: ✅ webContents.did-finish-load web1
+1/2/2025, 9:10:49 PM GMT+8 5: ✅ webContents.created web2 ""
+1/2/2025, 9:10:49 PM GMT+8 6: ✅ window.created win2 "Discord"
+1/2/2025, 9:10:52 PM GMT+8 7: ✅ webContents.did-finish-load web2
+1/2/2025, 9:10:52 PM GMT+8 8: window.close win1
+1/2/2025, 9:10:52 PM GMT+8 9: webContents.destroyed web1
+1/2/2025, 9:10:52 PM GMT+8 10: window.closed win1

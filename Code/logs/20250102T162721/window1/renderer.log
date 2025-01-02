@@ -1,0 +1,28 @@
+2025-01-02 16:27:22.480 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 16:27:22.481 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 16:27:22.481 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 16:27:23.015 [info] Started local extension host with pid 85141.
+2025-01-02 16:27:23.777 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-02 16:27:25.219 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-02 16:27:26.135 [info] [perf] Render performance baseline is 70ms
+2025-01-02 16:27:31.128 [error] [Extension Host] (node:85141) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-01-02 16:28:32.581 [info] Settings Sync: Updated current session a54df8384ee635c1
+2025-01-02 16:28:32.603 [info] Settings Sync: Token updated for the account hrtowii
+2025-01-02 16:28:32.607 [info] Settings Sync: Account status changed from unavailable to available
+2025-01-02 16:28:57.162 [info] Settings Sync: Token updated for the account hrtowii
+2025-01-02 16:28:57.162 [info] Settings Sync: Token updated for the account hrtowii
+2025-01-02 16:30:14.310 [info] Settings Sync: Token updated for the account hrtowii
+2025-01-02 16:30:14.311 [info] Settings Sync: Token updated for the account hrtowii
+2025-01-02 16:31:20.222 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 16:31:20.223 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 16:31:20.223 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 16:31:20.785 [info] Started local extension host with pid 87450.
+2025-01-02 16:31:22.187 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-02 16:31:23.852 [info] [perf] Render performance baseline is 62ms
+2025-01-02 16:31:24.073 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-02 16:31:33.874 [error] [Extension Host] (node:87450) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-01-02 17:02:55.211 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/violet/.config/Code/User/globalStorage/golang.go': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/violet/.config/Code/User/globalStorage/golang.go'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)

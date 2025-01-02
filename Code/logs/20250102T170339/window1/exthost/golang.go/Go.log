@@ -1,0 +1,92 @@
+2025-01-02 17:03:43.119 [info] Tools environment: GOPATH=/home/violet/go, GOTOOLCHAIN=auto
+2025-01-02 17:03:43.119 [info] Installing 2 tools at /home/violet/go/bin
+2025-01-02 17:03:43.119 [info]   gopls
+2025-01-02 17:03:43.119 [info]   staticcheck
+2025-01-02 17:03:43.119 [info] 
+2025-01-02 17:04:19.885 [info] Installing golang.org/x/tools/gopls@latest (/home/violet/go/bin/gopls) SUCCEEDED
+2025-01-02 17:04:28.066 [info] Installing honnef.co/go/tools/cmd/staticcheck@latest (/home/violet/go/bin/staticcheck) SUCCEEDED
+2025-01-02 17:04:28.067 [info] 
+2025-01-02 17:04:28.067 [info] All tools successfully installed. You are ready to Go. :)
+2025-01-02 17:04:28.117 [info] Try to start language server - activation (enabled: true)
+2025-01-02 17:04:28.207 [info] Running language server gopls(v0.17.1/go1.23.4)
+2025-01-02 17:05:02.505 [info] Running checks...
+2025-01-02 17:05:02.505 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:4:2 "github.com/charmbracelet/bubbletea" imported as tea and not used
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:26:27 undefined: bubbletea
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:28:7 undefined: bubbletea
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:38:7 m.Program undefined (type Model has no field or method Program)
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:41:14 undefined: bubbletea
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:43:7 "ctrl+c" is not a type
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:44:13 undefined: bubbletea
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:63:23 undefined: bubbletea
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:74:7 undefined: bubbletea
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:75:8 undefined: bubbletea
+2025-01-02 17:05:02.704 [info] /home/violet/dev/llm-tui/main.go:4:2 too many errors (compile)
+2025-01-02 17:05:02.704 [info] 
+2025-01-02 17:08:52.113 [info] Running checks...
+2025-01-02 17:08:52.113 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:08:52.298 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:08:52.298 [info] /home/violet/dev/llm-tui/main.go:57:9 syntax error: unexpected case, expected } (compile)
+2025-01-02 17:08:52.298 [info] 
+2025-01-02 17:10:26.496 [info] Running checks...
+2025-01-02 17:10:26.496 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:40:27 undefined: bubbletea
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:41:6 declared and not used: cmd
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:41:10 undefined: bubbletea
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:43:7 undefined: bubbletea
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:45:14 undefined: bubbletea
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:54:14 undefined: bubbletea
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:55:25 m.Program undefined (type Model has no field or method Program)
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:58:14 undefined: bubbletea
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:80:13 undefined: bubbletea
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:100:33 undefined: bubbletea
+2025-01-02 17:10:26.799 [info] /home/violet/dev/llm-tui/main.go:41:6 too many errors (compile)
+2025-01-02 17:10:26.799 [info] 
+2025-01-02 17:10:31.879 [info] Running checks...
+2025-01-02 17:10:31.879 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:40:27 undefined: bubbletea
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:41:6 declared and not used: cmd
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:41:10 undefined: bubbletea
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:43:7 undefined: bubbletea
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:45:14 undefined: bubbletea
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:54:14 undefined: bubbletea
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:55:25 m.Program undefined (type Model has no field or method Program)
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:58:14 undefined: bubbletea
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:80:13 undefined: bubbletea
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:100:33 undefined: bubbletea
+2025-01-02 17:10:32.164 [info] /home/violet/dev/llm-tui/main.go:41:6 too many errors (compile)
+2025-01-02 17:10:32.164 [info] 
+2025-01-02 17:10:35.047 [info] Running checks...
+2025-01-02 17:10:35.047 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:10:35.245 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:10:35.245 [info] /home/violet/dev/llm-tui/main.go:57:9 syntax error: unexpected case, expected } (compile)
+2025-01-02 17:10:35.245 [info] 
+2025-01-02 17:11:45.644 [info] Running checks...
+2025-01-02 17:11:45.644 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:11:45.834 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:11:45.834 [info] /home/violet/dev/llm-tui/main.go:57:5 syntax error: unexpected case, expected } (compile)
+2025-01-02 17:11:45.834 [info] 
+2025-01-02 17:14:26.966 [info] Running checks...
+2025-01-02 17:14:26.967 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:14:27.203 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:14:27.203 [info] /home/violet/dev/llm-tui/main.go:57:9 syntax error: unexpected case, expected }
+2025-01-02 17:14:27.203 [info] /home/violet/dev/llm-tui/main.go:74:5 syntax error: non-declaration statement outside function body (compile)
+2025-01-02 17:14:27.203 [info] 
+2025-01-02 17:14:37.735 [info] Running checks...
+2025-01-02 17:14:37.735 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:14:37.940 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:14:37.940 [info] /home/violet/dev/llm-tui/main.go:75:5 syntax error: non-declaration statement outside function body (compile)
+2025-01-02 17:14:37.940 [info] 
+2025-01-02 17:15:00.609 [info] Running checks...
+2025-01-02 17:15:00.609 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:15:00.796 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:15:00.796 [info] /home/violet/dev/llm-tui/main.go:75:9 syntax error: non-declaration statement outside function body (compile)
+2025-01-02 17:15:00.796 [info] 
+2025-01-02 17:15:07.627 [info] Running checks...
+2025-01-02 17:15:07.627 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:15:07.837 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:15:07.837 [info] /home/violet/dev/llm-tui/main.go:75:9 syntax error: non-declaration statement outside function body (compile)
+2025-01-02 17:15:07.837 [info] 

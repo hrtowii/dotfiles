@@ -1,0 +1,17 @@
+2025-01-02 16:31:33.291 [info] [Info  - 4:31:33 PM] (87871) Server root directory: file:///home/violet/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-02 16:31:33.376 [info] [Info  - 4:31:33 PM] (87871) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-02 16:31:33.418 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.1)
+2025-01-02 16:31:33.932 [info] [Info  - 4:31:33 PM] (87871) Starting service instance "llm-tui"
+2025-01-02 16:31:34.997 [info] [Info  - 4:31:34 PM] (87871) Setting environmentName for service "llm-tui": "C:\Users\ll\scoop\apps\python\current\python.exe"
+2025-01-02 16:31:34.997 [info] [Info  - 4:31:34 PM] (87871) No include entries specified; assuming /home/violet/dev/llm-tui
+2025-01-02 16:31:34.999 [info] [Info  - 4:31:34 PM] (87871) Auto-excluding **/node_modules
+2025-01-02 16:31:34.999 [info] [Info  - 4:31:34 PM] (87871) Auto-excluding **/__pycache__
+2025-01-02 16:31:34.999 [info] [Info  - 4:31:34 PM] (87871) Auto-excluding **/.*
+2025-01-02 16:31:35.175 [info] [Info  - 4:31:35 PM] (87871) Found 1 source file
+2025-01-02 16:31:36.183 [info] [Info  - 4:31:36 PM] (87871) Background analysis(1) root directory: file:///home/violet/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-02 16:31:36.189 [info] [Info  - 4:31:36 PM] (87871) Background analysis(1) started
+2025-01-02 16:31:36.192 [info] [Info  - 4:31:36 PM] (87871) Indexer background runner(2) root directory: file:///home/violet/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-02 16:31:36.192 [info] [Info  - 4:31:36 PM] (87871) Indexing(2) started
+2025-01-02 16:31:37.133 [info] [Info  - 4:31:37 PM] (87871) scanned(2) 99 files over 1 exec env
+2025-01-02 16:31:38.873 [info] [Info  - 4:31:38 PM] (87871) indexed(2) 99 files over 1 exec env
+2025-01-02 16:31:38.924 [info] [Info  - 4:31:38 PM] (87871) Indexing finished(2).

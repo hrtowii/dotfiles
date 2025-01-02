@@ -1,0 +1,12 @@
+2025-01-02 16:31:30.003 [info] Name: isort
+2025-01-02 16:31:30.003 [info] Module: isort
+2025-01-02 16:31:30.003 [info] Python extension loading
+2025-01-02 16:31:30.003 [info] Waiting for interpreter from python extension.
+2025-01-02 16:31:30.003 [info] No interpreter found from setting isort.interpreter
+2025-01-02 16:31:30.003 [info] Getting interpreter from ms-python.python extension for workspace /home/violet/dev/llm-tui
+2025-01-02 16:31:30.003 [info] Python extension loaded
+2025-01-02 16:31:30.296 [info] No interpreter found for /home/violet/dev/llm-tui in settings or from ms-python.python extension
+2025-01-02 16:31:30.296 [error] Python interpreter missing:
+[Option 1] Select python interpreter using the ms-python.python.
+[Option 2] Set an interpreter using "isort.interpreter" setting.
+ Please use Python 3.7 or greater.

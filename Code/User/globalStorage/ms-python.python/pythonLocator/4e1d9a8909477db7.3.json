@@ -1,0 +1,12 @@
+{
+  "environment": {
+    "executable": "/usr/sbin/python",
+    "prefix": "/usr",
+    "version": "3.13.1.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/usr/sbin/python"
+    ]
+  },
+  "symlinks": []
+}

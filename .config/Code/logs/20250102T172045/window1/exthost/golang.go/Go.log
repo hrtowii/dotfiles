@@ -1,0 +1,62 @@
+2025-01-02 17:21:42.448 [info] Try to start language server - activation (enabled: true)
+2025-01-02 17:21:42.471 [info] Running language server gopls(v0.17.1/go1.23.4)
+2025-01-02 17:22:06.529 [info] Running checks...
+2025-01-02 17:22:06.529 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:41:27 undefined: bubbletea
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:42:6 declared and not used: cmd
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:42:10 undefined: bubbletea
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:44:7 undefined: bubbletea
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:55:14 undefined: bubbletea
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:56:25 m.Program undefined (type Model has no field or method Program)
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:76:13 undefined: bubbletea
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:96:33 undefined: bubbletea
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:182:7 undefined: bubbletea
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:183:8 undefined: bubbletea
+2025-01-02 17:22:06.797 [info] /home/violet/dev/llm-tui/main.go:183:8 too many errors (compile)
+2025-01-02 17:22:06.797 [info] 
+2025-01-02 17:22:17.312 [info] Running checks...
+2025-01-02 17:22:17.312 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:42:10 undefined: bubbletea
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:44:7 undefined: bubbletea
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:46:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:50:12 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:55:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:55:14 undefined: bubbletea
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:56:25 m.Program undefined (type Model has no field or method Program)
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:62:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:69:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:96:33 undefined: bubbletea
+2025-01-02 17:22:17.499 [info] /home/violet/dev/llm-tui/main.go:69:11 too many errors (compile)
+2025-01-02 17:22:17.499 [info] 
+2025-01-02 17:22:25.666 [info] Running checks...
+2025-01-02 17:22:25.666 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:22:28.709 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:22:28.709 [info] /home/violet/dev/llm-tui/main.go:15:2 no required module provides package github.com/charmbracelet/tea; to add it:
+2025-01-02 17:22:28.709 [info] 
+2025-01-02 17:22:31.740 [info] Running checks...
+2025-01-02 17:22:31.740 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:22:31.963 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:22:31.963 [info] /home/violet/dev/llm-tui/main.go:15:2 no required module provides package github.com/charmbracelet/tea; to add it:
+2025-01-02 17:22:31.963 [info] 
+2025-01-02 17:22:47.087 [info] Running checks...
+2025-01-02 17:22:47.087 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:22:47.309 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:22:47.309 [info] /home/violet/dev/llm-tui/main.go:15:2 no required module provides package github.com/charmbracelet/tea; to add it:
+2025-01-02 17:22:47.309 [info] 
+2025-01-02 17:22:56.041 [info] Running checks...
+2025-01-02 17:22:56.041 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:45:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:49:12 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:54:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:54:18 undefined: tea.Command
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:61:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:68:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:72:10 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:75:10 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:75:17 undefined: tea.DisableInput
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:77:9 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 17:22:56.249 [info] /home/violet/dev/llm-tui/main.go:77:9 too many errors (compile)
+2025-01-02 17:22:56.249 [info] 

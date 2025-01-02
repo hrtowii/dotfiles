@@ -1,0 +1,39 @@
+2025-01-02 17:20:45.930 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 17:20:45.930 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 17:20:45.930 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 17:20:46.527 [info] Started local extension host with pid 123068.
+2025-01-02 17:20:47.484 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-02 17:20:49.646 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-02 17:20:50.617 [info] [perf] Render performance baseline is 56ms
+2025-01-02 17:20:53.428 [error] [Extension Host] (node:123068) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-01-02 17:21:05.535 [info] Settings Sync: Updated current session 1347b7bae925d47d
+2025-01-02 17:21:05.558 [info] Settings Sync: Token updated for the account hrtowii
+2025-01-02 17:21:05.561 [info] Settings Sync: Account status changed from unavailable to available
+2025-01-02 17:21:34.985 [info] Settings Sync: Token updated for the account hrtowii
+2025-01-02 17:21:34.986 [info] Settings Sync: Token updated for the account hrtowii
+2025-01-02 17:21:41.256 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-02 17:22:40.095 [error] column is beyond end of line: Error: column is beyond end of line
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:22:49.188 [error] no package data for import "github.com/charmbracelet/tea": Error: no package data for import "github.com/charmbracelet/tea"
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:22:50.532 [error] no package data for import "github.com/charmbracelet/tea": Error: no package data for import "github.com/charmbracelet/tea"
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:22:54.093 [error] no package data for import "github.com/charmbracelet/tea": Error: no package data for import "github.com/charmbracelet/tea"
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)

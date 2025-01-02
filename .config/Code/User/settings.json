@@ -1,0 +1,116 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.inlineSuggest.enabled": true,
+    "css.lint.unknownAtRules": "ignore",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "explorer.confirmDelete": false,
+    "react-native-tools.showUserTips": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\ll\\scoop\\apps\\python\\current\\python.exe",
+    "git.openRepositoryInParentFolders": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "lldb.suppressUpdateNotifications": true,
+    "cmake.configureOnOpen": true,
+    "update.showReleaseNotes": false,
+    "workbench.colorTheme": "Tokyo Night",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "githubPullRequests.pullBranch": "never",
+    "githubPullRequests.createOnPublishBranch": "never",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "redhat.telemetry.enabled": true,
+    "vscord.app.name": "Visual Studio Code",
+    "git.ignoreRebaseWarning": true,
+    "vscode_custom_css.imports": [
+        "https://gist.githubusercontent.com/hrtowii/0329ac1b2094f8c194747bcb1984361d/raw/b5682f386917908eb48f08052074083b87051649/custom.css"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "prisma.showPrismaDataPlatformNotification": false,
+    "explorer.fileNesting.patterns": {
+        "Cargo.toml": "Cargo.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "arcade-vsc.slackID": "U04N947KGAF",
+    "sqliteViewer.maxFileSize": 400,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "go.toolsManagement.autoUpdate": true,
+    "continue.enableTabAutocomplete": false,
+    "makefile.configureOnOpen": false,
+    "explorer.confirmPasteNative": false,
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    }
+}

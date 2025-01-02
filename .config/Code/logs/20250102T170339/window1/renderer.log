@@ -1,0 +1,58 @@
+2025-01-02 17:03:40.371 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 17:03:40.371 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 17:03:40.371 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-02 17:03:41.022 [info] Started local extension host with pid 105601.
+2025-01-02 17:03:41.944 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-02 17:03:45.594 [info] [perf] Render performance baseline is 61ms
+2025-01-02 17:03:46.985 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-02 17:03:57.986 [info] Extension host (LocalProcess pid: 105601) is unresponsive.
+2025-01-02 17:04:01.190 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-02 17:04:06.795 [warning] UNRESPONSIVE extension host: 'github.copilot' took 97.38317540832549% of 4883.701ms, saved PROFILE here: 'file:///tmp/exthost-1df005.cpuprofile'
+2025-01-02 17:04:07.136 [info] Extension host (LocalProcess pid: 105601) is responsive.
+2025-01-02 17:04:08.030 [error] [Extension Host] (node:105601) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-01-02 17:08:52.053 [error] Error: 57:9: expected '}', found 'case'
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:10:34.983 [error] Error: 57:9: expected '}', found 'case'
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:11:45.604 [error] Error: 57:5: expected '}', found 'case'
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:14:26.915 [error] Error: 57:9: expected '}', found 'case' (and 3 more errors)
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:14:37.700 [error] Error: 75:5: expected declaration, found 'if' (and 2 more errors)
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:15:00.561 [error] Error: 75:9: expected declaration, found 'if' (and 2 more errors)
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:15:07.576 [error] Error: 75:9: expected declaration, found 'if' (and 2 more errors)
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 17:17:13.210 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-02 17:17:49.014 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-02 17:17:49.965 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings

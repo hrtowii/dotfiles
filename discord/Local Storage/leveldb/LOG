@@ -1,0 +1,29 @@
+2025/01/02-21:10:49.028 2d6e3 Reusing MANIFEST /home/violet/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/01/02-21:10:49.035 2d6e3 Recovering log #65
+2025/01/02-21:10:49.035 2d6e3 Reusing old log /home/violet/.config/discord/Local Storage/leveldb/000065.log 
+2025/01/02-21:13:48.992 2d6e3 Level-0 table #71: started
+2025/01/02-21:13:49.017 2d6e3 Level-0 table #71: 934885 bytes OK
+2025/01/02-21:13:49.021 2d6e3 Delete type=0 #65
+2025/01/02-22:48:37.209 2d6e4 Level-0 table #73: started
+2025/01/02-22:48:37.221 2d6e4 Level-0 table #73: 73738 bytes OK
+2025/01/02-22:48:37.225 2d6e4 Delete type=0 #70
+2025/01/02-22:48:44.524 2d6e4 Level-0 table #75: started
+2025/01/02-22:48:44.534 2d6e4 Level-0 table #75: 75991 bytes OK
+2025/01/02-22:48:44.538 2d6e4 Delete type=0 #72
+2025/01/02-22:48:50.893 2d6e4 Level-0 table #77: started
+2025/01/02-22:48:50.905 2d6e4 Level-0 table #77: 71221 bytes OK
+2025/01/02-22:48:50.910 2d6e4 Delete type=0 #74
+2025/01/02-22:48:50.911 2d6e4 Compacting 4@0 + 2@1 files
+2025/01/02-22:48:50.950 2d6e4 Generated table #78@0: 17 keys, 2446778 bytes
+2025/01/02-22:48:50.994 2d6e4 Generated table #79@0: 101 keys, 3384669 bytes
+2025/01/02-22:48:50.994 2d6e4 Compacted 4@0 + 2@1 files => 5831447 bytes
+2025/01/02-22:48:50.998 2d6e4 compacted to: files[ 0 3 0 0 0 0 0 ]
+2025/01/02-22:48:50.999 2d6e4 Delete type=2 #68
+2025/01/02-22:48:50.999 2d6e4 Delete type=2 #75
+2025/01/02-22:48:50.999 2d6e4 Delete type=2 #73
+2025/01/02-22:48:50.999 2d6e4 Delete type=2 #67
+2025/01/02-22:48:50.999 2d6e4 Delete type=2 #77
+2025/01/02-22:48:50.999 2d6e4 Delete type=2 #71
+2025/01/03-02:13:28.781 2d6e4 Level-0 table #81: started
+2025/01/03-02:13:28.793 2d6e4 Level-0 table #81: 84718 bytes OK
+2025/01/03-02:13:28.797 2d6e4 Delete type=0 #76

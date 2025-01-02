@@ -1,0 +1,45 @@
+[Info  - 8:06:06 PM] 2025/01/02 20:06:05 Created View (#1)
+	directory=/home/violet/dev/llm-tui
+	view_type="GoMod"
+	root_dir="file:///home/violet/dev/llm-tui"
+	go_version="go version go1.23.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/violet/.cache/go-build GOMODCACHE:/home/violet/go/pkg/mod GOPATH:/home/violet/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:23 GoVersionOutput:go version go1.23.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 8:06:06 PM] 2025/01/02 20:06:05 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/violet/dev/llm-tui
+	query=[/home/violet/dev/llm-tui/... builtin]
+	packages=2
+	duration=178.147581ms
+
+[Error - 8:06:10 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 8:06:35 PM] 2025/01/02 20:06:35 background imports cache refresh starting
+
+[Info  - 8:06:35 PM] 2025/01/02 20:06:35 background refresh finished after 62.73649ms
+
+[Info  - 11:07:32 PM] 2025/01/02 23:07:32 go/packages.Load #2
+	view_id="1"
+	snapshot=6
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=148.126945ms
+
+[Info  - 11:07:32 PM] 2025/01/02 23:07:32 go/packages.Load #3
+	view_id="1"
+	snapshot=6
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=142.444446ms
+
+[Info  - 11:08:02 PM] 2025/01/02 23:08:02 background imports cache refresh starting
+
+[Info  - 11:08:02 PM] 2025/01/02 23:08:02 background refresh finished after 3.919207ms
+

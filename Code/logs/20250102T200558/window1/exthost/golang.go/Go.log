@@ -1,0 +1,32 @@
+2025-01-02 20:06:03.923 [info] Try to start language server - activation (enabled: true)
+2025-01-02 20:06:03.973 [info] Running language server gopls(v0.17.1/go1.23.4)
+2025-01-02 20:06:10.055 [info] Running checks...
+2025-01-02 20:06:10.055 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:45:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:49:12 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:54:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:54:18 undefined: tea.Command
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:61:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:68:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:72:10 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:75:10 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:75:17 undefined: tea.DisableInput
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:77:9 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 20:06:10.376 [info] /home/violet/dev/llm-tui/main.go:77:9 too many errors (compile)
+2025-01-02 20:06:10.376 [info] 
+2025-01-02 23:07:32.550 [info] Running checks...
+2025-01-02 23:07:32.550 [info] Starting linting the current package at /home/violet/dev/llm-tui
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui>Finished running tool: /home/violet/go/bin/staticcheck
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:45:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:49:12 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:54:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:54:18 undefined: tea.Command
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:61:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:68:11 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:72:10 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:75:10 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:75:17 undefined: tea.DisableInput
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:77:9 cannot use m (variable of type Model) as tea.Model value in return statement: Model does not implement tea.Model (missing method Init)
+2025-01-02 23:07:32.738 [info] /home/violet/dev/llm-tui/main.go:77:9 too many errors (compile)
+2025-01-02 23:07:32.738 [info] 

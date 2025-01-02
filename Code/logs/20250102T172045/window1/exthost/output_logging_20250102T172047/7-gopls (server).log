@@ -1,0 +1,143 @@
+[Info  - 5:21:42 PM] 2025/01/02 17:21:42 Created View (#1)
+	directory=/home/violet/dev/llm-tui
+	view_type="GoMod"
+	root_dir="file:///home/violet/dev/llm-tui"
+	go_version="go version go1.23.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/violet/.cache/go-build GOMODCACHE:/home/violet/go/pkg/mod GOPATH:/home/violet/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:23 GoVersionOutput:go version go1.23.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:21:42 PM] 2025/01/02 17:21:42 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/violet/dev/llm-tui
+	query=[/home/violet/dev/llm-tui/... builtin]
+	packages=2
+	duration=147.706957ms
+
+[Error - 5:21:46 PM] 2025/01/02 17:21:46 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:9: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:21:48 PM] 2025/01/02 17:21:48 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:9: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:21:49 PM] 2025/01/02 17:21:49 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:9: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:22:06 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 5:22:06 PM] 2025/01/02 17:22:06 go/packages.Load #5
+	view_id="1"
+	snapshot=13
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=160.170485ms
+
+[Info  - 5:22:06 PM] 2025/01/02 17:22:06 go/packages.Load #4
+	view_id="1"
+	snapshot=13
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=199.678089ms
+
+[Info  - 5:22:12 PM] 2025/01/02 17:22:12 background imports cache refresh starting
+
+[Info  - 5:22:12 PM] 2025/01/02 17:22:12 background refresh finished after 3.195875ms
+
+[Info  - 5:22:24 PM] 2025/01/02 17:22:24 go/packages.Load #6
+	view_id="1"
+	snapshot=26
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=153.574209ms
+
+[Info  - 5:22:24 PM] 2025/01/02 17:22:24 go/packages.Load #7
+	view_id="1"
+	snapshot=26
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=134.73981ms
+
+[Error - 5:22:40 PM] Request textDocument/hover failed.
+  Message: column is beyond end of line
+  Code: 0 
+[Info  - 5:22:47 PM] 2025/01/02 17:22:47 background imports cache refresh starting
+
+[Info  - 5:22:47 PM] 2025/01/02 17:22:47 background refresh finished after 1.129245ms
+
+[Error - 5:22:49 PM] Request textDocument/hover failed.
+  Message: no package data for import "github.com/charmbracelet/tea"
+  Code: 0 
+[Error - 5:22:50 PM] Request textDocument/hover failed.
+  Message: no package data for import "github.com/charmbracelet/tea"
+  Code: 0 
+[Error - 5:22:50 PM] Request textDocument/hover failed.
+  Message: no package data for import "github.com/charmbracelet/tea"
+  Code: 0 
+[Error - 5:22:54 PM] Request textDocument/hover failed.
+  Message: no package data for import "github.com/charmbracelet/tea"
+  Code: 0 
+[Error - 5:22:54 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 5:22:54 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 5:22:55 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 5:22:55 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Error - 5:22:55 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 5:22:55 PM] 2025/01/02 17:22:55 go/packages.Load #18
+	view_id="1"
+	snapshot=62
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=133.419061ms
+
+[Info  - 5:22:55 PM] 2025/01/02 17:22:55 go/packages.Load #19
+	view_id="1"
+	snapshot=62
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=135.573045ms
+
+[Info  - 5:23:19 PM] 2025/01/02 17:23:19 background imports cache refresh starting
+
+[Info  - 5:23:19 PM] 2025/01/02 17:23:19 background refresh finished after 3.143459ms
+
+[Info  - 5:24:03 PM] 2025/01/02 17:24:03 go/packages.Load #534
+	view_id="1"
+	snapshot=596
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=181.311753ms
+
+[Info  - 5:24:04 PM] 2025/01/02 17:24:04 go/packages.Load #535
+	view_id="1"
+	snapshot=596
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=189.965591ms
+
+[Info  - 5:24:37 PM] 2025/01/02 17:24:37 background imports cache refresh starting
+
+[Info  - 5:24:37 PM] 2025/01/02 17:24:37 background refresh finished after 2.3263ms
+
+[Info  - 5:49:01 PM] 2025/01/02 17:49:01 Shutdown session
+	shutdown_session=1
+

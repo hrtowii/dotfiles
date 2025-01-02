@@ -1,0 +1,12 @@
+2025-01-02T17:00:16.273718122+08:00 ERROR FetchWorkspaceError: rust-analyzer failed to load workspace: Failed to load the project at /home/violet/dev/llm-tui/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/violet/dev/llm-tui/Cargo.toml, Some(Version { major: 1, minor: 83, patch: 0 }): Failed to run `cd "/home/violet/dev/llm-tui" && RUSTUP_TOOLCHAIN="/home/violet/.rustup/toolchains/stable-x86_64-unknown-linux-gnu" "/usr/bin/cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/violet/dev/llm-tui/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: manifest path `/home/violet/dev/llm-tui/Cargo.toml` does not exist
+
+
+2025-01-02T17:00:16.401951125+08:00 ERROR Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/violet/dev/llm-tui/Cargo.toml", "--keep-going", "--all-targets"], current_dir: Some("/home/violet/dev/llm-tui") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: manifest path `/home/violet/dev/llm-tui/Cargo.toml` does not exist
+
+2025-01-02T17:00:16.851658266+08:00 ERROR FetchWorkspaceError: rust-analyzer failed to load workspace: Failed to load the project at /home/violet/dev/llm-tui/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/violet/dev/llm-tui/Cargo.toml, Some(Version { major: 1, minor: 83, patch: 0 }): Failed to run `cd "/home/violet/dev/llm-tui" && RUSTUP_TOOLCHAIN="/home/violet/.rustup/toolchains/stable-x86_64-unknown-linux-gnu" "/usr/bin/cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/violet/dev/llm-tui/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: manifest path `/home/violet/dev/llm-tui/Cargo.toml` does not exist
+
+
+2025-01-02T17:00:16.998325527+08:00 ERROR Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/violet/dev/llm-tui/Cargo.toml", "--keep-going", "--all-targets"], current_dir: Some("/home/violet/dev/llm-tui") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: manifest path `/home/violet/dev/llm-tui/Cargo.toml` does not exist
+

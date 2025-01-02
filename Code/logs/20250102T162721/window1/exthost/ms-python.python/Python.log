@@ -1,0 +1,46 @@
+2025-01-02 16:31:24.218 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-02 16:31:24.218 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-02 16:31:24.218 [info] Experiment 'pythonTestAdapter' is active
+2025-01-02 16:31:24.221 [info] Native locator: Refresh started
+2025-01-02 16:31:24.241 [error] Python discovery not supported in untrusted workspace
+2025-01-02 16:31:24.241 [info] Native locator: Refresh finished in 20 ms
+2025-01-02 16:31:24.468 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-02 16:31:24.468 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-02 16:31:24.468 [info] Experiment 'pythonTestAdapter' is active
+2025-01-02 16:31:24.468 [info] Native locator: Refresh started
+2025-01-02 16:31:24.495 [info] Poetry environment manager found at: /usr/bin/poetry
+2025-01-02 16:31:24.920 [info] Native locator: Refresh started
+2025-01-02 16:31:24.945 [info] Native locator: Refresh started
+2025-01-02 16:31:24.947 [error] Python discovery not supported in untrusted workspace
+2025-01-02 16:31:24.947 [info] Native locator: Refresh finished in 27 ms
+2025-01-02 16:31:25.071 [info] > pyenv which python
+2025-01-02 16:31:25.071 [info] cwd: .
+2025-01-02 16:31:25.087 [error] extension activation failed [Error: command 'python.viewOutput' already exists
+	at cw.registerCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31527)
+	at Object.registerCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:36729)
+	at s.registerCommand (/home/violet/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/out/client/extension.js:2:105106)
+	at /home/violet/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/out/client/extension.js:2:441286
+	at async t.activateComponents (/home/violet/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/out/client/extension.js:2:440250)
+	at async /home/violet/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/out/client/extension.js:2:2705136
+	at async e (/home/violet/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/out/client/extension.js:2:2704668)
+	at async /home/violet/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/out/client/extension.js:2:2704645]
+2025-01-02 16:31:27.738 [info] > C:\Users\ll\scoop\apps\python\current\python.exe -c "import sys;print(sys.executable)"
+2025-01-02 16:31:28.754 [error] Error: Command failed: C:\Users\ll\scoop\apps\python\current\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: line 1: C:Usersllscoopappspythoncurrentpython.exe: command not found
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:423:12)
+    at ChildProcess.emit (node:events:530:35)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Pipe.<anonymous> (node:net:343:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ll\\scoop\\apps\\python\\current\\python.exe -c "import sys;print(sys.executable)"'
+}
+2025-01-02 16:31:29.488 [info] Native locator: Refresh finished in 5217 ms
+2025-01-02 16:31:29.961 [info] > conda info --json
+2025-01-02 16:31:34.060 [info] Starting Pylance language server.

@@ -1,0 +1,21 @@
+2025-01-02 17:18:40.502 [warning] /home/violet/.ssh/config: ENOENT: no such file or directory, open '/home/violet/.ssh/config'
+2025-01-02 17:18:40.502 [info] Activation> Extension version: 0.102.0
+2025-01-02 17:18:40.964 [info] Looking for git repository
+2025-01-02 17:18:40.964 [info] Found 0 repositories during activation
+2025-01-02 17:18:40.964 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-02 17:18:40.970 [info] Registering git provider
+2025-01-02 17:18:40.970 [info] Review+0> Validate state in progress
+2025-01-02 17:18:40.970 [info] Review+0> Validating state...
+2025-01-02 17:18:42.924 [info] Found GitHub remote for folder /home/violet/dev/llm-tui
+2025-01-02 17:18:42.926 [info] Trying to use globalState for assignableUsers.
+2025-01-02 17:18:42.999 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-02 17:18:42.999 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-01-02 17:18:43.004 [info] Using globalState assignableUsers for 0.
+2025-01-02 17:18:43.199 [info] Repo state for file:///home/violet/dev/llm-tui changed.
+2025-01-02 17:18:43.199 [info] Repo file:///home/violet/dev/llm-tui has already been setup.
+2025-01-02 17:18:51.935 [info] Review+0> Validate state in progress
+2025-01-02 17:18:51.935 [info] Review+0> Validating state...
+2025-01-02 17:18:51.938 [info] Found GitHub remote for folder /home/violet/dev/llm-tui
+2025-01-02 17:18:51.939 [info] Using in-memory cached assignable users.
+2025-01-02 17:18:51.957 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-02 17:18:51.957 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

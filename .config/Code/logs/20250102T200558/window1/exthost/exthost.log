@@ -1,0 +1,35 @@
+2025-01-02 20:06:00.882 [info] Extension host with pid 156777 started
+2025-01-02 20:06:00.882 [info] Skipping acquiring lock for /home/violet/.config/Code/User/workspaceStorage/e65d81a21fe58fcec80b89055526a2ae.
+2025-01-02 20:06:01.763 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-02 20:06:01.809 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-02 20:06:01.832 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.default'
+2025-01-02 20:06:02.734 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2025-01-02 20:06:03.556 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-02 20:06:03.559 [info] ExtensionService#_doActivateExtension be5invis.vscode-custom-css, startup: true, activationEvent: '*'
+2025-01-02 20:06:03.577 [info] ExtensionService#_doActivateExtension dnicolson.binary-plist, startup: true, activationEvent: '*'
+2025-01-02 20:06:03.608 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2025-01-02 20:06:03.999 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-02 20:06:04.111 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-02 20:06:04.416 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-02 20:06:04.428 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-02 20:06:04.508 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-02 20:06:04.622 [info] Eager extensions activated
+2025-01-02 20:06:04.707 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:04.709 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:04.731 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:04.772 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:04.777 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:05.256 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:05.377 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:05.452 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:05.629 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:05.751 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2025-01-02 20:06:08.542 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: GitHub.vscode-pull-request-github
+2025-01-02 20:06:10.188 [error] [golang.go] provider FAILED
+2025-01-02 20:06:10.201 [error] Error: context canceled
+    at handleResponse (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8582:40)
+    at handleMessage (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8392:11)
+    at processMessageQueue (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8407:13)
+    at Immediate.<anonymous> (/home/violet/.vscode/extensions/golang.go-0.44.0/dist/goMain.js:8383:11)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-02 20:49:13.138 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

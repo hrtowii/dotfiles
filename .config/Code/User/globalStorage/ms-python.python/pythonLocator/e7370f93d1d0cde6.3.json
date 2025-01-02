@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/bin/python",
+    "prefix": "/usr",
+    "version": "3.13.1.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/bin/python",
+      "/bin/python3",
+      "/bin/python3.13"
+    ]
+  },
+  "symlinks": []
+}

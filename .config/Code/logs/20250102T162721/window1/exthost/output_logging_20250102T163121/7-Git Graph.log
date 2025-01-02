@@ -1,0 +1,9 @@
+[2025-01-02 16:31:28.425] Starting Git Graph ...
+[2025-01-02 16:31:28.721] Using git (version: 2.47.1)
+[2025-01-02 16:31:28.728] Started Git Graph - Ready to use!
+[2025-01-02 16:31:28.736] Searching workspace for new repos ...
+[2025-01-02 16:31:28.753] > git rev-parse --show-toplevel
+[2025-01-02 16:31:29.491] Added new repo: /home/violet/dev/llm-tui
+[2025-01-02 16:31:29.505] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2025-01-02 16:31:29.777] Completed searching workspace for new repos
+[2025-01-02 16:31:29.777] Showing "Git Graph" Status Bar Item

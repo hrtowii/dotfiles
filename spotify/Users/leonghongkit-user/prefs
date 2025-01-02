@@ -1,0 +1,4 @@
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.10.95\",\"app_state\":\"INSTALLED\",\"created_timestamp\":1735806261,\"device_id\":\"d6be1ee1-9107-48cb-863e-410e17444660\",\"dial_location_url\":\"http://192.168.10.95:1581/\",\"display_name\":\"[LG] webOS TV UK7500PTA\",\"last_seen\":1735806920,\"manufacturer\":\"LG Electronics\",\"model_name\":\"65UK7500PTA\",\"product_cap\":\"\",\"public_ip\":\"103.252.201.14\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"785dc89dbd21\",\"port\":9,\"retries\":2400}}]"
+ui.hide_hpto=true
+app.browser.zoom-level=50

@@ -1,0 +1,45 @@
+2025-01-02 17:18:40.494 [info] [main] Log level: Info
+2025-01-02 17:18:40.494 [info] [main] Validating found git in: "git"
+2025-01-02 17:18:40.494 [info] [main] Using git "2.47.1" from "git"
+2025-01-02 17:18:40.494 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-02 17:18:40.494 [info] > git rev-parse --show-toplevel [41ms]
+2025-01-02 17:18:40.494 [info] > git rev-parse --git-dir --git-common-dir [619ms]
+2025-01-02 17:18:40.494 [info] [Model][openRepository] Opened repository: /home/violet/dev/llm-tui
+2025-01-02 17:18:40.494 [info] > git rev-parse --show-toplevel [15ms]
+2025-01-02 17:18:40.494 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-02 17:18:40.494 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-02 17:18:40.494 [info] > git config --get commit.template [32ms]
+2025-01-02 17:18:40.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-01-02 17:18:40.516 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:18:40.584 [info] > git rev-parse refs/remotes/origin/main [67ms]
+2025-01-02 17:18:40.627 [info] > git status -z -uall [30ms]
+2025-01-02 17:18:40.628 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-01-02 17:18:40.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-01-02 17:18:40.752 [info] > git config --local branch.main.vscode-merge-base [44ms]
+2025-01-02 17:18:40.767 [info] > git config --get commit.template [77ms]
+2025-01-02 17:18:40.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [34ms]
+2025-01-02 17:18:40.836 [info] > git merge-base refs/heads/main refs/remotes/origin/main [18ms]
+2025-01-02 17:18:40.868 [info] > git diff --name-status -z --diff-filter=ADMR f74776c63a9c24ee60eb34e27bc369e602727423...refs/remotes/origin/main [16ms]
+2025-01-02 17:18:40.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2025-01-02 17:18:40.890 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:18:40.893 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-02 17:18:40.931 [info] > git status -z -uall [22ms]
+2025-01-02 17:18:40.933 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-01-02 17:18:42.922 [info] > git check-ignore -v -z --stdin [361ms]
+2025-01-02 17:18:42.923 [info] > git fetch [2561ms]
+2025-01-02 17:18:42.923 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/hrtowii/llm-tui.git/'
+2025-01-02 17:18:42.998 [info] > git config --local branch.main.github-pr-owner-number [58ms]
+2025-01-02 17:18:42.998 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-02 17:18:43.024 [info] > git config --get commit.template [27ms]
+2025-01-02 17:18:43.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-01-02 17:18:43.100 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:18:43.104 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-01-02 17:18:43.143 [info] > git status -z -uall [24ms]
+2025-01-02 17:18:43.197 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [59ms]
+2025-01-02 17:18:51.957 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2025-01-02 17:18:51.957 [warning] [Git][config] git config failed: Failed to execute git

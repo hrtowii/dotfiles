@@ -1,0 +1,21 @@
+2025-01-02 16:27:28.542 [warning] /home/violet/.ssh/config: ENOENT: no such file or directory, open '/home/violet/.ssh/config'
+2025-01-02 16:27:28.542 [info] Activation> Extension version: 0.102.0
+2025-01-02 16:27:30.724 [info] Looking for git repository
+2025-01-02 16:27:30.724 [info] Found 0 repositories during activation
+2025-01-02 16:27:30.724 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-02 16:27:30.725 [info] Registering git provider
+2025-01-02 16:31:29.860 [warning] /home/violet/.ssh/config: ENOENT: no such file or directory, open '/home/violet/.ssh/config'
+2025-01-02 16:31:29.860 [info] Activation> Extension version: 0.102.0
+2025-01-02 16:31:33.334 [info] Looking for git repository
+2025-01-02 16:31:33.334 [info] Found 0 repositories during activation
+2025-01-02 16:31:33.334 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-02 16:31:33.342 [info] Registering git provider
+2025-01-02 16:31:33.342 [info] Review+0> Validate state in progress
+2025-01-02 16:31:33.342 [info] Review+0> Validating state...
+2025-01-02 16:31:33.891 [info] Found GitHub remote for folder /home/violet/dev/llm-tui
+2025-01-02 16:31:33.893 [info] Trying to use globalState for assignableUsers.
+2025-01-02 16:31:34.006 [info] GlobalState does not exist for assignableUsers.
+2025-01-02 16:31:34.103 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-02 16:31:34.104 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-01-02 16:31:34.462 [info] Repo state for file:///home/violet/dev/llm-tui changed.
+2025-01-02 16:31:34.462 [info] Repo file:///home/violet/dev/llm-tui has already been setup.

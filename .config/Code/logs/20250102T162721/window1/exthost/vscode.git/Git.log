@@ -1,0 +1,228 @@
+2025-01-02 16:27:25.327 [info] [main] Log level: Info
+2025-01-02 16:27:25.327 [info] [main] Validating found git in: "git"
+2025-01-02 16:27:25.327 [info] [main] Using git "2.47.1" from "git"
+2025-01-02 16:27:25.327 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-02 16:27:25.327 [info] > git rev-parse --show-toplevel [7ms]
+2025-01-02 16:27:25.327 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-02 16:27:27.560 [info] > git rev-parse --show-toplevel [2233ms]
+2025-01-02 16:27:27.560 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-02 16:27:28.414 [info] > git rev-parse --show-toplevel [78ms]
+2025-01-02 16:27:28.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-02 16:27:28.443 [info] > git rev-parse --show-toplevel [5ms]
+2025-01-02 16:27:28.443 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-02 16:27:28.463 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-02 16:27:28.463 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-02 16:27:28.467 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-02 16:27:28.550 [info] > git rev-parse --show-toplevel [60ms]
+2025-01-02 16:27:28.550 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-02 16:27:28.574 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-02 16:27:28.574 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-02 16:29:06.640 [info] > git rev-parse --show-toplevel [5ms]
+2025-01-02 16:29:06.640 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-02 16:31:17.149 [info] > git clone https://github.com/hrtowii/llm-tui.git /home/violet/dev/llm-tui --progress [1877ms]
+2025-01-02 16:31:17.149 [info] Cloning into '/home/violet/dev/llm-tui'...
+remote: Enumerating objects: 3, done.        
+remote: Counting objects:  33% (1/3)        remote: Counting objects:  66% (2/3)        remote: Counting objects: 100% (3/3)        remote: Counting objects: 100% (3/3), done.        
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)        
+Receiving objects:  33% (1/3)Receiving objects:  66% (2/3)Receiving objects: 100% (3/3)Receiving objects: 100% (3/3), done.
+2025-01-02 16:31:29.776 [info] [main] Log level: Info
+2025-01-02 16:31:29.776 [info] [main] Validating found git in: "git"
+2025-01-02 16:31:29.776 [info] [main] Using git "2.47.1" from "git"
+2025-01-02 16:31:29.776 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-02 16:31:29.776 [info] > git rev-parse --show-toplevel [234ms]
+2025-01-02 16:31:29.862 [info] > git rev-parse --git-dir --git-common-dir [29ms]
+2025-01-02 16:31:29.897 [info] [Model][openRepository] Opened repository: /home/violet/dev/llm-tui
+2025-01-02 16:31:29.902 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-02 16:31:30.008 [info] > git config --get commit.template [26ms]
+2025-01-02 16:31:30.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-01-02 16:31:30.210 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:31:30.237 [info] > git rev-parse refs/remotes/origin/main [27ms]
+2025-01-02 16:31:30.358 [info] > git status -z -uall [98ms]
+2025-01-02 16:31:30.359 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [74ms]
+2025-01-02 16:31:30.533 [info] > git show --textconv :main.py [113ms]
+2025-01-02 16:31:30.533 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/main.py [93ms]
+2025-01-02 16:31:30.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [163ms]
+2025-01-02 16:31:30.652 [info] > git check-ignore -v -z --stdin [59ms]
+2025-01-02 16:31:30.653 [info] > git config --local branch.main.vscode-merge-base [82ms]
+2025-01-02 16:31:30.653 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-02 16:31:30.672 [info] > git cat-file -s ee8d249ea08c01ba54be42f423560f93bebbbd5b [120ms]
+2025-01-02 16:31:30.673 [info] > git config --get commit.template [171ms]
+2025-01-02 16:31:30.680 [info] > git reflog main --grep-reflog=branch: Created from *. [9ms]
+2025-01-02 16:31:30.729 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [30ms]
+2025-01-02 16:31:30.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [26ms]
+2025-01-02 16:31:30.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2025-01-02 16:31:33.223 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:31:33.224 [info] > git config --local branch.main.vscode-merge-base origin/main [2428ms]
+2025-01-02 16:31:33.225 [info] > git blame --root --incremental f74776c63a9c24ee60eb34e27bc369e602727423 -- /home/violet/dev/llm-tui/main.py [2456ms]
+2025-01-02 16:31:33.291 [info] > git rev-parse refs/remotes/origin/main [68ms]
+2025-01-02 16:31:33.314 [info] > git fetch [3418ms]
+2025-01-02 16:31:33.314 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/hrtowii/llm-tui.git/'
+2025-01-02 16:31:33.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [66ms]
+2025-01-02 16:31:33.396 [info] > git config --get commit.template [127ms]
+2025-01-02 16:31:33.933 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/main.py [516ms]
+2025-01-02 16:31:33.966 [info] > git config --local branch.main.vscode-merge-base [569ms]
+2025-01-02 16:31:33.991 [info] > git config --get commit.template [624ms]
+2025-01-02 16:31:34.068 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [77ms]
+2025-01-02 16:31:34.100 [info] > git cat-file -s ee8d249ea08c01ba54be42f423560f93bebbbd5b [135ms]
+2025-01-02 16:31:34.102 [info] > git config --local branch.main.github-pr-owner-number [182ms]
+2025-01-02 16:31:34.102 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-02 16:31:34.171 [info] > git merge-base refs/heads/main refs/remotes/origin/main [74ms]
+2025-01-02 16:31:34.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [168ms]
+2025-01-02 16:31:34.218 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:31:34.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [72ms]
+2025-01-02 16:31:34.315 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:31:34.316 [info] > git show --textconv :main.py [28ms]
+2025-01-02 16:31:34.318 [info] > git rev-parse refs/remotes/origin/main [100ms]
+2025-01-02 16:31:34.360 [info] > git diff --name-status -z --diff-filter=ADMR f74776c63a9c24ee60eb34e27bc369e602727423...refs/remotes/origin/main [168ms]
+2025-01-02 16:31:34.369 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2025-01-02 16:31:34.389 [info] > git merge-base refs/heads/main refs/remotes/origin/main [48ms]
+2025-01-02 16:31:34.409 [info] > git rev-parse refs/remotes/origin/main [94ms]
+2025-01-02 16:31:34.457 [info] > git status -z -uall [31ms]
+2025-01-02 16:31:34.458 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-01-02 16:31:34.463 [info] > git diff --name-status -z --diff-filter=ADMR f74776c63a9c24ee60eb34e27bc369e602727423...refs/remotes/origin/main [55ms]
+2025-01-02 16:31:34.464 [info] > git diff --name-status -z --diff-filter=ADMR f74776c63a9c24ee60eb34e27bc369e602727423...refs/remotes/origin/main [75ms]
+2025-01-02 16:31:34.494 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/main.py [4ms]
+2025-01-02 16:31:34.527 [info] > git cat-file -s ee8d249ea08c01ba54be42f423560f93bebbbd5b [15ms]
+2025-01-02 16:31:34.944 [info] > git show --textconv :main.py [338ms]
+2025-01-02 16:32:08.246 [info] > git config --get commit.template [22ms]
+2025-01-02 16:32:08.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-02 16:32:08.268 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:32:08.270 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-02 16:32:08.315 [info] > git status -z -uall [23ms]
+2025-01-02 16:32:08.317 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-02 16:32:22.130 [info] > git config --get commit.template [24ms]
+2025-01-02 16:32:22.131 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-02 16:32:22.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 16:32:22.174 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:32:22.176 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-01-02 16:32:22.217 [info] > git status -z -uall [22ms]
+2025-01-02 16:32:22.218 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-02 16:32:24.534 [info] > git check-ignore -v -z --stdin [4ms]
+2025-01-02 16:32:25.468 [info] > git show --textconv :src/main.rs [23ms]
+2025-01-02 16:32:25.472 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/src/main.rs [6ms]
+2025-01-02 16:32:29.987 [info] > git config --get commit.template [23ms]
+2025-01-02 16:32:29.988 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-02 16:32:30.012 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-02 16:32:30.033 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:32:30.035 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-02 16:32:30.076 [info] > git status -z -uall [21ms]
+2025-01-02 16:32:30.077 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-02 16:32:31.370 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-02 16:32:35.112 [info] > git config --get commit.template [3ms]
+2025-01-02 16:32:35.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-02 16:32:35.164 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:32:35.167 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-02 16:32:35.216 [info] > git status -z -uall [24ms]
+2025-01-02 16:32:35.217 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-02 16:32:37.901 [info] > git blame --root --incremental f74776c63a9c24ee60eb34e27bc369e602727423 -- /home/violet/dev/llm-tui/src/main.rs [3ms]
+2025-01-02 16:32:37.901 [info] fatal: no such path src/main.rs in f74776c63a9c24ee60eb34e27bc369e602727423
+2025-01-02 16:45:14.474 [info] > git config --get commit.template [30ms]
+2025-01-02 16:45:14.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-02 16:45:14.501 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:45:14.503 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-02 16:45:14.545 [info] > git status -z -uall [21ms]
+2025-01-02 16:45:14.547 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-02 16:45:18.541 [info] > git show --textconv :Cargo.toml [23ms]
+2025-01-02 16:45:18.542 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/Cargo.toml [3ms]
+2025-01-02 16:45:24.216 [info] > git blame --root --incremental f74776c63a9c24ee60eb34e27bc369e602727423 -- /home/violet/dev/llm-tui/Cargo.toml [3ms]
+2025-01-02 16:45:24.216 [info] fatal: no such path Cargo.toml in f74776c63a9c24ee60eb34e27bc369e602727423
+2025-01-02 16:45:38.900 [info] > git config --get commit.template [19ms]
+2025-01-02 16:45:38.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 16:45:38.918 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:45:38.920 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-02 16:45:38.956 [info] > git status -z -uall [19ms]
+2025-01-02 16:45:38.957 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-02 16:45:41.219 [info] > git show --textconv :src/main.rs [21ms]
+2025-01-02 16:45:41.221 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/src/main.rs [3ms]
+2025-01-02 16:45:44.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 16:45:44.076 [info] > git config --get commit.template [76ms]
+2025-01-02 16:45:44.129 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:45:44.133 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-01-02 16:45:44.282 [info] > git status -z -uall [74ms]
+2025-01-02 16:45:44.282 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-01-02 16:45:55.070 [info] > git config --get commit.template [4ms]
+2025-01-02 16:45:55.139 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-02 16:45:55.191 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:45:55.198 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2025-01-02 16:45:55.313 [info] > git status -z -uall [50ms]
+2025-01-02 16:45:55.320 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-01-02 16:46:09.247 [info] > git config --get commit.template [22ms]
+2025-01-02 16:46:09.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 16:46:09.268 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 16:46:09.271 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-02 16:46:09.312 [info] > git status -z -uall [21ms]
+2025-01-02 16:46:09.314 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-02 17:00:16.066 [info] > git show --textconv :Cargo.toml [31ms]
+2025-01-02 17:00:16.067 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/Cargo.toml [8ms]
+2025-01-02 17:00:17.191 [info] > git config --get commit.template [26ms]
+2025-01-02 17:00:17.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-02 17:00:17.217 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:00:17.219 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-02 17:00:17.265 [info] > git status -z -uall [24ms]
+2025-01-02 17:00:17.266 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-02 17:00:19.403 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-02 17:00:22.320 [info] > git config --get commit.template [20ms]
+2025-01-02 17:00:22.322 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 17:00:22.341 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:00:22.342 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-01-02 17:00:22.382 [info] > git status -z -uall [21ms]
+2025-01-02 17:00:22.384 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-02 17:00:39.413 [info] > git show --textconv :main.go [20ms]
+2025-01-02 17:00:39.414 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/main.go [3ms]
+2025-01-02 17:00:41.112 [info] > git blame --root --incremental f74776c63a9c24ee60eb34e27bc369e602727423 -- /home/violet/dev/llm-tui/main.go [2ms]
+2025-01-02 17:00:41.112 [info] fatal: no such path main.go in f74776c63a9c24ee60eb34e27bc369e602727423
+2025-01-02 17:00:43.324 [info] > git config --get commit.template [2ms]
+2025-01-02 17:00:43.343 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 17:00:43.364 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:00:43.365 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-01-02 17:00:43.405 [info] > git status -z -uall [18ms]
+2025-01-02 17:00:43.407 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-02 17:01:13.413 [info] > git config --get commit.template [20ms]
+2025-01-02 17:01:13.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 17:01:13.432 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:01:13.434 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-01-02 17:01:13.473 [info] > git status -z -uall [20ms]
+2025-01-02 17:01:13.474 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-02 17:01:50.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-01-02 17:01:50.342 [info] > git config --get commit.template [41ms]
+2025-01-02 17:01:50.361 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:01:50.362 [info] > git check-ignore -v -z --stdin [22ms]
+2025-01-02 17:01:50.363 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-02 17:01:50.403 [info] > git status -z -uall [20ms]
+2025-01-02 17:01:50.405 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-02 17:01:51.893 [info] > git show --textconv :go.mod [21ms]
+2025-01-02 17:01:51.894 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/go.mod [2ms]
+2025-01-02 17:02:07.693 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-02 17:02:08.595 [info] > git config --get commit.template [24ms]
+2025-01-02 17:02:08.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 17:02:08.617 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:02:08.618 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-01-02 17:02:08.667 [info] > git status -z -uall [23ms]
+2025-01-02 17:02:08.668 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-02 17:02:13.942 [info] > git config --get commit.template [21ms]
+2025-01-02 17:02:13.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 17:02:13.962 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:02:13.963 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-01-02 17:02:14.006 [info] > git status -z -uall [24ms]
+2025-01-02 17:02:14.007 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-02 17:02:24.656 [info] > git show --textconv :main.go [21ms]
+2025-01-02 17:02:24.658 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/main.go [2ms]
+2025-01-02 17:02:25.471 [info] > git config --get commit.template [2ms]
+2025-01-02 17:02:25.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 17:02:25.517 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:02:25.518 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-02 17:02:25.561 [info] > git status -z -uall [24ms]
+2025-01-02 17:02:25.563 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-02 17:02:30.599 [info] > git config --get commit.template [2ms]
+2025-01-02 17:02:30.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-02 17:02:30.639 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/violet/dev/llm-tui/.git/refs/remotes/origin/main'
+2025-01-02 17:02:30.640 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-01-02 17:02:30.679 [info] > git status -z -uall [20ms]
+2025-01-02 17:02:30.681 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-02 17:03:23.097 [info] > git show --textconv :main.go [21ms]
+2025-01-02 17:03:23.098 [info] > git ls-files --stage -- /home/violet/dev/llm-tui/main.go [2ms]

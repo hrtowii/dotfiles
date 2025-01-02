@@ -1,0 +1,31 @@
+2025-01-02 20:06:03.923 [info] Using the Electron fetcher.
+2025-01-02 20:06:03.923 [info] Initializing Git extension service.
+2025-01-02 20:06:04.622 [info] Successfully activated the vscode.git extension.
+2025-01-02 20:06:04.622 [info] Enablement state of the vscode.git extension: true.
+2025-01-02 20:06:04.622 [info] Successfully registered Git commit message provider.
+2025-01-02 20:06:08.964 [info] Logged in as hrtowii
+2025-01-02 20:06:10.062 [info] Got Copilot token for hrtowii
+2025-01-02 20:06:10.143 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-02 20:06:10.170 [info] Registering default platform agent...
+2025-01-02 20:06:10.173 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-01-02 20:06:10.173 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-01-02 20:06:10.173 [info] Successfully registered GitHub PR title and description provider.
+2025-01-02 20:06:11.014 [info] Fetched model metadata in 941ms 84f57ecf-fc55-4532-8c36-97612761d651
+2025-01-02 20:06:11.063 [info] activationBlocker from 'languageModelAccess' took for 4941ms
+2025-01-02 20:21:12.597 [info] Fetched model metadata in 1040ms f0cb13b0-3e6f-4f4c-838f-a321a205e87c
+2025-01-02 20:31:10.078 [info] Logged in as hrtowii
+2025-01-02 20:31:10.927 [info] Got Copilot token for hrtowii
+2025-01-02 20:31:10.961 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-02 20:46:12.268 [info] Fetched model metadata in 1292ms a52c4e0a-ba91-4c02-bd04-5af94f992406
+2025-01-02 20:56:10.943 [info] Logged in as hrtowii
+2025-01-02 20:56:11.826 [info] Got Copilot token for hrtowii
+2025-01-02 20:56:11.858 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-02 21:11:12.869 [info] Fetched model metadata in 997ms e31c031b-5a24-4e8c-bfb6-da93b20228da
+2025-01-02 21:21:11.839 [info] Logged in as hrtowii
+2025-01-02 21:21:12.649 [info] Got Copilot token for hrtowii
+2025-01-02 21:21:12.676 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-02 23:00:33.864 [info] Logged in as hrtowii
+2025-01-02 23:00:34.659 [info] Got Copilot token for hrtowii
+2025-01-02 23:00:34.681 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-02 23:00:35.705 [info] Fetched model metadata in 1036ms efd12fbe-3dbf-4538-b2f4-63333a126c9b
+2025-01-02 23:15:36.714 [info] Fetched model metadata in 964ms 17cf8fae-67ff-46f0-a47e-e6ed7217d756

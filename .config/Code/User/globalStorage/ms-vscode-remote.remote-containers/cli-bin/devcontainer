@@ -1,0 +1,54 @@
+#!/bin/sh
+script_file=$0
+while [ -h "$script_file" ]; do
+        script_file=$(readlink $script_file)
+done
+basedir=$(dirname "$(echo "$script_file" | sed -e 's,\\,/,g')")
+
+# This file is placed in a stable (version-independent) location
+# and forwards to the currently installed version
+
+# WSL detection borrowed from VS Code
+IN_WSL=false
+if [ -n "$WSL_DISTRO_NAME" ]; then
+        # $WSL_DISTRO_NAME is available since WSL builds 18362, also for WSL2
+        IN_WSL=true
+else
+        WSL_BUILD=$(uname -r | sed -E 's/^[0-9.]+-([0-9]+)-Microsoft.*|.*/\1/')
+        if [ -n "$WSL_BUILD" ]; then
+                IN_WSL=true
+        fi
+fi
+VSCODE_PATH=$(cat "$basedir/vscode-path")
+DEVCONTAINER_CLI_PATH=$script_file
+REMOTE_CONTAINERS_PATH=
+if [ -f "$basedir/remote-containers-path" ]; then
+        REMOTE_CONTAINERS_PATH=$(cat "$basedir/remote-containers-path")
+        if [ $IN_WSL = true ]; then
+                REMOTE_CONTAINERS_PATH=$(wslpath -u $REMOTE_CONTAINERS_PATH)
+        fi
+        if [ ! -f "$REMOTE_CONTAINERS_PATH/dev-containers-user-cli/cli.js" ]; then
+                REMOTE_CONTAINERS_PATH=
+        fi
+fi
+
+if [ -z "$REMOTE_CONTAINERS_PATH" ]; then
+        echo "Failed to determine Dev Containers path"
+        exit 1
+fi
+
+if [ $IN_WSL = true ]; then
+        export WSLENV="ELECTRON_RUN_AS_NODE/w:DEVCONTAINER_CLI_PATH/p:IN_WSL:WSL_DISTRO_NAME:$WSLENV"
+        CLI=$(wslpath -m "$REMOTE_CONTAINERS_PATH/dev-containers-user-cli/cli.js")
+        ELECTRON=$(wslpath -u "$VSCODE_PATH")
+
+        # TODO - piping to `cat` is a temporary workaround for the CRLF->LF conversion
+        # that occurs when calling Windows Electron binary from WSL
+        IN_WSL=$IN_WSL DEVCONTAINER_CLI_PATH="$DEVCONTAINER_CLI_PATH" ELECTRON_RUN_AS_NODE=1 "$ELECTRON" "$CLI" "$@" | cat
+        exit $?
+else
+        ELECTRON="$VSCODE_PATH"
+        CLI=$REMOTE_CONTAINERS_PATH/dev-containers-user-cli/cli.js
+        DEVCONTAINER_CLI_PATH="$DEVCONTAINER_CLI_PATH" ELECTRON_RUN_AS_NODE=1 "$ELECTRON" "$CLI" "$@"
+        exit $?
+fi

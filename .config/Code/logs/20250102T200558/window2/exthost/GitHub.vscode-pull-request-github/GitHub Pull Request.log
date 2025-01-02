@@ -1,0 +1,6 @@
+2025-01-02 20:06:34.087 [warning] /home/violet/.ssh/config: ENOENT: no such file or directory, open '/home/violet/.ssh/config'
+2025-01-02 20:06:34.087 [info] Activation> Extension version: 0.102.0
+2025-01-02 20:06:36.087 [info] Looking for git repository
+2025-01-02 20:06:36.087 [info] Found 0 repositories during activation
+2025-01-02 20:06:36.087 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-02 20:06:36.088 [info] Registering git provider

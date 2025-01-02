@@ -1,0 +1,550 @@
+2025-01-02 20:07:06.832 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/violet/.vscode/extensions/github.copilot-1.254.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at yae.removeExpiredCertificates (/home/violet/.vscode/extensions/github.copilot-1.254.0/lib/src/network/certificateReaders.ts:77:32)
+    at yae.getAllRootCAs (/home/violet/.vscode/extensions/github.copilot-1.254.0/lib/src/network/certificateReaders.ts:68:38)
+    at eme.createSecureContext (/home/violet/.vscode/extensions/github.copilot-1.254.0/lib/src/network/certificates.ts:46:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE'
+}
+2025-01-02 20:07:06.832 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/violet/.vscode/extensions/github.copilot-1.254.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at yae.removeExpiredCertificates (/home/violet/.vscode/extensions/github.copilot-1.254.0/lib/src/network/certificateReaders.ts:77:32)
+    at yae.getAllRootCAs (/home/violet/.vscode/extensions/github.copilot-1.254.0/lib/src/network/certificateReaders.ts:68:38)
+    at eme.createSecureContext (/home/violet/.vscode/extensions/github.copilot-1.254.0/lib/src/network/certificates.ts:46:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE'
+}
+2025-01-02 20:07:06.832 [info] [certificates] Removed 2 expired certificates
+2025-01-02 20:07:07.609 [info] [fetcher] Using Helix fetcher.
+2025-01-02 20:07:08.745 [info] [fetcher] Using Helix fetcher.
+2025-01-02 20:07:08.745 [info] [code-referencing] Public code references are enabled.
+2025-01-02 20:11:01.464 [warning] [relatedFiles] unknown language css
+2025-01-02 20:11:02.381 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 615 ms
+2025-01-02 20:11:02.387 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:11:02.395 [info] [streamChoices] request done: headerRequestId: [b67f978f-baad-4c47-aa31-bf4b5ffb1b18] model deployment ID: [d046-20241214010842]
+2025-01-02 20:11:08.077 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 195 ms
+2025-01-02 20:11:08.084 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:11:08.087 [info] [streamChoices] request done: headerRequestId: [c9206969-43c5-469a-90ef-220bde3634b3] model deployment ID: [d046-20241214010842]
+2025-01-02 20:30:20.662 [warning] [relatedFiles] unknown language properties
+2025-01-02 20:32:08.040 [info] [fetcher] Using Helix fetcher.
+2025-01-02 20:32:08.040 [info] [code-referencing] Public code references are enabled.
+2025-01-02 20:47:22.372 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 1124 ms
+2025-01-02 20:47:22.795 [info] [streamChoices] solution 8 returned. finish reason: [stop]
+2025-01-02 20:47:22.797 [info] [solutions] Open Copilot completion: [
+# bind = Super, Z, exec, Zed # Launch Zed (editor)
+bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
+bind = Super, E, exec, nautilus --new-window # Launch Nautilus (file manager)
+# bind = Super+Alt, E, exec, thunar # [hidden]
+# bind = Super, W, exec, google-chrome-stable # [hidden] Let's not give people (more) reason]
+2025-01-02 20:47:23.785 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2025-01-02 20:47:23.790 [info] [solutions] Open Copilot completion: [, you might want to use this
+bind = Super, Z, exec, Zed # Launch Zed (editor)
+bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
+bind = Super, W, exec, google-chrome-stable # Launch Google Chrome (browser)
+bind = Super, D, exec, discord # Launch Discord
+bind = Super, E, exec, nautilus --new-window # Launch Nautilus (file manager)
+bind = Super, R, exec, rofi -show drun # Launch Rofi
+bind = Super, V, exec, pavucontrol # Launch pavucontrol (volume mixer)
+bind = Super, S, exec, gnome-system-monitor # Launch GNOME System monitor
+bind = Super, I, exec, XDG_CURRENT_DESKTOP="gnome" gnome-control-center # Launch GNOME Settings
+bind = Super, M, exec, easyeffects # Launch EasyEffects (equalizer & other audio effects)
+bind = Super, N, exec]
+2025-01-02 20:47:28.196 [info] [streamChoices] solution 4 returned. finish reason: [length]
+2025-01-02 20:47:28.204 [info] [solutions] Open Copilot completion: [
+bind = Super, Z, exec, Zed # Launch Zed (editor)
+bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
+bind = Super, W, exec, google-chrome-stable # Launch Google Chrome (browser)
+bind = Super, E, exec, nautilus --new-window # Launch Nautilus (file manager)
+bind = Super, M, exec, gnome-text-editor --new-window # Launch GNOME Text Editor
+bind = Super, I, exec, XDG_CURRENT_DESKTOP="gnome" gnome-control-center # Launch GNOME Settings
+bind = Super, V, exec, pavucontrol # Launch pavucontrol (volume mixer)
+bind = Ctrl+Super, V, exec, easyeffects # Launch EasyEffects (equalizer & other audio effects)
+bind = Ctrl+Shift, Escape, exec, gnome-system-monitor # Launch GNOME System monitor
+
+#!
+##! Keybinds reference
+##! Global
+bind = Super, Space, exec, ags run-js 'openLauncher.value = true' # Open app launcher
+bind = Ctrl+Super, T, exec, ~/.config/ags/scripts/color_generation/switchwall.sh # Change wallpaper
+# Screenshot, Record, OCR, Color picker, Clipboard history
+bind = Super, V, exec, pkill fuzzel || cliphist list | fuzzel  --match-mode fzf --dmenu | cliphist decode | wl-copy # Clipboard history >> clipboard
+bind = Super, Period, exec, pkill fuzzel || ~/.local/bin/fuzzel-emoji # Pick emoji >> clipboard
+bind = Ctrl+Shift+Alt, Delete, exec, pkill wlogout || wlogout -p layer-shell # [hidden]
+bind = Super+Shift, S, exec, grim -g "$(slurp)" - | swappy -f - # Screen snip >> edit
+bind = Super+Shift+Alt, S, exec, grim -g "$(slurp)" - | swappy -f - # Screen snip >> edit
+bind = Super+Shift,T,exec,grim -g "$(slurp $SLURP_ARGS)" "tmp.png" && tesseract -l eng "tmp.png" - | wl-copy && rm "tmp.png" # Screen snip to text >> clipboard]
+2025-01-02 20:47:28.219 [info] [streamChoices] solution 7 returned. finish reason: [length]
+2025-01-02 20:47:28.225 [info] [solutions] Open Copilot completion: [
+bind = Super, Z, exec, Zed # Launch Zed (editor)
+bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
+bind = Super, W, exec, google-chrome-stable # Launch Chrome (browser)
+bind = Super, E, exec, nautilus --new-window # Launch Nautilus (file manager)
+bind = Super, I, exec, gnome-control-center # Launch GNOME Settings
+bind = Ctrl+Super, V, exec, pavucontrol # Launch pavucontrol (volume mixer)
+bind = Ctrl+Super+Shift, V, exec, easyeffects # Launch EasyEffects (equalizer & other audio effects)
+bind = Ctrl+Shift, Escape, exec, gnome-system-monitor # Launch GNOME System monitor
+
+#!
+##! Custom keybinds
+
+#!
+##! General
+bind = Super, D, exec, ags run-js 'openAppLauncher()'
+bind = Ctrl+Super, D, exec, ags run-js 'openAppLauncher()'
+bind = Super, F, exec, ags run-js 'fullscreenstate()' # Fullscreen mode
+bind = Super, Period, exec, ags run-js 'changeWallpaper()' # Change wallpaper
+bind = Ctrl+Super, L, exec, ags run-js 'lock.lock()' # Lock
+bind = Super, L, exec, loginctl lock-session # Lock
+bind = Ctrl+Super+Shift, Delete, exec, systemctl poweroff # Power off
+
+#!
+##! Window management
+bind = Super, Left, movefocus, l # Move focus left
+bind = Super, Right, movefocus, r # Move focus right
+bind = Super, Up, movefocus, u # Move focus up
+bind = Super, Down, movefocus, d # Move focus down
+bind = Super, Q, killactive, # Kill window
+bind = Super, S, togglespecialworkspace, # Toggle special workspace
+
+#!
+##! Workspace navigation
+bind = Super, 1, exec, ags run-js 'workspaceSwitch(1)' # Switch to workspace 1
+bind = Super, 2, exec, ags run-js 'workspaceSwitch(2)' # Switch to workspace 2
+bind = Super, 3, exec, ags run-js 'workspace]
+2025-01-02 20:47:28.241 [info] [streamChoices] solution 5 returned. finish reason: [length]
+2025-01-02 20:47:28.243 [info] [solutions] Open Copilot completion: [
+bind = Super, Z, exec, zed # Launch Zed (editor)
+bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
+bind = Super, W, exec, google-chrome-stable # Launch Google Chrome (browser)
+bind = Ctrl+Super, W, exec, firefox # Launch Firefox (browser)
+bind = Super, E, exec, nautilus --new-window # Launch Nautilus (file manager)
+bind = Super, R, exec, gnome-text-editor --new-window # Launch GNOME Text Editor
+bind = Super, I, exec, XDG_CURRENT_DESKTOP="gnome" gnome-control-center # Launch GNOME Settings
+bind = Ctrl+Super, V, exec, pavucontrol # Launch pavucontrol (volume mixer)
+bind = Ctrl+Super+Shift, V, exec, easyeffects # Launch EasyEffects (equalizer & other audio effects)
+bind = Ctrl+Shift, Escape, exec, gnome-system-monitor # Launch GNOME System monitor
+bind = Ctrl+Super, Slash, exec, pkill anyrun || anyrun # Toggle fallback launcher: anyrun
+bind = Super+Alt, Slash, exec, pkill anyrun || fuzzel # Toggle fallback launcher: fuzzel
+bind = Ctrl+Super, L, exec, ags run-js 'lock.lock()' # [hidden]
+bind = Super, L, exec, loginctl lock-session # Lock
+bind = Super+Shift, L, exec, loginctl lock-session # [hidden]
+bind = Super+Shift+Alt, L, exec, loginctl lock-session # [hidden]
+bind = Ctrl+Super+Shift, Delete, exec, systemctl poweroff || loginctl poweroff # [hidden] Power off
+bind = Ctrl+Super, Delete, exec, systemctl poweroff || loginctl poweroff # [hidden] Power off
+bind = Ctrl+Super, L, exec, loginctl lock-session # [hidden]
+bind = Ctrl+Super, L, exec, loginctl lock-session # [hidden]
+bind = Ctrl+Super+Shift, Delete, exec, systemctl poweroff || loginctl poweroff # [hidden] Power off
+bind = Ctrl+Super, Delete, exec, systemctl poweroff || loginctl poweroff # [hidden] Power off
+bind = Ctrl+Super, L,]
+2025-01-02 20:47:28.299 [info] [streamChoices] solution 9 returned. finish reason: [length]
+2025-01-02 20:47:28.301 [info] [solutions] Open Copilot completion: [
+bind = Super, T, exec, gnome-terminal # [hidden] # In case you're from i3 or its Wayland clone
+bind = Super, Z, exec, Zed # Launch Zed (editor)
+bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
+bind = Super, W, exec, google-chrome-stable # Launch Chrome (browser)
+bind = Ctrl+Super, W, exec, firefox # Launch Firefox (browser)
+bind = Super, E, exec, nautilus --new-window # Launch Nautilus (file manager)
+bind = Super, I, exec, gnome-control-center # Launch GNOME Settings
+bind = Ctrl+Super, V, exec, pavucontrol # Launch pavucontrol (volume mixer)
+bind = Ctrl+Super+Shift, V, exec, easyeffects # Launch EasyEffects (equalizer & other audio effects)
+bind = Ctrl+Shift, Escape, exec, gnome-system-monitor # Launch GNOME System monitor
+bind = Ctrl+Super, Slash, exec, pkill anyrun || anyrun # Toggle fallback launcher: anyrun
+bind = Super+Alt, Slash, exec, pkill anyrun || fuzzel # Toggle fallback launcher: fuzzel
+
+#!
+##! System
+# bind = Super, Space, exec, foot -e htop # [hidden]
+bind = Super, Space, exec, gnome-system-monitor # [hidden]
+bind = Ctrl+Super, Space, exec, gnome-system-monitor # [hidden]
+bind = Super, F1, exec, gnome-control-center # [hidden]
+bind = Ctrl+Super, F1, exec, gnome-control-center # [hidden]
+bind = Super, F2, exec, gnome-control-center # [hidden]
+bind = Ctrl+Super, F2, exec, gnome-control-center # [hidden]
+bind = Super, F3, exec, gnome-control-center # [hidden]
+bind = Ctrl+Super, F3, exec, gnome-control-center # [hidden]
+bind = Super, F4, exec, gnome-control-center # [hidden]
+bind = Ctrl+Super, F4, exec, gnome-control-center # [hidden]
+bind = Super, F5, exec, gnome-control-center # [hidden]
+bind = Ctrl+Super, F5, exec, gnome-control-center # [hidden]
+2025-01-02 20:47:28.333 [info] [streamChoices] solution 0 returned. finish reason: [length]
+2025-01-02 20:47:28.335 [info] [solutions] Open Copilot completion: [
+bind = Super, Z, exec, Zed # Launch Zed (editor)
+bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
+bind = Super, W, exec, google-chrome-stable # Launch Chrome (browser)
+bind = Ctrl+Super, W, exec, firefox # Launch Firefox (browser)
+bind = Ctrl+Super, V, exec, pavucontrol # Launch pavucontrol (volume mixer)
+bind = Ctrl+Super+Shift, V, exec, easyeffects # Launch EasyEffects (equalizer & other audio effects)
+bind = Ctrl+Shift, Escape, exec, gnome-system-monitor # Launch GNOME System monitor
+bind = Ctrl+Super, Slash, exec, pkill anyrun || anyrun # Toggle fallback launcher: anyrun
+bind = Super+Alt, Slash, exec, pkill anyrun || fuzzel # Toggle fallback launcher: fuzzel
+
+#!
+##! System
+
+# bind = Super, L, exec, loginctl lock-session # Lock
+bind = Super, L, exec, loginctl lock-session # [hidden]
+bind = Super, Shift, L, exec, loginctl lock-session # [hidden]
+bind = Ctrl+Super, L, exec, loginctl lock-session # [hidden]
+bind = Super, Shift, L, exec, loginctl lock-session # [hidden]
+bind = Super+Shift, L, exec, loginctl lock-session # [hidden]
+bind = Super+Shift, L, exec, loginctl lock-session # [hidden]
+bind = Ctrl+Super, L, exec, loginctl lock-session # [hidden]
+bind = Ctrl+Super, L, exec, loginctl lock-session # [hidden]
+bind = Super+Shift, L, exec, loginctl lock-session # [hidden]
+bind = Ctrl+Super, L, exec, loginctl lock-session # [hidden]
+bind = Super+Shift, L, exec, loginctl lock-session # [hidden]
+bind = Ctrl+Super, L, exec, loginctl lock-session # [hidden]
+bind = Super+Shift, L, exec, loginctl lock-session # [hidden]
+bind = Ctrl+Super, L, exec, loginctl lock-session # [hidden]
+bind = Super+Shift, L, exec, loginctl lock-session # [hidden]]
+2025-01-02 20:47:28.388 [info] [streamChoices] solution 2 returned. finish reason: [length]
+2025-01-02 20:47:28.391 [info] [solutions] Open Copilot completion: [, you might want to use this
+bind = Super, D, exec, dmenu_run # Open app launcher
+bind = Ctrl+Super, L, exec, loginctl lock-session # Lock
+bind = Ctrl+Super, Delete, exec, systemctl poweroff # Power off
+
+#!
+##! Basics
+
+# Open app launcher
+bind = Super, D, exec, dmenu_run
+bind = Ctrl+Super, D, exec, dmenu_run # [hidden]
+
+# Lock
+bind = Ctrl+Super, L, exec, loginctl lock-session
+
+# Power off
+bind = Ctrl+Super, Delete, exec, systemctl poweroff
+
+#!
+##! Clipboard
+
+# Clipboard history >> clipboard
+bind = Super, V, exec, pkill fuzzel || cliphist list | fuzzel  --match-mode fzf --dmenu | cliphist decode | wl-copy
+
+# Pick emoji >> clipboard
+bind = Super, Period, exec, pkill fuzzel || ~/.local/bin/fuzzel-emoji
+
+#!
+##! Window management
+
+# Move focus in direction
+bind = Super, Left, movefocus, l
+bind = Super, Right, movefocus, r
+bind = Super, Up, movefocus, u
+bind = Super, Down, movefocus, d
+
+# Move window in direction
+bind = Super+Shift, Left, movewindow, l
+bind = Super+Shift, Right, movewindow, r
+bind = Super+Shift, Up, movewindow, u
+bind = Super+Shift, Down, movewindow, d
+
+# Window: split ratio +/- 0.1
+bind = Super, Minus, splitratio, -0.1
+bind = Super, Equal, splitratio, +0.1
+
+# Positioning mode
+bind = Super+Alt, Space, togglefloating
+
+#!
+##! Workspace navigation
+
+# Focus workspace # (1, 2, 3, 4, ...)
+bind = Super, 1, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 1
+bind = Super, 2, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 2
+bind = Super, 3, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 3
+bind = Super, 4, exec, ~/.config/ags/scripts/h]
+2025-01-02 20:47:28.425 [info] [streamChoices] solution 3 returned. finish reason: [length]
+2025-01-02 20:47:28.427 [info] [solutions] Open Copilot completion: [
+bind = Super, Z, exec, Zed # Launch Zed (editor)
+bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
+bind = Super, W, exec, google-chrome-stable # Launch Chrome (browser)
+bind = Super, E, exec, nautilus --new-window # Launch Nautilus (file manager)
+bind = Super, F, exec, firefox # Launch Firefox (browser)
+bind = Super, X, exec, gnome-text-editor --new-window # Launch GNOME Text Editor
+bind = Super, I, exec, XDG_CURRENT_DESKTOP="gnome" gnome-control-center # Launch GNOME Settings
+bind = Super, V, exec, pavucontrol # Launch pavucontrol (volume mixer)
+bind = Super, S, exec, gnome-system-monitor # Launch GNOME System monitor
+bind = Super, N, exec, wps # Launch WPS Office
+bind = Super, P, exec, gnome-screenshot -i # Take a screenshot
+bind = Super, L, exec, loginctl lock-session # Lock screen
+bind = Super, Slash, exec, anyrun # Open application launcher
+
+#!
+##! Keybinds
+bind = Super, Space, exec, ags run-js 'openColorScheme.value = true; Utils.timeout(2000, () => openColorScheme.value = false);' # View color scheme and options
+bind = Super, Comma, exec, for ((i=0; i<$(hyprctl monitors -j | jq length); i++)); do ags -t "osk""$i"; done # Toggle on-screen keyboard
+bind = Super, B, exec, ags -t 'sideleft' # Toggle left sidebar
+bind = Super, N, exec, ags -t 'sideright' # Toggle right sidebar
+bind = Super, M, exec, ags run-js 'openMusicControls.value = (!mpris.getPlayer() ? false : !openMusicControls.value);' # Toggle music controls
+bind = Super, K, exec, for ((i=0; i<$(hyprctl monitors -j | jq length); i++)); do ags -t "osk""$i"; done # Toggle on-screen keyboard
+bind = Ctrl+Alt, Delete, exec,]
+2025-01-02 20:47:28.430 [info] [streamChoices] solution 6 returned. finish reason: [length]
+2025-01-02 20:47:28.432 [info] [solutions] Open Copilot completion: [
+bind = Super, Z, exec, Zed # Launch Zed (editor)
+bind = Super, C, exec, code --password-store=gnome --enable-features=UseOzonePlatform --ozone-platform=wayland # Launch VSCode (editor)
+bind = Super, W, exec, google-chrome-stable # Launch Google Chrome (browser)
+bind = Ctrl+Super, W, exec, firefox # Launch Firefox (browser)
+bind = Super, E, exec, nautilus --new-window # Launch Nautilus (file manager)
+bind = Super, G, exec, gnome-text-editor --new-window # Launch GNOME Text Editor
+bind = Super, I, exec, XDG_CURRENT_DESKTOP="gnome" gnome-control-center # Launch GNOME Settings
+bind = Ctrl+Super, V, exec, pavucontrol # Launch pavucontrol (volume mixer)
+bind = Ctrl+Super+Shift, V, exec, easyeffects # Launch EasyEffects (equalizer & other audio effects)
+bind = Ctrl+Shift, Escape, exec, gnome-system-monitor # Launch GNOME System monitor
+
+#!
+##! System
+bind = Super, Space, exec, ags run-js 'openAppLauncher()' # Open app launcher
+bind = Ctrl+Super, T, exec, ~/.config/ags/scripts/color_generation/switchwall.sh # Change wallpaper
+bind = Ctrl+Super, L, exec, ags run-js 'lock.lock()' # Lock
+bind = Super, L, exec, loginctl lock-session # Lock
+bind = Ctrl+Super, L, exec, loginctl lock-session # [hidden]
+bind = Super, S, togglespecialworkspace, # [hidden]
+bind = Super, mouse:275, togglespecialworkspace, # [hidden]
+bind = Super, mouse:275, movewindow # [hidden]
+bind = Super, mouse:273, resizewindow # [hidden]
+bind = Super, Q, killactive, # [hidden]
+bind = Super+Shift+Alt, Q, exec, hyprctl kill # Pick and kill a window # [hidden]
+bind = Ctrl+Super, Delete, exec, systemctl poweroff || loginctl poweroff # [hidden] Power off
+bind = Ctrl+Super, L, exec, ags run-js 'lock.lock()' # [hidden]
+bind = Ctrl+Super+Shift, Delete, exec, systemctl poweroff || login]
+2025-01-02 20:47:28.433 [info] [streamChoices] request done: headerRequestId: [2cc519a1-7a31-478b-98c3-2a620eefedda] model deployment ID: [d056-20241214081454]
+2025-01-02 20:53:53.372 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 495 ms
+2025-01-02 20:53:53.381 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:53:53.384 [info] [streamChoices] request done: headerRequestId: [43c10afc-ff44-42c9-aefb-60634091f2a0] model deployment ID: [d053-20241214063927]
+2025-01-02 20:54:11.074 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 223 ms
+2025-01-02 20:54:11.079 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:54:11.090 [info] [streamChoices] request done: headerRequestId: [f4c5b108-4d68-42b5-9ab5-e53470419ea7] model deployment ID: [d053-20241214063927]
+2025-01-02 20:54:12.215 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 355 ms
+2025-01-02 20:54:12.222 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:54:12.224 [info] [streamChoices] request done: headerRequestId: [eeaf0dbf-9455-40af-975c-fb2f9bfd9bc4] model deployment ID: [d053-20241214063927]
+2025-01-02 20:54:14.507 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 198 ms
+2025-01-02 20:54:14.512 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:54:14.514 [info] [streamChoices] request done: headerRequestId: [3a1702bc-d05f-41f2-a5b2-223d7669ca7a] model deployment ID: [d053-20241214063927]
+2025-01-02 20:54:16.715 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 188 ms
+2025-01-02 20:54:16.720 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:54:16.722 [info] [streamChoices] request done: headerRequestId: [99b1668f-1c56-48aa-955e-497718e7bbcd] model deployment ID: [d053-20241214063927]
+2025-01-02 20:54:21.716 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 228 ms
+2025-01-02 20:54:21.722 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:54:21.732 [info] [streamChoices] request done: headerRequestId: [c6c6b247-6b6e-4e6e-8838-59d228ef8cd0] model deployment ID: [d053-20241214063927]
+2025-01-02 20:54:22.942 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 206 ms
+2025-01-02 20:54:22.951 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:54:22.953 [info] [streamChoices] request done: headerRequestId: [e358812e-8666-4217-adc6-6b9e02ac8f86] model deployment ID: [d053-20241214063927]
+2025-01-02 20:54:41.109 [warning] [relatedFiles] unknown language unknown
+2025-01-02 20:55:06.928 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 209 ms
+2025-01-02 20:55:06.935 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:06.936 [info] [streamChoices] request done: headerRequestId: [7cf9bfbb-22f1-4ea7-8814-c88da95568d8] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:12.436 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 178 ms
+2025-01-02 20:55:12.441 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:12.443 [info] [streamChoices] request done: headerRequestId: [b444e4a5-75c6-4893-b495-45e795e9267b] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:19.697 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 370 ms
+2025-01-02 20:55:19.701 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:19.709 [info] [streamChoices] request done: headerRequestId: [be440936-e32e-46b7-9089-5b19c5c0e96f] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:20.413 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 347 ms
+2025-01-02 20:55:20.420 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:20.422 [info] [streamChoices] request done: headerRequestId: [2e27e315-9ee0-4a40-9142-702e50164480] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:28.708 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 332 ms
+2025-01-02 20:55:28.715 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:28.720 [info] [streamChoices] request done: headerRequestId: [ef953fce-cada-4c76-8fcc-acb3fe51ba74] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:29.037 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 189 ms
+2025-01-02 20:55:29.038 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:29.040 [info] [streamChoices] request done: headerRequestId: [d58819dd-a237-4a73-aedd-e61b4a1e47ad] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:32.384 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 262 ms
+2025-01-02 20:55:32.389 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:32.391 [info] [streamChoices] request done: headerRequestId: [02792768-d08a-4cc6-8cac-39e89788feb3] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:34.572 [info] [ghostText] Filtered out solution matching next line
+2025-01-02 20:55:48.663 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 202 ms
+2025-01-02 20:55:48.668 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:48.669 [info] [streamChoices] request done: headerRequestId: [a088094f-0efa-4ee1-890c-238bcc8be7a0] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:50.307 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 198 ms
+2025-01-02 20:55:50.312 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:50.314 [info] [streamChoices] request done: headerRequestId: [a9aef629-4e70-4b3d-a765-7b28a5284df4] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:57.824 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 206 ms
+2025-01-02 20:55:57.830 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:57.832 [info] [streamChoices] request done: headerRequestId: [1ac82f50-201f-45b5-9898-f7f9f925c62b] model deployment ID: [d053-20241214063927]
+2025-01-02 20:55:58.915 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 344 ms
+2025-01-02 20:55:58.917 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:55:58.918 [info] [streamChoices] request done: headerRequestId: [2f3e685a-b17f-46c2-bfe4-0b8cdcabbccf] model deployment ID: [d053-20241214063927]
+2025-01-02 20:56:16.940 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 247 ms
+2025-01-02 20:56:16.942 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:56:16.943 [info] [streamChoices] request done: headerRequestId: [637582b1-728e-429f-b4fd-5fc2ab85f7bb] model deployment ID: [d053-20241214063927]
+2025-01-02 20:56:17.622 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 189 ms
+2025-01-02 20:56:17.623 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 20:56:17.624 [info] [streamChoices] request done: headerRequestId: [513700cb-ebdc-498b-b3aa-1f53a4226ee5] model deployment ID: [d053-20241214063927]
+2025-01-02 20:57:08.564 [info] [fetcher] Using Helix fetcher.
+2025-01-02 20:57:08.564 [info] [code-referencing] Public code references are enabled.
+2025-01-02 21:10:17.225 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 506 ms
+2025-01-02 21:10:17.235 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 21:10:17.247 [info] [streamChoices] request done: headerRequestId: [d783b373-be42-45e4-97aa-84e8489a0716] model deployment ID: [d037-20241213200448]
+2025-01-02 21:22:09.031 [info] [fetcher] Using Helix fetcher.
+2025-01-02 21:22:09.032 [info] [code-referencing] Public code references are enabled.
+2025-01-02 22:52:04.592 [info] [fetcher] Using Helix fetcher.
+2025-01-02 22:52:04.593 [info] [code-referencing] Public code references are enabled.
+2025-01-02 22:52:04.595 [info] [fetcher] Using Helix fetcher.
+2025-01-02 22:52:04.595 [info] [code-referencing] Public code references are enabled.
+2025-01-02 22:52:05.331 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 634 ms
+2025-01-02 22:52:05.339 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:05.344 [info] [streamChoices] request done: headerRequestId: [d459e044-e510-4a04-b18e-14a21ed16a9a] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:13.496 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 404 ms
+2025-01-02 22:52:13.504 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:13.507 [info] [streamChoices] request done: headerRequestId: [8a0b8e42-60ca-40f2-9699-a75319a94af2] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:14.176 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 233 ms
+2025-01-02 22:52:14.183 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:14.191 [info] [streamChoices] request done: headerRequestId: [8cebf2fb-ffe8-4cae-bd8c-4c4bd6427b72] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:19.025 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 515 ms
+2025-01-02 22:52:19.034 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:19.042 [info] [streamChoices] request done: headerRequestId: [3ca101d8-8586-4416-882f-e2e9a6b71a02] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:41.910 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 234 ms
+2025-01-02 22:52:41.916 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:41.925 [info] [streamChoices] request done: headerRequestId: [8d9cebe9-9fd0-4e6a-889a-5dc05be90445] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:43.704 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 253 ms
+2025-01-02 22:52:43.714 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:43.722 [info] [streamChoices] request done: headerRequestId: [f014dc5d-8f0c-426a-9f52-38701de6464e] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:44.240 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 212 ms
+2025-01-02 22:52:44.246 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:44.254 [info] [streamChoices] request done: headerRequestId: [2bf065dd-ae4d-41fc-ac68-33eb9ac4e29f] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:45.546 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 246 ms
+2025-01-02 22:52:45.555 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:45.563 [info] [streamChoices] request done: headerRequestId: [04ffff36-e214-429a-8d96-d343b7cd5533] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:46.285 [info] [code-referencing] Calling Match
+2025-01-02 22:52:47.253 [info] [code-referencing] No match found
+2025-01-02 22:52:48.005 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 501 ms
+2025-01-02 22:52:48.012 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:48.020 [info] [streamChoices] request done: headerRequestId: [349da665-2476-49eb-b607-de893e1e186c] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:51.525 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 204 ms
+2025-01-02 22:52:51.531 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:51.540 [info] [streamChoices] request done: headerRequestId: [588aa5c6-cc20-4eac-b0f7-c5742a5d4324] model deployment ID: [d058-20241214092211]
+2025-01-02 22:52:57.016 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 240 ms
+2025-01-02 22:52:57.022 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:52:57.024 [info] [streamChoices] request done: headerRequestId: [4d513670-0f4f-4940-a9b8-0a4b9ca531c6] model deployment ID: [d058-20241214092211]
+2025-01-02 22:54:37.759 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 275 ms
+2025-01-02 22:54:37.764 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:54:37.773 [info] [streamChoices] request done: headerRequestId: [bcb820b8-0c04-45e1-8deb-b77b818d2d59] model deployment ID: [d058-20241214092211]
+2025-01-02 22:54:39.008 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 312 ms
+2025-01-02 22:54:39.014 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:54:39.024 [info] [streamChoices] request done: headerRequestId: [8d40b69a-1727-49af-81d1-37d52d377870] model deployment ID: [d058-20241214092211]
+2025-01-02 22:54:40.441 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 310 ms
+2025-01-02 22:54:40.447 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:54:40.454 [info] [streamChoices] request done: headerRequestId: [9134ad9c-ab18-45b2-94b3-89bac4f9ad83] model deployment ID: [d058-20241214092211]
+2025-01-02 22:54:47.134 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 209 ms
+2025-01-02 22:54:47.140 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:54:47.141 [info] [streamChoices] request done: headerRequestId: [cfcdf9ab-448a-4984-9108-29630d3be123] model deployment ID: [d058-20241214092211]
+2025-01-02 22:55:04.815 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 211 ms
+2025-01-02 22:55:04.824 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:55:04.826 [info] [streamChoices] request done: headerRequestId: [26f8f60a-9ed1-40c5-b627-43017770f062] model deployment ID: [d058-20241214092211]
+2025-01-02 22:58:26.853 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 725 ms
+2025-01-02 22:58:26.861 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:58:26.871 [info] [streamChoices] request done: headerRequestId: [13cc2da7-d540-4c2b-9ec3-b64bf00425ad] model deployment ID: [d036-20241213193118]
+2025-01-02 22:58:30.573 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 320 ms
+2025-01-02 22:58:30.580 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:58:30.582 [info] [streamChoices] request done: headerRequestId: [be6e5ed3-2564-471d-9244-e2b655ee1031] model deployment ID: [d036-20241213193118]
+2025-01-02 22:58:34.737 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 374 ms
+2025-01-02 22:58:34.743 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:58:34.745 [info] [streamChoices] request done: headerRequestId: [7ef5fe47-3a97-4d3c-8078-09b87c55b5cb] model deployment ID: [d036-20241213193118]
+2025-01-02 22:58:36.991 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 372 ms
+2025-01-02 22:58:36.998 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:58:37.005 [info] [streamChoices] request done: headerRequestId: [7651db14-168d-4cea-9c78-9b341fa2a1ac] model deployment ID: [d036-20241213193118]
+2025-01-02 22:58:39.249 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 383 ms
+2025-01-02 22:58:39.259 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 22:58:39.268 [info] [streamChoices] request done: headerRequestId: [59b85985-a9fe-4a67-a280-aec9c48918d0] model deployment ID: [d036-20241213193118]
+2025-01-02 23:04:34.988 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 660 ms
+2025-01-02 23:04:34.992 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:04:34.998 [info] [streamChoices] request done: headerRequestId: [0bb757df-ef94-4a00-9bc8-ecc444fa8019] model deployment ID: [d056-20241214081454]
+2025-01-02 23:05:53.326 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 597 ms
+2025-01-02 23:05:53.336 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:05:53.356 [info] [streamChoices] request done: headerRequestId: [958bf690-dd8b-4e32-8eda-54f8cee43b72] model deployment ID: [d056-20241214081454]
+2025-01-02 23:05:54.452 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 360 ms
+2025-01-02 23:05:54.459 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:05:54.462 [info] [streamChoices] request done: headerRequestId: [ef486c88-e253-4765-90a2-5ee8e3a708e4] model deployment ID: [d056-20241214081454]
+2025-01-02 23:09:42.311 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 583 ms
+2025-01-02 23:09:42.314 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:09:42.314 [info] [streamChoices] request done: headerRequestId: [d011d384-24ae-4b98-819e-712489d5a263] model deployment ID: [d043-20241213232819]
+2025-01-02 23:09:45.576 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 2313 ms
+2025-01-02 23:09:45.585 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:09:45.596 [info] [streamChoices] request done: headerRequestId: [ad3021c1-bf69-44b2-96b7-45858b9423c2] model deployment ID: [d043-20241213232819]
+2025-01-02 23:09:47.775 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 347 ms
+2025-01-02 23:09:47.781 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:09:47.795 [info] [streamChoices] request done: headerRequestId: [b67a1987-9812-49c7-805a-22acc865053b] model deployment ID: [d043-20241213232819]
+2025-01-02 23:09:49.072 [info] [code-referencing] Calling Match
+2025-01-02 23:09:49.960 [info] [code-referencing] Match found
+2025-01-02 23:09:49.961 [info] [code-referencing] Calling FilesForMatch
+2025-01-02 23:09:50.014 [info] [code-referencing] Calling Match
+2025-01-02 23:09:50.080 [info] [ghostText] Filtered out solution matching next line
+2025-01-02 23:09:50.803 [info] [code-referencing] Match found
+2025-01-02 23:09:50.803 [info] [code-referencing] Calling FilesForMatch
+2025-01-02 23:10:25.277 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 280 ms
+2025-01-02 23:10:25.284 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:10:25.290 [info] [streamChoices] request done: headerRequestId: [58ab15f3-46ad-413f-bc97-5021a5b7f5f7] model deployment ID: [d043-20241213232819]
+2025-01-02 23:10:28.382 [info] [code-referencing] Calling Match
+2025-01-02 23:10:28.676 [info] [code-referencing] No match found
+2025-01-02 23:10:31.308 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 281 ms
+2025-01-02 23:10:31.310 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:10:31.314 [info] [streamChoices] request done: headerRequestId: [05cc3354-f7bb-4642-a972-68dde3056ce4] model deployment ID: [d043-20241213232819]
+2025-01-02 23:10:35.954 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 423 ms
+2025-01-02 23:10:35.958 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:10:35.960 [info] [streamChoices] request done: headerRequestId: [340e7ba4-917b-4578-b592-cd593a1b5fcb] model deployment ID: [d043-20241213232819]
+2025-01-02 23:10:36.605 [info] [code-referencing] Calling Match
+2025-01-02 23:10:36.863 [info] [code-referencing] No match found
+2025-01-02 23:11:22.955 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 491 ms
+2025-01-02 23:11:22.957 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:11:22.960 [info] [streamChoices] request done: headerRequestId: [aa42f097-c4b4-4926-9c2e-f5e6d69d366d] model deployment ID: [d043-20241213232819]
+2025-01-02 23:11:23.672 [info] [code-referencing] Calling Match
+2025-01-02 23:11:23.982 [info] [code-referencing] No match found
+2025-01-02 23:11:25.785 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 421 ms
+2025-01-02 23:11:25.788 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:11:25.792 [info] [streamChoices] request done: headerRequestId: [3a30841e-feba-4376-aed5-1f6ac6ab17b9] model deployment ID: [d043-20241213232819]
+2025-01-02 23:11:26.121 [info] [code-referencing] Calling Match
+2025-01-02 23:11:26.439 [info] [code-referencing] No match found
+2025-01-02 23:11:27.715 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 403 ms
+2025-01-02 23:11:27.722 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:11:27.732 [info] [streamChoices] request done: headerRequestId: [bfc5625e-efb6-43d3-97f9-f227d3dce102] model deployment ID: [d043-20241213232819]
+2025-01-02 23:11:28.053 [info] [code-referencing] Calling Match
+2025-01-02 23:11:28.106 [info] [ghostText] Filtered out solution matching next line
+2025-01-02 23:11:28.317 [info] [code-referencing] No match found
+2025-01-02 23:11:29.304 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 426 ms
+2025-01-02 23:11:29.313 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:11:29.321 [info] [streamChoices] request done: headerRequestId: [9144f891-13a9-488e-8dfe-47750944820d] model deployment ID: [d043-20241213232819]
+2025-01-02 23:11:29.646 [info] [code-referencing] Calling Match
+2025-01-02 23:11:29.908 [info] [code-referencing] No match found
+2025-01-02 23:11:30.643 [info] [fetcher] Using Helix fetcher.
+2025-01-02 23:11:30.644 [info] [code-referencing] Public code references are enabled.
+2025-01-02 23:13:13.244 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 470 ms
+2025-01-02 23:13:13.251 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:13:13.257 [info] [streamChoices] request done: headerRequestId: [e7aa4deb-8c39-472c-ba93-fe5f51732992] model deployment ID: [d043-20241213232819]
+2025-01-02 23:13:43.068 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 294 ms
+2025-01-02 23:13:43.071 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:13:43.078 [info] [streamChoices] request done: headerRequestId: [61e2bc56-61bf-4e0d-a7d4-f07e75d21681] model deployment ID: [d043-20241213232819]
+2025-01-02 23:13:46.729 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 399 ms
+2025-01-02 23:13:46.734 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:13:46.738 [info] [streamChoices] request done: headerRequestId: [d4825cca-67cf-4dab-8ded-a4c39abf56c8] model deployment ID: [d043-20241213232819]
+2025-01-02 23:13:47.827 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 414 ms
+2025-01-02 23:13:47.835 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:13:47.843 [info] [streamChoices] request done: headerRequestId: [c8983731-661d-4ebe-b23f-3ec26dffd91b] model deployment ID: [d043-20241213232819]
+2025-01-02 23:13:48.982 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 332 ms
+2025-01-02 23:13:48.989 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:13:48.996 [info] [streamChoices] request done: headerRequestId: [9689d8e3-c1f4-4c03-9580-c81534c0b2a3] model deployment ID: [d043-20241213232819]
+2025-01-02 23:13:50.176 [info] [code-referencing] Calling Match
+2025-01-02 23:13:51.134 [info] [code-referencing] No match found
+2025-01-02 23:13:59.273 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 361 ms
+2025-01-02 23:13:59.275 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:13:59.275 [info] [streamChoices] request done: headerRequestId: [cfdec8c7-346a-41b3-8da7-1699e1129d76] model deployment ID: [d043-20241213232819]
+2025-01-02 23:14:19.848 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 408 ms
+2025-01-02 23:14:19.852 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-01-02 23:14:19.853 [info] [streamChoices] request done: headerRequestId: [08be09da-528f-4300-bc80-197dc6423f96] model deployment ID: [d043-20241213232819]

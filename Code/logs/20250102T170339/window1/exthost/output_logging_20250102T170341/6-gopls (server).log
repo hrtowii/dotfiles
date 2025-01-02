@@ -1,0 +1,283 @@
+[Info  - 5:04:28 PM] 2025/01/02 17:04:28 Created View (#1)
+	directory=/home/violet/dev/llm-tui
+	view_type="GoMod"
+	root_dir="file:///home/violet/dev/llm-tui"
+	go_version="go version go1.23.4 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/violet/.cache/go-build GOMODCACHE:/home/violet/go/pkg/mod GOPATH:/home/violet/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:23 GoVersionOutput:go version go1.23.4 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 5:04:28 PM] 2025/01/02 17:04:28 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/violet/dev/llm-tui
+	query=[/home/violet/dev/llm-tui/... builtin]
+	packages=2
+	duration=171.269409ms
+
+[Error - 5:04:34 PM] 2025/01/02 17:04:34 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:47:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:04:44 PM] 2025/01/02 17:04:44 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:47:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:04:44 PM] 2025/01/02 17:04:44 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:47:5: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Info  - 5:04:58 PM] 2025/01/02 17:04:58 background imports cache refresh starting
+
+[Info  - 5:04:58 PM] 2025/01/02 17:04:58 background refresh finished after 33.222192ms
+
+[Error - 5:05:02 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 5:05:02 PM] 2025/01/02 17:05:02 go/packages.Load #4
+	view_id="1"
+	snapshot=15
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=141.736585ms
+
+[Info  - 5:05:02 PM] 2025/01/02 17:05:02 go/packages.Load #5
+	view_id="1"
+	snapshot=15
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=124.627934ms
+
+[Info  - 5:05:32 PM] 2025/01/02 17:05:32 background imports cache refresh starting
+
+[Info  - 5:05:32 PM] 2025/01/02 17:05:32 background refresh finished after 1.63842ms
+
+[Info  - 5:08:51 PM] 2025/01/02 17:08:51 go/packages.Load #6
+	view_id="1"
+	snapshot=18
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=224.434334ms
+
+[Info  - 5:08:51 PM] 2025/01/02 17:08:51 go/packages.Load #7
+	view_id="1"
+	snapshot=18
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=177.994485ms
+
+[Error - 5:08:52 PM] 2025/01/02 17:08:52 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:08:52 PM] Request textDocument/formatting failed.
+  Message: 57:9: expected '}', found 'case'
+  Code: 0 
+[Error - 5:09:02 PM] 2025/01/02 17:09:02 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:09:05 PM] 2025/01/02 17:09:05 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:09:06 PM] 2025/01/02 17:09:06 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:09:07 PM] 2025/01/02 17:09:07 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:09:08 PM] 2025/01/02 17:09:08 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Info  - 5:09:21 PM] 2025/01/02 17:09:21 background imports cache refresh starting
+
+[Info  - 5:09:21 PM] 2025/01/02 17:09:21 background refresh finished after 3.749744ms
+
+[Error - 5:09:32 PM] 2025/01/02 17:09:32 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:09:32 PM] 2025/01/02 17:09:32 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:09:32 PM] 2025/01/02 17:09:32 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:10:26 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 5:10:26 PM] 2025/01/02 17:10:26 go/packages.Load #10
+	view_id="1"
+	snapshot=25
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=257.457762ms
+
+[Info  - 5:10:26 PM] 2025/01/02 17:10:26 go/packages.Load #11
+	view_id="1"
+	snapshot=25
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=247.179332ms
+
+[Info  - 5:10:30 PM] 2025/01/02 17:10:30 go/packages.Load #12
+	view_id="1"
+	snapshot=29
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=160.885713ms
+
+[Info  - 5:10:30 PM] 2025/01/02 17:10:30 go/packages.Load #13
+	view_id="1"
+	snapshot=29
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=133.593442ms
+
+[Error - 5:10:31 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: context canceled
+  Code: 0 
+[Info  - 5:10:32 PM] 2025/01/02 17:10:32 go/packages.Load #16
+	view_id="1"
+	snapshot=31
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=227.2584ms
+
+[Info  - 5:10:32 PM] 2025/01/02 17:10:32 go/packages.Load #17
+	view_id="1"
+	snapshot=31
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=218.601445ms
+
+[Info  - 5:10:33 PM] 2025/01/02 17:10:33 go/packages.Load #18
+	view_id="1"
+	snapshot=35
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=179.424031ms
+
+[Info  - 5:10:33 PM] 2025/01/02 17:10:33 go/packages.Load #19
+	view_id="1"
+	snapshot=35
+	directory=/home/violet/dev/llm-tui
+	query=[file=/home/violet/dev/llm-tui/main.go]
+	packages=1
+	duration=145.052432ms
+
+[Error - 5:10:34 PM] 2025/01/02 17:10:34 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:10:34 PM] 2025/01/02 17:10:34 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:10:34 PM] Request textDocument/formatting failed.
+  Message: 57:9: expected '}', found 'case'
+  Code: 0 
+[Info  - 5:10:54 PM] 2025/01/02 17:10:54 background imports cache refresh starting
+
+[Info  - 5:10:54 PM] 2025/01/02 17:10:54 background refresh finished after 1.899341ms
+
+[Error - 5:11:26 PM] 2025/01/02 17:11:26 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:11:32 PM] 2025/01/02 17:11:32 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:11:38 PM] 2025/01/02 17:11:38 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:11:42 PM] 2025/01/02 17:11:42 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'default' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:11:45 PM] 2025/01/02 17:11:45 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:5: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:11:45 PM] Request textDocument/formatting failed.
+  Message: 57:5: expected '}', found 'case'
+  Code: 0 
+[Error - 5:11:47 PM] 2025/01/02 17:11:47 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:5: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:17 PM] 2025/01/02 17:14:17 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:5: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:19 PM] 2025/01/02 17:14:19 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:5: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:19 PM] 2025/01/02 17:14:19 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:5: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:19 PM] 2025/01/02 17:14:19 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:5: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:21 PM] 2025/01/02 17:14:21 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:5: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:21 PM] 2025/01/02 17:14:21 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:5: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:23 PM] 2025/01/02 17:14:23 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 1 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:26 PM] 2025/01/02 17:14:26 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 4 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:26 PM] Request textDocument/formatting failed.
+  Message: 57:9: expected '}', found 'case' (and 3 more errors)
+  Code: 0 
+[Error - 5:14:29 PM] 2025/01/02 17:14:29 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 4 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:33 PM] 2025/01/02 17:14:33 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:57:9: expected '}', found 'case' (and 4 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:37 PM] 2025/01/02 17:14:37 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:5: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:37 PM] Request textDocument/formatting failed.
+  Message: 75:5: expected declaration, found 'if' (and 2 more errors)
+  Code: 0 
+[Error - 5:14:41 PM] 2025/01/02 17:14:41 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:5: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:43 PM] 2025/01/02 17:14:43 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:5: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:44 PM] 2025/01/02 17:14:44 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:5: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:52 PM] 2025/01/02 17:14:52 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:78:5: expected declaration, found 'return' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:14:54 PM] 2025/01/02 17:14:54 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:78:5: expected declaration, found 'return' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:15:00 PM] 2025/01/02 17:15:00 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:9: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:15:00 PM] Request textDocument/formatting failed.
+  Message: 75:9: expected declaration, found 'if' (and 2 more errors)
+  Code: 0 
+[Error - 5:15:02 PM] 2025/01/02 17:15:02 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:9: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:15:07 PM] 2025/01/02 17:15:07 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:9: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Error - 5:15:07 PM] Request textDocument/formatting failed.
+  Message: 75:9: expected declaration, found 'if' (and 2 more errors)
+  Code: 0 
+[Error - 5:15:09 PM] 2025/01/02 17:15:09 imports fixes: allImportsFixes: /home/violet/dev/llm-tui/main.go:75:9: expected declaration, found 'if' (and 2 more errors)
+	file="/home/violet/dev/llm-tui/main.go"
+
+[Info  - 5:18:31 PM] 2025/01/02 17:18:31 Shutdown session
+	shutdown_session=1
+
