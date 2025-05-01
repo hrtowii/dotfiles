@@ -1,0 +1,39 @@
+layout {
+    pane size=1 borderless=true {
+        borderless true
+        plugin location="https://github.com/dj95/zjstatus/releases/latest/download/zjstatus.wasm" {
+            format_left   "{mode}"
+            format_center "#[bg=#1E1E2E]{tabs}"
+            format_right  "#[bg=#1E1E2E,fg=#89b4fa] {session} "
+            format_space  "#[bg=#1E1E2E]"
+
+            border_position "top"
+
+            mode_normal        "#[bg=#1E1E2E,fg=#89b4fa]  #[bg=#1E1E2E,fg=#1E1E2E]█"
+            mode_locked        "#[bg=#6e738d,fg=#1E1E2E]  #[bg=#1E1E2E,fg=#6e738d]█"
+            mode_resize        "#[bg=#f38ba8,fg=#1E1E2E]  #[bg=#1E1E2E,fg=#f38ba8]█"
+            mode_pane          "#[bg=#89b4fa,fg=#1E1E2E]  #[bg=#1E1E2E,fg=#89b4fa]█"
+            mode_tab           "#[bg=#b4befe,fg=#1E1E2E]  #[bg=#1E1E2E,fg=#b4befe]█"
+            mode_scroll        "#[bg=#f9e2af,fg=#1E1E2E] scroll#[bg=#1E1E2E,fg=#f9e2af]█"
+            mode_enter_search  "#[bg=#8aadf4,fg=#1E1E2E] ent-search#[bg=#1E1E2E,fg=#8aadf4]█"
+            mode_search        "#[bg=#8aadf4,fg=#1E1E2E] SEARCH#[bg=#1E1E2E,fg=#8aadf4]█"
+            mode_rename_tab    "#[bg=#b4befe,fg=#1E1E2E] rename-tab#[bg=#1E1E2E,fg=#b4befe]█"
+            mode_rename_pane   "#[bg=#89b4fa,fg=#1E1E2E] rename-pane#[bg=#1E1E2E,fg=#89b4fa]█"
+            mode_session       "#[bg=#74c7ec,fg=#1E1E2E] session#[bg=#1E1E2E,fg=#74c7ec]█"
+            mode_move          "#[bg=#f5c2e7,fg=#1E1E2E] move#[bg=#1E1E2E,fg=#f5c2e7]█"
+            mode_prompt        "#[bg=#8aadf4,fg=#1E1E2E] prompt#[bg=#1E1E2E,fg=#8aadf4]█"
+            mode_tmux          "#[bg=#f5a97f,fg=#1E1E2E]  #[bg=#1E1E2E,fg=#f5a97f]█"
+
+            tab_normal              "#[bg=#1E1E2E,fg=#6C7086]{index}.{name}{floating_indicator}"
+            tab_active              "#[bg=#1E1E2E,fg=#89b4fa]{index}.{name}{fullscreen_indicator}{sync_indicator}{floating_indicator}"
+            tab_floating_indicator   "󰉈 "
+            tab_fullscreen_indicator " 󰊓 "
+            tab_separator           "#[bg=#1E1E2E,fg=#6C7086] ⋮ "
+            tab_sync_indicator       "  "
+        }
+    }
+    pane {
+        borderless true
+        focus true
+    }
+}
