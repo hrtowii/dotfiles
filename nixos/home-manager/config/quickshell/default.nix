@@ -9,7 +9,6 @@
   # Main packages
   home.packages = with pkgs; [
     config.programs.quickshell.finalPackage  # Our wrapped quickshell
-    config.programs.quickshell.caelestia-scripts
     # Qt dependencies
     qt6.qt5compat
     qt6.qtdeclarative
@@ -43,13 +42,12 @@
     bluez
     ddcutil
     brightnessctl
-    
+    hyprpicker
     # Wrapper for caelestia to work with quickshell
     (writeScriptBin "caelestia-quickshell" ''
       #!${pkgs.fish}/bin/fish
       
       # Override for caelestia shell commands to work with quickshell
-      set -l original_caelestia ${config.programs.quickshell.caelestia-scripts}/bin/caelestia
       
       if test "$argv[1]" = "shell" -a -n "$argv[2]"
           set -l cmd $argv[2]

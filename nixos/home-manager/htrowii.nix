@@ -12,7 +12,9 @@
     ./modules/zed.nix
     ./modules/zellij.nix
     ./modules/obsidian.nix
-    # ./config/quickshell
+    ./modules/git.nix
+    ./modules/keyring.nix
+    ./config/quickshell
     ./config.nix
   ];
 
@@ -31,6 +33,7 @@
     btop
     arandr
     wev
+    fish
   ];
 
 }

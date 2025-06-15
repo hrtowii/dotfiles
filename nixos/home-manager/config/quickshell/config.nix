@@ -23,10 +23,10 @@
   # Data files
   xdg.dataFile = {
     # Scripts directory (from the packaged scripts)
-    "caelestia/scripts" = {
-      source = "${config.programs.quickshell.caelestia-scripts}/share/caelestia-scripts";
-      recursive = true;
-    };
+    # "caelestia/scripts" = {
+    #   source = "${config.programs.quickshell.caelestia-scripts}/share/caelestia-scripts";
+    #   recursive = true;
+    # };
   };
 
   # Environment variables
