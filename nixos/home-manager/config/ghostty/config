@@ -1,0 +1,8 @@
+# theme = GruvboxDarkHard
+theme = rose-pine
+keybind = ctrl+z=close_surface
+keybind = ctrl+d=new_split:right
+
+# Empty values reset the configuration to the default value
+font-family = ""
+font-family="Maple Mono NF"
