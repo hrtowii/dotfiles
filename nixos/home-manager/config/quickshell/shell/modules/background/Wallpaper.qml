@@ -8,7 +8,7 @@ import QtQuick
 Item {
     id: root
 
-    property url source: Wallpapers.current ? `file://${Wallpapers.current}` : ""
+    property url source: Wallpapers.current ? `file://${Wallpapers.current}` : "file:///home/htrowii/config/wallpapers/wallpaper.png"
     property Image current: one
 
     anchors.fill: parent

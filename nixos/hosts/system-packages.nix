@@ -4,7 +4,7 @@
     # obs-studio
     spotify
     # flameshot
-    mpv
+    # mpv
     # linuxHeaders
     # appimage-run
     # freetype.dev
@@ -44,8 +44,8 @@
     # wrk
     # hashcat
     # nix-prefetch-git
-    openssl
-    openssl.dev
+    # openssl
+    # openssl.dev
     # libxml2
     # zlib
     # zlib.dev
@@ -55,7 +55,7 @@
     # sqls
     cachix
     # texlive.combined.scheme-full
-    imagemagick
+    # imagemagick
     rclone
   ];
 }

@@ -13,13 +13,12 @@
     ./modules/zellij.nix
     ./modules/obsidian.nix
     ./modules/git.nix
-    ./modules/helix.nix
+    # ./modules/helix.nix
     ./modules/gtk.nix
     ./modules/fonts.nix
     ./modules/firefox.nix
     ./modules/spicetify.nix
-    ./modules/caelestia.nix
-    # ./config/quickshell
+    ./config/quickshell
     #./config/unused/hypr/default.nix
     ./config.nix
   ];

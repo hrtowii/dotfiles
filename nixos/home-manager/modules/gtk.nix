@@ -9,17 +9,13 @@
       package = pkgs.catppuccin-cursors.mochaDark;
     };
 
-    # theme = {
-    #   name = "Catppuccin-Macchiato-Compact-Blue-dark";
-    #   package = pkgs.catppuccin-gtk.override {
-    #     size = "compact";
-    #     accents = ["blue"];
-    #     variant = "macchiato";
-    #   };
-    # };
     theme = {
-      name = "Catppuccin-Dark";
-      package = pkgs.catppuccin-gtk;
+      name = "Catppuccin-Macchiato-Compact-Blue-dark";
+      package = pkgs.catppuccin-gtk.override {
+        size = "compact";
+        accents = ["pink"];
+        variant = "mocha";
+      };
     };
     iconTheme = {
       name = "Papirus-Dark";

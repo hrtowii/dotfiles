@@ -13,7 +13,7 @@
     # Qt dependencies
     qt6.qt5compat
     qt6.qtdeclarative
-    
+
     # Runtime dependencies
     hyprpaper
     imagemagick
@@ -28,7 +28,7 @@
     wayfreeze
     wl-screenrec
     inputs.astal.packages.${pkgs.system}.default
-    
+
     # Additional dependencies
     lm_sensors
     curl
@@ -43,18 +43,18 @@
     bluez
     ddcutil
     brightnessctl
-    
+
     # Wrapper for caelestia to work with quickshell
     (writeScriptBin "caelestia-quickshell" ''
       #!${pkgs.fish}/bin/fish
-      
+
       # Override for caelestia shell commands to work with quickshell
       set -l original_caelestia ${config.programs.quickshell.caelestia-scripts}/bin/caelestia
-      
+
       if test "$argv[1]" = "shell" -a -n "$argv[2]"
           set -l cmd $argv[2]
           set -l args $argv[3..]
-          
+
           switch $cmd
               case "show" "toggle"
                   if test -n "$args[1]"
@@ -88,21 +88,21 @@
   ];
 
   # Systemd service
-  systemd.user.services.caelestia-shell = {
-    Unit = {
-      Description = "Caelestia desktop shell";
-      After = [ "graphical-session.target" ];
-    };
-    Service = {
-      Type = "exec";
-      ExecStart = "${config.programs.quickshell.finalPackage}/bin/qs -c caelestia";
-      Restart = "on-failure";
-      Slice = "app-graphical.slice";
-    };
-    Install = {
-      WantedBy = [ "graphical-session.target" ];
-    };
-  };
+  # systemd.user.services.caelestia-shell = {
+  #   Unit = {
+  #     Description = "Caelestia desktop shell";
+  #     After = [ "graphical-session.target" ];
+  #   };
+  #   Service = {
+  #     Type = "exec";
+  #     ExecStart = "${config.programs.quickshell.finalPackage}/bin/qs -c caelestia";
+  #     Restart = "on-failure";
+  #     Slice = "app-graphical.slice";
+  #   };
+  #   Install = {
+  #     WantedBy = [ "graphical-session.target" ];
+  #   };
+  # };
 
   # Shell aliases
   home.shellAliases = {

@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     home-manager = {
       url = "github:nix-community/home-manager/release-25.05";
-      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.nixpkgs.follows = "nixpkgs";,
     };
     LazyVim = {
       url = "github:matadaniel/LazyVim-module";
@@ -16,14 +16,14 @@
     };
     hyprland.url = "github:hyprwm/Hyprland";
     spicetify-nix.url = "github:Gerg-L/spicetify-nix";
-    # ags = {
-    #   url = "github:aylur/ags";
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
-    # astal = {
-    #   url = "github:aylur/astal";
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
+    ags = {
+      url = "github:aylur/ags";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    astal = {
+      url = "github:aylur/astal";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     # claude-desktop = {
     #   url = "github:k3d3/claude-desktop-linux-flake";
     #   inputs.nixpkgs.follows = "nixpkgs";

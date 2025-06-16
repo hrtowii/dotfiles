@@ -10,7 +10,7 @@ let
       owner = "caelestia-dots";
       repo = "scripts";
       rev = "main";
-      sha256 = "196z5hgd8d3vpa4bkxizgxnc3fj4aakais3i6a30ankanya4df5j";
+      sha256 = "sha256-fGmOP1pVNZ9SXZIzEjUxWDXpUPBIFI/oRyINSUTarcM=";
     };
 
     nativeBuildInputs = with pkgs; [
@@ -34,7 +34,7 @@ let
         sed -i 's|(dirname (status filename))/data|$HOME/.local/share/caelestia|g' "$file"
         sed -i 's|$src/data|$HOME/.local/share/caelestia|g' "$file"
       done
-      
+
       # For Python files
       find . -name "*.py" -type f | while read -r file; do
         sed -i 's|os.path.join(os.path.dirname(__file__), "..", "data")|os.path.expanduser("~/.local/share/caelestia")|g' "$file"
@@ -45,30 +45,30 @@ let
     installPhase = ''
       mkdir -p $out/bin
       mkdir -p $out/share/caelestia-scripts
-      
+
       # Copy all the scripts to share directory
       cp -r * $out/share/caelestia-scripts/
-      
+
       # Fix Python shebangs for NixOS with the wrapped Python
       find $out/share/caelestia-scripts -name "*.py" -type f -exec sed -i '1s|^#!/bin/python3|#!${pkgs.python3.withPackages (ps: with ps; [ materialyoucolor pillow ])}/bin/python3|' {} \;
       find $out/share/caelestia-scripts -name "*.py" -type f -exec sed -i '1s|^#!/bin/python|#!${pkgs.python3.withPackages (ps: with ps; [ materialyoucolor pillow ])}/bin/python|' {} \;
       find $out/share/caelestia-scripts -name "*.py" -type f -exec sed -i '1s|^#!/usr/bin/env python3|#!${pkgs.python3.withPackages (ps: with ps; [ materialyoucolor pillow ])}/bin/python3|' {} \;
       find $out/share/caelestia-scripts -name "*.py" -type f -exec sed -i '1s|^#!/usr/bin/env python|#!${pkgs.python3.withPackages (ps: with ps; [ materialyoucolor pillow ])}/bin/python|' {} \;
-      
+
       # Make Python scripts executable
       find $out/share/caelestia-scripts -name "*.py" -type f -exec chmod +x {} \;
-      
+
       # Create a setup script that ensures data directories exist
       cat > $out/bin/caelestia-setup <<EOF
       #!/bin/sh
       DATA_HOME="\$HOME/.local/share/caelestia"
       STATE_HOME="\$HOME/.local/state/caelestia"
       CACHE_HOME="\$HOME/.cache/caelestia"
-      
+
       mkdir -p "\$DATA_HOME/schemes/dynamic"
       mkdir -p "\$STATE_HOME/wallpaper"
       mkdir -p "\$CACHE_HOME/schemes"
-      
+
       # Copy data files if they don't exist
       if [ ! -d "\$DATA_HOME/schemes" ] && [ -d "$out/share/caelestia-scripts/data/schemes" ]; then
         cp -r "$out/share/caelestia-scripts/data/schemes" "\$DATA_HOME/"
@@ -81,7 +81,7 @@ let
       fi
       EOF
       chmod +x $out/bin/caelestia-setup
-      
+
       # Create wrapper for main script with all required tools in PATH
       makeWrapper ${pkgs.fish}/bin/fish $out/bin/caelestia \
         --add-flags "$out/share/caelestia-scripts/main.fish" \
@@ -133,7 +133,7 @@ in
       default = quickshell-wrapped;
       description = "The wrapped quickshell package with Qt dependencies";
     };
-    
+
     caelestia-scripts = lib.mkOption {
       type = lib.types.package;
       default = caelestia-scripts;

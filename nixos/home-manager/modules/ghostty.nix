@@ -11,7 +11,7 @@
     package = inputs.ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default;
 
     settings = {
-      font-family = "JetBrains Mono";
+      font-family = "Maple Mono NF";
       font-size = 12;
 
       command = "zsh";
