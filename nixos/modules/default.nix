@@ -1,28 +1,33 @@
 {pkgs, ...}: {
   imports = [
+    ./docker.nix
+    ./steam.nix
+    ./python.nix
+    ./npm.nix
+    ./tailscale.nix
+    ./rust.nix
+    ./ollama.nix
+    ./flatpak.nix
+    ./hyprland.nix
+    ./keyring.nix
+    ./uwsm.nix
+    ./dotnet.nix
+    ./nvidia.nix
+    ./zsh.nix
 #     ./audio.nix
 #     ./bluetooth.nix
 #     ./boot.nix
-    ./docker.nix
 #     ./env.nix
 #     ./fonts.nix
 #     ./net.nix
 #     ./nixos.nix
 #     ./nvidia.nix
-    ./steam.nix
 #     ./timezone.nix
 #     ./user.nix
-    ./python.nix
-    ./npm.nix
-    ./tailscale.nix
 #     ./udiskie.nix
 #     ./ld.nix
-    ./rust.nix
 #     ./x11.nix
 #     ./i3-xfce.nix
-    ./ollama.nix
-    ./flatpak.nix
-    ./hyprland.nix
 #     ./cups.nix
   ];
 

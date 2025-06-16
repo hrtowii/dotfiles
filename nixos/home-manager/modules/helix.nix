@@ -2,7 +2,7 @@
   programs.helix = {
     enable = true;
 
-    defaultEditor = true;
+    defaultEditor = false;
 
     settings = {
       theme = "gruvbox_dark_soft";

@@ -1,10 +1,10 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
+# source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 alias ldid="/Users/ibarahime/Downloads/ldid_macosx_arm64"
 alias ct_bypass="/Users/ibarahime/ChOma/ct_bypass"
 alias ipaddr="ipconfig getifaddr en0"
@@ -30,7 +30,7 @@ alias x86brew='arch -x86_64 /usr/local/bin/brew'
 alias start_openwebui='docker run -d -p 127.0.0.1:3000:8080 -e WEBUI_AUTH=False -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main'
 alias disarm="~/Downloads/disarm/binaries/disarm.AAPLSi"
 alias discordo="/Users/ibarahime/dev/discordo/discordo"
-export PATH="/Users/ibarahime/.bun/bin:$PATH"
+# export PATH="/Users/ibarahime/.bun/bin:$PATH"
 alias create_jupyter_kernel="uv venv --seed; uv pip install pydantic; uv pip install jupyterlab; .venv/bin/jupyter lab"
 create_vite_tailwind_app() {
     # Check if the app name is provided
@@ -67,14 +67,14 @@ create_vite_tailwind_app() {
 }
 
 # bun completions
-[ -s "/Users/ibarahime/.bun/_bun" ] && source "/Users/ibarahime/.bun/_bun"
+# [ -s "/Users/ibarahime/.bun/_bun" ] && source "/Users/ibarahime/.bun/_bun"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 # Load Angular CLI autocompletion.
 #source <(ng completion script)
-cfetch
+# cfetch
 # echo """
 # TMUX SHORTCUTS:
 # ctrl-b + c -> creates new window
@@ -97,7 +97,7 @@ nvim shortcuts:
 :shift H in neotree to toggle showing dotfiles
 """
 eval "$(uv generate-shell-completion zsh)"
-
+fastfetch
 
 # Created by `pipx` on 2024-05-16 03:05:45
 # export PATH="$PATH:/Users/ibarahime/.local/bin"# export PATH="/opt/homebrew/opt/ffmpeg@5/bin:$PATH"
@@ -120,8 +120,8 @@ eval "$(uv generate-shell-completion zsh)"
 # export PATH=/usr/local/anaconda3/bin:$PATH
 # export PATH=/opt/homebrew/anaconda3/bin:$PATH
 export LOCAL_NOTEBOOK_DEV=1
-export PATH="/opt/homebrew/opt/dotnet@8/bin:$PATH"
-export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
+# export PATH="/opt/homebrew/opt/dotnet@8/bin:$PATH"
+# export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
 function current_dir() {
     local current_dir=$PWD
     if [[ $current_dir == $HOME ]]; then

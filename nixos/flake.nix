@@ -52,7 +52,11 @@
           nixpkgs = {
             config = {
               allowUnfree = true;
+              allowUnfreePredicate = (_: true);
               allowAliases = true;
+              permittedInsecurePackages = [
+                "electron-25.9.0" # Obsidian
+              ];
             };
             hostPlatform = system;
 

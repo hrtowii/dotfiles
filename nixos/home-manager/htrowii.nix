@@ -8,13 +8,17 @@
     ./modules/ghostty.nix
     ./modules/nvim.nix
     ./modules/starship.nix
-    ./modules/vscode.nix
+    # ./modules/vscode.nix
     ./modules/zed.nix
     ./modules/zellij.nix
     ./modules/obsidian.nix
     ./modules/git.nix
-    ./modules/keyring.nix
-    ./config/quickshell
+    ./modules/helix.nix
+    ./modules/gtk.nix
+    ./modules/fonts.nix
+    ./modules/firefox.nix
+    # ./config/quickshell
+    #./config/unused/hypr/default.nix
     ./config.nix
   ];
 
@@ -34,6 +38,14 @@
     arandr
     wev
     fish
+    catppuccin-cursors.macchiatoBlue
+    catppuccin-gtk
+    papirus-folders
+    material-symbols
+    nerd-fonts.jetbrains-mono
+    ibm-plex
+    oh-my-zsh
+    eza
   ];
 
 }
