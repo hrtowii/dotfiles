@@ -5,19 +5,22 @@
     enable = true;
 
     cursorTheme = {
-        name = "Catppuccin-Macchiato-Blue";
-        package = pkgs.catppuccin-cursors.macchiatoBlue;
+      name = "Catppuccin-Mocha-Dark-Cursors";
+      package = pkgs.catppuccin-cursors.mochaDark;
     };
 
+    # theme = {
+    #   name = "Catppuccin-Macchiato-Compact-Blue-dark";
+    #   package = pkgs.catppuccin-gtk.override {
+    #     size = "compact";
+    #     accents = ["blue"];
+    #     variant = "macchiato";
+    #   };
+    # };
     theme = {
-      name = "Catppuccin-Macchiato-Compact-Blue-dark";
-      package = pkgs.catppuccin-gtk.override {
-        size = "compact";
-        accents = ["blue"];
-        variant = "macchiato";
-      };
+      name = "Catppuccin-Dark";
+      package = pkgs.catppuccin-gtk;
     };
-
     iconTheme = {
       name = "Papirus-Dark";
       package = pkgs.papirus-folders;

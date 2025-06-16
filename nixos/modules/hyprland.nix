@@ -17,5 +17,6 @@
       wl-clipboard
       wofi
       waybar
+      hyprshot
     ];
 }

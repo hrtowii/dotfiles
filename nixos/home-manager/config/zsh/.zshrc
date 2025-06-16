@@ -84,18 +84,18 @@ create_vite_tailwind_app() {
 # ctrl-b + x -> closes selected panel
 # ctrl-b + arrowkey -> moves to selected tmux panel
 # """
-echo """
-ZELLIJ SHORTCUTS:
-alt + p -> pane mode, X for delete, C for create,
-alt + r -> resize
-alt + t -> create tab
-"""
-echo """
-nvim shortcuts:
-:Neotree
-:Telescope
-:shift H in neotree to toggle showing dotfiles
-"""
+# echo """
+# ZELLIJ SHORTCUTS:
+# alt + p -> pane mode, X for delete, C for create,
+# alt + r -> resize
+# alt + t -> create tab
+# """
+# echo """
+# nvim shortcuts:
+# :Neotree
+# :Telescope
+# :shift H in neotree to toggle showing dotfiles
+# """
 eval "$(uv generate-shell-completion zsh)"
 fastfetch
 

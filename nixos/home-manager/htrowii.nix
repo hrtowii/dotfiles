@@ -17,6 +17,7 @@
     ./modules/gtk.nix
     ./modules/fonts.nix
     ./modules/firefox.nix
+    ./modules/spicetify.nix
     # ./config/quickshell
     #./config/unused/hypr/default.nix
     ./config.nix
