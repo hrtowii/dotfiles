@@ -24,7 +24,7 @@
       fd
     ])
     ++ (with pkgs.pythonPackages; [
-      aubio
+      # aubio is python 2 in nixos, what???
       pyaudio
       numpy
     ]);

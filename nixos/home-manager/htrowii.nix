@@ -18,6 +18,7 @@
     ./modules/fonts.nix
     ./modules/firefox.nix
     ./modules/spicetify.nix
+    ./modules/caelestia.nix
     # ./config/quickshell
     #./config/unused/hypr/default.nix
     ./config.nix

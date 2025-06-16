@@ -57,6 +57,7 @@
               allowAliases = true;
               permittedInsecurePackages = [
                 "electron-25.9.0" # Obsidian
+                "python-2.7.18.8"
               ];
             };
             hostPlatform = system;
