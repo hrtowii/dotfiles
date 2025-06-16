@@ -27,5 +27,5 @@ in
 
   theme = spicePkgs.themes.ziro;
   colorScheme = "rose-pine";
-}
+};
 }
