@@ -14,6 +14,7 @@
     ./dotnet.nix
     ./nvidia.nix
     ./zsh.nix
+    ./tablet.nix
 #     ./audio.nix
 #     ./bluetooth.nix
 #     ./boot.nix
