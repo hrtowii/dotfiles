@@ -61,6 +61,7 @@
                       exec ${config.programs.quickshell.finalPackage}/bin/qs -c caelestia ipc call drawers $cmd $args[1]
                   else
                       echo "Usage: caelestia shell $cmd <drawer>"
+
                       exit 1
                   end
               case "media"
