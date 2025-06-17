@@ -34,7 +34,7 @@ alias start_openwebui='docker run -d -p 127.0.0.1:3000:8080 -e WEBUI_AUTH=False 
 alias create_jupyter_kernel="uv venv --seed; uv pip install pydantic; uv pip install jupyterlab; .venv/bin/jupyter lab"
 
 alias nix-clean-generations="sudo nix-env --delete-generations --profile /nix/var/nix/profiles/system +5"
-alias nix-rebuild-system="sudo nixos-rebuild switch --flake /home/htrowii/rowii-dotfiles/dotfiles/nix#nixos"
+alias nix-rebuild-system="sudo nixos-rebuild switch --flake /home/htrowii/rowii-dotfiles/dotfiles/nixos#nixos"
 create_vite_tailwind_app() {
     # Check if the app name is provided
     if [ -z "$1" ]; then
