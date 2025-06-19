@@ -15,6 +15,7 @@
     ./nvidia.nix
     ./zsh.nix
     ./tablet.nix
+    ./env.nix
 #     ./audio.nix
 #     ./bluetooth.nix
 #     ./boot.nix
