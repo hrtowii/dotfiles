@@ -4,6 +4,8 @@
   ...
 }: {
   environment.shellInit = ''
+    export PATH="$PATH:${pkgs.rustc}/bin"
+    export PATH="$PATH:${pkgs.cargo}/bin"
     if [ -d "$HOME/.cargo/bin" ]; then
       export PATH="$PATH:$HOME/.cargo/bin"
     fi
@@ -18,11 +20,15 @@
     CC = "${pkgs.gcc}/bin/gcc";
     LUA_PATH = "${pkgs.luajit}/share/lua/5.1/?.lua;${pkgs.luajit}/share/lua/5.1/?/init.lua;;";
     LUA_CPATH = "${pkgs.luajit}/lib/lua/5.1/?.so;;";
+
     PKG_CONFIG_PATH = lib.makeSearchPath "lib/pkgconfig" [
+      pkgs.openssl.dev
+      pkgs.rustc
+      pkgs.cargo
       # pkgs.mesa
       # pkgs.openssl.dev
       # pkgs.libxml2.dev
-      # pkgs.zlib.dev
+      pkgs.zlib.dev
       # pkgs.portaudio
       # pkgs.alsa-lib
       pkgs.stdenv.cc.cc
@@ -38,7 +44,9 @@
       # pkgs.cudatoolkit
       # pkgs.mangohud
       # pkgs.portaudio
-      pkgs.alsa-lib
+      pkgs.rustc
+      pkgs.cargo
+      pkgs.zlib.dev
       pkgs.stdenv.cc.cc.lib
       # pkgs.xorg.libX11
       # pkgs.xorg.libXtst

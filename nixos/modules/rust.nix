@@ -14,18 +14,11 @@
       rustup
       cargo-edit
       cargo-watch
-      cargo-outdated
-      cargo-audit
+      # cargo-outdated
+      # cargo-audit
       rust-analyzer
       clippy
-      minijinja-cli
+      # minijinja-cli
     ];
-
-    environment.variables = {
-      PATH = [
-        "${pkgs.rustc}/bin"
-        "${pkgs.cargo}/bin"
-      ];
-    };
   };
 }

@@ -4,4 +4,5 @@
     # roblox
     # flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     # flatpak install flathub org.vinegarhq.Sober
+    # flatpak install flathub com.usebottles.bottles
 }

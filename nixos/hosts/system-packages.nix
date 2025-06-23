@@ -57,5 +57,6 @@
     # texlive.combined.scheme-full
     # imagemagick
     rclone
+    openssl
   ];
 }
