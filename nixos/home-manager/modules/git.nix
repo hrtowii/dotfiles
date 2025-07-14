@@ -7,7 +7,7 @@
   programs.git = {
     enable = true;
 
-    userName = "htrowii";
+    userName = "violet";
     userEmail = "leonghongkit@gmail.com";
 
     extraConfig = {

@@ -24,8 +24,8 @@
     ./config.nix
   ];
 
-  home.username = "htrowii";
-  home.homeDirectory = "/home/htrowii";
+  home.username = "violet";
+  home.homeDirectory = "/home/violet";
   home.stateVersion = "24.11";
   programs.home-manager.enable = true;
   home.enableNixpkgsReleaseCheck = false;
