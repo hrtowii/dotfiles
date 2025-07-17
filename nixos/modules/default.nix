@@ -5,16 +5,16 @@
     ./python.nix
     ./npm.nix
     ./tailscale.nix
-    ./rust.nix
-    ./ollama.nix
+ #   ./rust.nix
+#    ./ollama.nix
     ./flatpak.nix
     ./hyprland.nix
     ./keyring.nix
     ./uwsm.nix
     ./dotnet.nix
-    ./nvidia.nix
+    #./nvidia.nix
     ./zsh.nix
-    ./tablet.nix
+    #./tablet.nix
     ./env.nix
 #     ./audio.nix
 #     ./bluetooth.nix
@@ -34,7 +34,7 @@
   ];
 
   npm.enable = true;
-  rust.enable = true;
+#  rust.enable = true;
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   programs.mtr.enable = true;

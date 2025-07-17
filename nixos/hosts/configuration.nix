@@ -70,7 +70,7 @@
     #media-session.enable = true;
   };
 
-  users.users.htrowii = {
+  users.users.violet = {
     isNormalUser = true;
     description = "saccade";
     extraGroups = [ "networkmanager" "wheel" ];
@@ -79,7 +79,7 @@
 
   # Enable automatic login for the user.
   # services.displayManager.autoLogin.enable = true;
-  # services.displayManager.autoLogin.user = "htrowii";
+  # services.displayManager.autoLogin.user = "violet";
   nixpkgs.config.allowUnfree = true;
 
 
