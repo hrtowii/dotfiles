@@ -19,6 +19,7 @@
     ./modules/firefox.nix
     ./modules/spicetify.nix
     ./modules/osu.nix
+    ./modules/zen.nix
     ./config/quickshell
     #./config/unused/hypr/default.nix
     ./config.nix
