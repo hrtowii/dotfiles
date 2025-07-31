@@ -7,7 +7,8 @@ in
       ".config/zellij".source = "${configDir}/zellij";
       ".config/ghostty".source="${configDir}/ghostty";
       ".config/spicetify".source="${configDir}/spicetify";
-      ".config/nvim".source = "${configDir}/nvim";
+      "./.config/nvim".source = config.lib.file.mkOutOfStoreSymlink "${configDir}/nvim";
+      # ".config/nvim".source = "${configDir}/nvim";
       ".config/neofetch".source = "${configDir}/neofetch";
       # quickshell dots (broken)
       # ".config/hypr".source = "${configDir}/hypr";

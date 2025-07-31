@@ -16,16 +16,16 @@
     wineWowPackages.stable
     winetricks
     protontricks
-    gamemode
-    mangohud
-    vulkan-tools
-    vulkan-loader
-    vulkan-headers
-    vulkan-validation-layers
-    libstrangle
-    piper
-    portaudio
-    alsa-lib
-    libglvnd
+    # gamemode
+    # mangohud
+    # vulkan-tools
+    # vulkan-loader
+    # vulkan-headers
+    # vulkan-validation-layers
+    # libstrangle
+    # piper
+    # portaudio
+    # alsa-lib
+    # libglvnd
   ];
 }

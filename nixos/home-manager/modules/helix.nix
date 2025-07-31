@@ -1,6 +1,6 @@
 {
   programs.helix = {
-    enable = false;
+    enable = true;
 
     defaultEditor = false;
 

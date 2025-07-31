@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   imports = [
     ./docker.nix
-    # ./steam.nix
+    ./steam.nix
     ./python.nix
     ./npm.nix
     ./tailscale.nix
