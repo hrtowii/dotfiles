@@ -387,12 +387,12 @@ ui {
 //   - true
 //   - false (Default)
 // 
-simplified_ui true
+simplified_ui false
  
 // Choose the theme that is specified in the themes section.
 // Default: default
 // 
-theme "mytheme"
+theme "default"
  
 // Choose the base input mode of zellij.
 // Default: normal

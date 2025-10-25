@@ -34,10 +34,10 @@ yabai -m config external_bar all:33:0 \
   mouse_drop_action swap \
   \
   top_padding 10 \
-  bottom_padding 4 \
-  left_padding 4 \
-  right_padding 4 \
-  window_gap 5
+  bottom_padding 8 \
+  left_padding 8 \
+  right_padding 8 \
+  window_gap 7
 
 # Exclude problematic apps from being managed:
 yabai -m rule --add app="^(LuLu|Calculator|Software Update|Dictionary|System Preferences|System Settings|Photo Booth|Archive Utility|Python|LibreOffice|App Store|Steam|Alfred|Stickies)$" manage=off
@@ -48,6 +48,7 @@ yabai -m rule --add label="Select file to save to" app="^Inkscape$" title="Selec
 
 yabai -m config layout bsp
 # borders active_color=0xfff5e0dc inactive_color=0xff494d64 width=3.0 &
+borders active_color=0xffebbcba inactive_color=0x00494d64 width=3.0 &
 echo "yabai configuration loaded.."
 
 # active_window_border_color 0xffe1e3e4   \

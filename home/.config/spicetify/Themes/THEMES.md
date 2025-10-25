@@ -5,6 +5,10 @@ Here you can find a preview of all the themes. Some of them may have different c
 ## SharkBlue
 ![SharkBlue Screenshot](SharkBlue/screenshot.png)
 
+## Blackout
+
+![Blackout](Blackout/images/home.png)
+
 ## BurntSienna
 
 ![BurntSienna Screenshot](BurntSienna/screenshot.png)
@@ -208,6 +212,10 @@ Here you can find a preview of all the themes. Some of them may have different c
 #### Dracula
 
 ![Dracula](text/screenshots/Dracula.png)
+
+#### EverforestDarkMedium
+
+![EverforestDarkMedium](text/screenshots/EverforestDarkMedium.png)
 
 #### ForestGreen
 

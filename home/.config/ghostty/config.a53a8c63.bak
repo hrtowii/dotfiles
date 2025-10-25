@@ -7,11 +7,10 @@ keybind = ctrl+d=new_split:right
 font-family = ""
 font-size=14.5
 # font-family="Maple Mono NF"
-# font-family=""
+font-family="CaskaydiaCove NF"
 title=""
 macos-titlebar-style="tabs"
 macos-titlebar-proxy-icon="hidden"
 clipboard-read = allow
 clipboard-write = allow
 copy-on-select = clipboard
-keybind = shift+enter=text:\x1b\r
