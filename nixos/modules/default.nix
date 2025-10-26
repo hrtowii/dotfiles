@@ -6,7 +6,7 @@
     ./npm.nix
     ./tailscale.nix
     ./rust.nix
-    ./ollama.nix
+#    ./ollama.nix
     ./flatpak.nix
     ./hyprland.nix
     ./keyring.nix
@@ -16,6 +16,8 @@
     ./zsh.nix
     ./tablet.nix
     ./env.nix
+    ./spotify-player.nix
+    ./slack.nix
 #     ./audio.nix
 #     ./bluetooth.nix
 #     ./boot.nix

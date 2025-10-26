@@ -1,3 +1,3 @@
-timeout 300 'swaylock'
-timeout 420 'systemctl suspend'
+timeout 3000 'swaylock'
+timeout 4200 'systemctl suspend'
 before-sleep 'swaylock'

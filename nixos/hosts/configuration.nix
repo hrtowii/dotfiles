@@ -70,10 +70,10 @@
     #media-session.enable = true;
   };
 
-  users.users.htrowii = {
+  users.users.ibarahime = {
     isNormalUser = true;
     description = "saccade";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     shell = pkgs.zsh;
   };
 

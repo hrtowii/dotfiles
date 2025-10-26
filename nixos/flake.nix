@@ -2,12 +2,13 @@
   description = "NixOS configuration for rowii";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nix-ld.url = "github:Mic92/nix-ld";
     unstable = {
       url = "github:NixOS/nixpkgs/nixos-unstable";
     };
     home-manager = {
-      url = "github:nix-community/home-manager/release-25.05";
+      url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     LazyVim = {
@@ -38,8 +39,8 @@
       # to have it up-to-date or simply don't specify the nixpkgs input
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    quickshell = {
-      url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
+    caelestia-shell = {
+      url = "github:caelestia-dots/shell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -49,6 +50,8 @@
     nixpkgs,
     home-manager,
     hyprland,
+    ghostty,
+    nix-ld,
     ...
   } @ inputs: let
     system = "x86_64-linux";
@@ -58,6 +61,13 @@
       inherit system;
       specialArgs = {inherit inputs;};
       modules = [
+              nix-ld.nixosModules.nix-ld
+              { programs.nix-ld.dev.enable = true; }
+          ({ pkgs, ... }: {
+                    environment.systemPackages = [
+                      ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default
+                    ];
+                  })
         {
           nixpkgs = {
             config = {
@@ -80,7 +90,7 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             extraSpecialArgs = {inherit inputs;};
-            users.htrowii = import ./home-manager/htrowii.nix;
+            users.ibarahime = import ./home-manager/htrowii.nix;
 	    backupFileExtension = "backup-" + pkgs.lib.readFile "${pkgs.runCommand "timestamp" { env.when = self.sourceInfo.lastModified; } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
           };
         }

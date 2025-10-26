@@ -5,7 +5,7 @@
 }: {
   imports = [
     ./modules/discord.nix
-    ./modules/ghostty.nix
+    # ./modules/ghostty.nix
     ./modules/nvim.nix
     ./modules/starship.nix
     # ./modules/vscode.nix
@@ -20,14 +20,15 @@
     ./modules/spicetify.nix
     ./modules/osu.nix
     ./modules/zen.nix
-    ./config/quickshell
+    ./modules/caelestia.nix
+    # ./config/quickshell
     #./config/unused/hypr/default.nix
     ./config.nix
   ];
 
-  home.username = "htrowii";
-  home.homeDirectory = "/home/htrowii";
-  home.stateVersion = "24.11";
+  home.username = "ibarahime";
+  home.homeDirectory = "/home/ibarahime";
+  home.stateVersion = "25.11";
   programs.home-manager.enable = true;
   home.enableNixpkgsReleaseCheck = false;
   xdg.mime.enable = false;
@@ -41,7 +42,7 @@
     arandr
     wev
     fish
-    catppuccin-cursors.macchiatoBlue
+    catppuccin-cursors.mochaDark
     catppuccin-gtk
     papirus-folders
     material-symbols
@@ -49,6 +50,7 @@
     ibm-plex
     oh-my-zsh
     eza
+    fastfetch
   ];
 
 }

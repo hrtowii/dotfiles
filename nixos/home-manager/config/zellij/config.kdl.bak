@@ -12,6 +12,7 @@ keybinds clear-defaults=true {
         bind "e" { TogglePaneEmbedOrFloating; SwitchToMode "normal"; }
         bind "f" { ToggleFocusFullscreen; SwitchToMode "normal"; }
         bind "h" { MoveFocus "left"; }
+        bind "i" { TogglePanePinned; SwitchToMode "normal"; }
         bind "j" { MoveFocus "down"; }
         bind "k" { MoveFocus "up"; }
         bind "l" { MoveFocus "right"; }
@@ -19,6 +20,7 @@ keybinds clear-defaults=true {
         bind "p" { SwitchFocus; }
         bind "Ctrl p" { SwitchToMode "normal"; }
         bind "r" { NewPane "right"; SwitchToMode "normal"; }
+        bind "s" { NewPane "stacked"; SwitchToMode "normal"; }
         bind "w" { ToggleFloatingPanes; SwitchToMode "normal"; }
         bind "z" { TogglePaneFrames; SwitchToMode "normal"; }
     }
@@ -94,6 +96,13 @@ keybinds clear-defaults=true {
         bind "w" { SearchToggleOption "Wrap"; }
     }
     session {
+        bind "a" {
+            LaunchOrFocusPlugin "zellij:about" {
+                floating true
+                move_to_focused_tab true
+            }
+            SwitchToMode "normal"
+        }
         bind "c" {
             LaunchOrFocusPlugin "configuration" {
                 floating true
@@ -104,6 +113,13 @@ keybinds clear-defaults=true {
         bind "Ctrl o" { SwitchToMode "normal"; }
         bind "p" {
             LaunchOrFocusPlugin "plugin-manager" {
+                floating true
+                move_to_focused_tab true
+            }
+            SwitchToMode "normal"
+        }
+        bind "s" {
+            LaunchOrFocusPlugin "zellij:share" {
                 floating true
                 move_to_focused_tab true
             }
@@ -136,6 +152,8 @@ keybinds clear-defaults=true {
         bind "Alt l" { MoveFocusOrTab "right"; }
         bind "Alt n" { NewPane; }
         bind "Alt o" { MoveTab "right"; }
+        bind "Alt p" { TogglePaneInGroup; }
+        bind "Alt Shift p" { ToggleGroupMarking; }
         bind "Ctrl q" { Quit; }
     }
     shared_except "locked" "move" {
@@ -229,6 +247,7 @@ keybinds clear-defaults=true {
 // Plugin aliases - can be used to change the implementation of Zellij
 // changing these requires a restart to take effect
 plugins {
+    about location="zellij:about"
     compact-bar location="zellij:compact-bar"
     configuration location="zellij:configuration"
     filepicker location="zellij:strider" {
@@ -248,6 +267,9 @@ plugins {
 // eg. "file:/path/to/my-plugin.wasm"
 // eg. "https://example.com/my-plugin.wasm"
 load_plugins {
+}
+web_client {
+    font "monospace"
 }
  
 // Use a simplified UI without special fonts (arrow glyphs)
@@ -426,3 +448,85 @@ load_plugins {
 // Default: true (if the host terminal supports it)
 // 
 // support_kitty_keyboard_protocol false
+// Whether to make sure a local web server is running when a new Zellij session starts.
+// This web server will allow creating new sessions and attaching to existing ones that have
+// opted in to being shared in the browser.
+// When enabled, navigate to http://127.0.0.1:8082
+// (Requires restart)
+// 
+// Note: a local web server can still be manually started from within a Zellij session or from the CLI.
+// If this is not desired, one can use a version of Zellij compiled without
+// `web_server_capability`
+// 
+// Possible values:
+// - true
+// - false
+// Default: false
+// 
+// web_server false
+// Whether to allow sessions started in the terminal to be shared through a local web server, assuming one is
+// running (see the `web_server` option for more details).
+// (Requires restart)
+// 
+// Note: This is an administrative separation and not intended as a security measure.
+// 
+// Possible values:
+// - "on" (allow web sharing through the local web server if it
+// is online)
+// - "off" (do not allow web sharing unless sessions explicitly opt-in to it)
+// - "disabled" (do not allow web sharing and do not permit sessions started in the terminal to opt-in to it)
+// Default: "off"
+// 
+// web_sharing "off"
+// A path to a certificate file to be used when setting up the web client to serve the
+// connection over HTTPs
+// 
+// web_server_cert "/path/to/cert.pem"
+// A path to a key file to be used when setting up the web client to serve the
+// connection over HTTPs
+// 
+// web_server_key "/path/to/key.pem"
+/// Whether to enforce https connections to the web server when it is bound to localhost
+/// (127.0.0.0/8)
+///
+/// Note: https is ALWAYS enforced when bound to non-local interfaces
+///
+/// Default: false
+// 
+// enforce_https_for_localhost false
+ 
+// Whether to stack panes when resizing beyond a certain size
+// Default: true
+// 
+// stacked_resize false
+ 
+// Whether to show tips on startup
+// Default: true
+// 
+// show_startup_tips false
+ 
+// Whether to show release notes on first version run
+// Default: true
+// 
+// show_release_notes false
+ 
+// Whether to enable mouse hover effects and pane grouping functionality
+// default is true
+// advanced_mouse_actions false
+ 
+// The ip address the web server should listen on when it starts
+// Default: "127.0.0.1"
+// (Requires restart)
+// web_server_ip "127.0.0.1"
+ 
+// The port the web server should listen on when it starts
+// Default: 8082
+// (Requires restart)
+// web_server_port 8082
+ 
+// A command to run (will be wrapped with sh -c and provided the RESURRECT_COMMAND env variable) 
+// after Zellij attempts to discover a command inside a pane when resurrecting sessions, the STDOUT
+// of this command will be used instead of the discovered RESURRECT_COMMAND
+// can be useful for removing wrappers around commands
+// Note: be sure to escape backslashes and similar characters properly
+// post_command_discovery_hook "echo $RESURRECT_COMMAND | sed <your_regex_here>"

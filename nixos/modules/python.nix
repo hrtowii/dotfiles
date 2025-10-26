@@ -2,22 +2,22 @@
   environment.systemPackages = with pkgs; [
     (python311.withPackages (ps:
       with ps; [
-        i3ipc
+        # i3ipc
         requests
         ipython
-        six
+        # six
         psutil
-        pynvml
-        pyqtgraph
-        pyqt6
-        pyyaml
+        # pynvml
+        # pyqtgraph
+        # pyqt6
+        # pyyaml
         pillow
-        jedi
-        libcst
+        # jedi
+        # libcst
         wheel
         jupyterlab
-        datasets
-        debugpy
+        # datasets
+        # debugpy
       ]))
     isort
     uv

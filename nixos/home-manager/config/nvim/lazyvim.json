@@ -1,8 +1,9 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.editor.neo-tree",
+    "lazyvim.plugins.extras.ai.copilot",
     "lazyvim.plugins.extras.lang.astro",
     "lazyvim.plugins.extras.lang.cmake",
+    "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.json",
     "lazyvim.plugins.extras.lang.kotlin",
     "lazyvim.plugins.extras.lang.markdown",
@@ -16,7 +17,7 @@
   ],
   "install_version": 8,
   "news": {
-    "NEWS.md": "10960"
+    "NEWS.md": "11866"
   },
   "version": 8
 }

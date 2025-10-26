@@ -25,7 +25,8 @@ in
   #   pointer
   # ];
 
-  theme = spicePkgs.themes.ziro;
-  colorScheme = "rose-pine";
+  # theme = spicePkgs.themes.ziro;
+  theme = spicePkgs.themes.text;
+  colorScheme = "RosePine";
 };
 }

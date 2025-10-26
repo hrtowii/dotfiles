@@ -1,10 +1,15 @@
-{pkgs, ...}: {
-  programs.uwsm.enable = true;
-  programs.uwsm.waylandCompositors = {
-    hyprland = {
+{ pkgs, ... }:
+{
+  programs.uwsm = {
+    enable = true;
+    waylandCompositors.hyprland = {
       prettyName = "Hyprland";
       comment = "Hyprland compositor managed by UWSM";
-      binPath = "/run/current-system/sw/bin/Hyprland";
+      binPath = "${pkgs.writeShellScript "hyprland-wrapper" ''
+        #!${pkgs.bash}/bin/bash
+        export LD_LIBRARY_PATH=""
+        exec ${pkgs.hyprland}/bin/Hyprland "$@"
+      ''}";
     };
   };
 }
