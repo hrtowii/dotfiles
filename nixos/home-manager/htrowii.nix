@@ -19,7 +19,7 @@
     ./modules/firefox.nix
     ./modules/spicetify.nix
     ./modules/osu.nix
-    ./modules/zen.nix
+    # ./modules/zen.nix
     ./modules/caelestia.nix
     # ./config/quickshell
     #./config/unused/hypr/default.nix
@@ -31,7 +31,11 @@
   home.stateVersion = "25.11";
   programs.home-manager.enable = true;
   home.enableNixpkgsReleaseCheck = false;
+  programs.fzf.enableZshIntegration = true;
   xdg.mime.enable = false;
+  programs.nix-index.enable = true;
+  programs.command-not-found.enable = false;
+  home.shell.enableZshIntegration = true;
   home.packages = with pkgs; [
     coreutils
     gnused
@@ -51,6 +55,8 @@
     oh-my-zsh
     eza
     fastfetch
+    zoxide
+    telegram-desktop
+    beekeeper-studio
   ];
-
 }

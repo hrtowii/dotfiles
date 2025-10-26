@@ -58,6 +58,6 @@
     # imagemagick
     rclone
     openssl
-    inputs.pinix.packages.${system}.default
+    claude-code
   ];
 }

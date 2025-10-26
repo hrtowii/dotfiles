@@ -25,5 +25,6 @@ in
       ".config/wofi".source = "${configDir}/unused/wofi";
       ".config/mako".source = "${configDir}/unused/mako";
       ".config/wallpapers".source = "${configDir}/unused/wallpapers";
+      ".local/share/fonts".source = ./fonts;
   };
 }
