@@ -1,5 +1,5 @@
 # TODO: cleanout and repopulate individual packages better
-{pkgs, ...}: {
+{pkgs, inputs, lib, ...}: {
   environment.systemPackages = with pkgs; [
     # obs-studio
     spotify
@@ -58,5 +58,6 @@
     # imagemagick
     rclone
     openssl
+    inputs.pinix.packages.${system}.default
   ];
 }

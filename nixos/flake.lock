@@ -637,6 +637,22 @@
     },
     "nixpkgs_5": {
       "locked": {
+        "lastModified": 1754393734,
+        "narHash": "sha256-fbnmAwTQkuXHKBlcL5Nq1sMAzd3GFqCOQgEQw6Hy0Ak=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a683adc19ff5228af548c6539dbc3440509bfed3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_6": {
+      "locked": {
         "lastModified": 1749794982,
         "narHash": "sha256-Kh9K4taXbVuaLC0IL+9HcfvxsSUx8dPB5s5weJcc9pc=",
         "owner": "NixOS",
@@ -648,6 +664,24 @@
         "owner": "NixOS",
         "ref": "nixos-unstable",
         "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pinix": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_5"
+      },
+      "locked": {
+        "lastModified": 1755156568,
+        "narHash": "sha256-fuLOLww23Y+aDu2a4zKYfnP+ufN4azTvWtr6P1rTOj8=",
+        "owner": "remi-dupre",
+        "repo": "pinix",
+        "rev": "94b12321b32e8b4788d6e3ae91f514ef0285e6bc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "remi-dupre",
+        "repo": "pinix",
         "type": "github"
       }
     },
@@ -706,6 +740,7 @@
         "hyprland": "hyprland",
         "nix-ld": "nix-ld",
         "nixpkgs": "nixpkgs_4",
+        "pinix": "pinix",
         "spicetify-nix": "spicetify-nix",
         "unstable": "unstable",
         "zen-browser": "zen-browser"
@@ -713,7 +748,7 @@
     },
     "spicetify-nix": {
       "inputs": {
-        "nixpkgs": "nixpkgs_5",
+        "nixpkgs": "nixpkgs_6",
         "systems": "systems_4"
       },
       "locked": {
