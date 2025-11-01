@@ -20,29 +20,47 @@
     };
     hyprland.url = "github:hyprwm/Hyprland";
     spicetify-nix.url = "github:Gerg-L/spicetify-nix";
-    ags = {
-      url = "github:aylur/ags";
+    quickshell = {
+      url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    astal = {
-      url = "github:aylur/astal";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    # dgop = {
+    #   url = "github:AvengeMedia/dgop";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
+    # dms-cli = {
+    #   url = "github:AvengeMedia/danklinux";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
+    # dankMaterialShell = {
+    #   url = "github:AvengeMedia/DankMaterialShell";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    #   inputs.dgop.follows = "dgop";
+    #   inputs.dms-cli.follows = "dms-cli";
+    # };
+    # ags = {
+    #   url = "github:aylur/ags";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
+    # astal = {
+    #   url = "github:aylur/astal";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
     # claude-desktop = {
     #   url = "github:k3d3/claude-desktop-linux-flake";
     #   inputs.nixpkgs.follows = "nixpkgs";
     #   inputs.flake-utils.follows = "flake-utils";
     # };
-    zen-browser = {
-      url = "github:0xc000022070/zen-browser-flake";
-      # IMPORTANT: we're using "libgbm" and is only available in unstable so ensure
-      # to have it up-to-date or simply don't specify the nixpkgs input
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    caelestia-shell = {
-      url = "github:caelestia-dots/shell";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    # zen-browser = {
+    #   url = "github:0xc000022070/zen-browser-flake";
+    #   # IMPORTANT: we're using "libgbm" and is only available in unstable so ensure
+    #   # to have it up-to-date or simply don't specify the nixpkgs input
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
+    # caelestia-shell = {
+    #   url = "github:caelestia-dots/shell";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
   };
 
   outputs = {
@@ -77,6 +95,7 @@
               permittedInsecurePackages = [
                 "electron-25.9.0" # Obsidian
                 "python-2.7.18.8"
+                "beekeeper-studio-5.3.4" # electron 31
               ];
             };
             hostPlatform = system;

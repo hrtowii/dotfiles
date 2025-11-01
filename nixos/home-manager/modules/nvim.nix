@@ -18,6 +18,7 @@ programs.neovim = {
 
     # Tree-sitter core
     tree-sitter
+    vimPlugins.nvim-treesitter-parsers.qmljs
 
     # Tree-sitter grammars
     tree-sitter-grammars.tree-sitter-bash

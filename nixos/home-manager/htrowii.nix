@@ -21,8 +21,6 @@
     ./modules/osu.nix
     # ./modules/zen.nix
     ./modules/caelestia.nix
-    # ./config/quickshell
-    #./config/unused/hypr/default.nix
     ./config.nix
   ];
 

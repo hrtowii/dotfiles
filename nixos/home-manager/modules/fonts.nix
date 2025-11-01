@@ -17,5 +17,6 @@
   nerd-fonts.geist-mono
   nerd-fonts.zed-mono
   maple-mono.NF
+  cozette
 ];
 }
