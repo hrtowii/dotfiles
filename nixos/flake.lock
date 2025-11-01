@@ -87,11 +87,11 @@
         "quickshell": "quickshell"
       },
       "locked": {
-        "lastModified": 1761441765,
-        "narHash": "sha256-Y7JEdMOz3DKQTCm0KZLjg0AQATlUpnHtyJCyxNTEYXo=",
+        "lastModified": 1761925697,
+        "narHash": "sha256-v6ykOGQR7WIFPKHEKI2qwypsKCbtPkVrGCV4hzg/MOc=",
         "owner": "caelestia-dots",
         "repo": "shell",
-        "rev": "210e0b6a682e1f09a1604b37050edf25f60ac8fe",
+        "rev": "ea20e02d61c9d3bede58d4edf42eb711e538ffe8",
         "type": "github"
       },
       "original": {
@@ -612,6 +612,26 @@
         "url": "https://git.outfoxxed.me/outfoxxed/quickshell"
       }
     },
+    "quickshell_2": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1761897390,
+        "narHash": "sha256-er4gYrIoThYLjlsOMTysoRfn67d1Gci+ZpqDrtQxrA0=",
+        "ref": "refs/heads/master",
+        "rev": "fc704e6b5d445899a1565955268c91942a4f263f",
+        "revCount": 700,
+        "type": "git",
+        "url": "https://git.outfoxxed.me/outfoxxed/quickshell"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://git.outfoxxed.me/outfoxxed/quickshell"
+      }
+    },
     "root": {
       "inputs": {
         "LazyVim": "LazyVim",
@@ -621,6 +641,7 @@
         "hyprland": "hyprland",
         "nix-ld": "nix-ld",
         "nixpkgs": "nixpkgs_4",
+        "quickshell": "quickshell_2",
         "spicetify-nix": "spicetify-nix",
         "unstable": "unstable"
       }

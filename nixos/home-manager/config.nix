@@ -9,7 +9,7 @@ in
       ".config/spicetify".source="${configDir}/spicetify";
       ".config/nvim".source = "${configDir}/nvim";
       ".config/neofetch".source = "${configDir}/neofetch";
-      # quickshell dots (broken)
+      # caelestia dots (broken)
       # ".config/hypr".source = "${configDir}/hypr";
       # ".config/quickshell/caelestia".source = "${configDir}/caelestia-shell";
       ".config/fastfetch".source = "${configDir}/fastfetch";
@@ -17,6 +17,7 @@ in
       ".zshrc".source = "${configDir}/zsh/.zshrc";
 
       # https://github.com/gpskwlkr/nixos-hyprland-flake/blob/main/home/user/config.nix
+      # ".config/quickshell".source = "${configDir}/quickshell";
       ".config/hypr".source = "${configDir}/unused/hypr";
       ".config/swayidle".source = "${configDir}/unused/swayidle";
       ".config/swaylock".source = "${configDir}/unused/swaylock";

@@ -57,10 +57,10 @@
     #   # to have it up-to-date or simply don't specify the nixpkgs input
     #   inputs.nixpkgs.follows = "nixpkgs";
     # };
-    # caelestia-shell = {
-    #   url = "github:caelestia-dots/shell";
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
+    caelestia-shell = {
+      url = "github:caelestia-dots/shell";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {
