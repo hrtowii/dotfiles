@@ -24,7 +24,20 @@
       options = [ "fmask=0077" "dmask=0077" ];
     };
 
-  swapDevices = [ ];
+  fileSystems."/mnt/windows" = {
+    device = "/dev/disk/by-uuid/01DA0A4AAB34C1B0";
+    fsType = "ntfs-3g";
+    options = [
+      "rw"
+      "uid=1000"
+      "gid=1000"
+      "umask=022"
+      "windows_names"
+      "nofail"
+      "x-systemd.automount"
+      "noatime"
+    ];
+  };
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
   # (the default) this is the recommended approach. When using systemd-networkd it's

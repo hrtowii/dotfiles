@@ -17,7 +17,12 @@
 
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
-
+  boot.supportedFilesystems = [ "ntfs" ];
+  zramSwap.enable = true;
+  swapDevices = [{
+    device = "/swapfile";
+    size = 16 * 1024; # 16GB
+  }];
   networking.hostName = "saccharine"; # Define your hostname.
   networking.networkmanager.enable = true;
 
@@ -68,6 +73,12 @@
     # no need to redefine it in your config for now)
     #media-session.enable = true;
   };
+  services.sunshine = {
+    enable = true;
+    autoStart = true;
+    openFirewall = true;
+    capSysAdmin = true;
+  };
 
   users.users.ibarahime = {
     isNormalUser = true;
@@ -91,6 +102,7 @@
       # "https://ghostty.cachix.org"
       "https://hyprland.cachix.org"
       "https://nix-community.cachix.org"
+      "https://ezkea.cachix.org"
     ];
     trusted-public-keys = [
       "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
@@ -99,8 +111,9 @@
       # "ghostty.cachix.org-1:QB389yTa6gTyneehvqG58y0WnHjQOqgnA+wBnpWWxns="
       "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="
       "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
+      "ezkea.cachix.org-1:ioBmUbJTZIKsHmWWXPe1FSFbeVe+afhfgqgTSNd34eI="
     ];
-  };  
+  };
   hardware.graphics = {
     enable = true;
   };

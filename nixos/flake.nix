@@ -24,6 +24,8 @@
       url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    aagl.url = "github:ezKEa/aagl-gtk-on-nix";
+    aagl.inputs.nixpkgs.follows = "nixpkgs";
     # dgop = {
     #   url = "github:AvengeMedia/dgop";
     #   inputs.nixpkgs.follows = "nixpkgs";
@@ -70,6 +72,7 @@
     hyprland,
     ghostty,
     nix-ld,
+    aagl,
     ...
   } @ inputs: let
     system = "x86_64-linux";
@@ -79,13 +82,23 @@
       inherit system;
       specialArgs = {inherit inputs;};
       modules = [
-              nix-ld.nixosModules.nix-ld
-              { programs.nix-ld.dev.enable = true; }
-          ({ pkgs, ... }: {
-                    environment.systemPackages = [
-                      ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default
-                    ];
-                  })
+        {
+            imports = [ aagl.nixosModules.default ];
+            # nix.settings = aagl.nixConfig; # Set up Cachix
+            programs.anime-game-launcher.enable = true; # Adds launcher and /etc/hosts rules
+            programs.anime-games-launcher.enable = true;
+            # programs.honkers-railway-launcher.enable = true;
+            # programs.honkers-launcher.enable = true;
+            # programs.wavey-launcher.enable = true;
+            # programs.sleepy-launcher.enable = true;
+        }
+        nix-ld.nixosModules.nix-ld
+        { programs.nix-ld.dev.enable = true; }
+        ({ pkgs, ... }: {
+          environment.systemPackages = [
+          ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default
+        ];
+        })
         {
           nixpkgs = {
             config = {
@@ -99,7 +112,6 @@
               ];
             };
             hostPlatform = system;
-
           };
         }
         ./hosts/configuration.nix
@@ -110,7 +122,7 @@
             useUserPackages = true;
             extraSpecialArgs = {inherit inputs;};
             users.ibarahime = import ./home-manager/htrowii.nix;
-	    backupFileExtension = "backup-" + pkgs.lib.readFile "${pkgs.runCommand "timestamp" { env.when = self.sourceInfo.lastModified; } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
+            backupFileExtension = "backup-" + pkgs.lib.readFile "${pkgs.runCommand "timestamp" { env.when = self.sourceInfo.lastModified; } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
           };
         }
       ];
