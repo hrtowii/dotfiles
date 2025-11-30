@@ -1,6 +1,5 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.ai.copilot",
     "lazyvim.plugins.extras.lang.astro",
     "lazyvim.plugins.extras.lang.cmake",
     "lazyvim.plugins.extras.lang.go",
@@ -12,7 +11,6 @@
     "lazyvim.plugins.extras.lang.tailwind",
     "lazyvim.plugins.extras.lang.toml",
     "lazyvim.plugins.extras.lang.typescript",
-    "lazyvim.plugins.extras.ui.smear-cursor",
     "lazyvim.plugins.extras.util.gitui"
   ],
   "install_version": 8,
