@@ -27,5 +27,6 @@ in
       ".config/mako".source = "${configDir}/unused/mako";
       ".config/wallpapers".source = "${configDir}/unused/wallpapers";
       ".local/share/fonts".source = ./fonts;
+      ".config/pipewire/pipewire.conf.d".source = "${configDir}/pipewire/pipewire.conf.d";
   };
 }

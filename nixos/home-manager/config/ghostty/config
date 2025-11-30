@@ -4,9 +4,9 @@ keybind = ctrl+z=close_surface
 keybind = ctrl+d=new_split:right
 
 # Empty values reset the configuration to the default value
-font-family = "CozetteCrossedSevenVector"
-font-size=17
-# font-family="Maple Mono NF"
+# font-family = "CozetteCrossedSevenVector"
+font-size=14
+font-family="Maple Mono NF"
 # font-family=""
 title=""
 macos-titlebar-style="tabs"
