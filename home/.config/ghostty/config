@@ -4,9 +4,9 @@ keybind = ctrl+z=close_surface
 keybind = ctrl+d=new_split:right
 
 # Empty values reset the configuration to the default value
-font-family = ""
+# font-family = ""
 font-size=14.5
-# font-family="Maple Mono NF"
+font-family="Maple Mono NF"
 # font-family=""
 title=""
 macos-titlebar-style="tabs"
@@ -15,3 +15,8 @@ clipboard-read = allow
 clipboard-write = allow
 copy-on-select = clipboard
 keybind = shift+enter=text:\x1b\r
+custom-shader = ~/.config/ghostty/shaders/cursor-smear.glsl
+# custom-shader = ~/.config/ghostty/shaders/crt.glsl
+custom-shader = ~/.config/ghostty/shaders/bloom.glsl
+custom-shader = ~/.config/ghostty/shaders/tft.glsl
+
