@@ -18,5 +18,5 @@ keybind = shift+enter=text:\x1b\r
 custom-shader = ~/.config/ghostty/shaders/cursor-smear.glsl
 # custom-shader = ~/.config/ghostty/shaders/bloom.glsl
 # custom-shader = ~/.config/ghostty/shaders/tft.glsl
-custom-shader = ~/.config/ghostty/shaders/mnoise.glsl
+# custom-shader = ~/.config/ghostty/shaders/mnoise.glsl
 # custom-shader = ~/.config/ghostty/shaders/underwaterfixed.glsl
