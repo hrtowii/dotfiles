@@ -1,3 +1,5 @@
+{ config, lib, pkgs, ... }:
+
 let configDir = ./config;
 in
 {
@@ -7,7 +9,7 @@ in
       ".config/zellij".source = "${configDir}/zellij";
       ".config/ghostty".source="${configDir}/ghostty";
       ".config/spicetify".source="${configDir}/spicetify";
-      ".config/nvim".source = "${configDir}/nvim";
+      ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/config/nvim";
       ".config/neofetch".source = "${configDir}/neofetch";
       # caelestia dots (broken)
       # ".config/hypr".source = "${configDir}/hypr";

@@ -27,7 +27,6 @@ in {
       nodePackages.markdownlint-cli
       nodePackages.stylelint
       nodePackages.htmlhint
-      nodePackages.jsonlint
     ];
 
     environment.sessionVariables.PATH =
