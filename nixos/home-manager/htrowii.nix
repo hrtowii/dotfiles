@@ -21,7 +21,7 @@
     ./modules/osu.nix
     # ./modules/zen.nix
     # ./modules/caelestia.nix
-    # ./modules/quickshell.nix
+    ./modules/quickshell.nix
     ./config.nix
   ];
 

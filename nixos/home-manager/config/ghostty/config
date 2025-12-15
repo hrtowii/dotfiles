@@ -5,9 +5,9 @@ keybind = ctrl+d=new_split:right
 
 # Empty values reset the configuration to the default value
 # font-family = ""
-# font-size=12
-font-family="Berkeley Mono Nerd Font"
-# font-family="Maple Mono NF"
+font-size=13.5
+# font-family="Berkeley Mono Nerd Font"
+font-family="Maple Mono NF"
 # font-family=""
 title=""
 macos-titlebar-style="tabs"
