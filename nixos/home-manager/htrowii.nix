@@ -8,7 +8,7 @@
     # ./modules/ghostty.nix
     ./modules/nvim.nix
     ./modules/starship.nix
-    # ./modules/vscode.nix
+    ./modules/vscode.nix
     ./modules/zed.nix
     ./modules/zellij.nix
     ./modules/obsidian.nix
@@ -20,7 +20,7 @@
     ./modules/spicetify.nix
     ./modules/osu.nix
     # ./modules/zen.nix
-    ./modules/caelestia.nix
+    # ./modules/caelestia.nix
     # ./modules/quickshell.nix
     ./config.nix
   ];

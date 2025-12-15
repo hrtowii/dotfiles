@@ -18,8 +18,7 @@ in
       ".config/uwsm".source = "${configDir}/uwsm";
       ".zshrc".source = "${configDir}/zsh/.zshrc";
 
-      # https://github.com/gpskwlkr/nixos-hyprland-flake/blob/main/home/user/config.nix
-      # ".config/quickshell".source = "${configDir}/quickshell";
+      ".config/quickshell".source = "${configDir}/unused/quickshell";
       ".config/hypr".source = "${configDir}/unused/hypr";
       ".config/swayidle".source = "${configDir}/unused/swayidle";
       ".config/swaylock".source = "${configDir}/unused/swaylock";
@@ -28,7 +27,7 @@ in
       ".config/wofi".source = "${configDir}/unused/wofi";
       ".config/mako".source = "${configDir}/unused/mako";
       ".config/wallpapers".source = "${configDir}/unused/wallpapers";
-      ".local/share/fonts".source = ./fonts;
+      ".local/share/fonts".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/fonts";
       ".config/pipewire/pipewire.conf.d".source = "${configDir}/pipewire/pipewire.conf.d";
   };
 }

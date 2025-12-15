@@ -2,7 +2,6 @@
   "extras": [
     "lazyvim.plugins.extras.lang.astro",
     "lazyvim.plugins.extras.lang.cmake",
-    "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.json",
     "lazyvim.plugins.extras.lang.kotlin",
     "lazyvim.plugins.extras.lang.markdown",

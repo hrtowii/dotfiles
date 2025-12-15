@@ -4,7 +4,7 @@
   ...
 }: {
   home.packages = with pkgs; [
-    # vscode-fhs
+    vscode-fhs
   ];
   # home.activation = {
   #   test = home-manager.lib.hm.dag.entryAfter ["writeBoundary"] ''
