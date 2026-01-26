@@ -1,12 +1,10 @@
 exec-on-workspace-change = [
-  '/bin/bash', '-c',
-  '''
-  sketchybar --trigger aerospace_workspace_change
-  '''
+  '/bin/bash',
+  '-c',
+  'sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE="$AEROSPACE_FOCUSED_WORKSPACE"',
 ]
-
 on-focus-changed = [
-  'exec-and-forget sketchybar --trigger aerospace_window_change'
+  'exec-and-forget sketchybar --trigger aerospace_window_change',
 ]
 gaps.inner.horizontal = 10
 gaps.inner.vertical = 10

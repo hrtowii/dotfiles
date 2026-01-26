@@ -98,6 +98,7 @@ ralt + shift - 5 : aerospace move-node-to-workspace 5
 ralt + shift - 6 : aerospace move-node-to-workspace 6
 ralt + shift - 7 : aerospace move-node-to-workspace 7
 ralt + shift - 8 : aerospace move-node-to-workspace 8
+ralt + shift - 9 : aerospace move-node-to-workspace 9
 
 # ────────────────────────
 #  Move focus + window to another workspace
