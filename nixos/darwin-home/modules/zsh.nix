@@ -1,18 +1,6 @@
-{ config, pkgs, lib, ... }:
-
-let configDir = ./config;
-in
-{
-  imports = [
-  ./config.nix
-];
-  home.username = "ibarahime";
-  home.homeDirectory = "/Users/ibarahime";
-  home.stateVersion = "24.11";
-  programs.home-manager.enable = true;
-
   
-  programs.zsh = {
+  {
+    programs.zsh = {
     enable = true;
     enableCompletion = true;
     autosuggestion.enable = false;
@@ -39,6 +27,4 @@ in
       fi
     '';
   };
-
-  home.packages = [ ];
 }
