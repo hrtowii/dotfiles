@@ -4,7 +4,12 @@
   imports = [
     ./modules/homebrew.nix
     ./modules/aerospace.nix
+    ./modules/npm.nix 
+    ./modules/rust.nix
+    ./modules/python.nix
   ];
+  npm.enable = true;
+  rust.enable = true;
 
   networking.hostName = "homura";
   networking.computerName = "homura";
@@ -34,10 +39,8 @@
 
   nix.optimise.automatic = true;
 
-  environment.systemPackages = with pkgs; [
-    vim
-    git
-  ];
+  # environment.systemPackages = with pkgs; [
+  # ];
 
   nixpkgs.config.allowUnfree = true;
 
