@@ -7,6 +7,7 @@
   ./modules/spicetify.nix
   ./modules/zsh.nix
   ./modules/sketchybar.nix
+  ./modules/ripgrep.nix
 ];
   home.username = "ibarahime";
   home.homeDirectory = "/Users/ibarahime";

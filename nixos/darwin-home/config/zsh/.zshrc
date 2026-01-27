@@ -1,10 +1,10 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
+# source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 alias ldid="/Users/ibarahime/Downloads/ldid_macosx_arm64"
 alias ct_bypass="/Users/ibarahime/ChOma/ct_bypass"
 alias ipaddr="ipconfig getifaddr en0"
@@ -68,7 +68,7 @@ create_vite_tailwind_app() {
 }
 
 # bun completions
-[ -s "/Users/ibarahime/.bun/_bun" ] && source "/Users/ibarahime/.bun/_bun"
+# [ -s "/Users/ibarahime/.bun/_bun" ] && source "/Users/ibarahime/.bun/_bun"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -85,20 +85,20 @@ cfetch
 # ctrl-b + x -> closes selected panel
 # ctrl-b + arrowkey -> moves to selected tmux panel
 # """
-echo """
-ZELLIJ SHORTCUTS:
-alt + p -> pane mode, X for delete, C for create,
-alt + r -> resize
-alt + t -> create tab
-"""
-echo """
-nvim shortcuts:
-:Neotree
-:Telescope
-:shift H in neotree to toggle showing dotfiles
-"""
+# echo """
+# ZELLIJ SHORTCUTS:
+# alt + p -> pane mode, X for delete, C for create,
+# alt + r -> resize
+# alt + t -> create tab
+# """
+# echo """
+# nvim shortcuts:
+# :Neotree
+# :Telescope
+# :shift H in neotree to toggle showing dotfiles
+# """
 eval "$(uv generate-shell-completion zsh)"
-
+#
 
 # Created by `pipx` on 2024-05-16 03:05:45
 # export PATH="$PATH:/Users/ibarahime/.local/bin"# export PATH="/opt/homebrew/opt/ffmpeg@5/bin:$PATH"

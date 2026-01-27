@@ -7,6 +7,8 @@
     ./modules/npm.nix 
     ./modules/rust.nix
     ./modules/python.nix
+    ./modules/skhd.nix
+    # ./modules/tailscale.nix
   ];
   npm.enable = true;
   rust.enable = true;
