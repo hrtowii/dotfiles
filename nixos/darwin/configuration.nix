@@ -3,7 +3,8 @@
 {
   imports = [
     ./modules/homebrew.nix
-    # ./modules
+    ./modules/sketchybar.nix
+    ./modules/aerospace.nix
   ];
 
   networking.hostName = "homura";

@@ -113,7 +113,7 @@
       "smartmontools"
       "solargraph"
       "speedtest-cli"
-      "spicetify-cli"
+      # "spicetify-cli"
       "stow"
       "switchaudio-osx"
       "tailscale"

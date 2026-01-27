@@ -1,4 +1,6 @@
-  
+{ config, ... }:
+  let configDir = ../config;
+in
   {
     programs.zsh = {
     enable = true;
