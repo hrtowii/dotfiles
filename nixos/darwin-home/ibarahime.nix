@@ -3,6 +3,9 @@
 let configDir = ./config;
 in
 {
+  imports = [
+  ./config.nix
+];
   home.username = "ibarahime";
   home.homeDirectory = "/Users/ibarahime";
   home.stateVersion = "24.11";
