@@ -48,8 +48,10 @@
   # Stow-like symlinks for dotfiles in this worktree
   # Uses mkOutOfStoreSymlink for out-of-store symlinks (changes reflected immediately)
   home.file = {
+    ".config/aerospace".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dev/dotfiles-nix-darwin/home/.config/aerospace";
     ".config/btop".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dev/dotfiles-nix-darwin/home/.config/btop";
     ".config/ghostty".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dev/dotfiles-nix-darwin/home/.config/ghostty";
+    ".config/helix".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dev/dotfiles-nix-darwin/home/.config/helix";
     ".config/kitty".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dev/dotfiles-nix-darwin/home/.config/kitty";
     ".config/ncspot".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dev/dotfiles-nix-darwin/home/.config/ncspot";
     ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dev/dotfiles-nix-darwin/home/.config/nvim";

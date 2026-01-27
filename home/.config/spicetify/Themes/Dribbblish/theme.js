@@ -32,6 +32,20 @@ waitForElement([".main-navBar-mainNav .os-viewport.os-viewport-native-scrollbars
     });
 });
 
+// adjust topbar margin with left sidebar width
+waitForElement([".Root__nav-bar, #Desktop_LeftSidebar_Id"], ([resizer]) => {
+  function updateVariable() {
+    const computedStyle = getComputedStyle(resizer);
+    const value = Number(computedStyle.getPropertyValue("--left-sidebar-width").trim()) || resizer.clientWidth;
+    waitForElement([".Root__globalNav"], ([globalNav]) => {
+      globalNav.style.setProperty("--left-sidebar-width", value);
+    });
+  }
+  const observer = new ResizeObserver(updateVariable);
+  observer.observe(resizer);
+  updateVariable();
+});
+
 let version;
 let ylx;
 

@@ -1,0 +1,172 @@
+
+ # introudce new language server
+ # - set max completion results len to 20
+ # - completions will return before snippets by default
+ [language-server.scls]
+ command = "simple-completion-language-server"
+ config = { max_completion_items = 10, snippets_first = false }
+
+ [[language]]
+ name = "rust"
+
+ [language-server.rust-analyzer.config]
+ check = { command = "clippy", features = "all" }
+ diagnostics = { experimental = { enable = true } }
+ hover = { actions = { enable = true } }
+ typing = { autoClosingAngleBrackets = { enable = true } }
+ cargo = { allFeatures = true }
+ procMacro = { enable = true }
+
+ [[language]]
+ name = "vue"
+ scope = "source.vue"
+ file-types = ["vue"]
+ injection-regex = "vue"
+ roots = ["package.json", "tailwind.config.js", "tailwind.config.cjs"]
+ language-servers = ["volar", "tailwindcss-vue"]
+ formatter = { command = "prettier", args = ["--parser", "vue"] }
+ indent = { tab-width = 4, unit = "\t" }
+ auto-format = true
+
+ [[language]]
+ name = "typescript"
+ language-servers = [  "typescript-language-server", "tailwindcss-react", "eslint", "emmet-ls", "scls", "graphql"]
+ formatter = { command = 'npx', args = ["prettier", "--parser", "typescript"] }
+ indent = { tab-width = 4, unit = "\t" }
+ auto-format = true
+
+ [[language]]
+ name = "tsx"
+ language-servers = [ "typescript-language-server", "tailwindcss-react", "eslint", "emmet-ls", "scls", "graphql"]
+ formatter = { command = 'npx', args = ["prettier", "--parser", "typescript"] }
+ indent = { tab-width = 4, unit = "\t" }
+ auto-format = true
+
+ [[language]]
+ name = "jsx"
+ language-servers = [ "typescript-language-server", "tailwindcss-react", "eslint", "emmet-ls","scls", "graphql"]
+ grammar = "javascript"
+ formatter = { command = 'npx', args = ["prettier", "--parser", "typescript"] }
+ indent = { tab-width = 4, unit = "\t" }
+ auto-format = true
+
+ [[language]]
+ name = "javascript"
+ language-servers = [ "typescript-language-server", "tailwindcss-react", "eslint", "emmet-ls", "scls", "graphql"]
+ formatter = { command = 'npx', args = ["prettier", "--parser", "typescript"] }
+ indent = { tab-width = 4, unit = "\t" }
+ auto-format = true
+
+ [language-server.graphql]
+ command = "graphql-lsp" 
+ args = ["server", "-m", "stream"]
+ formatter = { command = 'npx', args = ["prettier", "--parser", "json"] }
+ indent = { tab-width = 4, unit = "\t" }
+ auto-format = true
+
+ [[language]]
+ name = "json"
+ language-servers = [ "vscode-json-language-server" ]
+ formatter = { command = 'npx', args = ["prettier", "--parser", "json"] }
+ indent = { tab-width = 4, unit = "\t" }
+ auto-format = true
+
+ [[language]]
+ name = "lua"
+ indent = { tab-width = 4, unit = "\t" }
+ auto-format = true
+
+ [language-server.vscode-json-language-server.config]
+ json = { validate = { enable = true }, format = { enable = true } }
+ provideFormatter = true
+
+ [language-server.vscode-css-language-server.config]
+ css = { validate = { enable = true } }
+ scss = { validate = { enable = true } }
+ less = { validate = { enable = true } }
+ provideFormatter = true
+
+ [[language]]
+ name = "html"
+ formatter = { command = 'npx', args = ["prettier", "--parser", "html"] }
+ language-servers = [ "vscode-html-language-server", "tailwindcss-react", "emmet-ls"]
+ 
+ [[language]]
+ name = "css"
+ formatter = { command = 'npx', args = ["prettier", "--parser", "css"] }
+ language-servers = [ "vscode-css-language-server", "tailwindcss-react", "emmet-ls"]
+
+ [language-server.emmet-ls]
+ args = ["--stdio"]
+ command = "emmet-language-server"
+
+ [language-server.eslint]
+ args = ["--stdio"]
+ command = "vscode-eslint-language-server"
+
+ [language-server.eslint.config]
+ format = true
+ nodePath = ""
+ onIgnoredFiles = "off"
+ packageManager = "yarn"
+ quiet = false
+ rulesCustomizations = []
+ run = "onType"
+ useESLintClass = false
+ validate = "on"
+ codeAction = { disableRuleComment = { enable = true, location = "separateLine" }, showDocumentation = { enable = true } }
+ codeActionOnSave = { mode = "all" }
+ experimental = { }
+ problems = { shortenToSingleLine = false }
+ workingDirectory = { mode = "auto" }
+
+ [language-server.volar]
+ command = "vue-language-server"
+ args = ["--stdio"]
+
+ [language-server.tailwindcss-vue]
+ command = "tailwindcss-language-server"
+ args = ["--stdio"]
+ config = {}
+
+ [language-server.tailwindcss-react]
+ language-id = "typescriptreact"
+ command = "tailwindcss-language-server"
+ args = ["--stdio"]
+ config = {}
+
+ [language-server.typescript-language-server.config]
+ documentFormatting = false
+ hostInfo = "helix"
+
+ [language-server.typescript-language-server.config.typescript.inlayHints]
+ includeInlayEnumMemberValueHints = true
+ includeInlayFunctionLikeReturnTypeHints = true
+ includeInlayFunctionParameterTypeHints = true
+ includeInlayParameterNameHints = "all"
+ includeInlayParameterNameHintsWhenArgumentMatchesName = true
+ includeInlayPropertyDeclarationTypeHints = true
+ includeInlayVariableTypeHints = true
+
+ [language-server.typescript-language-server.config.completions]
+ completeFunctionCalls = true
+
+ [language-server.typescript-language-server.config.javascript.inlayHints]
+ includeInlayEnumMemberValueHints = true
+ includeInlayFunctionLikeReturnTypeHints = true
+ includeInlayFunctionParameterTypeHints = true
+ includeInlayParameterNameHints = "all"
+ includeInlayParameterNameHintsWhenArgumentMatchesName = true
+ includeInlayPropertyDeclarationTypeHints = true
+ includeInlayVariableTypeHints = true
+
+[[language]]
+name = "python"
+language-servers = [ "pyright", "ruff" ]
+
+[language-server.pyright.config.python.analysis]
+typeCheckingMode = "basic"
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
