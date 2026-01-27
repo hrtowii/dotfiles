@@ -2,8 +2,8 @@
 
 {
   imports = [
-    ./homebrew.nix
-    ./modules
+    ./modules/homebrew.nix
+    # ./modules
   ];
 
   networking.hostName = "homura";

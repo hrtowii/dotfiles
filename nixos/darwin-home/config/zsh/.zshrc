@@ -33,10 +33,6 @@ alias disarm="~/Downloads/disarm/binaries/disarm.AAPLSi"
 alias discordo="/Users/ibarahime/dev/discordo/discordo"
 export PATH="/Users/ibarahime/.bun/bin:$PATH"
 alias create_jupyter_kernel="uv venv --seed; uv pip install pydantic; uv pip install jupyterlab; .venv/bin/jupyter lab"
-# export OPENAI_API_KEY="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"
-export OPENAI_API_KEY="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"
-export ANTHROPIC_API_KEY="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"
-export GOOGLE_API_KEY="AIzaSyC8H6BQqp-EeHxNGH69g8kgi7jLl7mWubI"
 create_vite_tailwind_app() {
     # Check if the app name is provided
     if [ -z "$1" ]; then

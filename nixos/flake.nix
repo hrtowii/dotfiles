@@ -135,7 +135,6 @@
       ];
     };
 
-    # nix-darwin configuration for macOS (Apple Silicon)
     darwinConfigurations.homura = nix-darwin.lib.darwinSystem {
       system = darwinSystem;
       specialArgs = { inherit inputs; };

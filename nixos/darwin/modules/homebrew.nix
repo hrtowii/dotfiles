@@ -6,7 +6,7 @@
     onActivation = {
       autoUpdate = false;
       cleanup = "zap";
-      upgrade = false;
+      upgrade = true;
     };
 
     taps = [
@@ -24,7 +24,8 @@
     ];
 
     brews = [
-      "atomicparsley"
+      # "atomicparsley"
+      "ripgrep"
       "automake"
       "btop"
       "bzip2"
