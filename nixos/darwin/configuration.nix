@@ -41,8 +41,31 @@
 
   nix.optimise.automatic = true;
 
-  # environment.systemPackages = with pkgs; [
-  # ];
+  environment.systemPackages = with pkgs; [
+    git-filter-repo
+    git-lfs
+    cachix
+    claude-code
+    opencode
+    tree 
+    tokei 
+    wget
+    zoxide 
+    rclone 
+    fzf
+    btop
+    cmatrix
+    gh
+    ldid-procursus
+    eza
+    fastfetch
+    hugo
+    hyperfine
+    mpd 
+    mpdscribble 
+    nasm 
+    ncdu 
+  ];
 
   nixpkgs.config.allowUnfree = true;
 

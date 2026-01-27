@@ -136,7 +136,8 @@ function current_dir() {
 
 function change_tab_title() {
     local title=$1
-    command nohup zellij action rename-tab $title >/dev/null 2>&1
+    [[ -z $ZELLIJ ]] && return
+    zellij action rename-tab $title &>/dev/null &!
 }
 
 function set_tab_to_working_dir() {

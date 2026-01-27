@@ -3,36 +3,14 @@
   services.skhd = {
     enable = true;
     skhdConfig = ''
-      # --------------------------------------------------------------
-      #  AeroSpace version of the original skhd + yabai config
-      #  (same key‑syntax, AeroSpace commands instead of yabai)
-      # --------------------------------------------------------------
-
-      # ────────────────────────
-      #  General AeroSpace settings
-      # ────────────────────────
-      # (border highlighting is provided by JankyBorders – see the AeroSpace
-      #  config file if you want to enable it there)
-      # If you still need to (re)launch yabai for window‑policy:
-      #   ralt + shift - r : launchctl kickstart -k "gui/$${UID}/homebrew.mxcl.yabai"
-
-      # ────────────────────────
-      #  System shortcuts
-      # ────────────────────────
       ralt - escape : pmset displaysleepnow
       ralt + shift - s : osascript -e 'tell application "System Events" to sleep'
 
-      # ────────────────────────
-      #  Application launchers (unchanged – only the "open" part stays)
-      # ────────────────────────
       ralt - return : open -na /Applications/Ghostty.app
-      ralt + shift - return : open -na /Applications/Firefox\ Nightly.app
+      ralt + shift - return : open -na /Applications/Helium.app
       ralt + ctrl - return : open -na /Applications/Visual\ Studio\ Code.app
       ralt - c : open -na /Applications/System\ Settings.app
 
-      # ────────────────────────
-      #  Resize mode  (replicates the original yabai resize)
-      # ────────────────────────
       :: resize @ : aerospace config active_window_border_color 0xFFFF00FF   # just a visual cue
 
       # toggle resize mode
@@ -45,9 +23,6 @@
       resize < up    : aerospace resize height -50
       resize < right : aerospace resize width +50
 
-      # ────────────────────────
-      #  Window focus – same keys, AeroSpace "focus" command
-      # ────────────────────────
       ralt - a     : aerospace focus west
       ralt - s     : aerospace focus south
       ralt - w     : aerospace focus north
@@ -57,9 +32,6 @@
       ralt - up    : aerospace focus north
       ralt - right : aerospace focus east
 
-      # ────────────────────────
-      #  Workspace (space) navigation – AeroSpace "workspace" command
-      # ────────────────────────
       ralt - tab          : aerospace workspace next || aerospace workspace first
       ralt + shift - tab  : aerospace workspace prev || aerospace workspace last
       ralt - x            : aerospace workspace recent
@@ -73,15 +45,6 @@
       ralt - 8            : aerospace workspace 8
       ralt - 9            : aerospace workspace 9
 
-      # (the "create a space" shortcut has been removed per request)
-      # ralt - n        :  # removed
-
-      # destroy current space – AeroSpace does not support destroying a workspace,
-      # so this binding is simply omitted.
-
-      # ────────────────────────
-      #  Move window relatively (warp) – AeroSpace "move-node" command
-      # ────────────────────────
       ralt + shift - a : aerospace move left
       ralt + shift - s : aerospace move down
       ralt + shift - w : aerospace move up
@@ -91,9 +54,6 @@
       ralt + shift - up    : aerospace move up
       ralt + shift - right : aerospace move right
 
-      # ────────────────────────
-      #  Send window to a workspace – AeroSpace "move-node-to-workspace"
-      # ────────────────────────
       ralt + shift - x : aerospace move-node-to-workspace recent
       ralt + shift - 1 : aerospace move-node-to-workspace 1
       ralt + shift - 2 : aerospace move-node-to-workspace 2
@@ -105,9 +65,6 @@
       ralt + shift - 8 : aerospace move-node-to-workspace 8
       ralt + shift - 9 : aerospace move-node-to-workspace 9
 
-      # ────────────────────────
-      #  Move focus + window to another workspace
-      # ────────────────────────
       ralt + ctrl - m : aerospace move-node-to-workspace last && aerospace workspace last
       ralt + ctrl - p : aerospace move-node-to-workspace prev && aerospace workspace prev
       ralt + ctrl - n : aerospace move-node-to-workspace next && aerospace workspace next
@@ -116,45 +73,15 @@
       ralt + ctrl - 3 : aerospace move-node-to-workspace 3 && aerospace workspace 3
       ralt + ctrl - 4 : aerospace move-node-to-workspace 4 && aerospace workspace 4
 
-      # ────────────────────────
-      #  Equalize size of windows (balance)
-      # ────────────────────────
       ralt - e : aerospace balance-sizes
 
-      # ────────────────────────
-      #  Float / un‑float window
-      # ────────────────────────
       ralt + shift - space : aerospace floating toggle
 
-      # ────────────────────────
-      #  Native fullscreen / zoom‑fullscreen
-      # ────────────────────────
       ralt - f            : aerospace fullscreen
       ralt + shift - f    : aerospace zoom toggle
 
-      # ────────────────────────
-      #  Insert point for focused container – not needed in AeroSpace
-      #  (the original bindings are commented out)
-      # ────────────────────────
       ralt - v : aerospace join-with down    # (no direct equivalent)
       ralt - h : aerospace join-with right     # (no direct equivalent)
-
-      # ────────────────────────
-      #  Rotate / mirror windows – AeroSpace provides rotate/mirror commands
-      # ────────────────────────
-      # ralt - r          : aerospace rotate 90      # uncomment if you need it
-      # ralt + shift - r  : aerospace rotate -90
-      # shift + ralt - x  : aerospace mirror x
-      # shift + ralt - y  : aerospace mirror y
-
-      # ────────────────────────
-      #  Miscellaneous (previously‑used "padding / gap" toggles are removed)
-      # ────────────────────────
-      # ralt - i :  # removed – AeroSpace does not have a per‑workspace toggle
-
-      # -----------------------------------------------------------------
-      #  END – keep the rest of the file (comments, etc.) unchanged
-      # -----------------------------------------------------------------
     '';
   };
 }

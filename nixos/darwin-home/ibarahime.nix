@@ -8,6 +8,7 @@
   ./modules/zsh.nix
   ./modules/sketchybar.nix
   ./modules/ripgrep.nix
+  ./modules/zellij.nix
 ];
   home.username = "ibarahime";
   home.homeDirectory = "/Users/ibarahime";

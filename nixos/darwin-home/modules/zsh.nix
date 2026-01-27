@@ -8,11 +8,21 @@ in
     autosuggestion.enable = false;
     syntaxHighlighting.enable = false;
 
-    initExtra = ''
-      if [[ -r "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh" ]]; then
-        source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
+    completionInit = ''
+      autoload -Uz compinit
+      setopt EXTENDEDGLOB
+      if [[ -n ''${ZDOTDIR:-$HOME}/.zcompdump(#qN.mh+24) ]]; then
+        compinit
+      else
+        compinit -C
       fi
+      unsetopt EXTENDEDGLOB
+    '';
 
+    initExtra = ''
+      # Disable p10k instant prompt to avoid errors
+      typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+      
       if [ -f /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme ]; then
         source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
       fi
