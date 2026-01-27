@@ -1,8 +1,12 @@
 {
-  description = "NixOS configuration for rowii";
+  description = "NixOS and nix-darwin configuration for rowii";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nix-darwin = {
+      url = "github:nix-darwin/nix-darwin";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     nix-ld.url = "github:Mic92/nix-ld";
     unstable = {
       url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -68,6 +72,7 @@
   outputs = {
     self,
     nixpkgs,
+    nix-darwin,
     home-manager,
     hyprland,
     ghostty,
@@ -75,11 +80,13 @@
     aagl,
     ...
   } @ inputs: let
-    system = "x86_64-linux";
-    pkgs = nixpkgs.legacyPackages.${system};
+    linuxSystem = "x86_64-linux";
+    darwinSystem = "aarch64-darwin";
+    pkgs = nixpkgs.legacyPackages.${linuxSystem};
+    pkgsDarwin = nixpkgs.legacyPackages.${darwinSystem};
   in {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
-      inherit system;
+      system = linuxSystem;
       specialArgs = {inherit inputs;};
       modules = [
         {
@@ -111,7 +118,7 @@
                 "beekeeper-studio-5.3.4" # electron 31
               ];
             };
-            hostPlatform = system;
+            hostPlatform = linuxSystem;
           };
         }
         ./hosts/configuration.nix
@@ -123,6 +130,28 @@
             extraSpecialArgs = {inherit inputs;};
             users.ibarahime = import ./home-manager/htrowii.nix;
             backupFileExtension = "backup-" + pkgs.lib.readFile "${pkgs.runCommand "timestamp" { env.when = self.sourceInfo.lastModified; } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
+          };
+        }
+      ];
+    };
+
+    # nix-darwin configuration for macOS (Apple Silicon)
+    darwinConfigurations.homura = nix-darwin.lib.darwinSystem {
+      system = darwinSystem;
+      specialArgs = { inherit inputs; };
+      modules = [
+        ./darwin/configuration.nix
+        home-manager.darwinModules.home-manager
+        {
+          nixpkgs.config.allowUnfree = true;
+        }
+        {
+          home-manager = {
+            useGlobalPkgs = true;
+            useUserPackages = true;
+            extraSpecialArgs = { inherit inputs; };
+            users.ibarahime = import ./darwin-home/ibarahime.nix;
+            backupFileExtension = "backup-" + pkgsDarwin.lib.readFile "${pkgsDarwin.runCommand "timestamp" { env.when = self.sourceInfo.lastModified; } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
           };
         }
       ];
