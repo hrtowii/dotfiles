@@ -6,6 +6,7 @@
   ./modules/git.nix
   ./modules/spicetify.nix
   ./modules/zsh.nix
+  ./modules/sketchybar.nix
 ];
   home.username = "ibarahime";
   home.homeDirectory = "/Users/ibarahime";

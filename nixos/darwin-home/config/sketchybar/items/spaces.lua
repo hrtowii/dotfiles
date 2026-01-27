@@ -3,7 +3,7 @@ local icons = require("icons")
 local settings = require("settings")
 local app_icons = require("helpers.app_icons")
 
-local LIST_ALL = "aerospace list-windows --all --format '%{workspace}|%{app-name}'"
+local LIST_ALL = "/run/current-system/sw/bin/aerospace list-windows --all --format '%{workspace}|%{app-name}'"
 local spaces = {} -- spaces[idx] = { item=<sb>, bracket=<sb>, last_label="", last_highlight=false }
 local max_static = 9
 local current_focused_workspace = -1
@@ -135,7 +135,7 @@ local function createSpaceItem(idx)
 	}
 
 	space:subscribe("mouse.clicked", function()
-		sbar.exec("aerospace workspace " .. idx)
+		sbar.exec("/run/current-system/sw/bin/aerospace workspace " .. idx)
 	end)
 
 	return spaces[idx]

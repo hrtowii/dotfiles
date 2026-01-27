@@ -4,7 +4,7 @@ let configDir = ./config;
 in
 {
   home.file = {
-      ".config/aerospace".source = "${configDir}/aerospace";
+      # ".config/aerospace".source = "${configDir}/aerospace";
       ".config/btop".source = "${configDir}/btop";
       ".config/ghostty".source = "${configDir}/ghostty";
       ".config/helix".source = "${configDir}/helix";

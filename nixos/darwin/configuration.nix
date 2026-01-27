@@ -3,7 +3,6 @@
 {
   imports = [
     ./modules/homebrew.nix
-    ./modules/sketchybar.nix
     ./modules/aerospace.nix
   ];
 
