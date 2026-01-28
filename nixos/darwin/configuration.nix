@@ -45,8 +45,8 @@
     git-filter-repo
     git-lfs
     cachix
-    claude-code
-    opencode
+    # claude-code
+    # opencode
     tree 
     tokei 
     wget
@@ -65,6 +65,7 @@
     mpdscribble 
     nasm 
     ncdu 
+    nh
   ];
 
   nixpkgs.config.allowUnfree = true;

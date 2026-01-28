@@ -31,6 +31,8 @@ alias x86brew='arch -x86_64 /usr/local/bin/brew'
 alias start_openwebui='docker run -d -p 127.0.0.1:3000:8080 -e WEBUI_AUTH=False -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main'
 alias disarm="~/Downloads/disarm/binaries/disarm.AAPLSi"
 alias discordo="/Users/ibarahime/dev/discordo/discordo"
+alias nix-rebuild="nh darwin switch ~/dev/dotfiles-nix-darwin/nixos/ --hostname homura"
+
 export PATH="/Users/ibarahime/.bun/bin:$PATH"
 alias create_jupyter_kernel="uv venv --seed; uv pip install pydantic; uv pip install jupyterlab; .venv/bin/jupyter lab"
 create_vite_tailwind_app() {
