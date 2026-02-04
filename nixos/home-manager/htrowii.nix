@@ -20,7 +20,7 @@
     ./modules/spicetify.nix
     ./modules/osu.nix
     # ./modules/zen.nix
-    # ./modules/caelestia.nix
+    ./modules/caelestia.nix
     ./modules/quickshell.nix
     ./config.nix
   ];
