@@ -108,7 +108,7 @@
               permittedInsecurePackages = [
                 "electron-25.9.0" # Obsidian
                 "python-2.7.18.8"
-                "beekeeper-studio-5.3.4" # electron 31
+                "beekeeper-studio-5.5.3" # electron 31
               ];
             };
             hostPlatform = system;
