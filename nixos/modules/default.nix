@@ -18,6 +18,7 @@
     ./env.nix
     ./spotify-player.nix
     ./slack.nix
+    ./vm.nix
 #     ./audio.nix
 #     ./bluetooth.nix
 #     ./boot.nix
