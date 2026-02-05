@@ -8,6 +8,8 @@
     ./modules/rust.nix
     ./modules/python.nix
     ./modules/skhd.nix
+    ./modules/cmake.nix
+    ./modules/moonlight.nix
     # ./modules/tailscale.nix
   ];
   npm.enable = true;
@@ -47,7 +49,8 @@
     cachix
     # claude-code
     # opencode
-    tree 
+    # tree 
+    bottom
     tokei 
     wget
     zoxide 
