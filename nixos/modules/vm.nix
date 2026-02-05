@@ -19,4 +19,3 @@
     phodav # (optional) Share files with guest VMs
   ];
 }
-
