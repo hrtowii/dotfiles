@@ -11,8 +11,8 @@ virtualisation.libvirtd = {
 
   virtualisation.spiceUSBRedirection.enable = true;
 }
-users.groups.libvirtd.members = [ "htrowii" ];
-users.groups.kvm.members = [ "htrowii" ];
+users.groups.libvirtd.members = [ "venti" ];
+users.groups.kvm.members = [ "venti" ];
 environment.systemPackages = with pkgs; [
     gnome-boxes # VM management
     dnsmasq # VM networking

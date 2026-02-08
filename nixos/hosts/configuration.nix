@@ -80,7 +80,7 @@
     capSysAdmin = true;
   };
 
-  users.users.ibarahime = {
+  users.users.venti = {
     isNormalUser = true;
     description = "saccade";
     extraGroups = [ "networkmanager" "wheel" "docker" ];

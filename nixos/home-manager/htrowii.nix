@@ -25,8 +25,8 @@
     ./config.nix
   ];
 
-  home.username = "ibarahime";
-  home.homeDirectory = "/home/ibarahime";
+  home.username = "venti";
+  home.homeDirectory = "/home/venti";
   home.stateVersion = "25.11";
   programs.home-manager.enable = true;
   home.enableNixpkgsReleaseCheck = false;

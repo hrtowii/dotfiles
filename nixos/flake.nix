@@ -121,7 +121,7 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             extraSpecialArgs = {inherit inputs;};
-            users.ibarahime = import ./home-manager/htrowii.nix;
+            users.venti = import ./home-manager/htrowii.nix;
             backupFileExtension = "backup-" + pkgs.lib.readFile "${pkgs.runCommand "timestamp" { env.when = self.sourceInfo.lastModified; } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
           };
         }

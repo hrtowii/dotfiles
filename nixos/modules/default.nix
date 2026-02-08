@@ -12,13 +12,14 @@
     ./keyring.nix
     ./uwsm.nix
     ./dotnet.nix
-    ./nvidia.nix
+#    ./nvidia.nix
     ./zsh.nix
     ./tablet.nix
     ./env.nix
     ./spotify-player.nix
     ./slack.nix
-    ./vm.nix
+    ./zephyrus.nix
+#     ./vm.nix
 #     ./audio.nix
 #     ./bluetooth.nix
 #     ./boot.nix
@@ -49,6 +50,6 @@
     enable = true;
     clean.enable = true;
     clean.extraArgs = "--keep-since 4d --keep 3";
-    flake = "/home/ibarahime/dotfiles/nixos";
+    flake = "/home/venti/dotfiles/nixos";
   };
 }
