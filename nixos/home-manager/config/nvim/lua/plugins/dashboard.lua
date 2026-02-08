@@ -11,7 +11,7 @@ return {
 			sections = {
 				{
 					section = "terminal",
-					cmd = "~/dev/img2ascii_c/build/img2ascii --braille --height=130 --width=100 /home/ibarahime/dev/art_daemon/album_art/current.jpg",
+					cmd = "~/dev/img2ascii_c/build/img2ascii --braille --height=130 --width=100 /home/venti/dev/art_daemon/album_art/current.jpg",
 					height = 25,
 					padding = 1,
 					ttl = 0,
@@ -48,7 +48,7 @@ return {
 					local artist = ""
 					local title = ""
 
-					local f = io.open("/home/ibarahime/dev/art_daemon/output.txt", "r")
+					local f = io.open("/home/venti/dev/art_daemon/output.txt", "r")
 					if f then
 						local contents = f:read("*a")
 						f:close()
