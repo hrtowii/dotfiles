@@ -31,7 +31,7 @@
   environment.systemPackages = with pkgs; [
     amdgpu_top
     powertop
-  ]
+  ];
 
   # Optional: better power/thermal defaults for this model
   # Use amd-pstate driver (active or guided mode) for modern Ryzen power management

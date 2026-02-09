@@ -29,5 +29,7 @@ in
       ".config/wallpapers".source = "${configDir}/unused/wallpapers";
       ".local/share/fonts".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/fonts";
       ".config/pipewire/pipewire.conf.d".source = "${configDir}/pipewire/pipewire.conf.d";
+      ".local/bin/toggle-refresh".source = "${configDir}/../scripts/toggle-refresh.sh";
+      ".local/bin/toggle-refresh".executable = true;
   };
 }
