@@ -5,6 +5,7 @@
   cmake,
   pkg-config,
   soapysdr,
+  libmirisdr,
 }:
 
 stdenv.mkDerivation (finalAttrs: {
@@ -14,8 +15,8 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     owner = "ericek111";
     repo = "SoapyMiri";
-    rev = "d94629b58f70ae36a1b4e1f58277918cec600740;
-    sha256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+    rev = "d94629b58f70ae36a1b4e1f58277918cec600740";
+    sha256 = "sha256-aS961z3SWRubSpBYoYh5XFmVasaf14xFVS1/pzYb61c=";
   };
 
   nativeBuildInputs = [
