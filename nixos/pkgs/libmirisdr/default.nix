@@ -14,8 +14,8 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     owner = "f4exb";
     repo = "libmirisdr-4";
-    rev = "v4.0.0";
-    sha256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+    rev = "v2.0.0";
+    sha256 = "sha256-HH9FEBcZdHvl5mEPduaIojQtFEIZaA2c4qUcHd7EVvk";
   };
 
   nativeBuildInputs = [
@@ -28,7 +28,7 @@ stdenv.mkDerivation (finalAttrs: {
   ];
 
   cmakeFlags = [
-    "-DCMAKE_INSTALL_LIBDIR=lib"
+    "-DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_POLICY_VERSION_MINIMUM=3.5"
   ];
 
   meta = {

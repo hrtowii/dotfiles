@@ -26,6 +26,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   buildInputs = [
     soapysdr
+    libmirisdr
   ];
 
   cmakeFlags = [

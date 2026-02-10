@@ -10,7 +10,8 @@
     usbutils
     rtl-sdr
     gqrx
-    soapysdr
+    # soapysdr
+    soapysdr-with-plugins
     soapymiri
   ];
 }
