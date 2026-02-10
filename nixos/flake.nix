@@ -76,7 +76,15 @@
     ...
   } @ inputs: let
     system = "x86_64-linux";
-    pkgs = nixpkgs.legacyPackages.${system};
+    # pkgs = nixpkgs.legacyPackages.${system};
+    pkgs = import nixpkgs {
+  inherit system;
+  overlays = [
+    (import ./overlays/soapymiri.nix)
+  ];
+  config.allowUnfree = true;
+};
+
   in {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       inherit system;

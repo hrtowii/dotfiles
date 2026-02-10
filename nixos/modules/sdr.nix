@@ -6,8 +6,11 @@
   environment.systemPackages = with pkgs; [
     wget
     vim
-    libusb
+    libusb1
+    usbutils
     rtl-sdr
     gqrx
+    soapysdr
+    soapymiri
   ];
 }
