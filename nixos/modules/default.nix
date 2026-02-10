@@ -19,6 +19,7 @@
     ./spotify-player.nix
     ./slack.nix
     ./zephyrus.nix
+    ./sdr.nix
 #     ./vm.nix
 #     ./audio.nix
 #     ./bluetooth.nix
