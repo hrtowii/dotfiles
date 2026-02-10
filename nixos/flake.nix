@@ -76,21 +76,16 @@
     ...
   } @ inputs: let
     system = "x86_64-linux";
-    # pkgs = nixpkgs.legacyPackages.${system};
-    pkgs = import nixpkgs {
-  inherit system;
-  overlays = [
-    (import ./overlays/soapymiri.nix)
-  ];
-  config.allowUnfree = true;
-};
-
+    pkgs = nixpkgs.legacyPackages.${system};
   in {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       inherit system;
       specialArgs = {inherit inputs;};
       modules = [
         {
+            nixpkgs.overlays = [
+    (import ./overlays/soapymiri.nix)
+  ];
             imports = [ aagl.nixosModules.default ];
             # nix.settings = aagl.nixConfig; # Set up Cachix
             programs.anime-game-launcher.enable = false; # Adds launcher and /etc/hosts rules
