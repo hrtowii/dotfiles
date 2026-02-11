@@ -1,6 +1,14 @@
 final: prev: {
   libmirisdr = final.callPackage ../pkgs/libmirisdr { };
   soapymiri = final.callPackage ../pkgs/soapymiri { };
+  gqrx = prev.gqrx.overrideAttrs (old: {
+    buildInputs = old.buildInputs or [];
+    nativeBuildInputs = (old.nativeBuildInputs or []) ++ [ prev.makeWrapper ];
+    postInstall = (old.postInstall or "") + ''
+      wrapProgram $out/bin/gqrx \
+        --set SOAPY_SDR_PLUGIN_PATH "${final.soapysdr-with-plugins}/lib/SoapySDR/modules0.8-3"
+    '';
+  });
   soapysdr-with-plugins = prev.symlinkJoin {
     name = "soapysdr-with-plugins";
     paths = [ prev.soapysdr final.soapymiri ];
