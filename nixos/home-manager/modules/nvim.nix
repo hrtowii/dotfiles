@@ -1,4 +1,4 @@
-{ config, inputs, lib, pkgs, ... }:
+{ config, inputs, lib, pkgs, vars, ... }:
 
 {
 
@@ -47,6 +47,11 @@ programs.neovim = {
   ];
 
   plugins = [ pkgs.vimPlugins.lazy-nvim ];
+};
+
+# Set environment variables for nvim dashboard.lua
+home.sessionVariables = {
+  HOMEUSER = vars.zephyrus.username;
 };
 
   # Link your Neovim configuration

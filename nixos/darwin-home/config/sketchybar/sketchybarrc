@@ -1,0 +1,7 @@
+#!/usr/bin/env lua
+-- https://github.com/FelixKratz/SketchyBar/issues/553
+local script_path = debug.getinfo(1, "S").source:match("@?(.*[/\\])")
+package.path = package.path .. ";" .. script_path .. "?.lua;" .. script_path .. "?/init.lua"
+-- Load the sketchybar-package and prepare the helper binaries
+require("helpers")
+require("init")

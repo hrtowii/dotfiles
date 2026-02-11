@@ -1,6 +1,8 @@
 {
   pkgs,
   inputs,
+  vars,
+  hostVars,
   ...
 }: {
   imports = [
@@ -26,9 +28,9 @@
     ./config.nix
   ];
 
-  home.username = "venti";
-  home.homeDirectory = "/home/venti";
-  home.stateVersion = "25.11";
+  home.username = hostVars.username;
+  home.homeDirectory = "${hostVars.homePrefix}/${hostVars.username}";
+  home.stateVersion = hostVars.stateVersion;
   programs.home-manager.enable = true;
   home.enableNixpkgsReleaseCheck = false;
   programs.fzf.enableZshIntegration = true;

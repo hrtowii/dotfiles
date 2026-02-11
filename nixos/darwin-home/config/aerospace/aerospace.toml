@@ -1,0 +1,238 @@
+exec-on-workspace-change = [
+  '/bin/bash',
+  '-c',
+  '/etc/profiles/per-user/ibarahime/bin/sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE="$AEROSPACE_FOCUSED_WORKSPACE"',
+]
+# note: not used anymore, refer to aerospace.nix
+on-focus-changed = [
+  'exec-and-forget /etc/profiles/per-user/ibarahime/bin/sketchybar --trigger aerospace_window_change',
+]
+gaps.inner.horizontal = 10
+gaps.inner.vertical = 10
+gaps.outer.left = 10
+gaps.outer.bottom = 10
+gaps.outer.top = 10
+gaps.outer.right = 10
+[mode.main.binding]
+
+# # ---------------------------------------------------------------------------
+# #  Session defaults
+# # ---------------------------------------------------------------------------
+# # Kick‑start yabai (right‑alt + y)
+# ralt-y = 'exec-and-forget launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"'
+
+# # Lock screen immediately (right‑alt + escape)
+# ralt-escape = 'exec-and-forget pmset displaysleepnow'
+
+# # Sleep (right‑alt + shift + s)
+# # ralt-shift-s = 'exec-and-forget osascript -e "tell application \"System Events\" to sleep"'
+
+# # ---------------------------------------------------------------------------
+# #  Launch commands
+# # ---------------------------------------------------------------------------
+# # Open Ghostty (right‑alt + return)
+# ralt-return = 'exec-and-forget open -na /Applications/Ghostty.app'
+
+# # Open Firefox Nightly (right‑alt + shift + return)
+# ralt-shift-return = 'exec-and-forget open -na /Applications/Firefox\ Nightly.app'
+
+# # Open VS Code (right‑alt + ctrl + return)
+# ralt-ctrl-return = 'exec-and-forget open -na /Applications/Visual\ Studio\ Code.app/'
+
+# # Open Finder in the current directory (right‑alt + shift + n)
+# ralt-shift-n = 'exec-and-forget open "$(pwd)"'
+
+# # Open VS Code (right‑alt + c) – you had this bound to “system preferences”,
+# # but the original skhd line opened VS Code, so we keep that behaviour.
+# ralt-c = 'exec-and-forget open -na /Applications/Visual\ Studio\ Code.app/'
+
+# # ---------------------------------------------------------------------------
+# #  Resize mode toggle (right‑alt + r)
+# # ---------------------------------------------------------------------------
+# # Switch to resize mode
+# ralt-r = 'mode resize'
+
+# # ---------------------------------------------------------------------------
+# #  Navigation – focus movement (right‑alt + WASD / arrows)
+# # ---------------------------------------------------------------------------
+# ralt-a = 'focus left'
+# ralt-s = 'focus down'
+# ralt-w = 'focus up'
+# ralt-d = 'focus right'
+
+# ralt-left  = 'focus left'
+# ralt-down  = 'focus down'
+# ralt-up    = 'focus up'
+# ralt-right = 'focus right'
+
+# # ---------------------------------------------------------------------------
+# #  Workspace (space) navigation & creation
+# # ---------------------------------------------------------------------------
+# ralt-tab          = 'workspace next || workspace first'
+# ralt-shift-tab    = 'workspace prev || workspace last'
+# ralt-x            = 'workspace recent'
+
+# ralt-1 = 'workspace 1'
+# ralt-2 = 'workspace 2'
+# ralt-3 = 'workspace 3'
+# ralt-4 = 'workspace 4'
+# ralt-5 = 'workspace 5'
+# ralt-6 = 'workspace 6'
+# ralt-7 = 'workspace 7'
+# ralt-8 = 'workspace 8'
+# ralt-9 = 'workspace 9'
+# ralt-0 = 'workspace 10'
+
+# # ralt-n = '''
+# # exec-and-forget yabai -m space --create && \
+# # yabai -m space --focus last
+# # '''
+
+# # ralt-shift-d = 'exec-and-forget yabai -m space --destroy'
+
+# # ---------------------------------------------------------------------------
+# #  Window movement (right‑alt + shift + WASD / arrows)
+# # ---------------------------------------------------------------------------
+# ralt-shift-a = 'move left'
+# ralt-shift-s = 'move down'
+# ralt-shift-w = 'move up'
+# ralt-shift-d = 'move right'
+
+# ralt-shift-left  = 'move left'
+# ralt-shift-down  = 'move down'
+# ralt-shift-up    = 'move up'
+# ralt-shift-right = 'move right'
+
+# # ---------------------------------------------------------------------------
+# #  Send window to another workspace
+# # ---------------------------------------------------------------------------
+# ralt-shift-x = 'move-node-to-workspace recent'
+
+# ralt-shift-1 = 'move-node-to-workspace 1'
+# ralt-shift-2 = 'move-node-to-workspace 2'
+# ralt-shift-3 = 'move-node-to-workspace 3'
+# ralt-shift-4 = 'move-node-to-workspace 4'
+# ralt-shift-5 = 'move-node-to-workspace 5'
+# ralt-shift-6 = 'move-node-to-workspace 6'
+# ralt-shift-7 = 'move-node-to-workspace 7'
+# ralt-shift-8 = 'move-node-to-workspace 8'
+
+# # ---------------------------------------------------------------------------
+# #  Move focus + window together to another workspace (right‑alt + ctrl)
+# # ---------------------------------------------------------------------------
+# ralt-ctrl-m = '''
+# move-node-to-workspace last && \
+# workspace last
+# '''
+# ralt-ctrl-p = '''
+# move-node-to-workspace prev && \
+# workspace prev
+# '''
+# ralt-ctrl-n = '''
+# move-node-to-workspace next && \
+# workspace next
+# '''
+# ralt-ctrl-1 = '''
+# move-node-to-workspace 1 && \
+# workspace 1
+# '''
+# ralt-ctrl-2 = '''
+# move-node-to-workspace 2 && \
+# workspace 2
+# '''
+# ralt-ctrl-3 = '''
+# move-node-to-workspace 3 && \
+# workspace 3
+# '''
+# ralt-ctrl-4 = '''
+# move-node-to-workspace 4 && \
+# workspace 4
+# '''
+
+# # ---------------------------------------------------------------------------
+# #  Layout / size helpers
+# # ---------------------------------------------------------------------------
+# ralt-e = 'layout tiles horizontal vertical'   # balance / equalise
+
+# ralt-i = '''
+# exec-and-forget yabai -m space --toggle padding && \
+# yabai -m space --toggle gap && \
+# yabai -m config external_bar all:30:0 && \
+# sketchybar --bar hidden=false
+# '''
+
+# # ---------------------------------------------------------------------------
+# #  Insertion point for new containers (right‑alt + v / h)
+# # ---------------------------------------------------------------------------
+# ralt-v = 'join-with south'   # insert below
+# ralt-h = 'join-with east'    # insert to the right
+
+# # ---------------------------------------------------------------------------
+# #  Floating / tiling toggle (shift + right‑alt + space)
+# # ---------------------------------------------------------------------------
+# shift-ralt-space = 'layout floating tiling'
+
+# # ---------------------------------------------------------------------------
+# #  Fullscreen (native) – (right‑alt + f)
+# # ---------------------------------------------------------------------------
+# ralt-f = 'fullscreen'
+
+# # ---------------------------------------------------------------------------
+# #  Miscellaneous
+# # ---------------------------------------------------------------------------
+# alt-enter = '''
+# exec-and-forget osascript -e '
+# tell application "Terminal"
+#     do script
+#     activate
+# end tell'
+# '''
+
+# alt-h = 'split horizontal'
+# alt-v = 'split vertical'
+
+# alt-f = 'fullscreen'
+# alt-s = 'layout v_accordion'   # stacking
+# alt-w = 'layout h_accordion'   # tabbed
+# alt-e = 'layout tiles horizontal vertical'   # toggle split
+# alt-shift-space = 'layout floating tiling'   # floating toggle
+
+# alt-1 = 'workspace 1'
+# alt-2 = 'workspace 2'
+# alt-3 = 'workspace 3'
+# alt-4 = 'workspace 4'
+# alt-5 = 'workspace 5'
+# alt-6 = 'workspace 6'
+# alt-7 = 'workspace 7'
+# alt-8 = 'workspace 8'
+# alt-9 = 'workspace 9'
+# alt-0 = 'workspace 10'
+
+# alt-shift-1 = 'move-node-to-workspace 1'
+# alt-shift-2 = 'move-node-to-workspace 2'
+# alt-shift-3 = 'move-node-to-workspace 3'
+# alt-shift-4 = 'move-node-to-workspace 4'
+# alt-shift-5 = 'move-node-to-workspace 5'
+# alt-shift-6 = 'move-node-to-workspace 6'
+# alt-shift-7 = 'move-node-to-workspace 7'
+# alt-shift-8 = 'move-node-to-workspace 8'
+# alt-shift-9 = 'move-node-to-workspace 9'
+# alt-shift-0 = 'move-node-to-workspace 10'
+
+# alt-shift-c = 'reload-config'
+# alt-r = 'mode resize'
+
+# # ---------------------------------------------------------------------------
+# #  Resize mode – **only** resizing bindings
+# # ---------------------------------------------------------------------------
+# [mode.resize.binding]
+# h = 'resize width -50'   # shrink horizontally
+# j = 'resize height +50'  # grow vertically
+# k = 'resize height -50'  # shrink vertically
+# l = 'resize width +50'   # grow horizontally
+# enter = 'mode main'      # leave resize mode
+# esc   = 'mode main'      # leave resize mode
+
+# # ---------------------------------------------------------------------------
+# #  End of file
+# # ---------------------------------------------------------------------------

@@ -1,0 +1,546 @@
+/*  ================================
+    USER-EDITABLE VARIABLES
+    ================================ */
+
+:root {
+    /* top bar vars */
+    --top-bar-padding-top: 45px;
+    --top-bar-padding-right: 20px;
+    --top-bar-padding-bottom: 5px;
+    --top-bar-padding-left: 20px;
+    --tab-border-radius: 6px;
+    --top-bar-border-width: 2px;
+
+    /* sidebar vars */
+    --sidebar-button-border-radius: 4px;
+    --sidebar-border-width: 2px;
+
+    /* player vars */
+    --player-height: 90px;
+    --player-padding: 0 20px;
+    --player-border-width: 2px;
+
+    /* scrollbar vars */
+    --scrollbar-border-radius: 4px;
+    --scrollbar-width: 6px;
+    --scrollbar-width-hover: 6px;
+}
+
+/*  ================================
+    GLOBAL NAV
+    ================================ */
+
+.Root__globalNav {
+    /* add nav padding */
+    padding: var(--top-bar-padding-top) var(--top-bar-padding-right)
+        var(--top-bar-padding-bottom) var(--top-bar-padding-left) !important;
+    border-bottom: var(--top-bar-border-width) solid var(--spice-topbar-border);
+}
+.Root__globalNav .main-globalNav-link-icon {
+    border-radius: var(--tab-border-radius);
+    background-color: var(--spice-topbar);
+    color: var(--spice-topbar-subtext);
+}
+.Root__globalNav .main-globalNav-navLinkActive {
+    background-color: var(--spice-tab-active);
+    color: var(--spice-topbar-text);
+}
+form .main-topBar-searchBar {
+    /* style seaerch bar */
+    border-radius: var(--tab-border-radius) !important;
+}
+form:hover .main-topBar-searchBar,
+form .main-topBar-searchBar:focus {
+    background: var(--spice-tab-hover) !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* fix spacing */
+.main-globalNav-historyButtonsContainer > div {
+    gap: 0;
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+    -webkit-margin-start: 0;
+    margin-inline-start: 0;
+}
+.main-globalNav-historyButtonsContainer > div > div:nth-child(1),
+.Root__globalNav > div:nth-child(3) > div:nth-child(2) {
+    height: 0;
+    width: 0;
+}
+.Root__globalNav > div:nth-child(3) {
+    -webkit-margin-end: 0;
+    margin-inline-end: 0;
+}
+.main-globalNav-historyButtons {
+    gap: 0 !important;
+    padding-inline: 0 !important;
+}
+.main-globalNav-historyButtons > button {
+    padding-inline: var(--encore-spacing-tighter, 12px);
+}
+
+/*  ================================
+    NAVBAR / LEFT SIDEBAR
+    ================================ */
+
+.Root__nav-bar {
+    /* add border */
+    border-right: var(--sidebar-border-width) solid var(--spice-sidebar-border);
+}
+.LayoutResizer__resize-bar--resizing,
+.LayoutResizer__resize-bar:focus-within,
+.LayoutResizer__resize-bar:hover {
+    /* remove border on hovering layout resizer */
+    opacity: 0;
+}
+.LayoutResizer__resize-bar {
+    /* replace cursor on layout resize */
+    cursor: w-resize;
+    width: 2px;
+}
+.LayoutResizer__inline-end {
+    inset-inline-end: 0;
+}
+.main-yourLibraryX-entryPoints,
+.Root__main-view {
+    border-radius: 0;
+}
+.main-yourLibraryX-navItems {
+    padding-bottom: 0;
+}
+.main-yourLibraryX-navItem,
+.main-yourLibraryX-headerContent {
+    padding: 4px 0;
+}
+.main-yourLibraryX-navItem {
+    padding: 4px 0;
+}
+.main-yourLibraryX-navLink {
+    padding: 12px;
+    text-decoration: none !important;
+}
+.main-yourLibraryX-navLink,
+.main-yourLibraryX-header .main-yourLibraryX-collapseButtonWrapper {
+    gap: 20px;
+}
+.Wrapper-md-leading {
+    margin-inline-end: 0;
+}
+.main-yourLibraryX-libraryRootlist {
+    padding: 0 16px 16px;
+}
+.main-rootlist-wrapper .LineClamp {
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+}
+.main-yourLibraryX-libraryContainer {
+    background-color: var(--spice-sidebar);
+}
+
+/*  ================================
+    MAIN VIEW
+    ================================ */
+
+.main-view-container__scroll-node-child-spacer {
+    /* remove main view padding */
+    display: none;
+}
+.marketplace-header,
+.main-home-filterChipsContainer,
+.main-trackList-trackListHeader,
+.search-searchCategory-SearchCategory,
+.artist-artistDiscography-topBar {
+    /* fix home filter, track list header, search category, artist discography */
+    top: -1px !important;
+    height: auto;
+}
+.LVMjmN2CaPruPAo62RAY {
+    height: unset !important;
+}
+.marketplace-header,
+.main-home-filterChipsContainer,
+.search-searchCategory-SearchCategory {
+    /* home filter, fix search category */
+    border-bottom: 1px solid rgba(var(--spice-rgb-selected-row), 0.1);
+    padding: 16px 0;
+}
+.search-searchCategory-catergoryGrid button {
+    margin-bottom: 0 !important;
+}
+.search-searchCategory-catergoryGrid button[aria-checked="true"] span {
+    /* customize active search category */
+    border-radius: var(--tab-border-radius);
+}
+.main-trackList-trackListHeader,
+.artist-artistDiscography-topBar {
+    /* fix track list header & artist discography */
+    padding: 16px 32px 0 32px;
+}
+.main-trackList-trackListHeaderStuck.main-trackList-trackListHeader,
+.artist-artistDiscography-topBar.artist-artistDiscography-topBarScrolled {
+    /* fix tracklist header & artist discography */
+    box-shadow: none;
+    border-bottom: 1px solid rgba(var(--spice-rgb-selected-row), 0.1);
+}
+.search-recentSearches-searchPageGrid
+    .main-trackList-trackListHeader.main-trackList-trackListHeaderStuck {
+    /* fix tracklist header in search */
+    top: 64px !important;
+}
+.main-home-homeHeader,
+.x-entityHeader-overlay,
+.x-actionBarBackground-background,
+.main-actionBarBackground-background,
+.main-entityHeader-overlay,
+.main-entityHeader-backgroundColor {
+    /* remove background gradient */
+    background-color: unset !important;
+    background-image: unset !important;
+}
+
+/* full window artist background */
+.main-entityHeader-background.main-entityHeader-gradient,
+.under-main-view > div > div {
+    opacity: 0.3 !important;
+}
+.main-entityHeader-container.main-entityHeader-withBackgroundImage,
+.main-entityHeader-background,
+.main-entityHeader-background.main-entityHeader-overlay:after,
+.under-main-view > div > div {
+    height: 100vh;
+}
+.main-entityHeader-withBackgroundImage .main-entityHeader-headerText {
+    justify-content: center;
+}
+.main-entityHeader-container.main-entityHeader-nonWrapped.main-entityHeader-withBackgroundImage {
+    padding-left: 9%;
+}
+.main-entityHeader-background.main-entityHeader-overlay:after {
+    background-image: linear-gradient(transparent, transparent),
+        linear-gradient(var(--spice-main), var(--spice-main));
+}
+.artist-artistOverview-overview .main-entityHeader-withBackgroundImage h1 {
+    font-size: 20vh !important;
+    line-height: 20vh !important;
+}
+/* cards */
+.main-cardImage-imageWrapper {
+    background-color: transparent;
+}
+.main-card-card {
+    background: none;
+}
+.main-cardImage-image {
+    border-radius: 12px;
+}
+.main-cardImage-imageWrapper,
+.main-entityHeader-shadow {
+    /* remove drop shadows from images */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* popup modal */
+.main-trackCreditsModal-container {
+    background-color: var(--spice-main);
+}
+.main-trackCreditsModal-closeBtn svg path {
+    fill: var(--spice-subtext);
+}
+/* lyrics */
+.lyrics-lyrics-background {
+    background-color: var(--spice-main);
+}
+.lyrics-lyrics-container.lyrics-lyrics-coverTopBar {
+    --lyrics-color-active: var(--spice-text) !important;
+    --lyrics-color-inactive: var(--spice-subtext) !important;
+    --lyrics-color-passed: var(--spice-subtext) !important;
+    --lyrics-color-messaging: var(--spice-subtext) !important;
+}
+.lyrics-lyricsContent-lyric {
+    opacity: 0.3;
+}
+.lyrics-lyricsContent-lyric.lyrics-lyricsContent-highlight {
+    opacity: 0.7;
+}
+.lyrics-lyricsContent-lyric.lyrics-lyricsContent-isInteractive.lyrics-lyricsContent-active {
+    text-shadow: 0 0 10px var(--lyrics-color-background),
+        -2px 1px 0 var(--spice-main), -3px 2px 0 var(--lyrics-color-background),
+        2px -1px 0 var(--spice-main), 3px -2px 0 var(--lyrics-color-background);
+    opacity: 1;
+}
+
+/*  ================================
+    RIGHT SIDEBAR
+    ================================ */
+
+.Root__right-sidebar {
+    border-left: var(--sidebar-border-width) solid var(--spice-sidebar-border);
+}
+.Root__right-sidebar aside::before {
+    background-color: var(--spice-sidebar) !important;
+}
+
+/*  ================================
+    NOW PLAYING BAR
+    ================================ */
+
+.Root__now-playing-bar {
+    border-top: var(--player-border-width) solid var(--spice-player-border);
+}
+.main-nowPlayingBar-nowPlayingBar {
+    /* customize now playing bar */
+    height: var(--player-height);
+    padding: var(--player-padding);
+}
+.main-nowPlayingBar-container {
+    /* customize now playing bar*/
+    border-top: none;
+}
+[dir="ltr"] .main-nowPlayingWidget-coverExpanded {
+    transform: translateX(-76px);
+}
+.x-progressBar-fillColor {
+    /* fluid progress bars */
+    transition: transform, 0s, ease, 0.25s;
+}
+.progress-bar__slider {
+    /* fluid progress bars */
+    transition: left, 0s, ease, 0.25s;
+}
+
+/*  ================================
+    MISC & FIXES
+    ================================ */
+
+/*  root
+    -------------------------------- */
+.Root {
+    --panel-gap: 0 !important;
+}
+.spotify__container--is-desktop .Root__top-container {
+    padding-top: 0 !important;
+}
+
+/*  scrollbar
+    -------------------------------- */
+.os-scrollbar-handle {
+    /* customize scrollbar */
+    border-radius: var(--scrollbar-border-radius) !important;
+    width: var(--scrollbar-width) !important;
+    margin: 0 6px !important;
+}
+.os-scrollbar-handle:hover {
+    /* customize hovered scrollbar */
+    border-radius: var(--scrollbar-border-radius) !important;
+    width: var(--scrollbar-width-hover) !important;
+}
+.os-scrollbar-handle {
+    /* increase size from right to left */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*  tooltip
+    -------------------------------- */
+.main-contextMenu-tippy {
+    /* position below the element */
+    transform: translate(0, 65px);
+}
+
+/*  placeholder
+    -------------------------------- */
+.T7WHRub8pynnWPXERh8e,
+.rOgsguaurlHVlgCTY0P7,
+.eC25_w41L83mXDCqdm_A {
+    /* playlists loading placeholder */
+    opacity: 0.05;
+    filter: contrast(0.1);
+}
+
+/*  color reassignment
+    -------------------------------- */
+.encore-dark-theme,
+.encore-dark-theme .encore-base-set,
+*[style*="subdued"] {
+    /* song duration & queue button & folder arrow & settings desc text */
+    --text-subdued: var(--spice-subtext) !important;
+    --essential-subdued: var(--spice-subtext) !important;
+}
+.encore-dark-theme .encore-bright-accent-set {
+    --background-highlight: var(--spice-button-active);
+    --background-press: var(--spice-button-active);
+    --background-elevated-base: var(--spice-button-active);
+    --background-elevated-highlight: var(--spice-button-active);
+    --background-elevated-press: var(--spice-button-active);
+}
+.search-searchCategory-contentArea {
+    --carousel-start-chevron-gradient: var(--spice-main);
+    --carousel-end-chevron-gradient: var(--spice-main);
+}
+
+/* ====global nav==== */
+.Root__globalNav {
+    background-color: var(--spice-topbar);
+}
+
+/* ====left sidebar==== */
+.main-yourLibraryX-entryPoints {
+    background-color: var(--spice-sidebar);
+}
+.main-yourLibraryX-navLinkActive,
+.main-yourLibraryX-navLinkActive .home-active-icon,
+.main-yourLibraryX-navLinkActive .search-active-icon {
+    color: var(--spice-link-active-text) !important;
+    background-color: var(--spice-link-active);
+    border-radius: var(--tab-border-radius);
+}
+.link-subtle {
+    transition-property: none;
+    color: var(--spice-sidebar-text);
+}
+.link-subtle:focus,
+.link-subtle:hover {
+    color: var(--spice-link-hover-text);
+}
+.Button-md-24-buttonTertiary-iconLeading-condensed-useBrowserDefaultFocusStyle,
+.Button-md-24-buttonTertiary-iconLeading-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {
+    color: var(--spice-sidebar-text);
+}
+
+/* ====main view==== */
+div[style*="background-base"],
+div[style*="background-color"],
+div[style*="background-color"] + div {
+    --background-base: var(--spice-main) !important;
+    background-color: var(--spice-main) !important;
+    background-image: none !important;
+}
+.main-topBar-overlay {
+    background-color: transparent;
+}
+.main-trackList-trackListRow.main-trackList-selected,
+.main-trackList-trackListRow.main-trackList-selected:hover,
+.main-trackList-trackListRow:focus-within,
+.main-trackList-trackListRow:hover {
+    background-color: var(--spice-card);
+}
+.main-trackList-trackListHeaderStuck.main-trackList-trackListHeader,
+.artist-artistDiscography-topBar.artist-artistDiscography-topBarScrolled {
+    background: var(--spice-main) !important;
+}
+.main-trackList-placeholder {
+    /* recolor loading tracklist */
+    opacity: 0.05;
+    filter: contrast(0.1);
+}
+.view-homeShortcutsGrid-equaliser,
+.main-trackList-playingIcon,
+.main-devicePicker-nowPlayingActiveIcon {
+    /* change playing icon color to theme color */
+    filter: grayscale(1) opacity(0.2)
+        drop-shadow(0 0 0 var(--spice-button-active))
+        drop-shadow(0 0 0 var(--spice-button-active))
+        drop-shadow(0 0 0 var(--spice-button-active));
+}
+.main-home-filterChipsSection,
+.main-home-filterChipsSection:after {
+    background-color: var(--spice-main) !important;
+}
+.search-searchCategory-catergoryGrid button[aria-checked="true"] span {
+    color: var(--spice-main);
+    background-color: var(--spice-button-active) !important;
+}
+.search-searchCategory-catergoryGrid span {
+    border-radius: var(--tab-border-radius);
+    color: var(--spice-subtext);
+}
+.artist-artistAbout-container.artist-artistAbout-backgroundImage
+    .artist-artistAbout-content
+    > div {
+    /* change about artist text color */
+    color: #fff;
+}
+.main-dropDown-dropDown,
+.x-settings-input {
+    background-color: var(--spice-button-disabled);
+    color: var(--spice-text);
+}
+
+/* ====right sidebar==== */
+.TypeElement-balladBold-textBase-type,
+.main-buddyFeed-activityMetadata .main-buddyFeed-artistAndTrackName {
+    color: var(--spice-sidebar-text);
+}
+
+/* ====now playing bar==== */
+.main-nowPlayingBar-container {
+    background-color: var(--spice-player);
+}
+.main-trackInfo-name,
+.main-trackInfo-artists a:active,
+.main-trackInfo-artists a:focus,
+.main-trackInfo-artists a:hover {
+    color: var(--spice-player-text) !important;
+}
+.main-trackInfo-artists a:link,
+.main-trackInfo-artists a:visited {
+    color: var(--spice-player-subtext);
+}
+.main-playPauseButton-button {
+    color: var(--spice-player);
+    background-color: var(--spice-button-active);
+}
+.Button-textBrightAccent-small-small-buttonTertiary-iconOnly-useBrowserDefaultFocusStyle,
+.Button-textBrightAccent-small-small-buttonTertiary-iconOnly-isUsingKeyboard-useBrowserDefaultFocusStyle {
+    color: var(--spice-button) !important;
+}
+.progress-bar {
+    --bg-color: rgba(var(--spice-rgb-player-selected-row), 0.3);
+    --fg-color: var(--spice-player-selected-row);
+}
+
+/* ====misc==== */
+
+/* ----scrollbar---- */
+.os-scrollbar-handle {
+    background-color: var(--spice-scrollbar) !important;
+}
+.os-scrollbar-handle:hover,
+.os-scrollbar-handle:active {
+    background-color: var(--spice-scrollbar-hover) !important;
+}
+
+/* ----context menu---- */
+.main-contextMenu-menu {
+    background-color: var(--spice-context-menu);
+}
+.main-contextMenu-menuHeading,
+.main-contextMenu-menuItemButton,
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):focus,
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):hover {
+    color: var(--spice-context-menu-text);
+}
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):focus,
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):hover {
+    background-color: var(--spice-context-menu-hover);
+}
+
+/* ----button---- */
+#_R_G *:not([fill="none"]) {
+    /* fix heart color on click */
+    fill: var(--spice-button-active) !important;
+}
+#_R_G *:not([stroke="none"]) {
+    stroke: var(--spice-button-active);
+}
+.ButtonInner-md-iconOnly {
+    /* base play/pause icon color on player instead of sidebar */
+    color: var(--spice-player);
+}
+.Button-sm-16-buttonTertiary-iconOnly-condensedAll-useBrowserDefaultFocusStyle {
+    /* base play/pause icon color on sidebar text instead of subtext */
+    color: var(--spice-sidebar-text);
+}

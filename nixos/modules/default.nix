@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{pkgs, vars, hostVars, ...}: {
   imports = [
     ./docker.nix
     ./steam.nix
@@ -51,6 +51,6 @@
     enable = true;
     clean.enable = true;
     clean.extraArgs = "--keep-since 4d --keep 3";
-    flake = "/home/venti/dotfiles/nixos";
+    flake = "${hostVars.homePrefix}/${hostVars.username}/dotfiles/nixos";
   };
 }
