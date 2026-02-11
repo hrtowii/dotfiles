@@ -15,6 +15,7 @@ in
       # ".config/hypr".source = "${configDir}/hypr";
       # ".config/quickshell/caelestia".source = "${configDir}/caelestia-shell";
       ".config/fastfetch".source = "${configDir}/fastfetch";
+      ".config/gqrx".source = "${configDir}/gqrx";
       ".config/uwsm".source = "${configDir}/uwsm";
       ".zshrc".source = "${configDir}/zsh/.zshrc";
 
