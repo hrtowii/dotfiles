@@ -22,6 +22,7 @@
     # ./modules/zen.nix
     ./modules/caelestia.nix
     ./modules/quickshell.nix
+    ./modules/whatsapp.nix
     ./config.nix
   ];
 
