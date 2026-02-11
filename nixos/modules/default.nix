@@ -14,7 +14,7 @@
     ./dotnet.nix
 #    ./nvidia.nix
     ./zsh.nix
-    ./tablet.nix
+    # ./tablet.nix
     ./env.nix
     ./spotify-player.nix
     ./slack.nix
