@@ -15,6 +15,7 @@
   nerd-fonts.fira-code
   nerd-fonts.geist-mono
   nerd-fonts.zed-mono
+  nerd-fonts.departure-mono
   maple-mono.NF
   cozette
 ];

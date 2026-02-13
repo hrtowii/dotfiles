@@ -11,23 +11,12 @@ in
       ".config/spicetify".source="${configDir}/spicetify";
       ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/config/nvim";
       ".config/neofetch".source = "${configDir}/neofetch";
-      # caelestia dots (broken)
-      # ".config/hypr".source = "${configDir}/hypr";
-      # ".config/quickshell/caelestia".source = "${configDir}/caelestia-shell";
       ".config/fastfetch".source = "${configDir}/fastfetch";
       ".config/gqrx".source = "${configDir}/gqrx";
       ".config/uwsm".source = "${configDir}/uwsm";
       ".zshrc".source = "${configDir}/zsh/.zshrc";
-
-      ".config/quickshell".source = "${configDir}/unused/quickshell";
-      ".config/hypr".source = "${configDir}/unused/hypr";
-      ".config/swayidle".source = "${configDir}/unused/swayidle";
-      ".config/swaylock".source = "${configDir}/unused/swaylock";
-      ".config/wlogout".source = "${configDir}/unused/wlogout";
-      ".config/waybar".source = "${configDir}/unused/waybar";
-      ".config/wofi".source = "${configDir}/unused/wofi";
-      ".config/mako".source = "${configDir}/unused/mako";
-      ".config/wallpapers".source = "${configDir}/unused/wallpapers";
+      ".config/hypr".source = "${configDir}/hypr";
+      ".config/wallpapers".source = "${configDir}/wallpapers";
       ".local/share/fonts".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/fonts";
       ".config/pipewire/pipewire.conf.d".source = "${configDir}/pipewire/pipewire.conf.d";
       ".local/bin/toggle-refresh".source = ./scripts/toggle-refresh.sh;
