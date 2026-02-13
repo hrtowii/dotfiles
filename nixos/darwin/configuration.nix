@@ -59,7 +59,7 @@
     btop
     cmatrix
     gh
-    ldid-procursus
+    # ldid-procursus
     eza
     fastfetch
     hugo
