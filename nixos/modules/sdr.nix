@@ -14,6 +14,7 @@
     usbutils
     rtl-sdr
     gqrx
+    cubicsdr
     # soapysdr
     soapysdr-with-plugins
     soapymiri
