@@ -5,7 +5,6 @@
 
     qemu = {
       swtpm.enable = true;
-      # ovmf is now available by default with QEMU
     };
   };
 

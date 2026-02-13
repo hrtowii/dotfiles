@@ -9,7 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./system-packages.nix
-      ../../modules
+      ../../modules/zephyrus
     ];
 
   boot.loader.systemd-boot.enable = true;

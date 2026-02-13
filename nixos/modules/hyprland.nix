@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
     programs.hyprland = {
@@ -6,17 +6,14 @@
     };
 
     environment.systemPackages = with pkgs; [
-      hyprpaper
       libnotify
-      mako
       qt5.qtwayland
       qt6.qtwayland
-      swayidle
-      swaylock-effects
-      wlogout
       wl-clipboard
       wofi
       waybar
       hyprshot
+      wbg
+      # inputs.awww.packages.${pkgs.stdenv.hostPlatform.system}.awww
     ];
 }

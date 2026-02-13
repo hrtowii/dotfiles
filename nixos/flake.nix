@@ -24,26 +24,27 @@
     };
     ghostty.url = "github:ghostty-org/ghostty";
     hyprland.url = "github:hyprwm/Hyprland";
+    # awww.url = "git+https://codeberg.org/LGFae/awww";
     spicetify-nix.url = "github:Gerg-L/spicetify-nix";
-    quickshell = {
-      url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    # quickshell = {
+    #   url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
     aagl.url = "github:ezKEa/aagl-gtk-on-nix";
     aagl.inputs.nixpkgs.follows = "nixpkgs";
-    caelestia-shell = {
-      url = "github:caelestia-dots/shell";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    ags = {
-      url = "github:aylur/ags";
-      inputs.nixpkgs.follows = "stable";
-    };
-    astal = {
-      url = "github:aylur/astal";
-      inputs.nixpkgs.follows = "stable";
-    };
-    zen-browser.url = "github:MarceColl/zen-browser-flake";
+    # caelestia-shell = {
+    #   url = "github:caelestia-dots/shell";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
+    # ags = {
+    #   url = "github:aylur/ags";
+    #   inputs.nixpkgs.follows = "stable";
+    # };
+    # astal = {
+    #   url = "github:aylur/astal";
+    #   inputs.nixpkgs.follows = "stable";
+    # };
+    # zen-browser.url = "github:MarceColl/zen-browser-flake";
   };
 
   outputs = {
@@ -60,7 +61,6 @@
   } @ inputs: let
     vars = import ./vars.nix;
 
-    # Shared nixpkgs config for all NixOS hosts
     nixpkgsConfig = {
       allowUnfree = true;
       allowUnfreePredicate = (_: true);
@@ -68,7 +68,7 @@
       permittedInsecurePackages = [
         "electron-25.9.0" # Obsidian
         "python-2.7.18.8"
-        "beekeeper-studio-5.5.3" # electron 31
+        "beekeeper-studio-5.5.5" # electron 32
       ];
     };
 
@@ -115,32 +115,28 @@
       ] ++ extraModules;
     };
   in {
-    # ── NixOS Configurations ───────────────────────────────────────────
-
     nixosConfigurations = {
-      # Zephyrus G14 — AMD, unstable, caelestia-shell
       zephyrus = mkNixosHost {
         hostName = "zephyrus";
         hostVars = vars.zephyrus;
-        hmUserFile = ./home-manager/htrowii.nix;
+        hmUserFile = ./home-manager/venti.nix;
         extraModules = [
           {
             nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
-            imports = [ aagl.nixosModules.default ];
-            programs.anime-game-launcher.enable = false;
-            programs.anime-games-launcher.enable = false;
+            # imports = [ aagl.nixosModules.default ];
+            # programs.anime-game-launcher.enable = false;
+            # programs.anime-games-launcher.enable = false;
           }
         ];
       };
 
-      # Desktop PC — Intel, unstable, caelestia-shell
       linux = mkNixosHost {
         hostName = "linux";
         hostVars = vars.linux;
         hmUserFile = ./home-manager/htrowii.nix;
         extraModules = [
           {
-            nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
+            # nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
             imports = [ aagl.nixosModules.default ];
             nix.settings = aagl.nixConfig;
             programs.anime-game-launcher.enable = true;
@@ -149,7 +145,6 @@
         ];
       };
 
-      # ThinkPad T480 — Intel, stable/25.05, ags/astal
       thinkpad = mkNixosHost {
         hostName = "thinkpad";
         hostVars = vars.thinkpad;
@@ -159,8 +154,6 @@
         extraModules = [];
       };
     };
-
-    # ── nix-darwin Configuration ───────────────────────────────────────
 
     darwinConfigurations.${vars.darwin.hostname} = nix-darwin.lib.darwinSystem {
       system = vars.darwin.system;

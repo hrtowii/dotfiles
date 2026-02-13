@@ -13,7 +13,7 @@
   };
   environment.systemPackages = with pkgs; [
     lutris
-    wineWowPackages.stable
+    wineWow64Packages.stable
     winetricks
     protontricks
     gamemode

@@ -1,0 +1,128 @@
+{
+  "layer": "bot",
+  "spacing": 0,
+  "height": 0,
+  "margin-bottom": 0,
+  "margin-top": 0,
+  "position": "top",
+  "modules-left": [
+    "hyprland/workspaces",
+    "sway/workspaces"
+  ],
+  "modules-right": [
+    "network",
+    "battery",
+    "pulseaudio",
+    "tray",
+    "clock"
+  ],
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": false,
+    "tooltip": false,
+    "format": "<span font_family='DepartureMono Nerd Font'>{id}</span> <span font_family='sketchybar-app-font' rise='-1500'>{windows}</span>",
+    "format-window-separator": "",
+    "window-rewrite-default": "",
+    "window-rewrite": {
+      "class<firefox>": ":firefox:",
+      "class<Chromium>": ":google_chrome:",
+      "class<Google-chrome>": ":google_chrome:",
+      "class<chromium-browser>": ":google_chrome:",
+      "class<Brave-browser>": ":brave_browser:",
+      "class<Arc>": ":arc:",
+      "class<com.mitchellh.ghostty>": ":ghostty:",
+      "class<Alacritty>": ":alacritty:",
+      "class<kitty>": ":kitty:",
+      "class<org.wezfurlong.wezterm>": ":wezterm:",
+      "class<wezterm-gui>": ":wezterm:",
+      "class<org.telegram.desktop>": ":telegram:",
+      "class<Slack>": ":slack:",
+      "class<discord>": ":discord:",
+      "class<vesktop>": ":vesktop:",
+      "class<Vesktop>": ":vesktop:",
+      "class<whatsapp-electron>": ":whats_app:",
+      "class<Signal>": ":signal:",
+      "class<Element>": ":element:",
+      "class<zoom>": ":zoom:",
+      "class<teams-for-linux>": ":microsoft_teams:",
+      "class<Code>": ":code:",
+      "class<code>": ":code:",
+      "class<VSCodium>": ":vscodium:",
+      "class<Cursor>": ":cursor:",
+      "class<Zed>": ":zed:",
+      "class<neovide>": ":neovide:",
+      "class<obsidian>": ":obsidian:",
+      "class<Obsidian>": ":obsidian:",
+      "class<Notion>": ":notion:",
+      "class<Spotify>": ":spotify:",
+      "class<spotify>": ":spotify:",
+      "class<thunderbird>": ":thunderbird:",
+      "class<Thunderbird>": ":thunderbird:"
+    }
+  },
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": false,
+    "tooltip": false
+  },
+  "custom/applauncher": {
+    "format": "〇",
+    "on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun --location=top -y 15",
+    "tooltip": false
+  },
+  "tray": {
+    "spacing": 15,
+    "tooltip": false
+  },
+  "clock": {
+    "format": "󰅐 {:%H:%M}",
+    "tooltip": false
+  },
+  "network": {
+    "format-wifi": " {bandwidthDownBits}",
+    "format-ethernet": " {bandwidthDownBits}",
+    "format-disconnected": "󰤮 No Network",
+    "interval": 5,
+    "tooltip": false
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "max-volume": 150,
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{icon} {volume}%",
+    "format-icons": [
+      "",
+      "",
+      " "
+    ],
+    "nospacing": 1,
+    "format-muted": " ",
+    "on-click": "pavucontrol",
+    "tooltip": false
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "format-plugged": "󰂄{capacity}%",
+    "format-alt": "{icon} {time}",
+    "format-full": "󱈑 {capacity}%",
+    "format-icons": [
+      "󱊡",
+      "󱊢",
+      "󱊣"
+    ],
+    "tooltip": true,
+    "interval": 10
+  },
+  "custom/battery": {
+    "exec": "~/.local/bin/battery-tooltip",
+    "return-type": "json",
+    "interval": 10,
+    "format": "{}",
+    "tooltip": true
+  }
+}

@@ -16,6 +16,9 @@ in
       ".config/uwsm".source = "${configDir}/uwsm";
       ".zshrc".source = "${configDir}/zsh/.zshrc";
       ".config/hypr".source = "${configDir}/hypr";
+      ".config/wofi".source = "${configDir}/wofi";
+      ".config/waybar".source = "${configDir}/waybar";
+      ".config/swaync/theme".source = "${configDir}/swaync/theme";
       ".config/wallpapers".source = "${configDir}/wallpapers";
       ".local/share/fonts".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/fonts";
       ".config/pipewire/pipewire.conf.d".source = "${configDir}/pipewire/pipewire.conf.d";

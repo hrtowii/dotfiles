@@ -20,6 +20,7 @@
     ./modules/spicetify.nix
     ./modules/osu.nix
     ./modules/whatsapp.nix
+    ./modules/waybar.nix
     ./modules/swaync.nix
     ./config.nix
   ];
