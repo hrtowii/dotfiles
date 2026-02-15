@@ -19,6 +19,7 @@
     ../spotify-player.nix
     ../slack.nix
     ../vm.nix
+    ../ld.nix
   ];
 
   npm.enable = true;

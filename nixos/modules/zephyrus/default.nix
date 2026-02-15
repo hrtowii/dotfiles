@@ -18,6 +18,7 @@
     ../zephyrus.nix
     ../sdr.nix
     ../vm.nix
+    ../ld.nix
   ];
 
   npm.enable = true;
