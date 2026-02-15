@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, options, ... }:
 
 {
   programs.nix-ld = {

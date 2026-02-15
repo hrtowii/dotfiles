@@ -94,8 +94,8 @@
             hostPlatform = system;
           };
         }
-        nix-ld.nixosModules.nix-ld
-        { programs.nix-ld.dev.enable = true; }
+        # nix-ld.nixosModules.nix-ld
+        # { programs.nix-ld.dev.enable = true; }
         ({ pkgs, ... }: {
           environment.systemPackages = [
             ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default
@@ -136,7 +136,7 @@
         hmUserFile = ./home-manager/htrowii.nix;
         extraModules = [
           {
-            # nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
+            nixpkgs.overlays = [ (import ./overlays/nvidia-6.19.nix) ];
             imports = [ aagl.nixosModules.default ];
             nix.settings = aagl.nixConfig;
             programs.anime-game-launcher.enable = true;
