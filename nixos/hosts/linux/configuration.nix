@@ -15,8 +15,8 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  # Use latest kernel.
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  # Use kernel 6.18 (NVIDIA drivers don't compile on 6.19+).
+  boot.kernelPackages = pkgs.linuxPackages_6_18;
   boot.supportedFilesystems = [ "ntfs" ];
   zramSwap.enable = true;
   swapDevices = [{
