@@ -1,3 +1,4 @@
+local home = vim.fn.expand("~")
 return {
 	"snacks.nvim",
 	opts = {
@@ -11,7 +12,9 @@ return {
 			sections = {
 				{
 					section = "terminal",
-					cmd = "~/dev/img2ascii_c/build/img2ascii --braille --height=130 --width=100 /home/" .. (vim.env.HOMEUSER or "venti") .. "/dev/art_daemon/album_art/current.jpg",
+					cmd = "~/dev/img2ascii_c/build/img2ascii --braille --height=130 --width=100 "
+						.. home
+						.. "/dev/art_daemon/album_art/current.jpg",
 					height = 25,
 					padding = 1,
 					ttl = 0,
@@ -48,7 +51,7 @@ return {
 					local artist = ""
 					local title = ""
 
-					local f = io.open("/home/" .. (vim.env.HOMEUSER or "venti") .. "/dev/art_daemon/output.txt", "r")
+					local f = io.open(home .. "/dev/art_daemon/output.txt", "r")
 					if f then
 						local contents = f:read("*a")
 						f:close()

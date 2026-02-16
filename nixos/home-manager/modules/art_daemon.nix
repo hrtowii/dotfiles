@@ -2,22 +2,24 @@
 
 {
   systemd.user.services.art-daemon = {
-    description = "connect to lanyard, music status everywhere";
+    Unit = {
+      Description = "Art daemon that writes current track info";
+    };
 
-    wantedBy = [ "default.target" ];
-
-    serviceConfig = {
+    Service = {
       Type = "simple";
       ExecStart = "/home/${config.home.username}/dev/art_daemon/target/release/art_daemon";
       WorkingDirectory = "/home/${config.home.username}/dev/art_daemon";
       Restart = "always";
-      RestartSec = 3;
-
+      RestartSec = 30;
       StandardOutput = "file:/home/${config.home.username}/dev/art_daemon/art_daemon.out";
-      StandardError  = "file:/home/${config.home.username}/dev/art_daemon/art_daemon.err";
-
+      StandardError = "file:/home/${config.home.username}/dev/art_daemon/art_daemon.err";
       ProtectHome = false;
       PrivateTmp = true;
+    };
+
+    Install = {
+      WantedBy = [ "default.target" ];
     };
   };
 }
