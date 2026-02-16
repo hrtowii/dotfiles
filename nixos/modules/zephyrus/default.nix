@@ -19,6 +19,7 @@
     ../sdr.nix
     ../vm.nix
     ../ld.nix
+    ../chinese.nix
   ];
 
   npm.enable = true;
