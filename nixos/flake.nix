@@ -59,6 +59,7 @@
     ghostty,
     nix-ld,
     aagl,
+    pwndbg,
     ...
   } @ inputs: let
     vars = import ./vars.nix;

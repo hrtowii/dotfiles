@@ -73,6 +73,27 @@
     # no need to redefine it in your config for now)
     #media-session.enable = true;
   };
+  services.pipewire.extraConfig.pipewire."10-parametric-eq" = {
+  context.modules = [
+    {
+      name = "libpipewire-module-parametric-equalizer";
+      args = {
+        remote.name = "pipewire-0";
+        equalizer.filepath = "/home/ibarahime/.config/pipewire/pipewire.conf.d/teapro.txt";
+        equalizer.description = "Parametric EQ Sink";
+        audio.channels = 2;
+        audio.position = [ "FL" "FR" ];
+        capture.props = {
+          node.name = "Parametric EQ input";
+        };
+        playback.props = {
+          node.name = "Parametric EQ output";
+          target.object = "alsa_output.pci-0000_00_1f.3.digital-stereo";  # from your wpctl inspect 69
+        };
+      };
+    }
+  ];
+};
   services.sunshine = {
     enable = true;
     autoStart = true;

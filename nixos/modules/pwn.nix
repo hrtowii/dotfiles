@@ -1,4 +1,4 @@
-{ config, pkgs, lib, pwndbg, ... }:
+{ config, pkgs, inputs, lib, ... }:
 
 let
   cfg = config.pwn;
@@ -9,7 +9,7 @@ in
   config = lib.mkIf cfg.enable {
     environment.systemPackages = with pkgs; [
       gdb
-      pwndbg.packages.${pkgs.system}.default
+      inputs.pwndbg.packages.${pkgs.system}.default
 
       (python3.withPackages (ps: with ps; [
         pwntools
