@@ -1,6 +1,6 @@
 * {
   font-family: "sketchybar-app-font", "Maple Mono NF";
-  border-radius: 0px;
+  /* border-radius: 0px; */
   font-size: 13px;
   padding: 0px;
   background: transparent;
@@ -31,6 +31,9 @@ window#waybar {
   /* margin-left: auto; */
   /* margin-right: auto; */
 }
+#image {
+    border-radius: 5px;
+}
 
 #battery,
 #custom-battery,
@@ -38,7 +41,8 @@ window#waybar {
 #clock,
 #custom-applauncher,
 #workspaces,
-#pulseaudio {
+#pulseaudio
+{
   background-image: linear-gradient(to bottom, #27232b 100%);
 
   margin: 6px;
