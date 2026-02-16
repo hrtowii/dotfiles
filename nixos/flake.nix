@@ -72,7 +72,6 @@
       ];
     };
 
-    # Helper to build a NixOS host
     mkNixosHost = {
       hostName,        # e.g. "zephyrus", "linux", "thinkpad"
       hostVars,        # e.g. vars.zephyrus
@@ -94,8 +93,8 @@
             hostPlatform = system;
           };
         }
-        # nix-ld.nixosModules.nix-ld
-        # { programs.nix-ld.dev.enable = true; }
+        nix-ld.nixosModules.nix-ld
+        { programs.nix-ld.dev.enable = true; }
         ({ pkgs, ... }: {
           environment.systemPackages = [
             ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default

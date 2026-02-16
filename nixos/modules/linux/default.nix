@@ -21,11 +21,16 @@
     ../vm.nix
     ../ld.nix
     ../chinese.nix
+    ../env.nix
+    ../bluetooth.nix
+    ../cmake.nix
+    ../pwn.nix
   ];
 
   npm.enable = true;
   rust.enable = true;
-
+  cxx-minimal.enable = true;
+  pwn.enable = true;
   programs.mtr.enable = true;
   programs.gnupg.agent = {
     enable = true;

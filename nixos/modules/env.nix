@@ -22,6 +22,10 @@
     LUA_CPATH = "${pkgs.luajit}/lib/lua/5.1/?.so;;";
     NIXOS_OZONE_WL = "1";
 
+    GDK_BACKEND = "wayland,x11";
+    QT_QPA_PLATFORM = "wayland;xcb";
+    SDL_VIDEODRIVER = "wayland";
+    MOZ_ENABLE_WAYLAND = "1";
     PKG_CONFIG_PATH = lib.makeSearchPath "lib/pkgconfig" [
       pkgs.openssl.dev
       pkgs.rustc

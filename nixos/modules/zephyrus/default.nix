@@ -18,8 +18,10 @@
     ../zephyrus.nix
     ../sdr.nix
     ../vm.nix
-    ../ld.nix
+    # ../ld.nix
     ../chinese.nix
+    ../env.nix
+    ../bluetooth.nix
   ];
 
   npm.enable = true;
