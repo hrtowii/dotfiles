@@ -5,9 +5,20 @@ local app_icons = require("helpers.app_icons")
 
 local spaces = {}
 
+local function get_display_for_space(space_id)
+  if space_id <= 4 then
+    return "main"
+  else
+    return "secondary"
+  end
+end
+
 for i = 1, 10, 1 do
+  local display = get_display_for_space(i)
+
   local space = sbar.add("space", "space." .. i, {
     space = i,
+    display = display,
     icon = {
       font = { family = settings.font.space_numbers },
       string = i,
@@ -44,18 +55,21 @@ for i = 1, 10, 1 do
       border_color = colors.bg2,
       height = 28,
       border_width = 2
-    }
+    },
+    display = display
   })
 
   -- Padding space
   sbar.add("space", "space.padding." .. i, {
     space = i,
+    display = display,
     script = "",
     width = settings.group_paddings,
   })
 
   local space_popup = sbar.add("item", {
     position = "popup." .. space.name,
+    display = display,
     padding_left= 5,
     padding_right= 0,
     background = {
