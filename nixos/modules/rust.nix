@@ -11,7 +11,8 @@
   config = lib.mkIf config.rust.enable {
     environment.systemPackages = with pkgs; [
       rustc
-      rustup
+      # rustup
+      cargo
       cargo-edit
       cargo-watch
       # cargo-outdated

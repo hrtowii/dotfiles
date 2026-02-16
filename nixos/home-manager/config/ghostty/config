@@ -5,8 +5,10 @@ keybind = ctrl+d=new_split:right
 
 # Empty values reset the configuration to the default value
 # font-family = ""
-font-size=10.5
-font-family="Berkeley Mono Nerd Font"
+# font-size=10.5
+font-size=14.5
+font-family="DepartureMono Nerd Font"
+# font-family="Berkeley Mono Nerd Font"
 # font-family="Maple Mono NF"
 # font-family=""
 title=""
