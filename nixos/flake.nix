@@ -45,6 +45,8 @@
     #   inputs.nixpkgs.follows = "stable";
     # };
     # zen-browser.url = "github:MarceColl/zen-browser-flake";
+    pwndbg.url = "github:pwndbg/pwndbg";
+    pwndbg.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
