@@ -11,13 +11,9 @@ in
   config = lib.mkIf cfg.enable {
     environment.systemPackages = with pkgs; [
       cmake
+      gnumake
       gcc
       gdb
     ];
-
-    # Optional: default to Ninja if you ever use it (most people do these days)
-    environment.shellInit = ''
-      export CMAKE_GENERATOR="Ninja"
-    '';
   };
 }
