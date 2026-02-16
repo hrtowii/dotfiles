@@ -93,8 +93,8 @@
             hostPlatform = system;
           };
         }
-        nix-ld.nixosModules.nix-ld
-        { programs.nix-ld.dev.enable = true; }
+        # nix-ld.nixosModules.nix-ld
+        # { programs.nix-ld.dev.enable = true; }
         ({ pkgs, ... }: {
           environment.systemPackages = [
             ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default

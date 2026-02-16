@@ -1,10 +1,10 @@
 { config, pkgs, lib, ... }:
 
 let
-  cfg = config.programs.dev.cxx-minimal;
+  cfg = config.cxx-minimal;
 in
 {
-  options.programs.dev.cxx-minimal = {
+  options.cxx-minimal = {
     enable = lib.mkEnableOption "minimal C/C++ build tools (cmake + gcc + gdb)";
   };
 

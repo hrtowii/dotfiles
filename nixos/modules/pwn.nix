@@ -1,13 +1,13 @@
 { config, pkgs, lib, ... }:
 
 let
-  cfg = config.programs.pwn;
+  cfg = config.pwn;
 
   pwndbgFlake = builtins.getFlake "github:pwndbg/pwndbg";
 
 in
 {
-  options.programs.pwn = {
+  options.pwn = {
     enable = lib.mkEnableOption "we love pwning babyyyy";
   };
 
