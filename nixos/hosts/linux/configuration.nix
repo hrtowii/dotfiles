@@ -3,7 +3,8 @@
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
 { config, pkgs, hostVars, ... }:
-
+let config_path = ../../home-manager/config/pipewire/pipewire.conf.d/teapro.txt;
+in
 {
   imports =
     [ # Include the results of the hardware scan.
@@ -15,7 +16,6 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  # Use kernel 6.18 (NVIDIA drivers don't compile on 6.19+).
   boot.kernelPackages = pkgs.linuxPackages_6_18;
   boot.supportedFilesystems = [ "ntfs" ];
   zramSwap.enable = true;
@@ -79,7 +79,7 @@
       name = "libpipewire-module-parametric-equalizer";
       args = {
         remote.name = "pipewire-0";
-        equalizer.filepath = "/home/ibarahime/.config/pipewire/pipewire.conf.d/teapro.txt";
+        equalizer.filepath = config_path;
         equalizer.description = "Parametric EQ Sink";
         audio.channels = 2;
         audio.position = [ "FL" "FR" ];
@@ -88,7 +88,7 @@
         };
         playback.props = {
           node.name = "Parametric EQ output";
-          target.object = "alsa_output.pci-0000_00_1f.3.digital-stereo";  # from your wpctl inspect 69
+          target.object = "alsa_output.pci-0000_00_1f.3.analog-stereo";
         };
       };
     }
