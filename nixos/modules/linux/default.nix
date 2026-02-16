@@ -25,6 +25,7 @@
     ../bluetooth.nix
     ../cmake.nix
     ../pwn.nix
+    ../qt.nix
   ];
 
   npm.enable = true;
