@@ -47,6 +47,10 @@
     # zen-browser.url = "github:MarceColl/zen-browser-flake";
     pwndbg.url = "github:pwndbg/pwndbg";
     pwndbg.inputs.nixpkgs.follows = "nixpkgs";
+    ida-pro-overlay = {
+      url = "github:msanft/ida-pro-overlay";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {

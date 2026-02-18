@@ -3,11 +3,11 @@
 {
   programs.nix-ld = {
     enable = true;
-  };
-
-programs.nix-ld.libraries = with pkgs; [
+    libraries = with pkgs; [
   libglvnd
   mesa
+
+  wayland
 
   xorg.libX11
   xorg.libXext
@@ -17,6 +17,13 @@ programs.nix-ld.libraries = with pkgs; [
   xorg.libXi
   xorg.libXcursor
   xorg.libXinerama
+
+  xorg.xcbutil
+  xorg.xcbutilimage
+  xorg.xcbutilkeysyms
+  xorg.xcbutilrenderutil
+  xorg.xcbutilwm
+  xorg.xcbutilcursor   # provides libxcb-cursor.so.0
 
   libxkbcommon
 
@@ -28,5 +35,7 @@ programs.nix-ld.libraries = with pkgs; [
 
   stdenv.cc.cc
 ];
+
+  };
 }
 
