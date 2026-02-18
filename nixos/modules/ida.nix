@@ -1,6 +1,6 @@
 { config, pkgs, lib, inputs, ... }:
 {
 environment.systemPackages = [
-    ida-pro-93
+    ida-pro
 ];
 }
