@@ -26,6 +26,7 @@
     ../cmake.nix
     ../pwn.nix
     ../qt.nix
+    ../sdr.nix
     ../ida.nix
   ];
 

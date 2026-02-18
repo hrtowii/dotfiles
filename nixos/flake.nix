@@ -142,6 +142,7 @@
             nix.settings = aagl.nixConfig;
             programs.anime-game-launcher.enable = true;
             programs.anime-games-launcher.enable = true;
+            nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
           }
         ];
       };

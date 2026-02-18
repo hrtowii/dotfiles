@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, hostVars, ... }:
 {
   boot.kernelParams = [ 
   "modprobe.blacklist=dvb_usb_rtl28xxu"
@@ -6,7 +6,7 @@
   "modprobe.blacklist=msi2500"
   ]; # blacklist this module
   hardware.rtl-sdr.enable = true;
-  users.users.venti.extraGroups = [ "plugdev" ];
+  users.users.${hostVars.username}.extraGroups = [ "plugdev" ];
   environment.systemPackages = with pkgs; [
     wget
     vim
