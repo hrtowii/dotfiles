@@ -1,9 +1,6 @@
-{ config, pkgs, lib, ... }:
+{ config, pkgs, lib, inputs, ... }:
 {
-nixpkgs.overlays = [
-    ida-pro-overlay.overlays.default
-];
 environment.systemPackages = [
-    ida-pro
+    ida-pro-93
 ];
 }
