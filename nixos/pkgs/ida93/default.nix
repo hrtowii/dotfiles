@@ -20,7 +20,7 @@ let
     LOCATION = Path(sys.argv[1])
     VERSION = "9.3.0.260213"  # Match package version
     
-    NAME = "NixOS User"
+    NAME = "meow@colonthree"
     EMAIL = "nixos@localhost"
     ID_PREFIX = "48-3FBD-7F04"
 
