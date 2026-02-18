@@ -2,7 +2,7 @@
   imports = [
     ../docker.nix
     ../steam.nix
-    # ../python.nix
+    ../python.nix
     ../npm.nix
     ../tailscale.nix
     ../rust.nix
