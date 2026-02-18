@@ -22,6 +22,7 @@
     ../chinese.nix
     ../env.nix
     ../bluetooth.nix
+    ../ida.nix
   ];
 
   npm.enable = true;
