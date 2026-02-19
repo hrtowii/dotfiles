@@ -2,7 +2,7 @@ final: prev: {
   libmirisdr = final.callPackage ../pkgs/libmirisdr { };
   soapymiri = final.callPackage ../pkgs/soapymiri { };
   ida-pro = final.callPackage ../pkgs/ida93 { };
-  osmo-sdr = final.callPackage ../pkgs/osmo-sdr {};
+  osmo-tetra = final.callPackage ../pkgs/osmo-sdr {};
   gqrx = prev.gqrx.overrideAttrs (old: {
     buildInputs = old.buildInputs or [];
     nativeBuildInputs = (old.nativeBuildInputs or []) ++ [ prev.makeWrapper ];

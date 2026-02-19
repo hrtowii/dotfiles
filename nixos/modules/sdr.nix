@@ -18,7 +18,7 @@
     # soapysdr
     soapysdr-with-plugins
     soapymiri
-    osmo-tetra.osmo-tetra-sq5bpf-2
-    osmo-tetra.libosmocore-sq5bpf
+    # osmo-tetra.osmo-tetra-sq5bpf-2
+    # osmo-tetra.libosmocore-sq5bpf
   ];
 }

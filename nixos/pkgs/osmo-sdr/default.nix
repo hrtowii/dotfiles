@@ -9,7 +9,7 @@ let
       owner = "sq5bpf";
       repo = "libosmocore-sq5bpf";
       rev = "master";
-      sha256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";  # Replace with actual hash
+      sha256 = "sha256-jbfzgdvBrlCqVqgbZab9CR9ANAyo33BiIi+qafAiKFQ=";  # Replace with actual hash
     };
     
     nativeBuildInputs = with pkgs; [
@@ -18,13 +18,13 @@ let
     ];
     
     buildInputs = with pkgs; [
-      libtalloc
+      talloc
       pcsclite
       libusb1
     ];
     
     propagatedBuildInputs = with pkgs; [
-      libtalloc
+      talloc
     ];
     
     configureFlags = [
@@ -49,7 +49,7 @@ let
       owner = "sq5bpf";
       repo = "osmo-tetra-sq5bpf-2";
       rev = "master";  # Pin to specific commit for reproducibility
-      sha256 = "sha256-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB=";  # Replace with actual hash
+      sha256 = "sha256-1hUUmnnmSQU9MP5t2CqzSS6TlKiPLkGx9pB5cSieDcY=";  # Replace with actual hash
     };
     
     nativeBuildInputs = with pkgs; [
@@ -62,7 +62,7 @@ let
     
     buildInputs = with pkgs; [
       libosmocore-sq5bpf
-      libtalloc
+      talloc
     ];
     
     propagatedBuildInputs = [
