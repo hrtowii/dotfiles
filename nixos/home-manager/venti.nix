@@ -22,6 +22,7 @@
     ./modules/whatsapp.nix
     ./modules/waybar.nix
     ./modules/swaync.nix
+    ./modules/art_daemon.nix
     ./config.nix
   ];
 
