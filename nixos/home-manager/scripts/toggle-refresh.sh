@@ -19,9 +19,9 @@ MAX=$(echo "$MONITORS" | jq -r \
 [ -z "$MAX" ] && exit 1
 
 if [ "$CURRENT" = "$MAX" ]; then
-  hyprctl keyword "monitor $MONITOR,${RES}@60,auto,1"
+  hyprctl keyword "monitor $MONITOR,${RES}@60,auto,1.25"
   notify-send "Refresh Rate" "$MONITOR → 60Hz"
 else
-  hyprctl keyword "monitor $MONITOR,${RES}@${MAX},auto,1"
+  hyprctl keyword "monitor $MONITOR,${RES}@${MAX},auto,1.25"
   notify-send "Refresh Rate" "$MONITOR → ${MAX}Hz"
 fi
