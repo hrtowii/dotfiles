@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{inputs, pkgs, ...}: {
   hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
@@ -10,6 +10,7 @@
   };
 
   environment.systemPackages = with pkgs; [
-    blueman
+    bluemanre
+    inputs.librepods.packages.${pkgs.system}.librepods
   ];
 }
