@@ -67,11 +67,11 @@
     "tooltip": false
   },
   "image#media-art": {
-    "path": "/home/ibarahime/dev/art_daemon/album_art/current.jpg",
+    "exec": "echo \"$HOME/dev/art_daemon/album_art/current.jpg\"",
     "size": 30,
-    "interval": 10,
+    "interval": 10
   },
-"custom/applauncher": {
+  "custom/applauncher": {
     "format": "〇",
     "on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun --location=top -y 15",
     "tooltip": false
