@@ -13,6 +13,7 @@
   nerd-fonts.departure-mono
   nerd-fonts.jetbrains-mono
   maple-mono.NF
+  nerd-fonts.space-mono
   cozette
 ];
 }
