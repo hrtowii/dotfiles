@@ -1,19 +1,19 @@
 { config, lib, pkgs, ... }:
-
+# hack to copy fonts from my home manager to Library/Fonts, normal symlink wont work
 let
   customFontsDir = ../../home-manager/fonts;
 in
 {
   fonts.fontconfig.enable = true;
 
-  home.activation = lib.hm.dag.entryAfter ["writeBoundary"] ''
+  home.activation.copyPrivateFonts = lib.hm.dag.entryAfter ["writeBoundary"] ''
     dst="${config.home.homeDirectory}/Library/Fonts/HomeManagerPrivate"
 
     mkdir -p "$dst"
 
     find "$dst" -type f -delete
 
-    cp -a --verbose ${customFontsDir}/. "$dst"/
+    cp -a ${customFontsDir}/. "$dst"/
 
     # atsutil databases -removeUser >/dev/null 2>&1 || true
   '';
