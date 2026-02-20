@@ -69,6 +69,7 @@
     nasm 
     ncdu 
     nh
+    statix 
   ];
 
   nixpkgs.config.allowUnfree = true;
