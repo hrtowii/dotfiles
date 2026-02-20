@@ -59,7 +59,7 @@
       "class<spotify>": ":spotify:",
       "class<thunderbird>": ":thunderbird:",
       "class<Thunderbird>": ":thunderbird:",
-      "class<dev.zed.Zed>": ":zed"
+      "class<dev.zed.Zed>": ":zed:"
     }
   },
   "sway/workspaces": {
