@@ -18,6 +18,6 @@ in
       ".config/wezterm".source = "${configDir}/wezterm";
       ".config/yabai".source = "${configDir}/yabai";
       ".config/zellij".source = "${configDir}/zellij";
-      "Library/Fonts/nix-config".source = ../home-manager/fonts;
+      # "Library/Fonts/nix-config".source = ../home-manager/fonts;
   };
 }
