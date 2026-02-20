@@ -7,8 +7,9 @@ keybind = ctrl+d=new_split:right
 # font-family = ""
 # font-size=10.5
 font-size=12
-font-family="DepartureMono Nerd Font"
+# font-family="DepartureMono Nerd Font"
 # font-family="Maple Mono NF"
+font-family="Cohere Mono"
 title=""
 macos-titlebar-style="tabs"
 macos-titlebar-proxy-icon="hidden"
