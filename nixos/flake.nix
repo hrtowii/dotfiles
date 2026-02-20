@@ -47,8 +47,6 @@
     # zen-browser.url = "github:MarceColl/zen-browser-flake";
     pwndbg.url = "github:pwndbg/pwndbg";
     pwndbg.inputs.nixpkgs.follows = "nixpkgs";
-    librepods.url = "path:./pkgs/librepods";
-    librepods.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
