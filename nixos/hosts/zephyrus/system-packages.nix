@@ -59,5 +59,6 @@
     rclone
     openssl
     claude-code
+    statix
   ];
 }
