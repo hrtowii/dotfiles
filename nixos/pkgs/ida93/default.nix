@@ -181,18 +181,18 @@ pkgs.stdenv.mkDerivation rec {
     libsecret
     openssl.out
     stdenv.cc.cc
-    xorg.libICE
-    xorg.libSM
-    xorg.libX11
-    xorg.libXau
-    xorg.libxcb
-    xorg.libXext
-    xorg.libXi
-    xorg.libXrender
-    xorg.xcbutilimage
-    xorg.xcbutilkeysyms
-    xorg.xcbutilrenderutil
-    xorg.xcbutilwm
+    libice
+    libsm
+    libx11
+    libxau
+    libxcb
+    libxext
+    libxi
+    libxrender
+    libxcb-image
+    libxcb-keysyms
+    libxcb-render-util
+    libxcb-wm
     zlib
     curl.out
     pythonForIDA

@@ -49,131 +49,161 @@
     pwndbg.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = {
-    self,
-    nixpkgs,
-    stable,
-    nix-darwin,
-    home-manager,
-    home-manager-stable,
-    ghostty,
-    nix-ld,
-    aagl,
-    pwndbg,
-    ...
-  } @ inputs: let
-    vars = import ./vars.nix;
+  outputs =
+    {
+      self,
+      nixpkgs,
+      stable,
+      nix-darwin,
+      home-manager,
+      home-manager-stable,
+      ghostty,
+      aagl,
+      ...
+    }@inputs:
+    let
+      vars = import ./vars.nix;
 
-    nixpkgsConfig = {
-      allowUnfree = true;
-      allowUnfreePredicate = (_: true);
-      allowAliases = true;
-      permittedInsecurePackages = [
-        "electron-25.9.0" # Obsidian
-        "python-2.7.18.8"
-        "beekeeper-studio-5.5.5" # electron 32
-      ];
-    };
+      nixpkgsConfig = {
+        allowUnfree = true;
+        allowUnfreePredicate = (_: true);
+        allowAliases = true;
+        permittedInsecurePackages = [
+          "electron-25.9.0" # Obsidian
+          "python-2.7.18.8"
+          "beekeeper-studio-5.5.5" # electron 32
+        ];
+      };
 
-    mkNixosHost = {
-      hostName,        # e.g. "zephyrus", "linux", "thinkpad"
-      hostVars,        # e.g. vars.zephyrus
-      nixpkgsInput ? nixpkgs,  # which nixpkgs to use
-      hmInput ? home-manager,  # which home-manager to use
-      hmUserFile,      # e.g. ./home-manager/htrowii.nix
-      extraModules ? [],
-    }: let
-      system = hostVars.system;
-      pkgs = nixpkgsInput.legacyPackages.${system};
-      hostVar = { inherit hostVars; };
-    in nixpkgsInput.lib.nixosSystem {
-      inherit system;
-      specialArgs = { inherit inputs vars; hostVars = hostVars; };
-      modules = [
+      mkNixosHost =
         {
-          nixpkgs = {
-            config = nixpkgsConfig;
-            hostPlatform = system;
+          hostName, # e.g. "zephyrus", "linux", "thinkpad"
+          hostVars, # e.g. vars.zephyrus
+          nixpkgsInput ? nixpkgs, # which nixpkgs to use
+          hmInput ? home-manager, # which home-manager to use
+          hmUserFile, # e.g. ./home-manager/htrowii.nix
+          extraModules ? [ ],
+        }:
+        let
+          system = hostVars.system;
+          pkgs = nixpkgsInput.legacyPackages.${system};
+          hostVar = { inherit hostVars; };
+        in
+        nixpkgsInput.lib.nixosSystem {
+          inherit system;
+          specialArgs = {
+            inherit inputs vars;
+            hostVars = hostVars;
           };
-        }
-        # nix-ld.nixosModules.nix-ld
-        # { programs.nix-ld.dev.enable = true; }
-        ({ pkgs, ... }: {
-          environment.systemPackages = [
-            ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default
+          modules = [
+            {
+              nixpkgs = {
+                config = nixpkgsConfig;
+                hostPlatform = system;
+              };
+            }
+            # nix-ld.nixosModules.nix-ld
+            # { programs.nix-ld.dev.enable = true; }
+            (
+              { pkgs, ... }:
+              {
+                environment.systemPackages = [
+                  ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default
+                ];
+              }
+            )
+            ./hosts/${hostName}/configuration.nix
+            hmInput.nixosModules.home-manager
+            {
+              home-manager = {
+                useGlobalPkgs = true;
+                useUserPackages = true;
+                extraSpecialArgs = {
+                  inherit inputs vars;
+                  hostVars = hostVars;
+                };
+                users.${hostVars.username} = import hmUserFile;
+                backupFileExtension =
+                  "backup-"
+                  + pkgs.lib.readFile "${pkgs.runCommand "timestamp" {
+                    env.when = self.sourceInfo.lastModified;
+                  } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
+              };
+            }
+          ]
+          ++ extraModules;
+        };
+    in
+    {
+      nixosConfigurations = {
+        zephyrus = mkNixosHost {
+          hostName = "zephyrus";
+          hostVars = vars.zephyrus;
+          hmUserFile = ./home-manager/venti.nix;
+          extraModules = [
+            {
+              nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
+              # imports = [ aagl.nixosModules.default ];
+              # programs.anime-game-launcher.enable = false;
+              # programs.anime-games-launcher.enable = false;
+            }
           ];
-        })
-        ./hosts/${hostName}/configuration.nix
-        hmInput.nixosModules.home-manager
-        {
-          home-manager = {
-            useGlobalPkgs = true;
-            useUserPackages = true;
-            extraSpecialArgs = { inherit inputs vars; hostVars = hostVars; };
-            users.${hostVars.username} = import hmUserFile;
-            backupFileExtension = "backup-" + pkgs.lib.readFile "${pkgs.runCommand "timestamp" { env.when = self.sourceInfo.lastModified; } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
-          };
-        }
-      ] ++ extraModules;
-    };
-  in {
-    nixosConfigurations = {
-      zephyrus = mkNixosHost {
-        hostName = "zephyrus";
-        hostVars = vars.zephyrus;
-        hmUserFile = ./home-manager/venti.nix;
-        extraModules = [
+        };
+
+        linux = mkNixosHost {
+          hostName = "linux";
+          hostVars = vars.linux;
+          hmUserFile = ./home-manager/htrowii.nix;
+          extraModules = [
+            {
+              imports = [ aagl.nixosModules.default ];
+              nix.settings = aagl.nixConfig;
+              programs.anime-game-launcher.enable = true;
+              programs.anime-games-launcher.enable = true;
+              nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
+            }
+          ];
+        };
+
+        thinkpad = mkNixosHost {
+          hostName = "thinkpad";
+          hostVars = vars.thinkpad;
+          nixpkgsInput = stable;
+          hmInput = home-manager-stable;
+          hmUserFile = ./home-manager/violet.nix;
+          extraModules = [ ];
+        };
+      };
+
+      darwinConfigurations.${vars.darwin.hostname} = nix-darwin.lib.darwinSystem {
+        system = vars.darwin.system;
+        specialArgs = {
+          inherit inputs vars;
+          hostVars = vars.darwin;
+        };
+        modules = [
+          ./darwin/configuration.nix
+          home-manager.darwinModules.home-manager
+          { nixpkgs.config.allowUnfree = true; }
           {
-            nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
-            # imports = [ aagl.nixosModules.default ];
-            # programs.anime-game-launcher.enable = false;
-            # programs.anime-games-launcher.enable = false;
+            home-manager = {
+              useGlobalPkgs = true;
+              useUserPackages = true;
+              extraSpecialArgs = {
+                inherit inputs vars;
+                hostVars = vars.darwin;
+              };
+              users.${vars.darwin.username} = import ./darwin-home/ibarahime.nix;
+              backupFileExtension =
+                "backup-"
+                +
+                  (nixpkgs.legacyPackages.${vars.darwin.system}).lib.readFile
+                    "${(nixpkgs.legacyPackages.${vars.darwin.system}).runCommand "timestamp" {
+                      env.when = self.sourceInfo.lastModified;
+                    } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
+            };
           }
         ];
       };
-
-      linux = mkNixosHost {
-        hostName = "linux";
-        hostVars = vars.linux;
-        hmUserFile = ./home-manager/htrowii.nix;
-        extraModules = [
-          {
-            imports = [ aagl.nixosModules.default ];
-            nix.settings = aagl.nixConfig;
-            programs.anime-game-launcher.enable = true;
-            programs.anime-games-launcher.enable = true;
-            nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
-          }
-        ];
-      };
-
-      thinkpad = mkNixosHost {
-        hostName = "thinkpad";
-        hostVars = vars.thinkpad;
-        nixpkgsInput = stable;
-        hmInput = home-manager-stable;
-        hmUserFile = ./home-manager/violet.nix;
-        extraModules = [];
-      };
     };
-
-    darwinConfigurations.${vars.darwin.hostname} = nix-darwin.lib.darwinSystem {
-      system = vars.darwin.system;
-      specialArgs = { inherit inputs vars; hostVars = vars.darwin; };
-      modules = [
-        ./darwin/configuration.nix
-        home-manager.darwinModules.home-manager
-        { nixpkgs.config.allowUnfree = true; }
-        {
-          home-manager = {
-            useGlobalPkgs = true;
-            useUserPackages = true;
-            extraSpecialArgs = { inherit inputs vars; hostVars = vars.darwin; };
-            users.${vars.darwin.username} = import ./darwin-home/ibarahime.nix;
-            backupFileExtension = "backup-" + (nixpkgs.legacyPackages.${vars.darwin.system}).lib.readFile "${(nixpkgs.legacyPackages.${vars.darwin.system}).runCommand "timestamp" { env.when = self.sourceInfo.lastModified; } "echo -n `date '+%Y%m%d%H%M%S'` > $out"}";
-          };
-        }
-      ];
-    };
-  };
 }

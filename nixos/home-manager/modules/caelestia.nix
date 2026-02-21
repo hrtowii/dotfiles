@@ -1,5 +1,5 @@
-{ pkgs, inputs, system, ... }: {
+{ pkgs, inputs, ... }: {
   home.packages = [
-    inputs.caelestia-shell.packages.${pkgs.system}.default
+    inputs.caelestia-shell.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 }

@@ -6,7 +6,7 @@
   programs.zsh = {
     enable = true;
     enableCompletion = true;
-    enableAutosuggestions = true;
+    autosuggestions.enable = true;
     # Aliases
     shellAliases = {
       lg = "lazygit";

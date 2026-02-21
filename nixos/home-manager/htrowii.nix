@@ -1,10 +1,9 @@
 {
   pkgs,
-  inputs,
-  vars,
   hostVars,
   ...
-}: {
+}:
+{
   imports = [
     ./modules/discord.nix
     ./modules/nvim.nix

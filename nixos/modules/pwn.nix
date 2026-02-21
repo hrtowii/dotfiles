@@ -9,7 +9,7 @@ in
   config = lib.mkIf cfg.enable {
     environment.systemPackages = with pkgs; [
       gdb
-      inputs.pwndbg.packages.${pkgs.system}.default
+      inputs.pwndbg.packages.${pkgs.stdenv.hostPlatform.system}.default
 
       (python3.withPackages (ps: with ps; [
         pwntools

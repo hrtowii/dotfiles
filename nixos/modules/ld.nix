@@ -9,20 +9,20 @@
 
   wayland
 
-  xorg.libX11
-  xorg.libXext
-  xorg.libXrender
+  libx11
+  libxext
+  libxrender
   xorg.libXrandr
-  xorg.libxcb
-  xorg.libXi
+  libxcb
+  libxi
   xorg.libXcursor
   xorg.libXinerama
 
   xorg.xcbutil
-  xorg.xcbutilimage
-  xorg.xcbutilkeysyms
-  xorg.xcbutilrenderutil
-  xorg.xcbutilwm
+  libxcb-image
+  libxcb-keysyms
+  libxcb-render-util
+  libxcb-wm
   xorg.xcbutilcursor   # provides libxcb-cursor.so.0
 
   libxkbcommon
