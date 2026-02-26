@@ -21,6 +21,7 @@
     ./modules/whatsapp.nix
     ./modules/swaync.nix
     ./modules/art_daemon.nix
+    ./modules/nixcord.nix
     ./config.nix
   ];
 
