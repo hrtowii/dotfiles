@@ -28,5 +28,6 @@ in
     ".local/bin/toggle-refresh".source = ./scripts/toggle-refresh.sh;
     ".local/bin/toggle-refresh".executable = true;
     ".config/fontconfig/fonts.conf".source = "${configDir}/fontconfig/fonts.conf";
+    ".config/.cargo/config.toml".source = "${configDir}/.cargo/config.toml";
   };
 }
