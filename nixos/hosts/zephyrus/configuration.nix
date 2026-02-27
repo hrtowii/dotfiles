@@ -2,15 +2,21 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, vars, hostVars, ... }:
+{
+  config,
+  pkgs,
+  vars,
+  hostVars,
+  ...
+}:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ./system-packages.nix
-      ../../modules/zephyrus
-    ];
+  imports = [
+    # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+    ./system-packages.nix
+    ../../modules/zephyrus
+  ];
 
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -19,10 +25,12 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.supportedFilesystems = [ "ntfs" ];
   zramSwap.enable = true;
-  swapDevices = [{
-    device = "/swapfile";
-    size = 16 * 1024; # 16GB
-  }];
+  swapDevices = [
+    {
+      device = "/swapfile";
+      size = 16 * 1024; # 16GB
+    }
+  ];
   networking.hostName = hostVars.hostname;
   networking.networkmanager.enable = true;
 
@@ -57,7 +65,6 @@
     variant = "";
   };
 
-
   # Enable sound with pipewire.
   services.pulseaudio.enable = false;
   security.rtkit.enable = true;
@@ -78,12 +85,18 @@
     autoStart = true;
     openFirewall = true;
     capSysAdmin = true;
+    package = pkgs.sunshine.override { boost = pkgs.boost187; };
+    # https://github.com/nixos/nixpkgs/issues/485826 ofc nix breaks
   };
 
   users.users.${hostVars.username} = {
     isNormalUser = true;
     description = "saccade";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+      "docker"
+    ];
     shell = pkgs.zsh;
   };
 
@@ -94,7 +107,10 @@
     auto-optimise-store = true;
     max-jobs = 3;
     cores = 4;
-    experimental-features = ["nix-command" "flakes"];
+    experimental-features = [
+      "nix-command"
+      "flakes"
+    ];
     substituters = [
       "https://cache.nixos.org"
       "https://nix-gaming.cachix.org"

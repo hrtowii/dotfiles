@@ -99,6 +99,7 @@ in
     autoStart = true;
     openFirewall = true;
     capSysAdmin = true;
+    package = pkgs.sunshine.override { boost = pkgs.boost187; };
   };
 
   users.users.${hostVars.username} = {

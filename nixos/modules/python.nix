@@ -22,7 +22,7 @@
     #   ]))
     # isort
     uv
-    python311
+    # python311
     ruff
   ];
 }
