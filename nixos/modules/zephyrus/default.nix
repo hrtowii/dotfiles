@@ -1,4 +1,10 @@
-{pkgs, vars, hostVars, ...}: {
+{
+  pkgs,
+  vars,
+  hostVars,
+  ...
+}:
+{
   imports = [
     ../docker.nix
     ../steam.nix
@@ -18,7 +24,7 @@
     ../zephyrus.nix
     ../sdr.nix
     ../vm.nix
-    # ../ld.nix
+    ../ld.nix
     ../chinese.nix
     ../env.nix
     ../bluetooth.nix
