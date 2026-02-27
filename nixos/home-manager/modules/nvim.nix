@@ -29,6 +29,8 @@
       nixd
       pyright
       rust-analyzer
+      # ols
+      odin
       gopls
       clang-tools
       clang-analyzer

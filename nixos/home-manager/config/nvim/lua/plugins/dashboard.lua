@@ -36,17 +36,17 @@ return {
 					ttl = 5 * 60,
 					indent = 3,
 				},
-				{
-					icon = " ",
-					title = "keymap",
-					section = "keys",
-					indent = 2,
-					padding = 1,
-					pane = 2,
-					enabled = function()
-						return Snacks.git.get_root() == nil
-					end,
-				},
+				-- {
+				-- 	icon = " ",
+				-- 	title = "keymap",
+				-- 	section = "keys",
+				-- 	indent = 2,
+				-- 	padding = 1,
+				-- 	pane = 2,
+				-- 	enabled = function()
+				-- 		return Snacks.git.get_root() == nil
+				-- 	end,
+				-- },
 				function()
 					local artist = ""
 					local title = ""
