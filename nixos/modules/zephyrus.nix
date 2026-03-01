@@ -33,6 +33,8 @@
       hotplug_type = "Asus"; # Required for proper MUX handling on G14
     };
   };
+  services.power-profiles-daemon.enable = true;
+  services.logind.lidSwitch = "suspend";
   environment.systemPackages = with pkgs; [
     amdgpu_top
     powertop
@@ -43,5 +45,6 @@
   # Use amd-pstate driver (active or guided mode) for modern Ryzen power management
   boot.kernelParams = [
     "amd_pstate=active" # Or "guided" — active often gives better efficiency on 6000-series
+    "mem_sleep_default=deep"
   ];
 }
