@@ -11,10 +11,10 @@ in
 
     mkdir -p "$dst"
 
-    find "$dst" -type f -delete
+    sudo find "$dst" -type f -delete
 
-    cp -a ${customFontsDir}/. "$dst"/
+    sudo cp -a ${customFontsDir}/. "$dst"/
 
-    # atsutil databases -removeUser >/dev/null 2>&1 || true
+    sudo atsutil databases -removeUser >/dev/null 2>&1 || true
   '';
 }

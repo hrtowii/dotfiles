@@ -10,7 +10,7 @@
   ./modules/ripgrep.nix
   ./modules/zellij.nix
   ./modules/fonts.nix
-  ./modules/font-activation.nix
+  # ./modules/font-activation.nix
 ];
   home.username = hostVars.username;
   home.homeDirectory = "${hostVars.homePrefix}/${hostVars.username}";

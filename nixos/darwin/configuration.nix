@@ -10,6 +10,7 @@
     ./modules/skhd.nix
     ./modules/cmake.nix
     ./modules/moonlight.nix
+    ./modules/font-activation.nix
     # ./modules/tailscale.nix
   ];
   npm.enable = true;
@@ -70,6 +71,8 @@
     ncdu 
     nh
     statix 
+    nixd
+    # jadx
   ];
 
   nixpkgs.config.allowUnfree = true;
