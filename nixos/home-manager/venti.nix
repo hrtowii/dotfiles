@@ -4,7 +4,8 @@
   vars,
   hostVars,
   ...
-}: {
+}:
+{
   imports = [
     ./modules/discord.nix
     ./modules/nvim.nix
@@ -23,6 +24,7 @@
     ./modules/waybar.nix
     ./modules/swaync.nix
     ./modules/art_daemon.nix
+    ./modules/qbittorrent.nix
     ./config.nix
   ];
 
@@ -58,5 +60,7 @@
     zoxide
     telegram-desktop
     beekeeper-studio
+    p7zip
+    file
   ];
 }
