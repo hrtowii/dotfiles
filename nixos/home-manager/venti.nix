@@ -25,6 +25,7 @@
     ./modules/swaync.nix
     ./modules/art_daemon.nix
     ./modules/qbittorrent.nix
+    ./modules/chrome.nix
     ./config.nix
   ];
 
