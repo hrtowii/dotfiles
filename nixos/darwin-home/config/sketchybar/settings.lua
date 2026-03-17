@@ -9,8 +9,8 @@ return {
 
 	-- Alternatively, this is a font config for JetBrainsMono Nerd Font
 	font = {
-		text = "Berkeley Mono Nerd Font", -- Used for text
-		numbers = "Berkeley Mono Nerd Font", -- Used for numbers
+		text = "Maple Mono NF", -- Used for text
+		numbers = "Maple Mono NF", -- Used for numbers
 		space_numbers = "Maple Mono NF",
 		style_map = {
 			["Regular"] = "Regular",
