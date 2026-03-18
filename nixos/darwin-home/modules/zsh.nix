@@ -20,7 +20,6 @@ in
     '';
 
     initExtra = ''
-      # Disable p10k instant prompt to avoid errors
       typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
       
       if [ -f /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme ]; then
