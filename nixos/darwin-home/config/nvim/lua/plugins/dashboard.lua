@@ -1,3 +1,4 @@
+local home = vim.fn.expand("~")
 return {
 	"snacks.nvim",
 	opts = {
@@ -11,7 +12,9 @@ return {
 			sections = {
 				{
 					section = "terminal",
-					cmd = "~/dev/img2ascii_c/build/img2ascii --braille --height=130 --width=100 /Users/ibarahime/dev/art_daemon/album_art/current.jpg",
+					cmd = "~/dev/img2ascii_c/build/img2ascii --braille --height=130 --width=100 "
+						.. home
+						.. "/dev/art_daemon/album_art/current.jpg",
 					height = 25,
 					padding = 1,
 					ttl = 0,
@@ -33,22 +36,22 @@ return {
 					ttl = 5 * 60,
 					indent = 3,
 				},
-				{
-					icon = " ",
-					title = "keymap",
-					section = "keys",
-					indent = 2,
-					padding = 1,
-					pane = 2,
-					enabled = function()
-						return Snacks.git.get_root() == nil
-					end,
-				},
+				-- {
+				-- 	icon = " ",
+				-- 	title = "keymap",
+				-- 	section = "keys",
+				-- 	indent = 2,
+				-- 	padding = 1,
+				-- 	pane = 2,
+				-- 	enabled = function()
+				-- 		return Snacks.git.get_root() == nil
+				-- 	end,
+				-- },
 				function()
 					local artist = ""
 					local title = ""
 
-					local f = io.open("/Users/ibarahime/dev/art_daemon/output.txt", "r")
+					local f = io.open(home .. "/dev/art_daemon/output.txt", "r")
 					if f then
 						local contents = f:read("*a")
 						f:close()

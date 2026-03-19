@@ -15,6 +15,7 @@
       cargo
       cargo-edit
       cargo-watch
+      rustfmt
       # cargo-outdated
       # cargo-audit
       rust-analyzer

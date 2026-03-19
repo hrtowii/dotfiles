@@ -23,8 +23,8 @@ alias start_openwebui='docker run -d -p 127.0.0.1:3000:8080 -e WEBUI_AUTH=False 
 alias disarm="~/Downloads/disarm/binaries/disarm.AAPLSi"
 alias discordo="~/dev/discordo/discordo"
 alias nix-rebuild="nh darwin switch ~/dev/dotfiles/nixos/ --hostname homura"
-export PATH="~/.bun/bin:$PATH"
-export PATH="~/.cargo/bin:$PATH"
+export PATH=~/.bun/bin:$PATH
+export PATH=~/.cargo/bin:$PATH
 alias create_jupyter_kernel="uv venv --seed; uv pip install pydantic; uv pip install jupyterlab; .venv/bin/jupyter lab"
 create_vite_tailwind_app() {
     if [ -z "$1" ]; then
