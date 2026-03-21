@@ -20,6 +20,7 @@
       # cargo-audit
       rust-analyzer
       clippy
+      nixfmt
       # minijinja-cli
     ];
     environment.etc."cargo/config.toml".text = ''

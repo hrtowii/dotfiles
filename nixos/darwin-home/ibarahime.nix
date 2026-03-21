@@ -1,17 +1,23 @@
-{ config, pkgs, lib, hostVars, ... }:
+{
+  config,
+  pkgs,
+  lib,
+  hostVars,
+  ...
+}:
 
 {
   imports = [
-  ./config.nix
-  ./modules/git.nix
-  ./modules/spicetify.nix
-  ./modules/zsh.nix
-  ./modules/sketchybar.nix
-  ./modules/ripgrep.nix
-  ./modules/zellij.nix
-  ./modules/fonts.nix
-  # ./modules/font-activation.nix
-];
+    ./config.nix
+    ./modules/git.nix
+    ./modules/spicetify.nix
+    ./modules/zsh.nix
+    ./modules/sketchybar.nix
+    ./modules/ripgrep.nix
+    ./modules/zellij.nix
+    ./modules/fonts.nix
+    # ./modules/font-activation.nix
+  ];
   home.username = hostVars.username;
   home.homeDirectory = "${hostVars.homePrefix}/${hostVars.username}";
   home.stateVersion = hostVars.stateVersion;

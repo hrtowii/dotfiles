@@ -1,10 +1,16 @@
-{ config, pkgs, inputs, hostVars, ... }:
+{
+  config,
+  pkgs,
+  inputs,
+  hostVars,
+  ...
+}:
 
 {
   imports = [
     ./modules/homebrew.nix
     ./modules/aerospace.nix
-    ./modules/npm.nix 
+    ./modules/npm.nix
     ./modules/rust.nix
     ./modules/python.nix
     ./modules/skhd.nix
@@ -29,7 +35,10 @@
   };
 
   nix.settings = {
-    experimental-features = [ "nix-command" "flakes" ];
+    experimental-features = [
+      "nix-command"
+      "flakes"
+    ];
     substituters = [
       "https://cache.nixos.org"
       "https://cache.lix.systems"
@@ -50,12 +59,12 @@
     cachix
     # claude-code
     # opencode
-    # tree 
+    # tree
     bottom
-    tokei 
+    tokei
     wget
-    zoxide 
-    rclone 
+    zoxide
+    rclone
     fzf
     btop
     cmatrix
@@ -65,13 +74,14 @@
     fastfetch
     hugo
     hyperfine
-    mpd 
-    mpdscribble 
-    nasm 
-    ncdu 
+    mpd
+    mpdscribble
+    nasm
+    ncdu
     nh
-    statix 
+    statix
     nixd
+    renpy
     # jadx
   ];
 
