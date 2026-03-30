@@ -85,7 +85,12 @@
     # jadx
   ];
 
-  nixpkgs.config.allowUnfree = true;
+  nixpkgs.config = {
+    allowUnfree = true;
+    permittedInsecurePackages = [
+      "python3.12-ecdsa-0.19.1"
+    ];
+  };
 
   system.stateVersion = 5;
 }
