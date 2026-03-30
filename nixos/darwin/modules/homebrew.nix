@@ -1,4 +1,9 @@
-{ config, pkgs, lib, ... }:
+{
+  config,
+  pkgs,
+  lib,
+  ...
+}:
 # note: surprisingly, a LOT of stuff in searching nixos packages has support for aarch64-darwin, which is crazy to think of! like imagine arm64 / mac+linux being first class citizens in arch! nix is crazy
 # i will only use brew if the build fails / im lazy or it doesnt exist
 {
@@ -156,7 +161,7 @@
       "helium-browser"
       "huggingchat"
       # "ipatool"
-      "kicad"
+      # "kicad"
       # "kitty"
       "microsoft-auto-update"
       "microsoft-outlook"
@@ -176,7 +181,7 @@
       "sf-symbols"
       "signal"
       "slack"
-      "spotify" # spicetify nix sucks 
+      "spotify" # spicetify nix sucks
       "telegram"
       "the-unarchiver"
       "transmission"
