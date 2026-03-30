@@ -13,7 +13,7 @@
       name = "Catppuccin-Macchiato-Compact-Blue-dark";
       package = pkgs.catppuccin-gtk.override {
         size = "compact";
-        accents = ["pink"];
+        accents = [ "pink" ];
         variant = "mocha";
       };
     };
@@ -22,17 +22,17 @@
       package = pkgs.papirus-folders;
     };
 
-    gtk3.extraConfig = {
-        Settings = ''
-            gtk-application-prefer-dark-theme = 1;
-        '';
-    };
-
-    gtk4.extraConfig = {
-        Settings = ''
-            gtk-application-prefer-dark-theme = 1;
-            '';
-    };
+    # gtk3.extraConfig = {
+    #     Settings = ''
+    #         gtk-application-prefer-dark-theme = 1;
+    #     '';
+    # };
+    #
+    # gtk4.extraConfig = {
+    #     Settings = ''
+    #         gtk-application-prefer-dark-theme = 1;
+    #         '';
+    # };
 
   };
 }
