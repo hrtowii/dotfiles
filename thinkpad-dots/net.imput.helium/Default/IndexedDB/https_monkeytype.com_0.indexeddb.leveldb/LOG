@@ -1,0 +1,6 @@
+2026/04/05-04:21:24.568 5f6 Creating DB /home/meower/.config/net.imput.helium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb since it was missing.
+2026/04/05-04:21:24.701 5f6 Reusing MANIFEST /home/meower/.config/net.imput.helium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/05-04:21:25.541 5f7 Level-0 table #5: started
+2026/04/05-04:21:25.630 5f7 Level-0 table #5: 1773 bytes OK
+2026/04/05-04:21:25.676 5f7 Delete type=0 #3
+2026/04/05-04:21:25.678 5f7 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

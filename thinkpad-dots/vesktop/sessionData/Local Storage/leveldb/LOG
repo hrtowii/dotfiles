@@ -1,0 +1,36 @@
+2026/04/06-17:42:15.225 55d4 Reusing MANIFEST /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/04/06-17:42:15.240 55d4 Recovering log #12
+2026/04/06-17:42:15.240 55d4 Reusing old log /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000012.log 
+2026/04/06-17:44:49.815 55d4 Level-0 table #16: started
+2026/04/06-17:44:49.941 55d4 Level-0 table #16: 207767 bytes OK
+2026/04/06-17:44:49.991 55d4 Delete type=0 #12
+2026/04/06-17:44:49.992 55d4 Compacting 4@0 + 1@1 files
+2026/04/06-17:44:50.076 55d4 Generated table #17@0: 33 keys, 221962 bytes
+2026/04/06-17:44:50.076 55d4 Compacted 4@0 + 1@1 files => 221962 bytes
+2026/04/06-17:44:50.124 55d4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/06-17:44:50.125 55d4 Delete type=2 #16
+2026/04/06-17:44:50.125 55d4 Delete type=2 #9
+2026/04/06-17:44:50.126 55d4 Delete type=2 #13
+2026/04/06-17:44:50.126 55d4 Delete type=2 #11
+2026/04/06-17:44:50.126 55d4 Delete type=2 #7
+2026/04/06-17:45:15.486 55b2 Level-0 table #19: started
+2026/04/06-17:45:15.575 55b2 Level-0 table #19: 195039 bytes OK
+2026/04/06-17:45:15.619 55b2 Delete type=0 #15
+2026/04/06-18:03:15.486 55d4 Level-0 table #21: started
+2026/04/06-18:03:15.577 55d4 Level-0 table #21: 203380 bytes OK
+2026/04/06-18:03:15.628 55d4 Delete type=0 #18
+2026/04/08-18:52:16.249 55d4 Level-0 table #23: started
+2026/04/08-18:52:16.351 55d4 Level-0 table #23: 209187 bytes OK
+2026/04/08-18:52:16.400 55d4 Delete type=0 #20
+2026/04/08-18:53:35.729 55d4 Level-0 table #25: started
+2026/04/08-18:53:35.826 55d4 Level-0 table #25: 195891 bytes OK
+2026/04/08-18:53:35.872 55d4 Delete type=0 #22
+2026/04/08-18:53:35.872 55d4 Compacting 4@0 + 1@1 files
+2026/04/08-18:53:35.938 55d4 Generated table #26@0: 40 keys, 223328 bytes
+2026/04/08-18:53:35.939 55d4 Compacted 4@0 + 1@1 files => 223328 bytes
+2026/04/08-18:53:35.982 55d4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/08-18:53:35.983 55d4 Delete type=2 #25
+2026/04/08-18:53:35.983 55d4 Delete type=2 #23
+2026/04/08-18:53:35.984 55d4 Delete type=2 #19
+2026/04/08-18:53:35.984 55d4 Delete type=2 #17
+2026/04/08-18:53:35.984 55d4 Delete type=2 #21

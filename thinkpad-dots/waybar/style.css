@@ -1,0 +1,160 @@
+* {
+  font-family: "sketchybar-app-font", "Maple Mono NF";
+  /* border-radius: 0px; */
+  font-size: 13px;
+  padding: 0px;
+  background: transparent;
+}
+
+tooltip {
+  background: #27232b;
+  border: 1px solid #ac82e9;
+  border-radius: 8px;
+  padding: 10px;
+  color: #d8cab8;
+}
+
+tooltip label {
+  color: #d8cab8;
+  padding: 5px;
+  font-family: "Maple Mono NF";
+  font-size: 13px;
+}
+
+window#waybar {
+  /* Linear gradients are used because it makes less harsh rounded border radius, gtk bug :p */
+  background-image: linear-gradient(to bottom, #141216 100%);
+  /* border-radius: 14px;*/ 
+  border-radius: 0 0 7px 7px;
+  padding: 0px;
+  border-style: none;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+#image {
+    border-radius: 5px;
+}
+
+#battery,
+#custom-battery,
+#network,
+#clock,
+#custom-applauncher,
+#workspaces,
+#pulseaudio
+{
+  background-image: linear-gradient(to bottom, #27232b 100%);
+
+  margin: 6px;
+  margin-right: 0px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #d8cab8;
+
+  border-style: none;
+  transition-duration: 120ms;
+  font-family: "Maple Mono NF";
+}
+
+#clock {
+  margin-right: 6px;
+}
+
+#pulseaudio:hover {
+  background-image: linear-gradient(to bottom, #ac82e9 100%);
+  color: #141216;
+  transition-duration: 120ms;
+}
+
+#custom-applauncher {
+  font-weight: bold;
+  transition-duration: 120ms;
+}
+#custom-applauncher:hover {
+  background-image: linear-gradient(to bottom, #ac82e9 100%);
+  color: #141216;
+  transition-duration: 120ms;
+}
+
+#tray {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+  margin: 6px;
+  margin-right: 0px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #d8cab8;
+  border-style: none;
+  transition-duration: 120ms;
+  font-family: "Maple Mono NF";
+}
+
+#tray menu {
+  background-color: #141216;
+  color: #d8cab8;
+  padding: 4px;
+  font-size: 16px;
+}
+#tray menu menuitem {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+
+  margin: 3px;
+  color: #d8cab8;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #27232b;
+  font-size: 16px;
+}
+#tray menu menuitem:hover {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+  color: #ac82e9;
+  font-weight: bold;
+}
+
+#workspaces button {
+  transition-duration: 100ms;
+  min-width: 0;
+  font-weight: bold;
+  color: #d8cab8;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+  font-family: "sketchybar-app-font", "DepartureMono Nerd Font";
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+#workspaces button:hover {
+  transition-duration: 120ms;
+  color: #8f56e1;
+}
+#workspaces button.focused {
+  color: #ac82e9;
+  font-weight: bold;
+}
+#workspaces button.active {
+  color: #ac82e9;
+  font-weight: bold;
+}
+#workspaces button.urgent {
+  color: #fcb167;
+}
+
+#battery {
+  color: #d8cab8;
+}
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  color: #141216;
+  background-color: #fc4649;
+}
+
+#custom-battery {
+  color: #d8cab8;
+}
+#custom-battery.warning,
+#custom-battery.critical,
+#custom-battery.urgent {
+  color: #141216;
+  background-color: #fc4649;
+}

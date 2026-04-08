@@ -1,0 +1,44 @@
+{
+    "editor.renderWhitespace": "trailing",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontLigatures": true,
+    "prettier.tabWidth": 4,
+    "editor.minimap.autohide": true,
+    "security.workspace.trust.startupPrompt": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.printWidth": 120,
+    "prettier.arrowParens": "avoid",
+    "workbench.colorTheme": "Caelestia",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "javascript.preferences.importModuleSpecifierEnding": "minimal",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "codeium.enableCodeLens": false,
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "git.enableSmartCommit": true,
+    "codeium.enableConfig": {
+        "*": true,
+        "fish": true,
+        "qml": true
+    },
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "doxdocgen.generic.boolReturnsTrueFalse": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "qt-qml.qmlls.additionalImportPaths": ["/usr/lib/qt6/qml"],
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "ruff.lineLength": 120,
+    "python.languageServer": "Pylance"
+}

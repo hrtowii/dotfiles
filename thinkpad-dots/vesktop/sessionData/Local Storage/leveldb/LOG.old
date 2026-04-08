@@ -1,0 +1,24 @@
+2026/04/06-17:28:35.089 4cd9 Reusing MANIFEST /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/04/06-17:28:35.102 4cd9 Recovering log #6
+2026/04/06-17:28:35.102 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.102 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.102 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.102 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.103 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.103 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.103 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.103 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.103 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.103 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 32761 bytes; Corruption: missing start of fragmented record(1)
+2026/04/06-17:28:35.103 4cd9 (ignoring error) /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000006.log: dropping 24150 bytes; Corruption: missing start of fragmented record(2)
+2026/04/06-17:28:35.103 4cd9 Level-0 table #9: started
+2026/04/06-17:28:35.181 4cd9 Level-0 table #9: 1135 bytes OK
+2026/04/06-17:28:35.181 4cd9 Recovering log #9
+2026/04/06-17:28:35.182 4cd9 Reusing old log /home/meower/.config/vesktop/sessionData/Local Storage/leveldb/000009.log 
+2026/04/06-17:28:35.231 4cd9 Delete type=0 #6
+2026/04/06-17:31:15.995 4cb7 Level-0 table #11: started
+2026/04/06-17:31:16.069 4cb7 Level-0 table #11: 223102 bytes OK
+2026/04/06-17:31:16.108 4cb7 Delete type=0 #9
+2026/04/06-17:32:35.388 4cd9 Level-0 table #13: started
+2026/04/06-17:32:35.501 4cd9 Level-0 table #13: 196621 bytes OK
+2026/04/06-17:32:35.802 4cd9 Delete type=0 #10
