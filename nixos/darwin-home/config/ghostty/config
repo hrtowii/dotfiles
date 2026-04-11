@@ -6,10 +6,10 @@ keybind = ctrl+d=new_split:right
 # Empty values reset the configuration to the default value
 # font-family = ""
 font-size=14.5
-# font-family = "Berkeley Mono Nerd Font"
+font-family = "Berkeley Mono Nerd Font"
 # font-family="DepartureMono Nerd Font"
 # font-family="Maple Mono NF"
-font-family="Cohere Mono"
+# font-family="Cohere Mono"
 title=""
 macos-titlebar-style="tabs"
 macos-titlebar-proxy-icon="hidden"
@@ -18,6 +18,7 @@ clipboard-write = allow
 copy-on-select = clipboard
 keybind = shift+enter=text:\x1b\r
 custom-shader = ~/.config/ghostty/shaders/cursor-smear.glsl
+# custom-shader = ~/.config/ghostty/shaders/crt.glsl
 # custom-shader = ~/.config/ghostty/shaders/bloom.glsl
 # custom-shader = ~/.config/ghostty/shaders/tft.glsl
 # custom-shader = ~/.config/ghostty/shaders/mnoise.glsl
