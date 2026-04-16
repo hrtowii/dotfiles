@@ -20,6 +20,13 @@
     homePrefix = "/home";
     stateVersion = "24.11";
   };
+   e14 = {
+	username="vi";
+	hostname="edgy14yearold";
+	system="x86_64-linux";
+	homePrecix="/home";
+	stateVersion="25.11";
+};
   darwin = {
     username = "ibarahime";
     hostname = "homura";

@@ -175,6 +175,15 @@
           hmUserFile = ./home-manager/violet.nix;
           extraModules = [ ];
         };
+e14 = mkNixosHost {
+          hostName = "edgy14yearold";
+          hostVars = vars.e14;
+          nixpkgsInput = stable;
+          hmInput = home-manager-stable;
+          hmUserFile = ./home-manager/violet.nix;
+          extraModules = [ ];
+        };
+
       };
 
       darwinConfigurations.${vars.darwin.hostname} = nix-darwin.lib.darwinSystem {

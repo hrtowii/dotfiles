@@ -9,18 +9,15 @@
     ./modules/discord.nix
     ./modules/nvim.nix
     ./modules/starship.nix
-    # ./modules/vscode.nix
     ./modules/zed.nix
     ./modules/zellij.nix
     ./modules/obsidian.nix
     ./modules/git.nix
-    # ./modules/helix.nix
     ./modules/gtk.nix
     ./modules/fonts.nix
     ./modules/firefox.nix
     ./modules/spicetify.nix
     ./modules/osu.nix
-    # Thinkpad does not use caelestia/quickshell/whatsapp (unstable-only)
     ./config.nix
   ];
 
