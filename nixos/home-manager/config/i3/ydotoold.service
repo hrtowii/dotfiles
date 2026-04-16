@@ -1,0 +1,12 @@
+[Unit]
+Description=ydotoold daemon
+After=graphical.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ydotoold --socket-path=/tmp/.ydotool_socket --socket-perm=0666
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=graphical.target
