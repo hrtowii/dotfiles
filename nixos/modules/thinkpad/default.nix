@@ -1,4 +1,5 @@
-{pkgs, hostVars, ...}: {
+{ pkgs, hostVars, ... }:
+{
   imports = [
     ../docker.nix
     ../steam.nix
@@ -15,7 +16,14 @@
     # ../nvidia.nix    # no nvidia on thinkpad
     ../zsh.nix
     # ../tablet.nix    # no tablet on thinkpad
+    ./ld.nix
+    ../chinese.nix
     ../env.nix
+    ../bluetooth.nix
+    ../ida.nix
+    ../pwn.nix
+    ../qt.nix
+    ../sdr.nix
   ];
 
   npm.enable = true;
