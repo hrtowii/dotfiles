@@ -175,7 +175,7 @@
           hmUserFile = ./home-manager/violet.nix;
           extraModules = [ ];
         };
-e14 = mkNixosHost {
+	edgy14yearold = mkNixosHost {
           hostName = "edgy14yearold";
           hostVars = vars.e14;
           nixpkgsInput = stable;
