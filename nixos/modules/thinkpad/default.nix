@@ -16,7 +16,7 @@
     # ../nvidia.nix    # no nvidia on thinkpad
     ../zsh.nix
     # ../tablet.nix    # no tablet on thinkpad
-    ./ld.nix
+    ../ld.nix
     ../chinese.nix
     ../env.nix
     ../bluetooth.nix
