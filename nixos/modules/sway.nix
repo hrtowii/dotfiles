@@ -9,4 +9,9 @@
     enable = true;
     wrapperFeatures.gtk = true;
   };
+  environment.systemPackages = with pkgs; [
+    i3status
+    sway
+    kitty
+  ];
 }

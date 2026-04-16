@@ -1,7 +1,7 @@
 { config, ... }:
 
 let
-  configDir = ./config;
+  configDir = ../../config;
 in
 {
   home.file = {
@@ -18,6 +18,7 @@ in
     ".config/uwsm".source = "${configDir}/uwsm";
     ".zshrc".source = "${configDir}/zsh/.zshrc";
     ".config/hypr".source = "${configDir}/hypr";
+    ".config/sway/config".source = "${configDir}/i3/config";
     ".config/wofi".source = "${configDir}/wofi";
     ".config/waybar".source = "${configDir}/waybar";
     ".config/swaync/theme".source = "${configDir}/swaync/theme";
@@ -25,7 +26,7 @@ in
     ".local/share/fonts".source =
       config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/fonts";
     ".config/pipewire/pipewire.conf.d".source = "${configDir}/pipewire/pipewire.conf.d";
-    ".local/bin/toggle-refresh".source = ./scripts/toggle-refresh.sh;
+    ".local/bin/toggle-refresh".source = ../../scripts/toggle-refresh.sh;
     ".local/bin/toggle-refresh".executable = true;
     ".config/fontconfig/fonts.conf".source = "${configDir}/fontconfig/fonts.conf";
     ".cargo/config.toml".source = "${configDir}/.cargo/config.toml";

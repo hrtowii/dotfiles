@@ -7,19 +7,25 @@
 }:
 {
   imports = [
-    ./modules/discord.nix
-    ./modules/nvim.nix
-    ./modules/starship.nix
-    ./modules/zed.nix
-    ./modules/zellij.nix
-    ./modules/obsidian.nix
-    ./modules/git.nix
-    ./modules/gtk.nix
-    ./modules/fonts.nix
-    ./modules/firefox.nix
-    ./modules/spicetify.nix
-    ./modules/osu.nix
-    ./modules/sway.nix
+    ../../modules/discord.nix
+    ../../modules/nvim.nix
+    ../../modules/starship.nix
+    ../../modules/vscode.nix
+    ../../modules/zed.nix
+    ../../modules/zellij.nix
+    ../../modules/obsidian.nix
+    ../../modules/git.nix
+    ../../modules/gtk.nix
+    ../../modules/fonts.nix
+    ../../modules/firefox.nix
+    ../../modules/spicetify.nix
+    ../../modules/osu.nix
+    ../../modules/whatsapp.nix
+    ../../modules/waybar.nix
+    ../../modules/swaync.nix
+    ../../modules/art_daemon.nix
+    ../../modules/qbittorrent.nix
+    # ../../modules/chrome.nix
     ./config.nix
   ];
 
@@ -43,7 +49,7 @@
     arandr
     wev
     fish
-    catppuccin-cursors.macchiatoBlue
+    catppuccin-cursors.mochaDark
     catppuccin-gtk
     papirus-folders
     material-symbols
@@ -51,6 +57,11 @@
     ibm-plex
     oh-my-zsh
     eza
-    statix
+    fastfetch
+    zoxide
+    telegram-desktop
+    beekeeper-studio
+    p7zip
+    file
   ];
 }

@@ -55,7 +55,7 @@
       # Tree-sitter core
       tree-sitter
       vimPlugins.nvim-treesitter-parsers.qmljs
-
+      tree-sitter-grammars.tree-sitter-typst
       # Tree-sitter grammars
       tree-sitter-grammars.tree-sitter-bash
       tree-sitter-grammars.tree-sitter-c

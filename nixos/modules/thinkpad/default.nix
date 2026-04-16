@@ -23,7 +23,7 @@
     ../ida.nix
     ../pwn.nix
     ../qt.nix
-    ../sdr.nix
+    ../sway.nix
   ];
 
   npm.enable = true;

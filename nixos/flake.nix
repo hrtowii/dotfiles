@@ -15,9 +15,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     helium = {
-  url = "github:schembriaiden/helium-browser-nix-flake";
-  inputs.nixpkgs.follows = "nixpkgs";
-};
+      url = "github:schembriaiden/helium-browser-nix-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     home-manager-stable = {
       url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "stable";
@@ -141,7 +141,7 @@
         zephyrus = mkNixosHost {
           hostName = "zephyrus";
           hostVars = vars.zephyrus;
-          hmUserFile = ./home-manager/venti.nix;
+          hmUserFile = ./home-manager/hosts/zephyrus/default.nix;
           extraModules = [
             {
               nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
@@ -155,7 +155,7 @@
         linux = mkNixosHost {
           hostName = "linux";
           hostVars = vars.linux;
-          hmUserFile = ./home-manager/htrowii.nix;
+          hmUserFile = ./home-manager/hosts/linux/default.nix;
           extraModules = [
             {
               imports = [ aagl.nixosModules.default ];
@@ -171,14 +171,21 @@
           hostName = "thinkpad";
           hostVars = vars.thinkpad;
           nixpkgsInput = stable;
-          hmUserFile = ./home-manager/violet.nix;
+          hmUserFile = ./home-manager/hosts/thinkpad/default.nix;
           extraModules = [ ];
         };
-	edgy14yearold = mkNixosHost {
+        edgy14yearold = mkNixosHost {
           hostName = "edgy14yearold";
           hostVars = vars.e14;
-          hmUserFile = ./home-manager/violet.nix;
-          extraModules = [ ];
+          hmUserFile = ./home-manager/hosts/edgy14yearold/default.nix;
+          extraModules = [
+            {
+              nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
+              # imports = [ aagl.nixosModules.default ];
+              # programs.anime-game-launcher.enable = false;
+              # programs.anime-games-launcher.enable = false;
+            }
+          ];
         };
 
       };

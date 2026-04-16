@@ -1,4 +1,5 @@
-{pkgs, inputs, ...}: {
+{ pkgs, inputs, ... }:
+{
   environment.systemPackages = with pkgs; [
     inputs.helium.packages.${pkgs.stdenv.hostPlatform.system}.default
     spotify
@@ -21,5 +22,8 @@
     cachix
     rclone
     openssl
+    hyfetch
+    fastfetch
+    macchina
   ];
 }

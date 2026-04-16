@@ -1,27 +1,24 @@
 {
   pkgs,
+  inputs,
+  vars,
   hostVars,
   ...
 }:
 {
   imports = [
-    ./modules/discord.nix
-    ./modules/nvim.nix
-    ./modules/starship.nix
-    ./modules/vscode.nix
-    ./modules/zed.nix
-    ./modules/zellij.nix
-    ./modules/obsidian.nix
-    ./modules/git.nix
-    ./modules/gtk.nix
-    ./modules/fonts.nix
-    ./modules/firefox.nix
-    ./modules/spicetify.nix
-    ./modules/osu.nix
-    ./modules/whatsapp.nix
-    ./modules/swaync.nix
-    ./modules/art_daemon.nix
-    ./modules/nixcord.nix
+    ../../modules/discord.nix
+    ../../modules/nvim.nix
+    ../../modules/starship.nix
+    ../../modules/zed.nix
+    ../../modules/zellij.nix
+    ../../modules/obsidian.nix
+    ../../modules/git.nix
+    ../../modules/gtk.nix
+    ../../modules/fonts.nix
+    ../../modules/firefox.nix
+    ../../modules/spicetify.nix
+    ../../modules/osu.nix
     ./config.nix
   ];
 
@@ -45,7 +42,7 @@
     arandr
     wev
     fish
-    catppuccin-cursors.mochaDark
+    catppuccin-cursors.macchiatoBlue
     catppuccin-gtk
     papirus-folders
     material-symbols
@@ -53,9 +50,6 @@
     ibm-plex
     oh-my-zsh
     eza
-    fastfetch
-    zoxide
-    telegram-desktop
-    beekeeper-studio
+    statix
   ];
 }
