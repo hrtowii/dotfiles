@@ -4,7 +4,8 @@
   vars,
   hostVars,
   ...
-}: {
+}:
+{
   imports = [
     ./modules/discord.nix
     ./modules/nvim.nix
@@ -49,5 +50,6 @@
     ibm-plex
     oh-my-zsh
     eza
+    statix
   ];
 }

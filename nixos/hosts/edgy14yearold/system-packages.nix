@@ -1,7 +1,6 @@
-# ThinkPad T480 system packages
 {pkgs, inputs, ...}: {
   environment.systemPackages = with pkgs; [
-    inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.helium.packages.${pkgs.stdenv.hostPlatform.system}.default
     spotify
     gcc
     cacert

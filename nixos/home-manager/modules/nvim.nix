@@ -81,8 +81,6 @@
       # tree-sitter-grammars.tree-sitter-xml
       tree-sitter-grammars.tree-sitter-yaml
     ];
-
-    plugins = [ pkgs.vimPlugins.lazy-nvim ];
   };
 
   # Set environment variables for nvim dashboard.lua

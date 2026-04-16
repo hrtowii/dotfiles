@@ -24,7 +24,7 @@
 	username="vi";
 	hostname="edgy14yearold";
 	system="x86_64-linux";
-	homePrecix="/home";
+	homePrefix="/home";
 	stateVersion="25.11";
 };
   darwin = {

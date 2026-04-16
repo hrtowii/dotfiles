@@ -14,13 +14,13 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    helium = {
+  url = "github:schembriaiden/helium-browser-nix-flake";
+  inputs.nixpkgs.follows = "nixpkgs";
+};
     home-manager-stable = {
       url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "stable";
-    };
-    LazyVim = {
-      url = "github:matadaniel/LazyVim-module";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
     ghostty.url = "github:ghostty-org/ghostty";
     hyprland.url = "github:hyprwm/Hyprland";
@@ -171,15 +171,12 @@
           hostName = "thinkpad";
           hostVars = vars.thinkpad;
           nixpkgsInput = stable;
-          hmInput = home-manager-stable;
           hmUserFile = ./home-manager/violet.nix;
           extraModules = [ ];
         };
 	edgy14yearold = mkNixosHost {
           hostName = "edgy14yearold";
           hostVars = vars.e14;
-          nixpkgsInput = stable;
-          hmInput = home-manager-stable;
           hmUserFile = ./home-manager/violet.nix;
           extraModules = [ ];
         };
