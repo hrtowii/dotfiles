@@ -19,6 +19,7 @@
     ./modules/firefox.nix
     ./modules/spicetify.nix
     ./modules/osu.nix
+    ./modules/sway.nix
     ./config.nix
   ];
 
