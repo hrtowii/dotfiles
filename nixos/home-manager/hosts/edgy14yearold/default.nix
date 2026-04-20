@@ -7,7 +7,8 @@
 }:
 {
   imports = [
-    ../../modules/discord.nix
+    # ../../modules/discord.nix
+    ../../modules/nixcord.nix
     ../../modules/nvim.nix
     ../../modules/starship.nix
     ../../modules/zed.nix

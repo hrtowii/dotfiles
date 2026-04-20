@@ -25,5 +25,6 @@
     hyfetch
     fastfetch
     macchina
+    telegram-desktop
   ];
 }

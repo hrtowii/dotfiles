@@ -13,5 +13,8 @@
     i3status
     sway
     kitty
+    grim
+    slurp
+    wl-clipboard
   ];
 }

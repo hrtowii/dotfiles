@@ -6,7 +6,7 @@
     ../python.nix
     ../npm.nix
     ../tailscale.nix
-    # ../rust.nix      # not needed on thinkpad
+    ../rust.nix # not needed on thinkpad
     # ../ollama.nix
     ../flatpak.nix
     ../hyprland.nix
@@ -27,7 +27,7 @@
   ];
 
   npm.enable = true;
-
+  rust.enable = true;
   programs.mtr.enable = true;
   programs.gnupg.agent = {
     enable = true;
