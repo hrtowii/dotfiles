@@ -16,5 +16,6 @@
     grim
     slurp
     wl-clipboard
+    wofi
   ];
 }

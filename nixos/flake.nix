@@ -187,6 +187,20 @@
             }
           ];
         };
+	t420blazeit = mkNixosHost {
+          hostName = "420blazeit";
+          hostVars = vars.t420blazeit;
+          hmUserFile = ./home-manager/hosts/420blazeit/default.nix;
+          extraModules = [
+            {
+              nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) (import ./overlays/bun-baseline.nix) ];
+              # imports = [ aagl.nixosModules.default ];
+              # programs.anime-game-launcher.enable = false;
+              # programs.anime-games-launcher.enable = false;
+            }
+          ];
+        };
+
 
       };
 

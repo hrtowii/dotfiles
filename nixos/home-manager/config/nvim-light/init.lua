@@ -48,7 +48,7 @@ end)
 
 later(function()
   vim.o.termguicolors = true
-  vim.cmd('colorscheme rose-pine-dawn')
+  vim.cmd('colorscheme rose-pine')
   vim.cmd('TransparentEnable')
 
   vim.keymap.set('n', '<leader>sr', '<cmd>lua require("spectre").toggle()<CR>',                        { desc = "Search & replace (Spectre)" })

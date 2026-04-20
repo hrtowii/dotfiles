@@ -1,15 +1,15 @@
 { pkgs, hostVars, ... }:
 {
   imports = [
-    ../docker.nix
-    ../steam.nix
+    # ../docker.nix
+    # ../steam.nix
     ../python.nix
     ../npm.nix
     ../tailscale.nix
     ../rust.nix # not needed on thinkpad
     # ../ollama.nix
     ../flatpak.nix
-    ../hyprland.nix
+    # ../hyprland.nix
     ../keyring.nix
     ../uwsm.nix
     ../dotnet.nix
@@ -20,8 +20,8 @@
     ../chinese.nix
     ../env.nix
     ../bluetooth.nix
-    ../ida.nix
-    ../pwn.nix
+    # ../ida.nix
+    # ../pwn.nix
     ../qt.nix
     ../sway.nix
   ];
