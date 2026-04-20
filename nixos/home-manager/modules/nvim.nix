@@ -8,6 +8,7 @@
 
   programs.neovim = {
     enable = true;
+    sideloadInitLua = true;
     defaultEditor = true;
     viAlias = true;
     vimAlias = true;
@@ -36,18 +37,20 @@
       clang-analyzer
       marksman
       yaml-language-server
-      nodePackages_latest.typescript-language-server
-      nodePackages_latest.vscode-langservers-extracted
-      nodePackages_latest.svelte-language-server
-      nodePackages."@tailwindcss/language-server"
+      typescript-language-server
+      vscode-langservers-extracted
+      svelte-language-server
+      tailwindcss-language-server
+      # nodePackages_latest.typescript-language-server
+      # nodePackages_latest.vscode-langservers-extracted
+      # nodePackages_latest.svelte-language-server
+      # nodePackages."@tailwindcss/language-server"
       # nodePackages_latest.dockerfile-language-server
       black
       biome
       shfmt
       stylelint
       stylua
-      nodePackages_latest.prettier
-      nodePackages_latest.eslint_d
       rustfmt
       isort
       gopls
@@ -88,12 +91,4 @@
     HOMEUSER = vars.zephyrus.username;
   };
 
-  # Link your Neovim configuration
-  # home.file.".config/nvim" = {
-  #   source = ../config/nvim;
-  #   recursive = true;
-  # };
-
-  # home.file.".config/nvim".source =
-  #   config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nix/home-manager/lib/nvim/config";
 }

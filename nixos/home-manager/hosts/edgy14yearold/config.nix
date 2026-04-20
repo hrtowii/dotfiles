@@ -10,8 +10,10 @@ in
     ".config/zellij".source = "${configDir}/zellij";
     ".config/ghostty".source = "${configDir}/ghostty";
     ".config/spicetify".source = "${configDir}/spicetify";
-    ".config/nvim".source =
-      config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/config/nvim";
+    ".config/nvim" = {
+      source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/config/nvim";
+      recursive = false;
+    };
     ".config/neofetch".source = "${configDir}/neofetch";
     ".config/fastfetch".source = "${configDir}/fastfetch";
     ".config/gqrx".source = "${configDir}/gqrx";
@@ -31,4 +33,5 @@ in
     ".config/fontconfig/fonts.conf".source = "${configDir}/fontconfig/fonts.conf";
     ".cargo/config.toml".source = "${configDir}/.cargo/config.toml";
   };
+
 }
