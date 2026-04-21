@@ -118,7 +118,9 @@ fastfetch
 # export LDFLAGS="-L/opt/homebrew/opt/zlib/lib"
 # export CPPFLAGS="-I/opt/homebrew/opt/zlib/include"
 # export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-# eval "$(starship init zsh)"
+if command -v starship >/dev/null 2>&1; then
+    eval "$(starship init zsh)"
+fi
 # export PATH="$PATH:/opt/homebrew/Cellar/john-jumbo/1.9.0_1/share/john/"
 # export PATH=/usr/local/anaconda3/bin:$PATH
 # export PATH=/opt/homebrew/anaconda3/bin:$PATH

@@ -13,12 +13,5 @@
       nix-clean = "sudo nix-collect-garbage";
       cpf = "wl-copy <";
     };
-    ohMyZsh = {
-      enable = true;
-      theme = "robbyrussell";
-      plugins = [
-        "sudo"
-      ];
-    };
   };
 }

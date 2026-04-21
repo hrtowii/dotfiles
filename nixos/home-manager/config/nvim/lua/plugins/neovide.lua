@@ -34,28 +34,28 @@ if vim.g.neovide then
 	vim.g.neovide_padding_right = 0
 	vim.g.neovide_padding_left = 0
 
-	-- Set terminal colors (catppuccin mocha)
-	vim.g.terminal_color_0 = "#45475a"
-	vim.g.terminal_color_1 = "#f38ba8"
-	vim.g.terminal_color_2 = "#a6e3a1"
-	vim.g.terminal_color_3 = "#f9e2af"
-	vim.g.terminal_color_4 = "#89b4fa"
-	vim.g.terminal_color_5 = "#f5c2e7"
-	vim.g.terminal_color_6 = "#94e2d5"
-	vim.g.terminal_color_7 = "#bac2de"
-	vim.g.terminal_color_8 = "#585b70"
-	vim.g.terminal_color_9 = "#f38ba8"
-	vim.g.terminal_color_10 = "#a6e3a1"
-	vim.g.terminal_color_11 = "#f9e2af"
-	vim.g.terminal_color_12 = "#89b4fa"
-	vim.g.terminal_color_13 = "#f5c2e7"
-	vim.g.terminal_color_14 = "#94e2d5"
-	vim.g.terminal_color_15 = "#a6adc8"
+	-- Set terminal colors (sunbather-inspired)
+	vim.g.terminal_color_0 = "#1b1d1e"
+	vim.g.terminal_color_1 = "#ed6a5e"
+	vim.g.terminal_color_2 = "#9fc057"
+	vim.g.terminal_color_3 = "#e6b450"
+	vim.g.terminal_color_4 = "#7caad6"
+	vim.g.terminal_color_5 = "#d38aea"
+	vim.g.terminal_color_6 = "#6fb3b8"
+	vim.g.terminal_color_7 = "#c8c3b9"
+	vim.g.terminal_color_8 = "#5c6066"
+	vim.g.terminal_color_9 = "#f07178"
+	vim.g.terminal_color_10 = "#aad94c"
+	vim.g.terminal_color_11 = "#ffb454"
+	vim.g.terminal_color_12 = "#8ab4f8"
+	vim.g.terminal_color_13 = "#e19ef5"
+	vim.g.terminal_color_14 = "#95e6cb"
+	vim.g.terminal_color_15 = "#f2e6d0"
 
 	-- Terminal Colors
-	vim.g.neovide_background_color = "#1E1E2E"
-	vim.g.neovide_foreground_color = "#cdd6f4"
-	vim.g.neovide_cursor_text_color = "#f5e0dc"
+	vim.g.neovide_background_color = "#1b1d1e"
+	vim.g.neovide_foreground_color = "#d9d2c3"
+	vim.g.neovide_cursor_text_color = "#1b1d1e"
 
 	-- Set terminal colors
 	vim.api.nvim_set_hl(0, "Normal", { fg = vim.g.neovide_foreground_color, bg = vim.g.neovide_background_color })
