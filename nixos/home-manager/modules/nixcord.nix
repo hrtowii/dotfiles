@@ -11,12 +11,12 @@
       };
       enable = true;
       branch = "stable";
-      autoscroll.enable = true;
+      # autoscroll.enable = true;
     };
     config = {
-      enableReactDevtools = true;
-      disableMinSize = true;
-      frameless = true;
+      # enableReactDevtools = true;
+      # disableMinSize = true;
+      # frameless = true;
       plugins = {
         ClearURLs.enable = true;
         LastFMRichPresence.enable = true;
