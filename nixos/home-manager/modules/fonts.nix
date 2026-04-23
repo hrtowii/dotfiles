@@ -17,5 +17,6 @@
   nerd-fonts.departure-mono
   maple-mono.NF
   cozette
+  azuki
 ];
 }
