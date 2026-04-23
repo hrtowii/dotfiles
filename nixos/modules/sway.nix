@@ -17,6 +17,6 @@
     slurp
     wl-clipboard
     wofi
-    notify-send
+    libnotify
   ];
 }
