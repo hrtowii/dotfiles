@@ -34,6 +34,13 @@
 	homePrefix="/home";
 	stateVersion="26.05";
   };
+  x201 = {
+  	username="vi";
+	hostname="x201";
+	system="x86_64-linux";
+	homePrefix="/home";
+	stateVersion="26.05";
+ };
   darwin = {
     username = "ibarahime";
     hostname = "homura";
