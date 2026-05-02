@@ -202,7 +202,7 @@
         };
 	x201 = mkNixosHost {
           hostName = "x201";
-          hostVars = vars.t420blazeit;
+          hostVars = vars.x201;
           hmUserFile = ./home-manager/hosts/x201/default.nix;
           extraModules = [
             {
