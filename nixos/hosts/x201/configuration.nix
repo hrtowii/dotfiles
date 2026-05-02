@@ -20,6 +20,8 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
   networking.hostName = hostVars.hostname;
+  networking.computerName = hostVars.hostname;
+  networking.localHostName = hostVars.hostname;
   networking.networkmanager.enable = true;
 
   # Set your time zone.
