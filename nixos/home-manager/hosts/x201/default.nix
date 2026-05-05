@@ -52,5 +52,6 @@
     oh-my-zsh
     eza
     statix
+    telegram-desktop
   ];
 }

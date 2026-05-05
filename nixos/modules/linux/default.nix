@@ -16,7 +16,7 @@
     ../zsh.nix
     ../tablet.nix
     ../env.nix
-    # ../spotify-player.nix
+    ../spotify-player.nix
     ../slack.nix
     ../vm.nix
     ../ld.nix
