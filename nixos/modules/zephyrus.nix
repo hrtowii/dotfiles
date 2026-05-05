@@ -15,10 +15,10 @@
 
   boot.initrd.kernelModules = [ "amdgpu" ];
 
-  services.asusd = {
-    enable = true;
-    enableUserService = true;
-  };
+  # services.asusd = {
+  #   enable = true;
+  #   enableUserService = true;
+  # };
 
   services.supergfxd = {
     enable = true;
@@ -29,7 +29,7 @@
       hotplug_type = "Asus"; # Required for proper MUX handling on G14
     };
   };
-  services.power-profiles-daemon.enable = true;
+  # services.power-profiles-daemon.enable = true;
   services.logind.lidSwitch = "suspend";
   services.udev.extraRules = ''
     ACTION=="add|change", SUBSYSTEM=="power_supply", ENV{POWER_SUPPLY_TYPE}=="Mains", \
@@ -67,7 +67,7 @@
       fi
     '';
   };
-  systemd.services.power-profile-switch.wantedBy = [ "multi-user.target" ];
+  # systemd.services.power-profile-switch.wantedBy = [ "multi-user.target" ];
   environment.systemPackages = with pkgs; [
     amdgpu_top
     powertop

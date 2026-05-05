@@ -22,13 +22,15 @@
     ../spotify-player.nix
     ../slack.nix
     ../zephyrus.nix
-    ../sdr.nix
+    # ../sdr.nix
     ../vm.nix
     ../ld.nix
     ../chinese.nix
     ../env.nix
     ../bluetooth.nix
     ../ida.nix
+    ../sway.nix
+    ../pwn.nix
   ];
 
   npm.enable = true;

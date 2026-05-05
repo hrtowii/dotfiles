@@ -22,7 +22,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Use latest kernel.
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_6_19;
   boot.supportedFilesystems = [ "ntfs" ];
   zramSwap.enable = true;
   swapDevices = [
