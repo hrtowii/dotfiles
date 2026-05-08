@@ -1,7 +1,7 @@
 { pkgs, hostVars, ... }:
 {
   imports = [
-    # ../docker.nix
+    ../docker.nix
     # ../steam.nix
     ../python.nix
     ../npm.nix
@@ -20,8 +20,8 @@
     ../chinese.nix
     ../env.nix
     ../bluetooth.nix
-    # ../ida.nix
-    # ../pwn.nix
+    ../ida.nix
+    ../pwn.nix
     ../qt.nix
     ../sway.nix
   ];

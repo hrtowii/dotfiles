@@ -172,6 +172,18 @@ later(function()
   })
   vim.lsp.enable('svelte')
 
+  vim.lsp.config('clangd', {
+    filetypes = { 'c', 'cpp', 'objc', 'objcpp' },
+    root_markers = { 'compile_commands.json', 'compile_flags.txt', 'CMakeLists.txt', '.git' },
+  })
+  vim.lsp.enable('clangd')
+
+  vim.lsp.config('nixd', {
+    filetypes = { 'nix' },
+    root_markers = { 'flake.nix', 'default.nix', '.git' },
+  })
+  vim.lsp.enable('nixd')  
+
   vim.api.nvim_create_autocmd('LspAttach', {
     callback = function(event)
       local opts = { buffer = event.buf, silent = true }
@@ -183,7 +195,7 @@ later(function()
   })
 
   vim.api.nvim_create_autocmd('BufWritePre', {
-    pattern = { '*.py', '*.ts', '*.tsx', '*.svelte' },
+    pattern = { '*.py', '*.ts', '*.tsx', '*.svelte', '*.nix' },
     callback = function() vim.lsp.buf.format({ async = false }) end,
   })
 end)
