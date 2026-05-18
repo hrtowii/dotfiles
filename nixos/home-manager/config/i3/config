@@ -219,7 +219,7 @@ mode "mouse" {
 bindsym $mouse_mod+m mode "mouse"
 
 
-output "*" bg ~/.config/wallpapers/wallpaper.png fill
+output "*" bg ~/.config/wallpapers/ceres_wallpaper.jpeg fill
 gaps inner 5
 # rosepine latte
 set $base       #faf4ed
