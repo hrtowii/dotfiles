@@ -214,6 +214,19 @@
           ];
         };
 
+        surfaceedged = mkNixosHost {
+          hostName = "surfaceedged";
+          hostVars = vars.surfaceedged;
+          hmUserFile = ./home-manager/hosts/surfaceedged/default.nix;
+          extraModules = [
+            {
+              nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
+              # imports = [ aagl.nixosModules.default ];
+              # programs.anime-game-launcher.enable = false;
+              # programs.anime-games-launcher.enable = false;
+            }
+          ];
+        };
 
 
       };
