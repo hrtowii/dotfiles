@@ -20,7 +20,7 @@
     ../chinese.nix
     ../env.nix
     ../bluetooth.nix
-    ../ida.nix
+    # ../ida.nix
     ../pwn.nix
     ../qt.nix
     ../sway.nix

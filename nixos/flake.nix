@@ -170,7 +170,6 @@
         thinkpad = mkNixosHost {
           hostName = "thinkpad";
           hostVars = vars.thinkpad;
-          nixpkgsInput = stable;
           hmUserFile = ./home-manager/hosts/thinkpad/default.nix;
           extraModules = [ ];
         };
