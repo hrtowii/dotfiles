@@ -158,8 +158,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
-bindsym $mod+Shift+s exec sh -c "grim -g \"\$(slurp)\" -t png - | wl-copy -t image/png"
-
+bindsym $mod+Shift+s exec grim -g "$(slurp)" - | wl-copy -t image/png
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -219,7 +218,7 @@ mode "mouse" {
 bindsym $mouse_mod+m mode "mouse"
 
 
-output "*" bg ~/.config/wallpapers/ceres_wallpaper.jpeg fill
+output "*" bg ~/.config/wallpapers/roxanne.jpg fill
 gaps inner 5
 # rosepine latte
 set $base       #faf4ed
