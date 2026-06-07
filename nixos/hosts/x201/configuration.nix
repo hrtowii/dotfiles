@@ -2,15 +2,21 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running 'nixos-help').
 
-{ config, pkgs, vars, hostVars, ... }:
+{
+  config,
+  pkgs,
+  vars,
+  hostVars,
+  ...
+}:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ./system-packages.nix
-      ../../modules/thinkpad
-    ];
+  imports = [
+    # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+    ./system-packages.nix
+    ../../modules/thinkpad
+  ];
   boot.loader.grub.enable = true;
   boot.loader.grub.device = "/dev/sda";
   # boot.loader.systemd-boot.enable = true;
@@ -21,6 +27,7 @@
 
   networking.hostName = hostVars.hostname;
   networking.networkmanager.enable = true;
+  networking.networkmanager.wifi.macAddress = "random";
 
   # Set your time zone.
   time.timeZone = "Asia/Singapore";
@@ -42,7 +49,10 @@
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm.enable = true;
   services.desktopManager.plasma6.enable = true;
@@ -66,16 +76,19 @@
   users.users.${hostVars.username} = {
     isNormalUser = true;
     description = "saccade";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+    ];
     shell = pkgs.zsh;
   };
 
   nixpkgs.config.allowUnfree = true;
 
   nix.settings = {
-    substituters = ["https://hyprland.cachix.org"];
-    trusted-substituters = ["https://hyprland.cachix.org"];
-    trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
+    substituters = [ "https://hyprland.cachix.org" ];
+    trusted-substituters = [ "https://hyprland.cachix.org" ];
+    trusted-public-keys = [ "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc=" ];
   };
   hardware.graphics = {
     enable = true;
