@@ -6,6 +6,7 @@
 
   networking.firewall = {
     allowedUDPPorts = [ 41641 ];
+    allowedTCPPorts = [ 22 ];
     trustedInterfaces = [ "tailscale0" ];
     allowedTCPPortRanges = [
       {
