@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   programs.steam = {
     enable = true;
     # apparently enabling this makes big picture boot up, does not work on nvidia however
@@ -12,7 +13,7 @@
     enable32Bit = true;
   };
   environment.systemPackages = with pkgs; [
-    lutris
+    # lutris
     wineWow64Packages.stable
     winetricks
     protontricks

@@ -1,41 +1,48 @@
-{ config, pkgs, options, ... }:
+{
+  config,
+  pkgs,
+  options,
+  ...
+}:
 
 {
   programs.nix-ld = {
     enable = true;
     libraries = with pkgs; [
-  libglvnd
-  mesa
+      libglvnd
+      mesa
+      cryptopp
+      wayland
+      speex
+      speexdsp
+      libusb1
+      qt5.qtbase
+      libx11
+      libxext
+      libxrender
+      xorg.libXrandr
+      libxcb
+      libxi
+      xorg.libXcursor
+      xorg.libXinerama
 
-  wayland
+      xorg.xcbutil
+      libxcb-image
+      libxcb-keysyms
+      libxcb-render-util
+      libxcb-wm
+      xorg.xcbutilcursor # provides libxcb-cursor.so.0
 
-  libx11
-  libxext
-  libxrender
-  xorg.libXrandr
-  libxcb
-  libxi
-  xorg.libXcursor
-  xorg.libXinerama
+      libxkbcommon
 
-  xorg.xcbutil
-  libxcb-image
-  libxcb-keysyms
-  libxcb-render-util
-  libxcb-wm
-  xorg.xcbutilcursor   # provides libxcb-cursor.so.0
+      zlib
+      glib
+      fontconfig
+      freetype
+      dbus
 
-  libxkbcommon
-
-  zlib
-  glib
-  fontconfig
-  freetype
-  dbus
-
-  stdenv.cc.cc
-];
+      stdenv.cc.cc
+    ];
 
   };
 }
-
