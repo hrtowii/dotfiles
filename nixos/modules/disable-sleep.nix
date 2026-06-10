@@ -3,10 +3,10 @@
   services.logind = {
     lidSwitch = "ignore";
     lidSwitchExternalPower = "ignore";
-    extraConfig = ''
-      IdleAction=ignore
-      IdleActionSec=0
-    '';
+    # extraConfig = ''
+    #   IdleAction=ignore
+    #   IdleActionSec=0
+    # '';
   };
 
   systemd.targets = {
