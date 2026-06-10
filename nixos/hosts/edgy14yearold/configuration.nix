@@ -15,7 +15,7 @@
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
     ./system-packages.nix
-    ../../modules/edgy14yearold
+    ./system-modules
   ];
 
   boot.loader.systemd-boot.enable = true;
@@ -92,5 +92,5 @@
   hardware.graphics = {
     enable = true;
   };
-  system.stateVersion = "25.05";
+  system.stateVersion = hostVars.stateVersion;
 }

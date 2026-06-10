@@ -15,7 +15,7 @@
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
     ./system-packages.nix
-    ../../modules/thinkpad
+    ./system-modules
   ];
   boot.loader.grub.enable = true;
   boot.loader.grub.device = "/dev/sda";
@@ -93,5 +93,5 @@
   hardware.graphics = {
     enable = true;
   };
-  system.stateVersion = "25.05";
+  system.stateVersion = hostVars.stateVersion;
 }

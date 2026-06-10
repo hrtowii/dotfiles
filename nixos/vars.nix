@@ -1,11 +1,4 @@
 {
-  zephyrus = {
-    username = "venti";
-    hostname = "zephyrus";
-    system = "x86_64-linux";
-    homePrefix = "/home";
-    stateVersion = "25.11";
-  };
   linux = {
     username = "ibarahime";
     hostname = "linux";

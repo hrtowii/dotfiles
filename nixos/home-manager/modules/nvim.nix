@@ -1,6 +1,6 @@
 {
   pkgs,
-  vars,
+  hostVars,
   ...
 }:
 
@@ -88,7 +88,7 @@
 
   # Set environment variables for nvim dashboard.lua
   home.sessionVariables = {
-    HOMEUSER = vars.zephyrus.username;
+    HOMEUSER = hostVars.username;
   };
 
 }

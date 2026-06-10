@@ -79,8 +79,8 @@
 
       mkNixosHost =
         {
-          hostName, # e.g. "zephyrus", "linux", "thinkpad"
-          hostVars, # e.g. vars.zephyrus
+          hostName, # e.g. "linux", "thinkpad"
+          hostVars, # e.g. vars.linux
           nixpkgsInput ? nixpkgs, # which nixpkgs to use
           hmInput ? home-manager, # which home-manager to use
           hmUserFile, # e.g. ./home-manager/htrowii.nix
@@ -138,24 +138,10 @@
     in
     {
       nixosConfigurations = {
-        zephyrus = mkNixosHost {
-          hostName = "zephyrus";
-          hostVars = vars.zephyrus;
-          hmUserFile = ./home-manager/hosts/zephyrus/default.nix;
-          extraModules = [
-            {
-              nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
-              # imports = [ aagl.nixosModules.default ];
-              # programs.anime-game-launcher.enable = false;
-              # programs.anime-games-launcher.enable = false;
-            }
-          ];
-        };
-
         linux = mkNixosHost {
           hostName = "linux";
           hostVars = vars.linux;
-          hmUserFile = ./home-manager/hosts/linux/default.nix;
+          hmUserFile = ./hosts/linux/home/default.nix;
           extraModules = [
             {
               imports = [ aagl.nixosModules.default ];
@@ -170,13 +156,13 @@
         thinkpad = mkNixosHost {
           hostName = "thinkpad";
           hostVars = vars.thinkpad;
-          hmUserFile = ./home-manager/hosts/thinkpad/default.nix;
+          hmUserFile = ./hosts/thinkpad/home/default.nix;
           extraModules = [ ];
         };
         edgy14yearold = mkNixosHost {
           hostName = "edgy14yearold";
           hostVars = vars.e14;
-          hmUserFile = ./home-manager/hosts/edgy14yearold/default.nix;
+          hmUserFile = ./hosts/edgy14yearold/home/default.nix;
           extraModules = [
             {
               nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
@@ -189,7 +175,7 @@
 	t420blazeit = mkNixosHost {
           hostName = "420blazeit";
           hostVars = vars.t420blazeit;
-          hmUserFile = ./home-manager/hosts/420blazeit/default.nix;
+          hmUserFile = ./hosts/420blazeit/home/default.nix;
           extraModules = [
             {
               nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) (import ./overlays/bun-baseline.nix) ];
@@ -202,7 +188,7 @@
 	x201 = mkNixosHost {
           hostName = "x201";
           hostVars = vars.x201;
-          hmUserFile = ./home-manager/hosts/x201/default.nix;
+          hmUserFile = ./hosts/x201/home/default.nix;
           extraModules = [
             {
               nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) (import ./overlays/bun-baseline.nix) ];
@@ -216,7 +202,7 @@
         surfaceedged = mkNixosHost {
           hostName = "surfaceedged";
           hostVars = vars.surfaceedged;
-          hmUserFile = ./home-manager/hosts/surfaceedged/default.nix;
+          hmUserFile = ./hosts/surfaceedged/home/default.nix;
           extraModules = [
             {
               nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];

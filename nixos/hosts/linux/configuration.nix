@@ -10,7 +10,7 @@ in
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./system-packages.nix
-      ../../modules/linux
+      ./system-modules
     ];
 
   boot.loader.systemd-boot.enable = true;
@@ -139,6 +139,6 @@ in
   hardware.graphics = {
     enable = true;
   };
-  system.stateVersion = "25.05"; # Did you read the comment?
+  system.stateVersion = hostVars.stateVersion;
 
 }
