@@ -137,7 +137,7 @@ later(function()
     },
     keymap = { preset = 'super-tab' },
     enabled = function()
-      return vim.bo.buftype ~= 'prompt'
+	return vim.bo.buftype ~= 'prompt' and vim.bo.filetype ~= 'minifiles'
     end,
   })
 end)
@@ -183,8 +183,13 @@ later(function()
     root_markers = { 'flake.nix', 'default.nix', '.git' },
   })
   vim.lsp.enable('nixd')  
-
-  vim.api.nvim_create_autocmd('LspAttach', {
+  vim.lsp.config('rust-analyzer', {
+  	cmd = {'rust-analyzer'},
+  	filetypes = {'rust'},
+ 	root_markers = {'Cargo.toml'},
+    })
+    vim.lsp.enable('rust-analyzer')
+    vim.api.nvim_create_autocmd('LspAttach', {
     callback = function(event)
       local opts = { buffer = event.buf, silent = true }
       vim.keymap.set('n', 'gd',         vim.lsp.buf.definition, opts)
@@ -195,7 +200,7 @@ later(function()
   })
 
   vim.api.nvim_create_autocmd('BufWritePre', {
-    pattern = { '*.py', '*.ts', '*.tsx', '*.svelte', '*.nix' },
+    pattern = { '*.py', '*.ts', '*.tsx', '*.svelte', '*.rs' },
     callback = function() vim.lsp.buf.format({ async = false }) end,
   })
 end)
