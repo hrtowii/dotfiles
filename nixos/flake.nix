@@ -106,15 +106,7 @@
             }
             # nix-ld.nixosModules.nix-ld
             # { programs.nix-ld.dev.enable = true; }
-            (
-              { pkgs, ... }:
-              {
-                environment.systemPackages = [
-                  ghostty.packages.${pkgs.stdenv.hostPlatform.system}.default
-                ];
-              }
-            )
-            ./hosts/${hostName}/configuration.nix
+           ./hosts/${hostName}/configuration.nix
             hmInput.nixosModules.home-manager
             {
               home-manager = {

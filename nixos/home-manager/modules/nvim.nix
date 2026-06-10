@@ -31,7 +31,7 @@
       pyright
       rust-analyzer
       # ols
-      odin
+      # odin
       gopls
       clang-tools
       clang-analyzer
@@ -55,7 +55,6 @@
       isort
       gopls
       nixfmt
-      # Tree-sitter core
       tree-sitter
       vimPlugins.nvim-treesitter-parsers.qmljs
       tree-sitter-grammars.tree-sitter-typst
@@ -86,7 +85,6 @@
     ];
   };
 
-  # Set environment variables for nvim dashboard.lua
   home.sessionVariables = {
     HOMEUSER = hostVars.username;
   };

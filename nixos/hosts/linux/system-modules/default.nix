@@ -1,33 +1,33 @@
 {pkgs, vars, hostVars, ...}: {
   imports = [
-    ../../modules/docker.nix
-    ../../modules/steam.nix
-    ../../modules/python.nix
-    ../../modules/npm.nix
-    ../../modules/tailscale.nix
-    ../../modules/rust.nix
-#    ../../modules/ollama.nix
-    ../../modules/flatpak.nix
-    ../../modules/hyprland.nix
-    ../../modules/keyring.nix
-    ../../modules/uwsm.nix
-    ../../modules/dotnet.nix
-    ../../modules/nvidia.nix
-    ../../modules/zsh.nix
-    ../../modules/tablet.nix
-    ../../modules/env.nix
-    ../../modules/spotify-player.nix
-    ../../modules/slack.nix
-    ../../modules/vm.nix
-    ../../modules/ld.nix
-    ../../modules/chinese.nix
-    ../../modules/env.nix
-    ../../modules/bluetooth.nix
-    ../../modules/cmake.nix
-    ../../modules/pwn.nix
-    ../../modules/qt.nix
-    ../../modules/sdr.nix
-    ../../modules/ida.nix
+    ../../../modules/docker.nix
+    ../../../modules/steam.nix
+    ../../../modules/python.nix
+    ../../../modules/npm.nix
+    ../../../modules/tailscale.nix
+    ../../../modules/rust.nix
+#    ../../../modules/ollama.nix
+    ../../../modules/flatpak.nix
+    ../../../modules/hyprland.nix
+    ../../../modules/keyring.nix
+    ../../../modules/uwsm.nix
+    ../../../modules/dotnet.nix
+    ../../../modules/nvidia.nix
+    ../../../modules/zsh.nix
+    ../../../modules/tablet.nix
+    ../../../modules/env.nix
+    ../../../modules/spotify-player.nix
+    ../../../modules/slack.nix
+    ../../../modules/vm.nix
+    ../../../modules/ld.nix
+    ../../../modules/chinese.nix
+    ../../../modules/env.nix
+    ../../../modules/bluetooth.nix
+    ../../../modules/cmake.nix
+    ../../../modules/pwn.nix
+    ../../../modules/qt.nix
+    ../../../modules/sdr.nix
+    ../../../modules/ida.nix
   ];
 
   npm.enable = true;
