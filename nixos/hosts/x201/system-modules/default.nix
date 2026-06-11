@@ -1,6 +1,7 @@
 { pkgs, hostVars, ... }:
 {
   imports = [
+    ../../../modules/aseprite.nix
     ../../../modules/docker.nix
     # ../../../modules/steam.nix
     ../../../modules/python.nix
