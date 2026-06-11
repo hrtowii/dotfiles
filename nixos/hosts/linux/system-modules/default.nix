@@ -28,6 +28,7 @@
     ../../../modules/qt.nix
     ../../../modules/sdr.nix
     ../../../modules/ida.nix
+    ../../../modules/cachix.nix
   ];
 
   npm.enable = true;
