@@ -1,6 +1,14 @@
 # TODO: cleanout and repopulate individual packages better
-{pkgs, inputs, lib, ...}: {
+{
+  pkgs,
+  inputs,
+  lib,
+  ...
+}:
+{
   environment.systemPackages = with pkgs; [
+    inputs.helium.packages.${pkgs.stdenv.hostPlatform.system}.default
+    spotify-player
     # obs-studio
     spotify
     # flameshot

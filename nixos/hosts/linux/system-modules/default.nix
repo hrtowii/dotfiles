@@ -1,4 +1,10 @@
-{pkgs, vars, hostVars, ...}: {
+{
+  pkgs,
+  vars,
+  hostVars,
+  ...
+}:
+{
   imports = [
     ../../../modules/docker.nix
     ../../../modules/steam.nix
@@ -6,7 +12,7 @@
     ../../../modules/npm.nix
     ../../../modules/tailscale.nix
     ../../../modules/rust.nix
-#    ../../../modules/ollama.nix
+    #    ../../../modules/ollama.nix
     ../../../modules/flatpak.nix
     ../../../modules/hyprland.nix
     ../../../modules/keyring.nix
@@ -29,6 +35,7 @@
     ../../../modules/sdr.nix
     ../../../modules/ida.nix
     ../../../modules/cachix.nix
+    ../../../modules/sway.nix
   ];
 
   npm.enable = true;

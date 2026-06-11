@@ -3,12 +3,14 @@ let
   patchedOsmosdr = prev.gnuradioMinimal.pkgs.osmosdr.overrideAttrs (old: {
     postPatch = (old.postPatch or "") + ''
       substituteInPlace CMakeLists.txt \
-        --replace-fail "find_package(Boost \"1.65\" REQUIRED chrono thread system)" \
+        --replace "find_package(Boost \"1.65\" REQUIRED chrono thread system)" \
                        "find_package(Boost \"1.65\" REQUIRED chrono thread)"
     '';
   });
   patchedGnuradioMinimal = prev.gnuradioMinimal // {
-    pkgs = prev.gnuradioMinimal.pkgs // { osmosdr = patchedOsmosdr; };
+    pkgs = prev.gnuradioMinimal.pkgs // {
+      osmosdr = patchedOsmosdr;
+    };
   };
 in
 {
