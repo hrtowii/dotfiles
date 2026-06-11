@@ -14,7 +14,7 @@ in
     settings.bind = "[::]:${toString port}";
   };
 
-  nix.settings.trusted-users = [ "root" "@wheel" ];
+  nix.settings.trusted-users = [ "root" "@wheel" "ibarahime" ];
 
   # harmonia won't create its own signing key, so generate one on first boot.
   systemd.services.harmonia-keygen = {
