@@ -24,6 +24,7 @@
     ../../../modules/pwn.nix
     ../../../modules/qt.nix
     ../../../modules/sway.nix
+    ../../../modules/cache
   ];
 
   npm.enable = true;

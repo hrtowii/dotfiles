@@ -1,4 +1,12 @@
 {
+  # Central binary cache — server, push hook, and consumers all derive from this.
+  cache = {
+    host = "linux";
+    user = "ibarahime";
+    port = 6767;
+    publicKey = "linux:50Z8sykXT/bzVBxvIWU2K6H2oPWm21M4SeFxS8NtgZ4=";
+  };
+
   linux = {
     username = "ibarahime";
     hostname = "linux";

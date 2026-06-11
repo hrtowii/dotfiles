@@ -34,7 +34,8 @@
     ../../../modules/qt.nix
     ../../../modules/sdr.nix
     ../../../modules/ida.nix
-    ../../../modules/cachix.nix
+    ../../../modules/cache
+    ../../../modules/cache/cachix.nix
     ../../../modules/sway.nix
   ];
 

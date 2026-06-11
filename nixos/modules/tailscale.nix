@@ -2,6 +2,8 @@
 {
   services.tailscale = {
     enable = true;
+    # Keyless SSH between tailnet hosts (auth via tailnet identity + ACLs);
+    extraUpFlags = [ "--ssh" ];
   };
   services.openssh = {
   	enable = true;

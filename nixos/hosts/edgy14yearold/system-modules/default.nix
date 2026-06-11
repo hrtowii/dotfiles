@@ -25,6 +25,8 @@
     ../../../modules/qt.nix
     ../../../modules/sway.nix
     ../../../modules/disable-sleep.nix
+    ../../../modules/cache
+    ../../../modules/cache/cachix.nix
   ];
 
   npm.enable = true;

@@ -1,11 +1,13 @@
-# Self-hosted Nix binary cache via harmonia, served to the tailnet.
-{ pkgs, ... }:
+# hosts that import this run harmonia and serve their own /nix/store,
+# signing under their own hostname. The central cache that other hosts push to
+# and pull from is vars.cache.host; the consumer/push side lives in
+{ pkgs, config, vars, ... }:
 let
-  keyName = "linux";
+  keyName = config.networking.hostName;
   keyDir = "/var/lib/harmonia";
   privKey = "${keyDir}/cache-priv-key.pem";
   pubKey = "${keyDir}/cache-pub-key.pem";
-  port = 6767;
+  port = vars.cache.port;
 in
 {
   services.harmonia.cache = {
@@ -14,9 +16,8 @@ in
     settings.bind = "[::]:${toString port}";
   };
 
-  nix.settings.trusted-users = [ "root" "@wheel" "ibarahime" ];
+  nix.settings.trusted-users = [ "root" "@wheel" vars.cache.user ];
 
-  # harmonia won't create its own signing key, so generate one on first boot.
   systemd.services.harmonia-keygen = {
     description = "Generate harmonia binary cache signing key";
     wantedBy = [ "multi-user.target" ];
@@ -40,7 +41,6 @@ in
     after = [ "harmonia-keygen.service" ];
     wants = [ "harmonia-keygen.service" ];
   };
-
-  # Bound to all interfaces, but only reachable over tailscale.
+  # tailscale only
   networking.firewall.interfaces."tailscale0".allowedTCPPorts = [ port ];
 }

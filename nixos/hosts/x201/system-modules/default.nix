@@ -26,6 +26,7 @@
     ../../../modules/qt.nix
     ../../../modules/sway.nix
     ../../../modules/spotify-player.nix
+    ../../../modules/cache
   ];
 
   npm.enable = true;
