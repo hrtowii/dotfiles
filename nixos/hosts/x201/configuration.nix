@@ -88,7 +88,7 @@
   nix.settings = {
     substituters = [ "https://hyprland.cachix.org" "http://linux:6767" ];
     trusted-substituters = [ "https://hyprland.cachix.org" ];
-    trusted-public-keys = [ "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc=" "linux:50Z8sykXT/bzVBxvIWU2K6H2oPWm21M4SeFxS8NtgZ4=%"];
+    trusted-public-keys = [ "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc=" "linux:50Z8sykXT/bzVBxvIWU2K6H2oPWm21M4SeFxS8NtgZ4="];
   };
   hardware.graphics = {
     enable = true;
