@@ -81,7 +81,7 @@
     nh
     statix
     nixd
-    renpy
+    # renpy
     # jadx
   ];
 

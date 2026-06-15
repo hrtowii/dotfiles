@@ -1,6 +1,6 @@
 return {
 	["Typora"] = ":text:",
-	["Helium"] = ":helium",
+	["Helium"] = ":helium:",
 	["Orion"] = ":orion:",
 	["Orion RC"] = ":orion:",
 	["Grammarly Editor"] = ":grammarly:",

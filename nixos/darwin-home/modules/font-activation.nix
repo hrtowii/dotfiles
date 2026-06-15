@@ -11,10 +11,13 @@ in
 
     mkdir -p "$dst"
 
-    sudo find "$dst" -type f -delete
+    find "$dst" -type f -delete
 
-    sudo cp -a ${customFontsDir}/. "$dst"/
+    cp -r ${customFontsDir}/. "$dst"/
+    find "$dst" -type f -exec chmod 644 {} \;
+    chmod 755 "$dst"
+    touch "$dst"
 
-    sudo atsutil databases -removeUser >/dev/null 2>&1 || true
+    launchctl kickstart -k gui/$(id -u)/com.apple.FontWorker 2>/dev/null || true
   '';
 }

@@ -6,7 +6,8 @@
     stable.url = "github:NixOS/nixpkgs/nixos-25.05";
 
     nix-darwin = {
-      url = "github:nix-darwin/nix-darwin";
+      # TODO: remove fork once https://github.com/nix-darwin/nix-darwin/pull/1789 is merged
+      url = "github:stepbrobd/nix-darwin/bundle";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-ld.url = "github:Mic92/nix-ld";
@@ -106,7 +107,7 @@
             }
             # nix-ld.nixosModules.nix-ld
             # { programs.nix-ld.dev.enable = true; }
-           ./hosts/${hostName}/configuration.nix
+            ./hosts/${hostName}/configuration.nix
             hmInput.nixosModules.home-manager
             {
               home-manager = {
@@ -164,26 +165,32 @@
             }
           ];
         };
-	t420blazeit = mkNixosHost {
+        t420blazeit = mkNixosHost {
           hostName = "420blazeit";
           hostVars = vars.t420blazeit;
           hmUserFile = ./hosts/420blazeit/home/default.nix;
           extraModules = [
             {
-              nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) (import ./overlays/bun-baseline.nix) ];
+              nixpkgs.overlays = [
+                (import ./overlays/soapymiri.nix)
+                (import ./overlays/bun-baseline.nix)
+              ];
               # imports = [ aagl.nixosModules.default ];
               # programs.anime-game-launcher.enable = false;
               # programs.anime-games-launcher.enable = false;
             }
           ];
         };
-	x201 = mkNixosHost {
+        x201 = mkNixosHost {
           hostName = "x201";
           hostVars = vars.x201;
           hmUserFile = ./hosts/x201/home/default.nix;
           extraModules = [
             {
-              nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) (import ./overlays/bun-baseline.nix) ];
+              nixpkgs.overlays = [
+                (import ./overlays/soapymiri.nix)
+                (import ./overlays/bun-baseline.nix)
+              ];
               # imports = [ aagl.nixosModules.default ];
               # programs.anime-game-launcher.enable = false;
               # programs.anime-games-launcher.enable = false;
@@ -204,7 +211,6 @@
             }
           ];
         };
-
 
       };
 
