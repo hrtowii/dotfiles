@@ -16,6 +16,7 @@
     ./modules/ripgrep.nix
     ./modules/zellij.nix
     ./modules/fonts.nix
+    ./modules/nvim.nix
     # ./modules/font-activation.nix
   ];
   home.username = hostVars.username;
