@@ -10,7 +10,7 @@
   homebrew = {
     enable = true;
     onActivation = {
-      autoUpdate = true;
+      autoUpdate = false;
       cleanup = "zap";
       upgrade = true;
     };
@@ -89,8 +89,8 @@
       "ncspot"
       # "neofetch"
       # "neovide"
-      "node"
-      "node@24"
+      # "node"
+      # "node@24"
       "openldap"
       "p7zip"
       # "pfetch"

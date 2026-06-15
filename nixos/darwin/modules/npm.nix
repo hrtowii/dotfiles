@@ -8,6 +8,9 @@
 
   config = lib.mkIf config.npm.enable {
     environment.systemPackages = with pkgs; [
+    nodejs
+    claude-code
+    opencode
       # nodejs_24 im not rebuilding u every time bro
       # nodePackages.npm
       bun

@@ -10,7 +10,7 @@ in
       ".config/helix".source = "${configDir}/helix";
       ".config/kitty".source = "${configDir}/kitty";
       ".config/ncspot".source = "${configDir}/ncspot";
-      ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dev/dotfiles/nixos/darwin-home/config/nvim";
+      ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dev/dotfiles/nixos/darwin-home/config/nvim-light";
       ".config/sketchybar".source = "${configDir}/sketchybar";
       ".config/skhd".source = "${configDir}/skhd";
       ".config/spicetify".source = "${configDir}/spicetify";

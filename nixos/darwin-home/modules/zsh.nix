@@ -21,7 +21,14 @@ in
 
     initExtra = ''
       typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-      
+
+      # Make the native arm64 Homebrew at /opt/homebrew win over the
+      # x86_64 (Rosetta) one at /usr/local. This puts /opt/homebrew/bin
+      # ahead of /usr/local/bin so plain `brew`/`nvim` resolve to arm64.
+      if [ -x /opt/homebrew/bin/brew ]; then
+        eval "$(/opt/homebrew/bin/brew shellenv)"
+      fi
+
       if [ -f /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme ]; then
         source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
       fi
