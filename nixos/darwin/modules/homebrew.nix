@@ -192,6 +192,7 @@
       "whatsapp"
       # "wireshark"
       "zed"
+      "blacktop/tap/ida-mcp"
       "zoom"
     ];
 
