@@ -21,7 +21,7 @@
     ../../../modules/chinese.nix
     ../../../modules/env.nix
     ../../../modules/bluetooth.nix
-    # ../../../modules/ida.nix
+    ../../../modules/ida.nix
     ../../../modules/pwn.nix
     ../../../modules/qt.nix
     ../../../modules/sway.nix
