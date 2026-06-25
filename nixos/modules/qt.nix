@@ -5,8 +5,8 @@
   ...
 }: {
   environment.variables = {
-    QT_QPA_PLATFORMTHEME = "qt6ct";
-    QT_STYLE_OVERRIDE = "Fusion";
+    QT_QPA_PLATFORMTHEME = lib.mkOverride 0 "qt6ct";
+    # QT_STYLE_OVERRIDE = "Fusion";
   };
   environment.systemPackages = with pkgs; [
     qt6.qtdeclarative

@@ -13,7 +13,7 @@
     ../../../home-manager/modules/zellij.nix
     ../../../home-manager/modules/obsidian.nix
     ../../../home-manager/modules/git.nix
-    ../../../home-manager/modules/gtk.nix
+    # ../../../home-manager/modules/gtk.nix
     ../../../home-manager/modules/fonts.nix
     ../../../home-manager/modules/firefox.nix
     ../../../home-manager/modules/spicetify.nix
@@ -45,7 +45,7 @@
     arandr
     wev
     fish
-    catppuccin-cursors.mochaDark
+    # catppuccin-cursors.mochaDark
     catppuccin-gtk
     papirus-folders
     material-symbols

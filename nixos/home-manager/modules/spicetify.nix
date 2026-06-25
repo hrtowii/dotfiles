@@ -1,4 +1,4 @@
-{ inputs, pkgs, ... }:
+{ inputs, lib, pkgs, ... }:
 {
   imports = [
     inputs.spicetify-nix.homeManagerModules.default
@@ -26,7 +26,7 @@ in
   # ];
 
   # theme = spicePkgs.themes.ziro;
-  theme = spicePkgs.themes.text;
-  colorScheme = "RosePine";
+  # theme = lib.mkOverride 0 spicePkgs.themes.text;
+  # colorScheme = "RosePine";
 };
 }

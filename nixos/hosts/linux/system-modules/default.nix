@@ -37,10 +37,13 @@
     ../../../modules/cache
     ../../../modules/cache/cachix.nix
     ../../../modules/sway.nix
+    ../../../modules/kitty.nix
+    ../../../modules/stylix.nix
     ../../../modules/moonlight.nix
   ];
 
   npm.enable = true;
+
   rust.enable = true;
   cxx-minimal.enable = true;
   pwn.enable = true;
