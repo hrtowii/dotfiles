@@ -11,5 +11,13 @@
         exec ${pkgs.hyprland}/bin/Hyprland "$@"
       ''}";
     };
+    waylandCompositors.sway = {
+    	prettyName = "Sway-nvidia";
+	comment = "sway with --unsupported-gpu";
+      binPath = "${pkgs.writeShellScript "sway-wrapper" ''
+        #!${pkgs.bash}/bin/bash
+        exec /run/current-system/sw/bin/sway "--unsupported-gpu"
+	''}";
+    };
   };
 }
