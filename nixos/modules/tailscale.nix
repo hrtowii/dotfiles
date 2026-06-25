@@ -2,17 +2,16 @@
 {
   services.tailscale = {
     enable = true;
-    # Keyless SSH between tailnet hosts (auth via tailnet identity + ACLs);
     extraUpFlags = [ "--ssh" ];
   };
   services.openssh = {
-  	enable = true;
-	openFirewall = true;
-	};
+    enable = true;
+    openFirewall = true;
+  };
 
   networking.firewall = {
     allowedUDPPorts = [ 41641 ];
-    allowedTCPPorts = [ 22 4747 5030 5031 9180 3923 50300 ];
+    allowedTCPPorts = [ 22 4747 5030 5031 9180 3923 50300 47990 ];
 
     trustedInterfaces = [ "tailscale0" ];
     allowedTCPPortRanges = [

@@ -37,6 +37,7 @@
     ../../../modules/cache
     ../../../modules/cache/cachix.nix
     ../../../modules/sway.nix
+    ../../../modules/moonlight.nix
   ];
 
   npm.enable = true;
