@@ -10,7 +10,6 @@
     programs.sway = {
       enable = true;
       wrapperFeatures.gtk = true;
-      package = pkgs.swayfx;
     };
     environment.systemPackages = with pkgs; [
       i3status
@@ -24,8 +23,6 @@
     ];
     home-manager.users.${hostVars.username}.wayland.windowManager.sway = {
       enable = true;
-      package = pkgs.swayfx;
-      checkConfig = false;
       config = lib.mkIf (config ? stylix && config.stylix.enable) {
         keybindings = lib.mkForce { };
         modes = lib.mkForce { };
@@ -41,13 +38,7 @@
         ];
       };
       extraConfig =
-        builtins.readFile ../home-manager/config/swayfx/config
-        + lib.optionalString (config ? stylix && config.stylix.enable) ''
-          shadows enable
-          shadow_color ${config.lib.stylix.colors.withHashtag.base01}
-          shadow_blur_radius 30
-          shadow_offset 2 2
-        '';
+        builtins.readFile ../home-manager/config/swayfx/config;
     };
   };
 }

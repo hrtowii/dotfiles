@@ -23,7 +23,7 @@ in {
     shadow = {
       hue = lib.mkOption {
         type = lib.types.ints.between 0 360;
-        default = 210;
+        default = 320;
       };
       saturation = lib.mkOption {
         type = lib.types.ints.between 0 100;
@@ -38,7 +38,7 @@ in {
     highlight = {
       hue = lib.mkOption {
         type = lib.types.ints.between 0 360;
-        default = 30;
+        default = 15;
       };
       saturation = lib.mkOption {
         type = lib.types.ints.between 0 100;
@@ -85,6 +85,7 @@ in {
       targets = {
         gtk.enable = true;
         qt.enable = true;
+	spicetify.enable = false;
       };
     };
   };

@@ -4,6 +4,7 @@
     inputs.spicetify-nix.homeManagerModules.default
   ];
 
+stylix.targets.spicetify.enable = false;
 programs.spicetify =
 let
   spicePkgs = inputs.spicetify-nix.legacyPackages.${pkgs.stdenv.hostPlatform.system};
@@ -26,7 +27,7 @@ in
   # ];
 
   # theme = spicePkgs.themes.ziro;
-  # theme = lib.mkOverride 0 spicePkgs.themes.text;
-  # colorScheme = "RosePine";
+  theme = spicePkgs.themes.text;
+  colorScheme = "RosePine";
 };
 }

@@ -8,7 +8,7 @@
 {
   environment.systemPackages = with pkgs; [
     inputs.helium.packages.${pkgs.stdenv.hostPlatform.system}.default
-    spotify-player
+    ripgrep
     # obs-studio
     spotify
     # flameshot
