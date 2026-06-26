@@ -23,30 +23,30 @@ in {
     shadow = {
       hue = lib.mkOption {
         type = lib.types.ints.between 0 360;
-        default = 320;
+        default = 174;
       };
       saturation = lib.mkOption {
         type = lib.types.ints.between 0 100;
-        default = 50;
+        default = 73;
       };
       lightness = lib.mkOption {
         type = lib.types.ints.between 0 100;
-        default = 10;
+        default = 8;
       };
     };
 
     highlight = {
       hue = lib.mkOption {
         type = lib.types.ints.between 0 360;
-        default = 15;
+        default = 6;
       };
       saturation = lib.mkOption {
         type = lib.types.ints.between 0 100;
-        default = 80;
+        default = 87;
       };
       lightness = lib.mkOption {
         type = lib.types.ints.between 0 100;
-        default = 60;
+        default = 77;
       };
     };
   };
