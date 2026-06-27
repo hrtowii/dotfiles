@@ -4,6 +4,8 @@
   lib,
   ...
 }: {
+  stylix.targets.firefox.profileNames = [ "ff" ];
+
   programs.firefox = {
     enable = true;
     profiles = {

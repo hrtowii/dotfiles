@@ -142,7 +142,10 @@
               nix.settings = aagl.nixConfig;
               programs.anime-game-launcher.enable = true;
               programs.anime-games-launcher.enable = true;
-              nixpkgs.overlays = [ (import ./overlays/soapymiri.nix) ];
+              nixpkgs.overlays = [
+                (import ./overlays/soapymiri.nix)
+                (import ./overlays/suppress-sc2209.nix)
+              ];
             }
           ];
         };
@@ -191,6 +194,7 @@
               nixpkgs.overlays = [
                 (import ./overlays/soapymiri.nix)
                 (import ./overlays/bun-baseline.nix)
+                (import ./overlays/suppress-sc2209.nix)
               ];
               # imports = [ aagl.nixosModules.default ];
               # programs.anime-game-launcher.enable = false;

@@ -26,6 +26,8 @@
     ../../../modules/qt.nix
     ../../../modules/sway.nix
     ../../../modules/spotify-player.nix
+    ../../../modules/kitty.nix
+    ../../../modules/stylix.nix
     ../../../modules/cache
   ];
 

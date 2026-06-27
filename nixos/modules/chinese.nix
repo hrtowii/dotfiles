@@ -7,7 +7,7 @@
       waylandFrontend = true;
       ignoreUserConfig = true;
       addons = with pkgs; [
-        fcitx5-mozc
+        # fcitx5-mozc  # requires building bazel from source (~30min), uncomment and pre-build on linux to cache
         fcitx5-gtk
         fcitx5-pinyin-zhwiki
         qt6Packages.fcitx5-chinese-addons

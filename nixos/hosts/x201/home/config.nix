@@ -6,7 +6,7 @@ in
 {
   home.file = {
     ".config/btop".source = "${configDir}/btop";
-    ".config/kitty".source = "${configDir}/kitty";
+    # ".config/kitty".source = "${configDir}/kitty";
     ".config/zellij".source = "${configDir}/zellij";
     ".config/ghostty".source = "${configDir}/ghostty";
     ".config/spicetify".source = "${configDir}/spicetify";
@@ -18,7 +18,7 @@ in
     ".config/uwsm".source = "${configDir}/uwsm";
     ".zshrc".source = "${configDir}/zsh/.zshrc";
     ".config/hypr".source = "${configDir}/hypr";
-    ".config/sway/config".source = "${configDir}/i3/config";
+    # ".config/sway/config".source = "${configDir}/i3/config";
     ".config/wofi".source = "${configDir}/wofi";
     ".config/waybar".source = "${configDir}/waybar";
     ".config/swaync/theme".source = "${configDir}/swaync/theme";

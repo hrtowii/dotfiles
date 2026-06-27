@@ -84,7 +84,7 @@ in {
 
       targets = {
         gtk.enable = true;
-        qt.enable = true;
+        qt.enable = false;
 	spicetify.enable = false;
       };
     };

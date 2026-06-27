@@ -16,18 +16,18 @@
       };
       enable = true;
       branch = "stable";
-      autoscroll.enable = true;
+
     };
     config = {
       enableReactDevtools = true;
       disableMinSize = true;
       # frameless = true;
       plugins = {
-        ClearURLs.enable = true;
-        LastFMRichPresence.enable = true;
-        MutualGroupDMs.enable = true;
-        ReviewDB.enable = true;
-        USRBG.enable = true;
+        clearUrls.enable = true;
+        lastFmRichPresence.enable = true;
+        mutualGroupDms.enable = true;
+        reviewDb.enable = true;
+        usrbg.enable = true;
         fakeNitro.enable = true;
       };
     };

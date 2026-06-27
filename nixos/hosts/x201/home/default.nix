@@ -43,8 +43,6 @@
     arandr
     wev
     # fish
-    catppuccin-cursors.macchiatoBlue
-    catppuccin-gtk
     papirus-folders
     material-symbols
     nerd-fonts.jetbrains-mono

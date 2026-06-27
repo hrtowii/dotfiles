@@ -20,18 +20,16 @@
       libx11
       libxext
       libxrender
-      xorg.libXrandr
+      libxrandr
       libxcb
       libxi
-      xorg.libXcursor
-      xorg.libXinerama
-
-      xorg.xcbutil
-      libxcb-image
+      libxcursor
+      libxinerama
+      libxcb-util
       libxcb-keysyms
       libxcb-render-util
       libxcb-wm
-      xorg.xcbutilcursor # provides libxcb-cursor.so.0
+      libxcb-cursor # provides libxcb-cursor.so.0
 
       libxkbcommon
 
