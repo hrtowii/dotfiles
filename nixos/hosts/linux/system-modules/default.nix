@@ -14,7 +14,7 @@
     ../../../modules/rust.nix
     #    ../../../modules/ollama.nix
     ../../../modules/flatpak.nix
-    ../../../modules/hyprland.nix
+    # ../../../modules/hyprland.nix
     ../../../modules/keyring.nix
     ../../../modules/uwsm.nix
     ../../../modules/dotnet.nix
@@ -40,6 +40,7 @@
     ../../../modules/kitty.nix
     ../../../modules/stylix.nix
     ../../../modules/moonlight.nix
+    ../../../modules/niri.nix
   ];
 
   npm.enable = true;
