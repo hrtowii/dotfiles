@@ -25,7 +25,7 @@ in
   }];
   networking.hostName = hostVars.hostname;
   networking.networkmanager.enable = true;
-
+  networking.networkmanager.wifi.macAddress = "random";
   # Set your time zone.
   time.timeZone = "Asia/Singapore";
 
