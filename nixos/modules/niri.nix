@@ -4,7 +4,7 @@
 
   programs.niri.enable = true;
 
-  environment.systemPackages = with pkgs; [ nautilus ];
+  environment.systemPackages = with pkgs; [ waybar nautilus wbg ];
 
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
@@ -13,7 +13,7 @@
       binds = {
         "Mod+Return".action.spawn = "kitty";
         "Mod+Q".action.close-window = [];
-        "Mod+Space".action.spawn = "wofi --show drun";
+        "Mod+Space".action.spawn = "wofi";
 
         "Mod+J".action.focus-column-left = [];
         "Mod+K".action.focus-window-or-workspace-down = [];
@@ -77,6 +77,23 @@
         "XF86AudioMicMute".action.spawn = [
           "pactl" "set-source-mute" "@DEFAULT_SOURCE@" "toggle"
         ];
+
+        "Mod+WheelScrollDown" = {
+          action.focus-column-right = [];
+          cooldown-ms = 10;
+        };
+        "Mod+WheelScrollUp" = {
+          action.focus-column-left = [];
+          cooldown-ms = 10;
+        };
+        "Mod+Shift+WheelScrollDown" = {
+          action.move-column-right = [];
+          cooldown-ms = 10;
+        };
+        "Mod+Shift+WheelScrollUp" = {
+          action.move-column-left = [];
+          cooldown-ms = 10;
+        };
       };
 
       input.touchpad = {
@@ -86,17 +103,50 @@
 
       layout.gaps = 5;
 
+      layout.border.width = 2;
+
+      animations = {
+        enable = true;
+        window-open.kind.spring = { damping-ratio = 0.85; epsilon = 0.01; stiffness = 400; };
+        window-close.kind.spring = { damping-ratio = 0.85; epsilon = 0.01; stiffness = 400; };
+        window-movement.kind.spring = { damping-ratio = 0.85; epsilon = 0.01; stiffness = 400; };
+        window-resize.kind.spring = { damping-ratio = 0.85; epsilon = 0.01; stiffness = 400; };
+        workspace-switch.kind.spring = { damping-ratio = 0.85; epsilon = 0.01; stiffness = 400; };
+        horizontal-view-movement.kind.spring = { damping-ratio = 0.85; epsilon = 0.01; stiffness = 400; };
+        overview-open-close.kind.spring = { damping-ratio = 0.85; epsilon = 0.01; stiffness = 400; };
+      };
+
+      window-rules = [
+        {
+          geometry-corner-radius = {
+            top-left = 8.0;
+            top-right = 8.0;
+            bottom-left = 8.0;
+            bottom-right = 8.0;
+          };
+          clip-to-geometry = true;
+        }
+      ];
+
       spawn-at-startup = [
         { argv = [ "swaync" ]; }
+        { argv = [ "waybar" ]; }
       ];
     }
-
     (lib.mkIf (!(config ? stylix && config.stylix.enable)) {
       layout.border = {
         enable = true;
         active = { color = "#c4a7e7"; };
         inactive = { color = "#6e6a86"; };
       };
+      spawn-at-startup = lib.mkAfter [
+        { argv = [ "wbg" "-s" ../home-manager/config/wallpapers/kogecha.jpg ]; }
+      ];
+    })
+    (lib.mkIf (config ? stylix && config.stylix.enable) {
+      spawn-at-startup = lib.mkAfter [
+        { argv = [ "wbg" "-s" config.stylix.image ]; }
+      ];
     })
   ];
 }

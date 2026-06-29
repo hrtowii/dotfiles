@@ -7,7 +7,9 @@
   "position": "top",
   "modules-left": [
     "hyprland/workspaces",
-    "sway/workspaces"
+    "sway/workspaces",
+            "niri/workspaces",
+        "niri/window"
   ],
   "modules-right": [
     "image#media-art",
@@ -17,6 +19,20 @@
     "tray",
     "clock"
   ],
+      "niri/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "active": "",
+            "default": ""
+        }
+    },
+    "niri/window": {
+    	"format": "  {app_id}",
+    	"rewrite": {
+    		"(.*) - Mozilla Firefox": "🌎 $1",
+    		"(.*) - zsh": "> [$1]"
+    	}
+    },
   "hyprland/workspaces": {
     "disable-scroll": true,
     "all-outputs": false,

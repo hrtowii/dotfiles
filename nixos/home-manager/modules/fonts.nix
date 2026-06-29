@@ -18,5 +18,6 @@
   maple-mono.NF
   cozette
   azuki
+  aporetic
 ];
 }
