@@ -30,7 +30,11 @@
     ../../../modules/stylix.nix
     ../../../modules/cache
   ];
-
+  stylixDuotone = {
+    enable   = true;
+    wallpaper = ../../../home-manager/config/wallpapers/madoka2.jpg;
+    duotone = false;
+  };
   npm.enable = true;
   rust.enable = true;
   programs.mtr.enable = true;

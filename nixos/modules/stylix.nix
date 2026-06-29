@@ -14,78 +14,51 @@ in {
 
   options.stylixDuotone = {
     enable = lib.mkEnableOption "duotone wallpaper processing";
-
     wallpaper = lib.mkOption {
       type = lib.types.path;
-      description = "Wallpaper image to apply duotone effect to";
+      description = "Wallpaper image";
     };
-
+    duotone = lib.mkOption {
+      type = lib.types.bool;
+      default = true;
+      description = "Apply duotone effect to wallpaper";
+    };
     shadow = {
-      hue = lib.mkOption {
-        type = lib.types.ints.between 0 360;
-        default = 174;
-      };
-      saturation = lib.mkOption {
-        type = lib.types.ints.between 0 100;
-        default = 73;
-      };
-      lightness = lib.mkOption {
-        type = lib.types.ints.between 0 100;
-        default = 8;
-      };
+      hue        = lib.mkOption { type = lib.types.ints.between 0 360; default = 174; };
+      saturation = lib.mkOption { type = lib.types.ints.between 0 100; default = 73;  };
+      lightness  = lib.mkOption { type = lib.types.ints.between 0 100; default = 8;   };
     };
-
     highlight = {
-      hue = lib.mkOption {
-        type = lib.types.ints.between 0 360;
-        default = 6;
-      };
-      saturation = lib.mkOption {
-        type = lib.types.ints.between 0 100;
-        default = 87;
-      };
-      lightness = lib.mkOption {
-        type = lib.types.ints.between 0 100;
-        default = 77;
-      };
+      hue        = lib.mkOption { type = lib.types.ints.between 0 360; default = 6;  };
+      saturation = lib.mkOption { type = lib.types.ints.between 0 100; default = 87; };
+      lightness  = lib.mkOption { type = lib.types.ints.between 0 100; default = 77; };
     };
   };
 
-  config = {
-    stylixDuotone = {
-      enable = true;
-      wallpaper = ../home-manager/config/wallpapers/kogecha.jpg;
-    };
+  config = lib.mkIf cfg.enable {
     stylix = {
-      enable = true;
-      image = if cfg.enable then duotoneWallpaper else cfg.wallpaper;
+      enable  = true;
+      image   = if cfg.duotone then duotoneWallpaper else cfg.wallpaper;
       polarity = "dark";
-      # opacity = {
-      #   terminal = 0.95;
-      # };
       autoEnable = true;
       fonts = {
-        monospace = {
-          name = "Berkeley Mono Nerd Font";
-        };
+        monospace.name = "Xanh Mono";
         sizes = {
           applications = 10;
-          desktop = 10;
-          popups = 10;
-          terminal = 12;
+          desktop      = 10;
+          popups       = 10;
+          terminal     = 14;
         };
       };
-
       cursor = {
-        name = "Vanilla-DMZ-AA";
+        name    = "Vanilla-DMZ-AA";
         package = pkgs.vanilla-dmz;
-        size = 24;
+        size    = 24;
       };
-
       targets = {
-        gtk.enable = true;
-        qt.enable = false;
-	spicetify.enable = false;
+        gtk.enable      = true;
+        qt.enable       = false;
+        spicetify.enable = false;
       };
     };
   };
