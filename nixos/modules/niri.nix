@@ -4,7 +4,7 @@
 
   programs.niri.enable = true;
 
-  environment.systemPackages = with pkgs; [ waybar nautilus wbg ];
+  environment.systemPackages = with pkgs; [ waybar nautilus wbg xwayland-satellite ];
 
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 

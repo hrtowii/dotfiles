@@ -44,10 +44,8 @@
   ];
   stylixDuotone = {
     enable   = true;
-    wallpaper = ../../../home-manager/config/wallpapers/kogecha.jpg;
+    wallpaper = ../../../home-manager/config/wallpapers/madoka.jpg;
     duotone = true;
-    shadow    = { hue = 240; saturation = 60; lightness = 10; };
-    highlight = { hue = 45;  saturation = 90; lightness = 80; };
   };
 
   npm.enable = true;
