@@ -45,7 +45,7 @@
   stylixDuotone = {
     enable   = true;
     wallpaper = ../../../home-manager/config/wallpapers/madoka.jpg;
-    duotone = true;
+    duotone = false;
   };
 
   npm.enable = true;
