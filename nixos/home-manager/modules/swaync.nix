@@ -1,11 +1,12 @@
 { config, options, lib, ... }:
 let
   stylixImported = options ? stylix;
-  
-  stylixColors = lib.attrByPath [ "lib" "stylix" "colors" ] null config;
-  stylixEnabled = stylixImported && (lib.attrByPath [ "stylix" "enable" ] false config);
+  customCss = builtins.readFile ../config/swaync/style.css;
 
-  colorDefs = if stylixColors != null && stylixEnabled then
+  colorDefs = let
+    stylixColors = lib.attrByPath [ "lib" "stylix" "colors" ] null config;
+    stylixEnabled = stylixImported && (lib.attrByPath [ "stylix" "enable" ] false config);
+  in if stylixColors != null && stylixEnabled then
     with stylixColors.withHashtag; ''
       @define-color base00 ${base00}; @define-color base01 ${base01};
       @define-color base02 ${base02}; @define-color base03 ${base03};
@@ -27,8 +28,6 @@ let
       @define-color base0C #9ccfd8; @define-color base0D #c4a7e7;
       @define-color base0E #c4a7e7; @define-color base0F #e0def4;
     '';
-
-  customCss = builtins.readFile ../config/swaync/style.css;
 in
 lib.mkMerge [
   {
@@ -70,7 +69,7 @@ lib.mkMerge [
     };
   }
 
-  (lib.optionalAttrs stylixEnabled {
+  (lib.mkIf (stylixImported && (lib.attrByPath [ "stylix" "enable" ] false config)) {
     stylix.targets.swaync.enable = false;
   })
 ]

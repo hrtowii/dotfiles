@@ -8,8 +8,8 @@
       commandLineArgs = [
         "--enable-features=VaapiVideoDecoder,MiddleClickAutoscroll"
         # use wayland and enable IME
-        # "--ozone-platform-hint=auto"
-        # "--enable-wayland-ime"
+        "--ozone-platform-hint=auto"
+        "--enable-wayland-ime"
       ];
       vencord = {
         enable = true;

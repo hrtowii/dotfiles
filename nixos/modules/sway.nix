@@ -11,6 +11,9 @@
     enable = true;
     wlr.enable = true;
   };
+  systemd.user.services.xdg-desktop-portal-wlr.environment = {
+  WLR_DRM_NO_MODIFIERS = "1";
+};
     programs.sway = {
       enable = true;
       wrapperFeatures.gtk = true;

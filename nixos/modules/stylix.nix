@@ -58,6 +58,26 @@ in {
       targets = {
         gtk.enable      = true;
         qt.enable       = false;
+	qt.platform      = "kde";
+	# ^^ this is needed so kde doesnt fuckin kill itself with kvantum
+	# Stylix defaults to using Kvantum to theme Qt apps, but on Plasma 6
+# Kvantum is NOT a valid QtQuickControls2 style — Plasma's shell (panels,
+# wallpaper, widget explorer, etc.) is QML/QQC2, not plain QWidgets.
+# autoEnable pulls this in even with `qt.enable = false`, because Plasma
+# theming is driven by a separate KDE-platform path, not the standalone
+# qt target. Result: plasmashell loads but every QML surface fails with
+# `module "kvantum" is not installed`, so you get no wallpaper, no panels,
+# no desktop — apps still launch fine since they don't need QQC2.
+#
+# Setting `qt.platform = "kde"` tells Stylix to theme Plasma through its
+# native kdeglobals/color-scheme mechanism instead of generating a Kvantum
+# theme and expecting Plasma to use it as its QQC2 style.
+#
+# Upstream tracking: https://github.com/nix-community/stylix/issues/835
+# (reopened — the "kde" platform fixes the shell but has been reported to
+# break bits of System Settings; a proper `kde6` platform option landed
+# via home-manager#6493 / nixpkgs#384669, so if flake inputs are updated
+# past that, re-check whether this override is still the best fix)
         spicetify.enable = false;
       };
     };
