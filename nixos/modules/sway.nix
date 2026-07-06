@@ -7,11 +7,18 @@
 }:
 {
   config = {
-  xdg.portal = {
-    enable = true;
-    wlr.enable = true;
+xdg.portal = {
+  enable = true;
+  wlr.enable = true;
+  extraPortals = [ pkgs.kdePackages.xdg-desktop-portal-kde ];
+
+  config = {
+    common.default = [ "gtk" ];
+    sway.default = lib.mkForce [ "wlr" "gtk" ];
+    KDE.default = [ "kde" ];
   };
-  systemd.user.services.xdg-desktop-portal-wlr.environment = {
+};  
+systemd.user.services.xdg-desktop-portal-wlr.environment = {
   WLR_DRM_NO_MODIFIERS = "1";
 };
     programs.sway = {
