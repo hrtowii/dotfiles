@@ -41,7 +41,7 @@ systemd.user.services.xdg-desktop-portal-wlr.environment = {
         fonts = if (config ? stylix && config.stylix.enable)
           then {
             names = [ config.stylix.fonts.monospace.name ];
-            size = config.stylix.fonts.sizes.applications * 1.0;
+            size = lib.mkForce (config.stylix.fonts.sizes.applications * 1.0);
           }
           else {
             names = [ "Cohere Mono" ];
@@ -55,7 +55,7 @@ systemd.user.services.xdg-desktop-portal-wlr.environment = {
             statusCommand = "${pkgs.i3status}/bin/i3status";
             fonts = {
               names = [ config.stylix.fonts.monospace.name ];
-              size = 10.0;
+              size = lib.mkForce 10.0;
             };
 	    colors = let
       c = config.lib.stylix.colors;
