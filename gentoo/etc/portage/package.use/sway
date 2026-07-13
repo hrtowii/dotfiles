@@ -1,0 +1,5 @@
+gui-apps/swaybg gdk-pixbuf
+# required by gui-apps/swaync-0.12.6::guru
+# required by gui-apps/swaync (argument)
+>=gui-libs/gtk4-layer-shell-1.1.1-r1 vala introspection
+

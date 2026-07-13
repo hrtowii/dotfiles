@@ -1,7 +1,0 @@
-2026/04/08-18:52:42.050 6c8b Reusing MANIFEST /home/meower/.config/net.imput.helium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/04/08-18:52:42.050 6c8b Recovering log #3
-2026/04/08-18:52:42.051 6c8b Reusing old log /home/meower/.config/net.imput.helium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 
-2026/04/08-18:53:35.171 6c8a Level-0 table #5: started
-2026/04/08-18:53:35.227 6c8a Level-0 table #5: 4074 bytes OK
-2026/04/08-18:53:35.271 6c8a Delete type=0 #3
-2026/04/08-18:53:35.272 6c8a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

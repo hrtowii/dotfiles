@@ -1,0 +1,2 @@
+gnome-base/gnome-keyring pam ssh-agent
+sys-libs/pam openrc
