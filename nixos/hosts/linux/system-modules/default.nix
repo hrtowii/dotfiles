@@ -11,6 +11,7 @@
     ../../../modules/python.nix
     ../../../modules/npm.nix
     ../../../modules/tailscale.nix
+    ../../../modules/wireguard.nix
     ../../../modules/rust.nix
     #    ../../../modules/ollama.nix
     ../../../modules/flatpak.nix
