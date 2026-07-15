@@ -45,7 +45,7 @@
   ];
   stylixDuotone = {
     enable   = true;
-    wallpaper = ../../../home-manager/config/wallpapers/madoka.jpg;
+    wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
     duotone = false;
   };
 
