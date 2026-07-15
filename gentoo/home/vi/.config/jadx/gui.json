@@ -1,0 +1,125 @@
+{
+  "lastSaveProjectPath": "/home/vi/Downloads",
+  "lastOpenFilePath": "/home/vi/Downloads",
+  "lastSaveFilePath": "/home/vi",
+  "flattenPackage": false,
+  "checkForUpdates": true,
+  "recentProjects": [
+    "/home/vi/Downloads/w2nsnv.apk.jadx"
+  ],
+  "fontStr": "Cohere Mono Regular/plain/13",
+  "smaliFontStr": "Monospaced.plain/plain/13",
+  "editorThemePath": "/org/fife/ui/rsyntaxtextarea/themes/dark.xml",
+  "lafTheme": "Carbon",
+  "langLocale": {
+    "locale": "en_US"
+  },
+  "autoStartJobs": false,
+  "excludedPackages": "",
+  "saveOption": "ALWAYS",
+  "shortcuts": {},
+  "showHeapUsageBar": false,
+  "alwaysSelectOpened": false,
+  "useAlternativeFileDialog": false,
+  "windowPos": {
+    "MainWindow": {
+      "windowId": "MainWindow",
+      "bounds": {
+        "x": 288.0,
+        "y": 162.0,
+        "width": 1344.0,
+        "height": 756.0
+      }
+    },
+    "JadxSettingsWindow": {
+      "windowId": "JadxSettingsWindow",
+      "bounds": {
+        "x": 658.0,
+        "y": 166.0,
+        "width": 700.0,
+        "height": 800.0
+      }
+    },
+    "JDialog": {
+      "windowId": "JDialog",
+      "bounds": {
+        "x": 638.0,
+        "y": 362.0,
+        "width": 644.0,
+        "height": 356.0
+      }
+    },
+    "SearchDialog": {
+      "windowId": "SearchDialog",
+      "bounds": {
+        "x": 560.0,
+        "y": 290.0,
+        "width": 800.0,
+        "height": 500.0
+      }
+    }
+  },
+  "mainWindowExtendedState": 6,
+  "codeAreaLineWrap": false,
+  "srhResourceSkipSize": 1000,
+  "srhResourceFileExt": ".xml|.html|.js|.json|.txt",
+  "searchResultsPerPage": 50,
+  "useAutoSearch": true,
+  "keepCommonDialogOpen": false,
+  "smaliAreaShowBytecode": false,
+  "lineNumbersMode": "AUTO",
+  "mainWindowVerticalSplitterLoc": 300,
+  "debuggerStackFrameSplitterLoc": 300,
+  "debuggerVarTreeSplitterLoc": 700,
+  "adbDialogPath": "",
+  "adbDialogHost": "localhost",
+  "adbDialogPort": "5037",
+  "codeCacheMode": "DISK",
+  "usageCacheMode": "DISK",
+  "jumpOnDoubleClick": true,
+  "xposedCodegenLanguage": "JAVA",
+  "treeWidth": 316,
+  "dockLogViewer": true,
+  "tabDndGhostType": "OUTLINE",
+  "settingsVersion": 20,
+  "skipResources": false,
+  "skipSources": false,
+  "exportAsGradleProject": false,
+  "threadsCount": 4,
+  "decompilationMode": "AUTO",
+  "showInconsistentCode": false,
+  "skipXmlPrettyPrint": false,
+  "useImports": true,
+  "debugInfo": true,
+  "addDebugLines": false,
+  "inlineAnonymousClasses": true,
+  "inlineMethods": true,
+  "moveInnerClasses": true,
+  "allowInlineKotlinLambda": true,
+  "extractFinally": true,
+  "replaceConsts": true,
+  "escapeUnicode": false,
+  "respectBytecodeAccessModifiers": false,
+  "userRenamesMappingsMode": "READ",
+  "deobfuscationOn": false,
+  "deobfuscationMinLength": 3,
+  "deobfuscationMaxLength": 64,
+  "deobfuscationWhitelistStr": "android.support.v4.* android.support.v7.* android.support.v4.os.* android.support.annotation.Px androidx.core.os.* androidx.annotation.Px",
+  "generatedRenamesMappingFileMode": "READ",
+  "deobfuscationUseSourceNameAsAlias": false,
+  "resourceNameSource": "AUTO",
+  "useKotlinMethodsForVarNames": "APPLY",
+  "renameFlags": [
+    "CASE",
+    "VALID",
+    "PRINTABLE"
+  ],
+  "integerFormat": "AUTO",
+  "fsCaseSensitive": false,
+  "cfgOutput": false,
+  "rawCfgOutput": false,
+  "fallbackMode": false,
+  "useDx": false,
+  "commentsLevel": "INFO",
+  "pluginOptions": {}
+}

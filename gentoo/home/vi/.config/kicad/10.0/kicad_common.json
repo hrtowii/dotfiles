@@ -1,0 +1,163 @@
+{
+  "api": {
+    "enable_server": false,
+    "interpreter_path": "/usr/bin/python3.13"
+  },
+  "appearance": {
+    "grid_striping": false,
+    "hicontrast_dimming_factor": 0.800000011920929,
+    "icon_theme": 2,
+    "show_scrollbars": false,
+    "text_editor_zoom": 0,
+    "toolbar_icon_size": 24,
+    "use_custom_cursors": true,
+    "use_icons_in_menus": true,
+    "zoom_correction_factor": 1.0
+  },
+  "auto_backup": {
+    "enabled": true,
+    "format": 0,
+    "limit_total_size": 104857600,
+    "location": 0
+  },
+  "dialog": {
+    "controls": {
+      "*Footprint Libraries": {
+        "__geometry": {
+          "h": 648,
+          "w": 1010,
+          "x": 455,
+          "y": 203
+        },
+        "wxPanel_0wxAuiNotebook_0": "Project Specific Libraries *",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0": "0 1 3 4 5 6 7",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0": "0 1 3 4 5 6 7",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0wxWindow_3wxComboBox_0": "KiCad",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0wxWindow_3wxComboCtrl_0": "${KIPRJMOD}/../libraries",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0wxWindow_3wxComboCtrl_0wxTextCtrl_0": "${KIPRJMOD}/../libraries",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0wxWindow_3wxTextCtrl_0": "avionics_d",
+        "wxPanel_0wxGrid_0": "0 1"
+      },
+      "Choose Symbol": {
+        "__geometry": {
+          "h": 680,
+          "w": 880,
+          "x": 520,
+          "y": 187
+        },
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": true,
+        "wxPanel_0wxSplitterWindow_0": 440,
+        "wxPanel_0wxSplitterWindow_0wxPanel_0wxPanel_0wxHtmlWindow_0": 0,
+        "wxPanel_0wxSplitterWindow_0wxPanel_0wxPanel_0wxSearchCtrl_0": "",
+        "wxPanel_0wxSplitterWindow_0wxPanel_1wxPanel_1wxOwnerDrawnComboBox_0": 0
+      },
+      "Label Properties": {
+        "__geometry": {
+          "h": 389,
+          "w": 932,
+          "x": 494,
+          "y": 333
+        },
+        "wxCheckBox_0": false,
+        "wxComboCtrl_0": "",
+        "wxComboCtrl_0wxPopupTransientWindow_0wxPanel_0wxTextCtrl_0": "",
+        "wxComboCtrl_0wxTextCtrl_0": "",
+        "wxStaticBox_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxStaticBox_1wxRadioButton_0": true,
+        "wxStaticBox_1wxRadioButton_1": false,
+        "wxStaticBox_1wxRadioButton_2": false,
+        "wxStaticBox_1wxRadioButton_3": false,
+        "wxStaticBox_1wxRadioButton_4": false,
+        "wxStaticBox_1wxRadioButton_5": false,
+        "wxStaticBox_1wxRadioButton_6": false,
+        "wxStaticBox_1wxRadioButton_7": false,
+        "wxStaticBox_1wxRadioButton_8": false,
+        "wxStaticBox_2wxCheckBox_0": false,
+        "wxStaticBox_2wxOwnerDrawnComboBox_0": 0,
+        "wxStaticBox_2wxOwnerDrawnComboBox_0wxTextCtrl_0": "Default Font",
+        "wxStaticBox_2wxTextCtrl_0": 12700,
+        "wxTextCtrl_0": "",
+        "wxTextCtrl_1": ""
+      }
+    }
+  },
+  "do_not_show_again": {
+    "data_collection_prompt": true,
+    "env_var_overwrite_warning": false,
+    "migrate_wrl_prompt": false,
+    "scaled_3d_models_warning": false,
+    "update_check_prompt": true,
+    "zone_fill_warning": false
+  },
+  "environment": {
+    "vars": null
+  },
+  "git": {
+    "authorEmail": "",
+    "authorName": "",
+    "enableGit": true,
+    "repositories": null,
+    "updatInterval": 5,
+    "useDefaultAuthor": true
+  },
+  "graphics": {
+    "antialiasing_mode": 2,
+    "canvas_type": 1
+  },
+  "input": {
+    "auto_pan": false,
+    "auto_pan_acceleration": 5,
+    "center_on_zoom": true,
+    "focus_follow_sch_pcb": false,
+    "horizontal_pan": false,
+    "hotkey_feedback": true,
+    "immediate_actions": true,
+    "motion_pan_modifier": 0,
+    "mouse_left": -1,
+    "mouse_middle": 2,
+    "mouse_right": 2,
+    "reverse_scroll_pan_h": false,
+    "reverse_scroll_zoom": false,
+    "scroll_modifier_pan_h": 308,
+    "scroll_modifier_pan_v": 306,
+    "scroll_modifier_zoom": 0,
+    "warp_mouse_on_move": true,
+    "zoom_acceleration": false,
+    "zoom_speed": 1,
+    "zoom_speed_auto": true
+  },
+  "meta": {
+    "version": 6
+  },
+  "package_manager": {
+    "sash_pos": 380
+  },
+  "session": {
+    "pinned_design_block_libs": [],
+    "pinned_fp_libs": [],
+    "pinned_symbol_libs": [],
+    "remember_open_files": false
+  },
+  "spacemouse": {
+    "pan_speed": 5,
+    "reverse_pan_x": false,
+    "reverse_pan_y": false,
+    "reverse_rotate": false,
+    "reverse_zoom": false,
+    "rotate_speed": 5
+  },
+  "system": {
+    "clear_3d_cache_interval": 30,
+    "extra_3d_search_dirs": [],
+    "file_explorer": "",
+    "file_history_size": 9,
+    "language": "Default",
+    "local_history_debounce": 5,
+    "local_history_enabled": true,
+    "pdf_viewer_name": "",
+    "text_editor": "",
+    "use_system_pdf_viewer": true,
+    "working_dir": "/home/vi/dev/quorum/carrier_board"
+  }
+}

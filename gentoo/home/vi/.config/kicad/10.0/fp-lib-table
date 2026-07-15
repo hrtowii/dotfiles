@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "KiCad") (type "Table") (uri "/usr/share/kicad/template/fp-lib-table") (options "") (descr "KiCad Default Libraries"))
+)

@@ -1,0 +1,5 @@
+[Libinput][1739][0][Synaptics TM3276-022]
+DisableWhileTyping=false
+NaturalScroll=true
+PointerAccelerationProfile=1
+TapToClick=false
