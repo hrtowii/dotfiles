@@ -1,0 +1,7 @@
+#!/sbin/openrc-run
+
+name=$RC_SVCNAME
+description="Nix Daemon"
+supervisor="supervise-daemon"
+command="/nix/var/nix/profiles/default/bin/nix-daemon"
+command_args="--daemon"

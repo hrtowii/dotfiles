@@ -1,0 +1,13 @@
+sys-devel/gcc
+dev-build/make
+dev-build/cmake
+dev-build/ninja
+dev-util/ccache
+
+dev-vcs/git
+
+dev-lang/python
+dev-lang/rust
+
+dev-python/uv
+dev-lang/bun-bin

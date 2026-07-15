@@ -1,0 +1,5 @@
+sys-devel/flex
+sys-devel/bison
+dev-util/gperf
+app-mobilephone/dfu-util
+virtual/libusb

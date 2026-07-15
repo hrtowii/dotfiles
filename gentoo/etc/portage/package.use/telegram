@@ -1,0 +1,8 @@
+net-im/telegram-desktop -X -fonts
+# required by net-im/telegram-desktop-6.6.2::gentoo
+# required by net-im/telegram-desktop (argument)
+>=media-libs/tg_owt-0_pre20260309 -X
+# required by net-im/telegram-desktop-6.6.2::gentoo
+# required by net-im/telegram-desktop (argument)
+>=media-video/ffmpeg-8.1.2 vpx opus
+
