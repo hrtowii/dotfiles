@@ -1,3 +1,4 @@
 gui-apps/swaync ~amd64
 */*::guru ~amd64
+*/*::local ~amd64
 gui-libs/gtk4-layer-shell ~amd64
