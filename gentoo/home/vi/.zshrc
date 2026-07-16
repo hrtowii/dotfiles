@@ -6,7 +6,7 @@ alias ls="eza"
 alias tree="eza --tree"
 alias get_idf=". ~/esp/esp-idf/export.sh"
 alias update_dotfiles="sudo stow -d /home/vi/dotfiles -t / gentoo"
-
+alias docker_run_bash="sudo docker run --rm -it --entrypoint sh" 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
