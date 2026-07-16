@@ -9,3 +9,9 @@ alias update_dotfiles="sudo stow -d /home/vi/dotfiles -t / gentoo"
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Pi
+export PATH="$HOME/.local/bin:$PATH"
+
+# opencode
+export PATH=/home/vi/.opencode/bin:$PATH
