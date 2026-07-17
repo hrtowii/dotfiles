@@ -7,11 +7,13 @@ alias tree="eza --tree"
 alias get_idf=". ~/esp/esp-idf/export.sh"
 alias update_dotfiles="sudo stow -d /home/vi/dotfiles -t / gentoo"
 alias docker_run_bash="sudo docker run --rm -it --entrypoint sh" 
-
+alias nix='nix --extra-experimental-features "nix-command flakes"'
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.opencode/bin:$PATH"
 
+# MARK: zellij stuff
+autoload -Uz add-zsh-hook
 function current_dir() {
     local current_dir=$PWD
     if [[ $current_dir == $HOME ]]; then
@@ -52,3 +54,5 @@ fi
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+
+export PATH=$PATH:/home/vi/.spicetify

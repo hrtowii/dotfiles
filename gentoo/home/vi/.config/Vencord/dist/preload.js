@@ -1,4 +1,4 @@
-// Vencord fc5466e
+// Vencord c4d8e86
 // Standalone: true
 // Platform: Universal
 // Updater Disabled: false

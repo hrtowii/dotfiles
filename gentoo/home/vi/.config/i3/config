@@ -9,6 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 # remember to set in ~/.xprofile and ~/.profile the export ydotoold_socket file to /tmp/.ydotoold_socket
+include ~/.config/i3/colors
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -226,53 +227,8 @@ bindsym $mouse_mod+m mode "mouse"
 
 output "*" bg ~/.config/wallpapers/yuriful.jpg fill
 gaps inner 5
-# rosepine latte
-set $base       #faf4ed
-set $surface    #fffaf3
-set $overlay    #f2e9e1
-set $muted      #9893a5
-set $subtle     #797593
-set $text       #575279
-set $love       #b4637a
-set $gold       #ea9d34
-set $rose       #d7827e
-set $pine       #286983
-set $foam       #56949f
-set $iris       #907aa9
-
-client.focused          $love     $love     $base     $love     $love
-client.focused_inactive $muted    $muted    $text     $muted    $muted
-client.unfocused        $subtle   $subtle   $text     $subtle   $subtle
-client.urgent           $gold     $gold     $base     $gold     $gold
-client.placeholder      $overlay  $overlay  $text     $overlay  $overlay
-client.background       $base
-## Colours (sunbather-inspired)
-# set $bg              #000000
-# set $bg_subtle       #262626
-# set $bg_very_subtle  #121212
-# set $norm            #C6C6C6
-# set $norm_subtle     #767676
-# set $pink            #d75f87
-# set $cyan            #4FB8CC
-# set $green           #5FD7A7
-# set $red             #E32791
-# set $yellow          #ffff87
-# set $dark_blue       #008EC4
-# set $light_pink      #ff5f87   # for visual/urgent accents
-#
-# ## Window Colours (adapted to sunbather)
-# client.focused          $pink      $bg          $norm      $pink      $pink
-# client.focused_inactive $bg_subtle $bg          $norm      $pink      $bg_subtle
-# client.unfocused        $bg_subtle $bg          $norm_subtle $pink    $bg_subtle
-# client.urgent           $yellow    $bg          $red       $green     $bg_subtle
-# client.placeholder      $bg_subtle $bg          $norm      $norm_subtle $bg
-# client.background       $bg
 input "type:touchpad" {
     natural_scroll enabled
     tap enabled
 }
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-        status_command i3status-rs
-}
+

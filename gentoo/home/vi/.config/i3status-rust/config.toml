@@ -1,5 +1,7 @@
 [theme]
-theme = "solarized-dark"
+theme = "solarized-dark" 
+[theme.overrides]
+file = "~/.config/i3status-rust/theme.toml"
 
 [icons]
 icons = "none"

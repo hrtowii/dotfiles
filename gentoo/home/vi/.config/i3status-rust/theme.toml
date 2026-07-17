@@ -1,0 +1,12 @@
+[theme.overrides]
+idle_bg = "#312751"
+idle_fg = "#e1d6e1"
+info_bg = "#a255d1"
+info_fg = "#e1d6e1"
+good_bg = "#a178e5"
+good_fg = "#312751"
+warning_bg = "#ae3df4"
+warning_fg = "#312751"
+critical_bg = "#d4fcc4"
+critical_fg = "#312751"
+alternating_tint_bg = "#544a6e"
