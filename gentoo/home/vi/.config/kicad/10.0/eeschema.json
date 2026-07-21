@@ -101,7 +101,7 @@
     "update_values": false
   },
   "color_picker": {
-    "default_tab": 0
+    "default_tab": 1
   },
   "cross_probing": {
     "auto_highlight": true,
@@ -449,12 +449,14 @@
   },
   "system": {
     "file_history": [
+      "/home/vi/dev/spacebar/quorum/flight_computer/flight_computer.kicad_sch",
+      "/home/vi/dev/spacebar/quorum/carrier_board/carrier_board.kicad_sch",
       "/home/vi/dev/quorum/carrier_board/carrier_board.kicad_sch"
     ],
     "first_run_shown": false,
     "last_imperial_units": 5,
     "last_metric_units": 1,
-    "last_symbol_lib_dir": "",
+    "last_symbol_lib_dir": "/home/vi/.local/share/kicad/10.0/symbols",
     "max_undo_items": 0,
     "never_show_rescue_dialog": false,
     "show_import_issues": true,

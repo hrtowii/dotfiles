@@ -38,6 +38,79 @@
         "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0wxWindow_3wxTextCtrl_0": "avionics_d",
         "wxPanel_0wxGrid_0": "0 1"
       },
+      "*Library Symbol Properties": {
+        "__geometry": {
+          "h": 592,
+          "w": 1174,
+          "x": 373,
+          "y": 231
+        },
+        "wxNotebook_0": "Pin Connections",
+        "wxNotebook_0wxPanel_0wxComboBox_0": "",
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxGrid_0wxWindow_3wxComboCtrl_0": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf",
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxGrid_0wxWindow_3wxComboCtrl_0wxTextCtrl_0": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf",
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxCheckBox_1": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_0": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_1": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_2": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxTextCtrl_0": 5080,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_1": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_2": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_3": false,
+        "wxNotebook_0wxPanel_0wxTextCtrl_0": "BMP581",
+        "wxNotebook_0wxPanel_0wxTextCtrl_1": "",
+        "wxNotebook_0wxPanel_1wxStaticBox_0wxCheckBox_0": true,
+        "wxNotebook_0wxPanel_1wxStaticBox_0wxGrid_0": "0 1",
+        "wxNotebook_0wxPanel_1wxStaticBox_0wxSpinCtrl_0": 1,
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxGrid_0": "0",
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxRadioButton_0": true,
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxRadioButton_1": false,
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxRadioButton_2": false,
+        "wxNotebook_0wxPanel_3wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_3wxGrid_0": "0",
+        "wxNotebook_0wxPanel_3wxGrid_0wxWindow_3wxTextCtrl_0": "",
+        "wxNotebook_0wxPanel_4wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_4wxGrid_0": "0 1"
+      },
+      "*Pin Table": {
+        "__geometry": {
+          "h": 574,
+          "w": 1088,
+          "x": 416,
+          "y": 240
+        },
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": false,
+        "wxCheckBox_2": false,
+        "wxCheckBox_3": false,
+        "wxChoice_0": -1,
+        "wxChoice_1": -1,
+        "wxGrid_0": "0 1 2 3 4 5 9 10",
+        "wxGrid_0wxWindow_3wxBitmapComboBox_0": "Output",
+        "wxGrid_0wxWindow_3wxTextCtrl_0": "6",
+        "wxStaticBox_0wxRadioButton_0": true,
+        "wxStaticBox_0wxRadioButton_1": false,
+        "wxStaticBox_1wxRadioButton_0": true,
+        "wxStaticBox_1wxRadioButton_1": false
+      },
+      "*Symbol Libraries": {
+        "__geometry": {
+          "h": 648,
+          "w": 1010,
+          "x": 455,
+          "y": 203
+        },
+        "wxPanel_0wxAuiNotebook_0": "Project Specific Libraries *",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0wxWindow_3wxComboCtrl_0": "/home/vi/dev/spacebar/quorum/libraries/avionics_d.kicad_sym",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0wxWindow_3wxComboCtrl_0wxTextCtrl_0": "/home/vi/dev/spacebar/quorum/libraries/avionics_d.kicad_sym",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0wxWindow_3wxTextCtrl_0": "",
+        "wxPanel_0wxGrid_0": "0 1"
+      },
       "Choose Symbol": {
         "__geometry": {
           "h": 680,
@@ -51,6 +124,104 @@
         "wxPanel_0wxSplitterWindow_0wxPanel_0wxPanel_0wxHtmlWindow_0": 0,
         "wxPanel_0wxSplitterWindow_0wxPanel_0wxPanel_0wxSearchCtrl_0": "",
         "wxPanel_0wxSplitterWindow_0wxPanel_1wxPanel_1wxOwnerDrawnComboBox_0": 0
+      },
+      "Color Picker": {
+        "__geometry": {
+          "h": 522,
+          "w": 846,
+          "x": 537,
+          "y": 266
+        },
+        "wxNotebook_0": "Defined Colors",
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxSpinCtrl_0": 0,
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxSpinCtrl_1": 72,
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxSpinCtrl_2": 0,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxSpinCtrl_0": 120,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxSpinCtrl_1": 255,
+        "wxTextCtrl_0": "#004800FF"
+      },
+      "Edit 'JLCPCB Part #' Field": {
+        "__geometry": {
+          "h": 299,
+          "w": 864,
+          "x": 528,
+          "y": 378
+        },
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": false,
+        "wxCheckBox_2": true,
+        "wxCheckBox_3": false,
+        "wxCheckBox_4": false,
+        "wxChoice_0": -1,
+        "wxOwnerDrawnComboBox_0": 0,
+        "wxOwnerDrawnComboBox_0wxTextCtrl_0": "Default Font",
+        "wxTextCtrl_0": "",
+        "wxTextCtrl_1": 12700,
+        "wxTextCtrl_2": 0,
+        "wxTextCtrl_3": 0
+      },
+      "Edit Reference Field": {
+        "__geometry": {
+          "h": 288,
+          "w": 864,
+          "x": 528,
+          "y": 383
+        },
+        "wxCheckBox_0": true,
+        "wxCheckBox_1": false,
+        "wxCheckBox_2": true,
+        "wxCheckBox_3": false,
+        "wxCheckBox_4": false,
+        "wxChoice_0": -1,
+        "wxOwnerDrawnComboBox_0": 0,
+        "wxOwnerDrawnComboBox_0wxTextCtrl_0": "Default Font",
+        "wxTextCtrl_0": "U",
+        "wxTextCtrl_1": 12700,
+        "wxTextCtrl_2": 0,
+        "wxTextCtrl_3": 0
+      },
+      "Edit Value Field": {
+        "__geometry": {
+          "h": 299,
+          "w": 864,
+          "x": 528,
+          "y": 378
+        },
+        "wxCheckBox_0": true,
+        "wxCheckBox_1": false,
+        "wxCheckBox_2": true,
+        "wxCheckBox_3": false,
+        "wxCheckBox_4": false,
+        "wxChoice_0": -1,
+        "wxOwnerDrawnComboBox_0": 0,
+        "wxOwnerDrawnComboBox_0wxTextCtrl_0": "Default Font",
+        "wxTextCtrl_0": "",
+        "wxTextCtrl_1": 12700,
+        "wxTextCtrl_2": 124460,
+        "wxTextCtrl_3": -68580
+      },
+      "Graphic PropertiesLibeditFrame": {
+        "__geometry": {
+          "h": 272,
+          "w": 596,
+          "x": 662,
+          "y": 391
+        },
+        "wxBitmapComboBox_0": "Solid",
+        "wxBookCtrlBase_0wxPanel_0wxChoice_0": 0,
+        "wxBookCtrlBase_0wxPanel_1wxStaticBox_0wxRadioButton_0": false,
+        "wxBookCtrlBase_0wxPanel_1wxStaticBox_0wxRadioButton_1": false,
+        "wxBookCtrlBase_0wxPanel_1wxStaticBox_0wxRadioButton_2": true,
+        "wxBookCtrlBase_0wxPanel_1wxStaticBox_0wxRadioButton_3": false,
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": false,
+        "wxCheckBox_2": false,
+        "wxCheckBox_3": false,
+        "wxCheckBox_4": true,
+        "wxCheckBox_5": false,
+        "wxCheckBox_6": false,
+        "wxCheckBox_7": false,
+        "wxTextCtrl_0": 0
       },
       "Label Properties": {
         "__geometry": {
@@ -79,6 +250,136 @@
         "wxStaticBox_2wxTextCtrl_0": 12700,
         "wxTextCtrl_0": "",
         "wxTextCtrl_1": ""
+      },
+      "Library Symbol Properties": {
+        "__geometry": {
+          "h": 592,
+          "w": 1174,
+          "x": 373,
+          "y": 231
+        },
+        "wxNotebook_0": "General",
+        "wxNotebook_0wxPanel_0wxComboBox_0": "",
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxCheckBox_1": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_0": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_1": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_2": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxTextCtrl_0": 5080,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_1": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_2": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_3": false,
+        "wxNotebook_0wxPanel_0wxTextCtrl_0": "ADXL375",
+        "wxNotebook_0wxPanel_0wxTextCtrl_1": "",
+        "wxNotebook_0wxPanel_1wxStaticBox_0wxCheckBox_0": true,
+        "wxNotebook_0wxPanel_1wxStaticBox_0wxGrid_0": "0 1",
+        "wxNotebook_0wxPanel_1wxStaticBox_0wxSpinCtrl_0": 1,
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxGrid_0": "0",
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxRadioButton_0": true,
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxRadioButton_1": false,
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxRadioButton_2": false,
+        "wxNotebook_0wxPanel_3wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_3wxGrid_0": "0",
+        "wxNotebook_0wxPanel_4wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_4wxGrid_0": "0 1"
+      },
+      "New Symbol": {
+        "__geometry": {
+          "h": 592,
+          "w": 371,
+          "x": 774,
+          "y": 231
+        },
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": false,
+        "wxCheckBox_10": true,
+        "wxCheckBox_11": true,
+        "wxCheckBox_2": false,
+        "wxCheckBox_3": false,
+        "wxCheckBox_4": false,
+        "wxCheckBox_5": false,
+        "wxCheckBox_6": false,
+        "wxCheckBox_7": false,
+        "wxCheckBox_8": false,
+        "wxCheckBox_9": true,
+        "wxComboCtrl_0": "",
+        "wxComboCtrl_0wxPopupTransientWindow_0wxPanel_0wxTextCtrl_0": "",
+        "wxSpinCtrl_0": 1,
+        "wxTextCtrl_0": "ADXL375",
+        "wxTextCtrl_1": "U",
+        "wxTextCtrl_2": 5080
+      },
+      "Pin Properties": {
+        "__geometry": {
+          "h": 474,
+          "w": 614,
+          "x": 653,
+          "y": 290
+        },
+        "wxBitmapComboBox_0": "Power input",
+        "wxBitmapComboBox_1": "Line",
+        "wxBitmapComboBox_2": "Down",
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": true,
+        "wxCheckBox_2": false,
+        "wxCollapsiblePane_0wxPanel_0wxGrid_0": "0 1 2",
+        "wxTextCtrl_0": "GND",
+        "wxTextCtrl_1": "5",
+        "wxTextCtrl_2": 38100,
+        "wxTextCtrl_3": 241300,
+        "wxTextCtrl_4": 25400,
+        "wxTextCtrl_5": 12700,
+        "wxTextCtrl_6": 12700
+      },
+      "Symbol Fields Table": {
+        "__geometry": {
+          "h": 713,
+          "w": 1200,
+          "x": 360,
+          "y": 171
+        },
+        "wxSplitterWindow_0": 400,
+        "wxSplitterWindow_0wxPanel_0wxGrid_0": "0 2 3",
+        "wxSplitterWindow_0wxPanel_1wxCheckBox_0": true,
+        "wxSplitterWindow_0wxPanel_1wxChoice_0": 0,
+        "wxSplitterWindow_0wxPanel_1wxGrid_0": "0 2 3 4 6 7 8 9 10 11 12",
+        "wxSplitterWindow_0wxPanel_1wxSearchCtrl_0": ""
+      },
+      "Symbol Libraries": {
+        "__geometry": {
+          "h": 648,
+          "w": 1010,
+          "x": 455,
+          "y": 203
+        },
+        "wxPanel_0wxAuiNotebook_0": "Project Specific Libraries *",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxGrid_0": "0 1"
+      },
+      "Text PropertiesLibeditFrame": {
+        "__geometry": {
+          "h": 356,
+          "w": 851,
+          "x": 534,
+          "y": 349
+        },
+        "wxBitmapComboBox_0": "",
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": false,
+        "wxCheckBox_2": false,
+        "wxCheckBox_3": false,
+        "wxCheckBox_4": false,
+        "wxCheckBox_5": false,
+        "wxCheckBox_6": false,
+        "wxOwnerDrawnComboBox_0": 0,
+        "wxOwnerDrawnComboBox_0wxTextCtrl_0": "Default Font",
+        "wxOwnerDrawnComboBox_1": -1,
+        "wxOwnerDrawnComboBox_1wxTextCtrl_0": "",
+        "wxTextCtrl_0": 12700,
+        "wxTextCtrl_1": 0
       }
     }
   },
@@ -136,7 +437,9 @@
   "session": {
     "pinned_design_block_libs": [],
     "pinned_fp_libs": [],
-    "pinned_symbol_libs": [],
+    "pinned_symbol_libs": [
+      "avionics_d"
+    ],
     "remember_open_files": false
   },
   "spacemouse": {
@@ -158,6 +461,6 @@
     "pdf_viewer_name": "",
     "text_editor": "",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/vi/dev/quorum/carrier_board"
+    "working_dir": "/home/vi/dev/spacebar/quorum/flight_computer"
   }
 }

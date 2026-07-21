@@ -20,7 +20,7 @@
     "net_inspector_width": -1,
     "properties_panel_width": 300,
     "properties_splitter_proportion": 0.5,
-    "right_panel_width": 160,
+    "right_panel_width": 229,
     "search_panel_dock_direction": 3,
     "search_panel_height": 110,
     "search_panel_width": 284,
@@ -500,6 +500,8 @@
   },
   "system": {
     "file_history": [
+      "/home/vi/dev/spacebar/quorum/flight_computer/flight_computer.kicad_pcb",
+      "/home/vi/dev/spacebar/quorum/carrier_board/carrier_board.kicad_pcb",
       "/home/vi/dev/quorum/carrier_board/carrier_board.kicad_pcb"
     ],
     "first_run_shown": false,
