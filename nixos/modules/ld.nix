@@ -40,6 +40,7 @@
       dbus
 
       stdenv.cc.cc
+      alsa-lib
     ];
 
   };
