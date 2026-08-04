@@ -17,7 +17,7 @@
         publicKey = "W5pgXlv2h9qHiBjK7IgeHz75N6lzCZAhOMtdgNeeMWw=";
         presharedKeyFile = "/etc/wireguard/wg1-psk";
         endpoint = "therealoranges.com:57438";
-        allowedIPs = [ "0.0.0.0/0" "::/0" ];
+        allowedIPs = [ "0.0.0.0/0" ];
         persistentKeepalive = 25;
       }
     ];
