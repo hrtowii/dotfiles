@@ -2,17 +2,17 @@
 theme = "solarized-dark" 
 [theme.overrides]
 # Start flavours
-idle_bg = "#312751"
-idle_fg = "#e1d6e1"
-info_bg = "#a255d1"
-info_fg = "#e1d6e1"
-good_bg = "#a178e5"
-good_fg = "#312751"
-warning_bg = "#ae3df4"
-warning_fg = "#312751"
-critical_bg = "#d4fcc4"
-critical_fg = "#312751"
-alternating_tint_bg = "#776d8b"
+idle_bg = "#1e2442"
+idle_fg = "#d0ccd2"
+info_bg = "#7171b8"
+info_fg = "#d0ccd2"
+good_bg = "#687b89"
+good_fg = "#1e2442"
+warning_bg = "#9b756c"
+warning_fg = "#1e2442"
+critical_bg = "#707b6c"
+critical_fg = "#1e2442"
+alternating_tint_bg = "#65677b"
 # End flavours
 
 [icons]

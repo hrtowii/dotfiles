@@ -7,13 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "buffer_font_family": "PP Right Serif Mono",
+  "ui_font_family": ".ZedSans",
+  "project_panel": {
+    "dock": "left"
+  },
+  "buffer_font_family": "Berkeley Mono Nerd Font",
   "icon_theme": "Zed (Default)",
-  "ui_font_size": 16,
+  "ui_font_size": 16.0,
   "buffer_font_size": 15,
   "theme": {
     "mode": "dark",
     "light": "Gruvbox Light",
-    "dark": "Gruvbox Dark",
+    "dark": "Rosé Pine Moon",
   },
 }

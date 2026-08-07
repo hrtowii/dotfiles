@@ -267,7 +267,7 @@
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "maximized": true,
+    "maximized": false,
     "mru_path": "/home/vi/dev/spacebar/quorum/flight_computer/",
     "perspective": "layout2|name=TopMainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=243;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1340;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=20;minw=250;minh=80;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LocalHistory;caption=Local History;state=2098494;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Editors;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=700;besth=590;minw=700;minh=590;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=250|dock_size(5,0,0)=700|",
     "pos_x": 7,

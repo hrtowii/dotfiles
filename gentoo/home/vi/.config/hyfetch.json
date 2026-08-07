@@ -1,5 +1,5 @@
 {
-    "preset": "transgender",
+    "preset": "nonbinary",
     "mode": "rgb",
     "auto_detect_light_dark": true,
     "light_dark": "dark",
@@ -9,6 +9,6 @@
     },
     "backend": "fastfetch",
     "args": null,
-    "distro": null,
+    "distro": "gentoo_small",
     "pride_month_disable": false
 }

@@ -201,21 +201,6 @@
         "KeepCurrentChannel": {
             "enabled": false
         },
-        "LastFMRichPresence": {
-            "enabled": true,
-            "hideWithActivity": false,
-            "hideWithSpotify": true,
-            "shareUsername": true,
-            "shareSong": true,
-            "statusName": "meow",
-            "statusDisplayType": "off",
-            "nameFormat": "artist-first",
-            "useListeningStatus": true,
-            "missingArt": "placeholder",
-            "showLastFmLogo": true,
-            "clickableLinks": true,
-            "username": "htrowii"
-        },
         "LoadingQuotes": {
             "enabled": false
         },
@@ -709,6 +694,21 @@
         },
         "CustomCommands": {
             "enabled": false
+        },
+        "MusicRichPresence": {
+            "enabled": true,
+            "hideWithActivity": false,
+            "hideWithSpotify": true,
+            "shareUsername": true,
+            "shareSong": true,
+            "statusName": "meow",
+            "statusDisplayType": "off",
+            "nameFormat": "artist-first",
+            "useListeningStatus": true,
+            "missingArt": "placeholder",
+            "clickableLinks": true,
+            "username": "htrowii",
+            "showLogo": true
         }
     },
     "uiElements": {
@@ -725,7 +725,7 @@
         "authenticated": true,
         "url": "https://api.vencord.dev/",
         "settingsSync": true,
-        "settingsSyncVersion": 1776018960503
+        "settingsSyncVersion": 1785664023899
     },
     "notifyAboutUpdates": true,
     "macosTranslucency": false

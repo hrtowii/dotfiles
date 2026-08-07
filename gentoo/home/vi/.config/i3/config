@@ -225,7 +225,7 @@ mode "mouse" {
 bindsym $mouse_mod+m mode "mouse"
 
 
-output "*" bg ~/.config/wallpapers/yuriful.jpg fill
+output "*" bg ~/.config/wallpapers/emo_wallpaper.jpg fill
 gaps inner 5
 input "type:touchpad" {
     natural_scroll enabled
