@@ -21,18 +21,5 @@
         persistentKeepalive = 25;
       }
     ];
-
-    # Exclude Tailscale's ranges from the wg1 full tunnel by installing
-    # more-specific routes via tailscale0. More-specific routes always
-    # win over 0.0.0.0/0, regardless of which interface/table added them.
-    postUp = ''
-      ${pkgs.iproute2}/bin/ip route add 100.64.0.0/10 dev tailscale0 || true
-      ${pkgs.iproute2}/bin/ip -6 route add fd7a:115c:a1e0::/48 dev tailscale0 || true
-    '';
-
-    preDown = ''
-      ${pkgs.iproute2}/bin/ip route del 100.64.0.0/10 dev tailscale0 || true
-      ${pkgs.iproute2}/bin/ip -6 route del fd7a:115c:a1e0::/48 dev tailscale0 || true
-    '';
   };
 }

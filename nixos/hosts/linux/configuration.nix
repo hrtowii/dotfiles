@@ -18,6 +18,11 @@ in
 
   boot.kernelPackages = pkgs.linuxPackages_6_18;
   boot.supportedFilesystems = [ "ntfs" ];
+  boot.extraModprobeConfig = ''
+  options iwlmvm power_scheme=1
+  options iwlwifi power_save=0
+'';
+boot.kernelParams = [ "pcie_aspm.policy=performance" ];
   zramSwap.enable = true;
   swapDevices = [{
     device = "/swapfile";
