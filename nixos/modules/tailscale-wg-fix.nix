@@ -17,7 +17,7 @@
       }
     }
   '';
-
+networking.nftables.checkRuleset = false;
   systemd.services.tailscaled.serviceConfig.NFTSet =
     "cgroup:inet:tailscale-bypass:tailscaled";
 
