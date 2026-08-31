@@ -46,7 +46,8 @@
   ];
   stylixDuotone = {
     enable   = true;
-    wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
+    # wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
+    wallpaper = ../../../home-manager/config/wallpapers/xiaoyi.png;
     duotone = false;
   };
 
