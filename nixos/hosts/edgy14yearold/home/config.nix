@@ -9,7 +9,7 @@ in
     ".config/kitty".source = "${configDir}/kitty";
     ".config/zellij".source = "${configDir}/zellij";
     ".config/ghostty".source = "${configDir}/ghostty";
-    ".config/spicetify".source = "${configDir}/spicetify";
+    # ".config/spicetify".source = "${configDir}/spicetify";
     ".config/nvim" = {
       source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/config/nvim-light";
       recursive = false;
