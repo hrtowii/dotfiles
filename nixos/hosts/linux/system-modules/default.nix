@@ -47,7 +47,7 @@
   stylixDuotone = {
     enable   = true;
     # wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
-    wallpaper = ../../../home-manager/config/wallpapers/shadowshadow.png;
+    wallpaper = ../../../home-manager/config/wallpapers/download.png;
     duotone = false;
   };
 
