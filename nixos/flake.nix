@@ -7,7 +7,8 @@
 
     nix-darwin = {
       # TODO: remove fork once https://github.com/nix-darwin/nix-darwin/pull/1789 is merged
-      url = "github:stepbrobd/nix-darwin/bundle";
+      # url = "github:stepbrobd/nix-darwin/bundle";
+      url = "github:nix-darwin/nix-darwin";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-ld.url = "github:Mic92/nix-ld";
@@ -55,7 +56,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     niri = {
-      url = "github:sodiboo/niri-flake";
+      url = "github:bugeats/niri-flake/update-libdisplay-info";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -79,7 +80,7 @@
         permittedInsecurePackages = [
           "electron-25.9.0" # Obsidian
           "python-2.7.18.8"
-          "beekeeper-studio-5.5.5" # electron 32
+          "beekeeper-studio-6.0.5" # electron 39
         ];
       };
 

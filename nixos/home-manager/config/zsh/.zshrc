@@ -35,6 +35,8 @@ alias create_jupyter_kernel="uv venv --seed; uv pip install pydantic; uv pip ins
 
 alias nix-clean-generations="nh clean all"
 alias nix-rebuild-system="nh os switch --hostname $(hostname) ~/dotfiles/nixos"
+export PATH="/home/ibarahime/.cache/.bun/bin:$PATH"
+
 create_vite_tailwind_app() {
     # Check if the app name is provided
     if [ -z "$1" ]; then

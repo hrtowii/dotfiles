@@ -24,7 +24,7 @@
       # frameless = true;
       plugins = {
         clearUrls.enable = true;
-        lastFmRichPresence.enable = true;
+        LastFMRichPresence.enable = true;
         mutualGroupDms.enable = true;
         reviewDb.enable = true;
         usrbg.enable = true;
