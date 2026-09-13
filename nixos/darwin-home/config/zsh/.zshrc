@@ -23,6 +23,7 @@ alias start_openwebui='docker run -d -p 127.0.0.1:3000:8080 -e WEBUI_AUTH=False 
 alias disarm="~/Downloads/disarm/binaries/disarm.AAPLSi"
 alias discordo="~/dev/discordo/discordo"
 alias nix-rebuild="nh darwin switch ~/dev/dotfiles/nixos/ --hostname homura"
+
 export PATH=~/.bun/bin:$PATH
 export PATH=~/.cargo/bin:$PATH
 alias create_jupyter_kernel="uv venv --seed; uv pip install pydantic; uv pip install jupyterlab; .venv/bin/jupyter lab"
@@ -55,7 +56,8 @@ create_vite_tailwind_app() {
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-cfetch
+# cfetch
+~/dev/checkra1nlogobitmap/a.out
 export LOCAL_NOTEBOOK_DEV=1
 export PATH="/opt/homebrew/opt/dotnet@8/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
