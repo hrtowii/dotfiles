@@ -14,6 +14,13 @@
     homePrefix = "/home";
     stateVersion = "25.11";
   };
+  nyx = {
+	username="vi";
+	hostname="nyx";
+	system="x86_64-linux";
+	homePrefix="/home";
+	stateVersion = "26.05";
+};
   thinkpad = {
     username = "violet";
     hostname = "thinkpad";
