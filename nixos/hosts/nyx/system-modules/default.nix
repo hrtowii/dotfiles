@@ -20,7 +20,7 @@
     ../../../modules/keyring.nix
     ../../../modules/uwsm.nix
     ../../../modules/dotnet.nix
-    ../../../modules/nvidia.nix
+#    ../../../modules/nvidia.nix # we on amd baby
     ../../../modules/zsh.nix
     ../../../modules/tablet.nix
     ../../../modules/env.nix
@@ -35,7 +35,7 @@
     ../../../modules/pwn.nix
     ../../../modules/qt.nix
 #    ../../../modules/sdr.nix
-#    ../../../modules/ida.nix
+   ../../../modules/ida.nix
 #    ../../../modules/cache
 #    ../../../modules/cache/cachix.nix
     ../../../modules/sway.nix

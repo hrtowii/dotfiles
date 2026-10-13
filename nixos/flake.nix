@@ -166,6 +166,7 @@
               programs.anime-games-launcher.enable = true;
               nixpkgs.overlays = [
                 (import ./overlays/suppress-sc2209.nix)
+		(import ./overlays/soapymiri.nix)
               ];
             }
           ];
