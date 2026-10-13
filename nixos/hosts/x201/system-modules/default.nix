@@ -1,7 +1,7 @@
 { pkgs, hostVars, ... }:
 {
   imports = [
-    ../../../modules/aseprite.nix
+    # ../../../modules/aseprite.nix
     ../../../modules/docker.nix
     # ../../../modules/steam.nix
     ../../../modules/python.nix
@@ -32,7 +32,7 @@
   ];
   stylixDuotone = {
     enable   = true;
-    wallpaper = ../../../home-manager/config/wallpapers/madoka2.jpg;
+    wallpaper = ../../../home-manager/config/wallpapers/lotl.png;
     duotone = false;
   };
   npm.enable = true;

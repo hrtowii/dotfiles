@@ -42,13 +42,16 @@ in {
       polarity = "dark";
       autoEnable = true;
       fonts = {
-        monospace.name = "Xanh Mono";
+      	# monospace.name = "Go Mono";
+        # monospace.name = "Xanh Mono";
+	# monospace.name = "New Heterodox Mono";
 	# monospace.name = "gallant12x22";
+	monospace.name = "Recursive Mono Linear Static";
         sizes = {
-          applications = 10;
+          # applications = 10;
           desktop      = lib.mkForce 12;
           popups       = lib.mkForce 12;
-          terminal     = lib.mkForce 14;
+          terminal     = lib.mkForce 12;
         };
       };
       cursor = {
