@@ -1,6 +1,6 @@
 // adapted by Alex Sherwin for Ghostty from https://www.shadertoy.com/view/lljGDt
 
-#define BLACK_BLEND_THRESHOLD 1.0
+#define BLACK_BLEND_THRESHOLD .4
 
 float hash21(vec2 p) {
     p = fract(p * vec2(233.34, 851.73));
