@@ -5,15 +5,15 @@ keybind = ctrl+d=new_split:right
 
 # Empty values reset the configuration to the default value
 # font-family = ""
-font-size=15
-background-opacity = 0.85
-background-blur = true
+font-size=15.5
+# background-opacity = 0.85
+# background-blur = true
 
 # font-family = "Berkeley Mono Nerd Font"
 # font-family="DepartureMono Nerd Font"
 # font-family="Maple Mono NF"
 # font-family="Cohere Mono"
-title=""
+font-family="Recursive Mono Linear Static"
 macos-titlebar-style="tabs"
 macos-titlebar-proxy-icon="hidden"
 clipboard-read = allow
