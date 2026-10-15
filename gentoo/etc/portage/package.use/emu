@@ -1,0 +1,3 @@
+# libvirt's default NAT network requires these on dnsmasq:
+#   net-dns/dnsmasq[dhcp,ipv6(+),script]
+net-dns/dnsmasq dhcp ipv6 script

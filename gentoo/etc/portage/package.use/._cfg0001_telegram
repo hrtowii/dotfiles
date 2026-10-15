@@ -1,0 +1,15 @@
+net-im/telegram-desktop -X -fonts
+# required by net-im/telegram-desktop-6.6.2::gentoo
+# required by net-im/telegram-desktop (argument)
+>=media-libs/tg_owt-0_pre20260309 -X
+# required by net-im/telegram-desktop-6.6.2::gentoo
+# required by net-im/telegram-desktop (argument)
+>=media-video/ffmpeg-8.1.2 vpx opus
+
+# required by app-emulation/libvirt-12.0.0::gentoo
+# required by dev-python/libvirt-python-12.0.0::gentoo
+# required by app-emulation/libvirt-12.6.0::gentoo
+# required by app-emulation/libvirt-glib-5.0.0-r1::gentoo
+# required by app-emulation/virt-manager-5.1.0-r1::gentoo
+# required by app-emulation/virt-manager (argument)
+=net-dns/dnsmasq-2.92_p2 script

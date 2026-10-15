@@ -1,0 +1,13 @@
+# KVM/QEMU + libvirt virtualization stack (for Kali & other VMs)
+app-emulation/qemu
+app-emulation/libvirt
+app-emulation/libvirt-glib
+dev-python/libvirt-python
+app-emulation/virt-manager
+
+# libvirt "default" NAT network needs dnsmasq (dhcp,ipv6,script) + radvd
+net-dns/dnsmasq
+net-misc/radvd
+
+# UEFI firmware for guests
+sys-firmware/edk2-bin
