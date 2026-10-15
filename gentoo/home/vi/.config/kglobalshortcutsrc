@@ -39,6 +39,10 @@ Cycle Overview=none,none,Cycle through Overview and Grid View
 Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=,,Decrease Opacity of Active Window by 5%
 Edit Tiles=Meta+T,Meta+T,Toggle Tiles Editor
+Expose=Meta+F9\tCtrl+F9,Meta+F9\tCtrl+F9,Toggle Present Windows (Current desktop)
+ExposeAll=Meta+F10\tLaunch (C)\tCtrl+F10,Meta+F10\tLaunch (C)\tCtrl+F10,Toggle Present Windows (All desktops)
+ExposeClass=Meta+F7\tCtrl+F7,Meta+F7\tCtrl+F7,Toggle Present Windows (Window class)
+ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=Meta+G,Meta+G,Toggle Grid View
 Increase Opacity=,,Increase Opacity of Active Window by 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
@@ -250,6 +254,8 @@ cycleNextAction=,,Next History Item
 cyclePrevAction=,,Previous History Item
 edit_clipboard=,,Edit Contents…
 manage activities=Meta+Q,Meta+Q,Show Activity Switcher
+next activity=Meta+A,none,Walk through activities
+previous activity=Meta+Shift+A,none,Walk through activities (Reverse)
 repeat_action=,,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=,,Show Barcode…
@@ -257,7 +263,3 @@ show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
 switch to next activity=,,Switch to Next Activity
 switch to previous activity=,,Switch to Previous Activity
 toggle do not disturb=,,Toggle do not disturb
-
-[services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=
-OpenWithoutScreenshot=

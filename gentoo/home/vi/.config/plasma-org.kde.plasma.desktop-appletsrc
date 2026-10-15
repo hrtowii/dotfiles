@@ -15,6 +15,10 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=file:///home/vi/Downloads/Kanade_55_trained_art.png
+SlidePaths=/usr/share/wallpapers/
+
 [Containments][2]
 activityId=
 formfactor=2
