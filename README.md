@@ -8,3 +8,6 @@
 * done w Stow. 
 sudo stow -d ~/dotfiles -t / gentoo
 ^^ stow directory dotfiles. the top is slash. refer to gentoo 
+
+## arch
+sudo stow -d ~/dotfiles -t / arch

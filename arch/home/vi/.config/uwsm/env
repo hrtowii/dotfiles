@@ -1,0 +1,24 @@
+# Sourced by uwsm for every graphical session, then exported to the systemd and
+# dbus activation environments.
+
+# ############# Toolkit backends #############
+export GDK_BACKEND='wayland,x11'
+export QT_QPA_PLATFORM='wayland;xcb'
+export SDL_VIDEODRIVER='wayland,x11'
+export CLUTTER_BACKEND='wayland'
+export ELECTRON_OZONE_PLATFORM_HINT='auto'
+export MOZ_ENABLE_WAYLAND=1
+
+# ############# Cursor #############
+export XCURSOR_THEME='breeze_cursors'
+export XCURSOR_SIZE='24'
+
+# ############# Others #############
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+# ############# SSH agent #############
+# ssh-agent.service (systemd user unit) listens here; keeps ssh/git using it.
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/ssh-agent.sock"
+
+# ###### app2unit Integration ######
+export APP2UNIT_SLICES='a=app-graphical.slice b=background-graphical.slice s=session-graphical.slice'

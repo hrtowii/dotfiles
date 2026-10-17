@@ -1,0 +1,12 @@
+[Unit]
+Description=OpenSSH Agent
+Before=graphical-session.target
+
+[Service]
+Type=simple
+Environment=SSH_AUTH_SOCK=%t/ssh-agent.sock
+ExecStart=/usr/bin/ssh-agent -D -a %t/ssh-agent.sock
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target

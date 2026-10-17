@@ -1,0 +1,12 @@
+# Arch Sway entrypoint.
+#
+# The real config lives in ~/.config/i3/config (and ~/.config/i3/colors) so the
+# exact same file is shared across the Gentoo / NixOS setups (on NixOS it is fed
+# to the sway module as extraConfig). Sway is configured under the i3 dir for
+# historical reasons.
+
+include ~/.config/i3/config
+
+# Push compositor-set variables (WAYLAND_DISPLAY, DISPLAY, ...) into the
+# systemd / dbus activation environment when running under uwsm.
+exec uwsm finalize
