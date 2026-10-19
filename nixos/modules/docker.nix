@@ -9,5 +9,6 @@
     docker
     docker-compose
     lazydocker
+    distrobox
   ];
 }
