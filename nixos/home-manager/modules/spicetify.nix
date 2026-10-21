@@ -55,7 +55,7 @@ in
       };
   }
 
-  (lib.mkIf (stylixImported && config.stylix.enable) {
+  (lib.optionalAttrs (lib.hasAttrByPath [ "stylix" "targets" "spicetify" "enable" ] options) {
     stylix.targets.spicetify.enable = false;
   })
   ];

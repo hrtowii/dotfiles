@@ -30,10 +30,20 @@
     ../../../modules/stylix.nix
     # ../../../modules/cache
   ];
-  stylixDuotone = {
+  stylixConfig = {
     enable   = true;
     wallpaper = ../../../home-manager/config/wallpapers/getwellsoon.jpg;
     duotone = false;
+    fonts = {
+    	i3status = { name = "Xanh Mono"; size = 12; };
+    };
+    # fonts = {
+    #   monospace = { name = "Fira Code"; package = pkgs.fira-code; };
+    #   serif = { name = "Noto Serif"; package = pkgs.noto-fonts; };
+    #   sizes.terminal = 13;
+    #   sway = { name = "Cohere Mono"; size = 8; };
+    #   i3status = { name = "Cohere Mono"; size = 10; };
+    # };
   };
   npm.enable = true;
   rust.enable = true;

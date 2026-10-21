@@ -140,12 +140,12 @@
         inactive = { color = "#6e6a86"; };
       };
       spawn-at-startup = lib.mkAfter [
-        { argv = [ "wbg" "-s" ../home-manager/config/wallpapers/kogecha.jpg ]; }
+        { argv = [ "wbg" "-s" (toString ../home-manager/config/wallpapers/kogecha.jpg) ]; }
       ];
     })
     (lib.mkIf (config ? stylix && config.stylix.enable) {
       spawn-at-startup = lib.mkAfter [
-        { argv = [ "wbg" "-s" config.stylix.image ]; }
+        { argv = [ "wbg" "-s" (toString config.stylix.image) ]; }
       ];
     })
   ];

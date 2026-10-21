@@ -1,6 +1,24 @@
 { pkgs, inputs, config, lib, ... }:
 let
-  cfg = config.stylixDuotone;
+  cfg = config.stylixConfig;
+  fontOptions = defaultName: defaultPackage: {
+    name = lib.mkOption {
+      type = lib.types.nullOr lib.types.str;
+      default = defaultName;
+      description = "Font family name; null inherits the Stylix default.";
+    };
+    package = lib.mkOption {
+      type = lib.types.nullOr lib.types.package;
+      default = defaultPackage;
+      description = "Optional package providing the font.";
+    };
+  };
+  sizeOption = default: lib.mkOption {
+    type = lib.types.nullOr lib.types.numbers.positive;
+    inherit default;
+    description = "Font size in points; null inherits the Stylix default.";
+  };
+  specified = lib.filterAttrs (_: value: value != null);
   duotoneWallpaper = pkgs.runCommand "duotone-wallpaper.png" {
     nativeBuildInputs = [ pkgs.imagemagick ];
     src = cfg.wallpaper;
@@ -12,8 +30,8 @@ let
 in {
   imports = [ inputs.stylix.nixosModules.stylix ];
 
-  options.stylixDuotone = {
-    enable = lib.mkEnableOption "duotone wallpaper processing";
+  options.stylixConfig = {
+    enable = lib.mkEnableOption "Stylix configuration";
     wallpaper = lib.mkOption {
       type = lib.types.path;
       description = "Wallpaper image";
@@ -22,6 +40,32 @@ in {
       type = lib.types.bool;
       default = true;
       description = "Apply duotone effect to wallpaper";
+    };
+    fonts = {
+      monospace = fontOptions "Recursive Mono Linear Static" null;
+      serif = fontOptions "Michelangelus" null;
+      sansSerif = fontOptions "Aporetic Sans" null;
+      emoji = fontOptions null null;
+      sizes = {
+        applications = sizeOption null;
+        desktop = sizeOption 12;
+        popups = sizeOption 12;
+        terminal = sizeOption 12;
+      };
+      sway = (fontOptions "Cohere Mono" null) // {
+        size = lib.mkOption {
+          type = lib.types.numbers.positive;
+          default = 8;
+          description = "Sway window title font size in points.";
+        };
+      };
+      i3status = (fontOptions cfg.fonts.monospace.name cfg.fonts.monospace.package) // {
+        size = lib.mkOption {
+          type = lib.types.numbers.positive;
+          default = 10;
+          description = "Font size in points for the Sway bar displaying i3status.";
+        };
+      };
     };
     shadow = {
       hue        = lib.mkOption { type = lib.types.ints.between 0 360; default = 174; };
@@ -35,24 +79,29 @@ in {
     };
   };
 
-  config = lib.mkIf cfg.enable {
+  config = lib.mkMerge [
+    {
+      # Niri's integration also needs these options when system theming is off.
+      home-manager.sharedModules = lib.mkIf (!config.stylix.enable) [
+        inputs.stylix.homeModules.stylix
+      ];
+    }
+    (lib.mkIf cfg.enable {
+    fonts.packages = lib.filter (package: package != null) [
+      cfg.fonts.sway.package
+      cfg.fonts.i3status.package
+    ];
     stylix = {
       enable  = true;
       image   = if cfg.duotone then duotoneWallpaper else cfg.wallpaper;
       polarity = "dark";
       autoEnable = true;
       fonts = {
-      	# monospace.name = "Go Mono";
-        # monospace.name = "Xanh Mono";
-	# monospace.name = "New Heterodox Mono";
-	# monospace.name = "gallant12x22";
-	monospace.name = "Recursive Mono Linear Static";
-        sizes = {
-          # applications = 10;
-          desktop      = lib.mkForce 12;
-          popups       = lib.mkForce 12;
-          terminal     = lib.mkForce 12;
-        };
+        monospace = specified cfg.fonts.monospace;
+        serif = specified cfg.fonts.serif;
+        sansSerif = specified cfg.fonts.sansSerif;
+        emoji = specified cfg.fonts.emoji;
+        sizes = specified cfg.fonts.sizes;
       };
       cursor = {
         name    = "Vanilla-DMZ-AA";
@@ -85,5 +134,6 @@ in {
         spicetify.enable = false;
       };
     };
-  };
+    })
+  ];
 }

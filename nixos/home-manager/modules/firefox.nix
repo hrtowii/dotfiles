@@ -4,7 +4,13 @@
   lib,
   ...
 }: {
-  stylix.targets.firefox.profileNames = [ "ff" ];
+  imports = [
+    ({ options, ... }: {
+      config = lib.optionalAttrs (lib.hasAttrByPath [ "stylix" "targets" "firefox" "profileNames" ] options) {
+        stylix.targets.firefox.profileNames = [ "ff" ];
+      };
+    })
+  ];
 
   programs.firefox = {
     enable = true;

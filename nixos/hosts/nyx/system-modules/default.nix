@@ -44,7 +44,7 @@
     ../../../modules/moonlight.nix
     ../../../modules/niri.nix
   ];
-  stylixDuotone = {
+  stylixConfig = {
     enable   = true;
     # wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
     wallpaper = ../../../home-manager/config/wallpapers/shadowshadow.png;
