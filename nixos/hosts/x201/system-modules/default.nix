@@ -28,7 +28,7 @@
     ../../../modules/spotify-player.nix
     ../../../modules/kitty.nix
     ../../../modules/stylix.nix
-    ../../../modules/cache
+    # ../../../modules/cache
   ];
   stylixDuotone = {
     enable   = true;
