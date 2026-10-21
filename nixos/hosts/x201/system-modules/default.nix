@@ -32,7 +32,7 @@
   ];
   stylixDuotone = {
     enable   = true;
-    wallpaper = ../../../home-manager/config/wallpapers/lotl.png;
+    wallpaper = ../../../home-manager/config/wallpapers/getwellsoon.jpg;
     duotone = false;
   };
   npm.enable = true;
