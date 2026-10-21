@@ -157,8 +157,13 @@ later(function()
 
   vim.lsp.config('ruff', {
     filetypes = { 'python' },
+    on_attach = function(client)
+      client.server_capabilities.hoverProvider = false
+    end,
   })
+
   vim.lsp.enable('ruff')
+  vim.lsp.enable('ty')
 
   vim.lsp.config('ts_ls', {
     filetypes = { 'typescript', 'typescriptreact', 'javascript', 'javascriptreact' },
@@ -170,6 +175,7 @@ later(function()
     filetypes = { 'svelte' },
     root_markers = { 'svelte.config.js', 'svelte.config.ts', 'package.json' },
   })
+
   vim.lsp.enable('svelte')
 
   vim.lsp.config('clangd', {
@@ -182,12 +188,14 @@ later(function()
     filetypes = { 'nix' },
     root_markers = { 'flake.nix', 'default.nix', '.git' },
   })
+
   vim.lsp.enable('nixd')  
   vim.lsp.config('rust-analyzer', {
   	cmd = {'rust-analyzer'},
   	filetypes = {'rust'},
  	root_markers = {'Cargo.toml'},
     })
+
     vim.lsp.enable('rust-analyzer')
     vim.api.nvim_create_autocmd('LspAttach', {
     callback = function(event)
