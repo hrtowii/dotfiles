@@ -33,6 +33,9 @@
     home = "${hostVars.homePrefix}/${hostVars.username}";
     shell = pkgs.zsh;
   };
+  environment.variables = {
+  HOMEBREW_NO_REQUIRE_TAP_TRUST = "1";
+};
 
   nix.settings = {
     experimental-features = [
