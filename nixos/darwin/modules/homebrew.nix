@@ -12,7 +12,10 @@
     onActivation = {
       autoUpdate = false;
       cleanup = "zap";
-      upgrade = true;
+      upgrade = false;
+      extraEnv = {
+      HOMEBREW_NO_REQUIRE_TAP_TRUST = "1";
+};
     };
 
     taps = [
@@ -196,7 +199,7 @@
       "whatsapp"
       # "wireshark"
       "zed"
-      "blacktop/tap/ida-mcp"
+      "blacktop/tap/ida-mcp@9.3"
       "zoom"
     ];
 

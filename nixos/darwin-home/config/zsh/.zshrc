@@ -56,8 +56,7 @@ create_vite_tailwind_app() {
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-# cfetch
-~/dev/checkra1nlogobitmap/a.out
+cfetch
 export LOCAL_NOTEBOOK_DEV=1
 export PATH="/opt/homebrew/opt/dotnet@8/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@18/bin:$PATH"

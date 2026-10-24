@@ -5,7 +5,7 @@ keybind = ctrl+d=new_split:right
 
 # Empty values reset the configuration to the default value
 # font-family = ""
-font-size=15.5
+font-size=15
 # background-opacity = 0.85
 # background-blur = true
 
