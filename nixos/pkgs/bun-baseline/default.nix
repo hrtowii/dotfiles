@@ -10,7 +10,7 @@
 }:
 stdenvNoCC.mkDerivation rec {
   pname = "bun-baseline";
-  version = "1.3.13";
+  version = "1.4.4";
   src = fetchurl {
     url = "https://github.com/oven-sh/bun/releases/download/bun-v${version}/bun-linux-x64-baseline.zip";
     hash = "sha256-nYokKSpwaAkCBdqsCloiP19pc29Sh+N7+I07QDHtx1A=";
