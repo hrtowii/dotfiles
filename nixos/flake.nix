@@ -80,7 +80,7 @@
         permittedInsecurePackages = [
           "electron-25.9.0" # Obsidian
           "python-2.7.18.8"
-          "beekeeper-studio-6.0.5" # electron 39
+          "beekeeper-studio-6.1.4" # electron 39
         ];
       };
 
