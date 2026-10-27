@@ -24,5 +24,6 @@
     uv
     # python311
     ruff
+    ty
   ];
 }
