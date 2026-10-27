@@ -5,8 +5,12 @@
     enable = true;
 
     discord = {
+      # Modules are installed by Nix; the disabled updater cannot fetch Krisp.
+      krisp.enable = true;
       commandLineArgs = [
         "--enable-features=VaapiVideoDecoder,MiddleClickAutoscroll"
+        # Discord's Vulkan renderer is incompatible with native Wayland.
+        "--disable-features=Vulkan"
         # use wayland and enable IME
         "--ozone-platform-hint=auto"
         "--enable-wayland-ime"

@@ -4,6 +4,10 @@
   ...
 }: {
   environment.shellInit = ''
+    # Existing desktop sessions can retain the old global runtime override
+    # after a rebuild. Do not pass it on to new shells and Nix applications.
+    unset LD_LIBRARY_PATH
+
     export PATH="$PATH:${pkgs.rustc}/bin"
     export PATH="$PATH:${pkgs.cargo}/bin"
     if [ -d "$HOME/.cargo/bin" ]; then
@@ -12,6 +16,13 @@
     if [ -d "$HOME/.npm-global/bin" ]; then
       export PATH="$PATH:$HOME/.npm-global/bin"
     fi
+
+    # Python wheels (the original fixpandas workaround) may need system
+    # libraries even though Python itself does not run through nix-ld.
+    # Opt in per command: with-nix-libs python -c 'import pandas'
+    with-nix-libs() {
+      LD_LIBRARY_PATH="''${NIX_LD_LIBRARY_PATH:-/run/current-system/sw/share/nix-ld/lib}''${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}" "$@"
+    }
   '';
   environment.variables = {
     EDITOR = "nvim";
@@ -41,23 +52,8 @@
       # pkgs.xorg.libXtst
       # pkgs.xorg.libXi.dev
     ];
-    LD_LIBRARY_PATH = lib.makeLibraryPath [
-      # pkgs.libglvnd
-      # pkgs.mesa
-      # pkgs.gcc-unwrapped.lib
-      # pkgs.linuxPackages.nvidia_x11
-      # pkgs.cudatoolkit
-      # pkgs.mangohud
-      # pkgs.portaudio
-      pkgs.rustc
-      pkgs.cargo
-      pkgs.zlib.dev
-      pkgs.stdenv.cc.cc.lib
-      # pkgs.xorg.libX11
-      # pkgs.xorg.libXtst
-      # pkgs.xorg.libXi
-      # pkgs.glib
-    ];
+    # Keep library paths scoped to individual applications. A global
+    # LD_LIBRARY_PATH overrides Nix packages' own C++ runtime dependencies.
   };
 
   # environment.pathsToLink = [
