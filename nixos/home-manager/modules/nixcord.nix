@@ -19,6 +19,7 @@
         enable = true;
       };
       enable = true;
+      openASAR.enable = true;
       branch = "stable";
 
     };
