@@ -35,7 +35,7 @@
     wallpaper = ../../../home-manager/config/wallpapers/getwellsoon.jpg;
     duotone = false;
     fonts = {
-    	i3status = { name = "Xanh Mono"; size = 12; };
+    	i3status = { name = "Redaction 50"; size = 11; };
     };
     # fonts = {
     #   monospace = { name = "Fira Code"; package = pkgs.fira-code; };
