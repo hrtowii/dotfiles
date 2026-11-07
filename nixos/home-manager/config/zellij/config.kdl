@@ -369,7 +369,7 @@ pane_frames false
 // copy_command "wl-copy"                    // wayland
 // copy_command "pbcopy"                     // osx
 // 
-copy_command "wl-copy"
+// copy_command "wl-copy"
  
 // Choose the destination for copied text
 // Allows using the primary selection buffer (on x11/wayland) instead of the system clipboard.
