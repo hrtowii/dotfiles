@@ -48,6 +48,16 @@
     enable   = true;
     # wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
     wallpaper = ../../../home-manager/config/wallpapers/shadowshadow.png;
+    fonts = {
+      # monospace = { name = "Fira Code"; package = pkgs.fira-code; };
+      # serif = { name = "Noto Serif"; package = pkgs.noto-fonts; };
+      # sansSerif = { 
+      serif = { name = "Pond Gramercy"; };
+      sizes.terminal = 12;
+      sway = { name = "Xanh Mono"; size = 8; };
+      i3status = { name = "Xanh Mono"; size = 10; };
+    };
+
     duotone = false;
   };
 
