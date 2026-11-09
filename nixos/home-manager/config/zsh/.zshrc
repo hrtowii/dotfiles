@@ -161,6 +161,31 @@ function set_tab_to_command_line() {
     change_tab_title $cmdline
 }
 
+patchcwd() {
+    if [ -z "$1" ]; then
+        echo "Usage: patchcwd <binary>"
+        return 1
+    fi
+
+    local ld_file=$(find "$PWD" -maxdepth 1 -name "ld-*.so*" | head -n 1)
+
+    if [ -z "$ld_file" ]; then
+        echo "Error: No dynamic linker (ld-*.so*) found in $PWD"
+        return 1
+    fi
+
+    chmod +x "$ld_file"
+    [ -f "$PWD/libc.so.6" ] && chmod +x "$PWD/libc.so.6"
+
+    cp "$1" "$1.bak"
+
+    patchelf --set-interpreter "$ld_file" --set-rpath "$PWD" "$1"
+    
+    echo "Patched $1 (backup saved as $1.bak):"
+    ldd "$1"
+}
+
+
 if [[ -n $ZELLIJ ]]; then
     add-zsh-hook precmd set_tab_to_working_dir
     add-zsh-hook preexec set_tab_to_command_line
