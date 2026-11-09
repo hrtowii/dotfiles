@@ -37,6 +37,9 @@ boot.kernelParams = [ "pcie_aspm.policy=performance" ];
   networking.hostName = hostVars.hostname;
   networking.networkmanager.enable = true;
   networking.networkmanager.wifi.macAddress = "random";
+	# allow ptrace 
+  boot.kernel.sysctl."kernel.yama.ptrace_scope" = 0;
+
   # Set your time zone.
   time.timeZone = "Asia/Singapore";
 
