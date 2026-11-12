@@ -178,10 +178,17 @@ later(function()
 
   vim.lsp.enable('svelte')
 
+  local clangd_cmd = { 'clangd' }
+  if vim.fn.isdirectory('/nix/store') == 1 then
+    table.insert(clangd_cmd, '--query-driver=/nix/store/*gcc-wrapper*/bin/*')
+  end
+
   vim.lsp.config('clangd', {
     filetypes = { 'c', 'cpp', 'objc', 'objcpp' },
     root_markers = { 'compile_commands.json', 'compile_flags.txt', 'CMakeLists.txt', '.git' },
+    cmd = clangd_cmd,
   })
+
   vim.lsp.enable('clangd')
 
   vim.lsp.config('nixd', {

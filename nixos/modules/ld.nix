@@ -9,6 +9,7 @@
   programs.nix-ld = {
     enable = true;
     libraries = with pkgs; [
+      stdenv.cc.cc
       libglvnd
       mesa
       cryptopp
@@ -39,7 +40,6 @@
       freetype
       dbus
 
-      stdenv.cc.cc
       alsa-lib
     ];
 

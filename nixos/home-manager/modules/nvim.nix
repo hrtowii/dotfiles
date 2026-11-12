@@ -35,6 +35,7 @@
       gopls
       clang-tools
       clang-analyzer
+      clang
       marksman
       yaml-language-server
       typescript-language-server
