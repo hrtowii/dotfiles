@@ -101,7 +101,7 @@ boot.kernelParams = [ "pcie_aspm.policy=performance" ];
   ];
 };
   services.sunshine = {
-    enable = true;
+    enable = false;
     autoStart = true;
     openFirewall = true;
     capSysAdmin = true;

@@ -11,8 +11,8 @@
     ../../../modules/python.nix
     ../../../modules/npm.nix
     ../../../modules/tailscale.nix
-    ../../../modules/wireguard.nix
-    ../../../modules/tailscale-wg-fix.nix
+    # ../../../modules/wireguard.nix
+    # ../../../modules/tailscale-wg-fix.nix
     ../../../modules/rust.nix
     #    ../../../modules/ollama.nix
     ../../../modules/flatpak.nix
@@ -35,9 +35,9 @@
     ../../../modules/pwn.nix
     ../../../modules/qt.nix
     ../../../modules/sdr.nix
-    ../../../modules/ida.nix
-    ../../../modules/cache
-    ../../../modules/cache/cachix.nix
+#    ../../../modules/ida.nix
+    # ../../../modules/cache
+    # ../../../modules/cache/cachix.nix
     ../../../modules/sway.nix
     ../../../modules/kitty.nix
     ../../../modules/stylix.nix
@@ -47,7 +47,7 @@
   stylixConfig = {
     enable   = true;
     # wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
-    wallpaper = ../../../home-manager/config/wallpapers/shadowshadow.png;
+    wallpaper = ../../../home-manager/config/wallpapers/getwellsoon.jpg;
     fonts = {
       # monospace = { name = "Fira Code"; package = pkgs.fira-code; };
       # serif = { name = "Noto Serif"; package = pkgs.noto-fonts; };
