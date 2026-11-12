@@ -47,7 +47,8 @@
   stylixConfig = {
     enable   = true;
     # wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
-    wallpaper = ../../../home-manager/config/wallpapers/getwellsoon.jpg;
+    # wallpaper = ../../../home-manager/config/wallpapers/asyablackwhite.jpg;
+    wallpaper = ../../../home-manager/config/wallpapers/top_half_homura.png;
     fonts = {
       # monospace = { name = "Fira Code"; package = pkgs.fira-code; };
       # serif = { name = "Noto Serif"; package = pkgs.noto-fonts; };
