@@ -14,6 +14,12 @@
     homePrefix = "/home";
     stateVersion = "25.11";
   };
+  framework = {
+	username="vi";
+	hostname="nyx";
+	system="x86_64-linux";
+	homePrefix="/home";
+  };
   nyx = {
 	username="vi";
 	hostname="nyx";
