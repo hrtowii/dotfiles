@@ -238,7 +238,7 @@ pkgs.stdenv.mkDerivation rec {
     for bb in ida; do
       wrapProgram $IDADIR/$bb \
         --prefix IDADIR : $IDADIR \
-        --prefix QT_PLUGIN_PATH : $IDADIR/plugins/platforms \
+        --set QT_PLUGIN_PATH $IDADIR/plugins \
         --prefix PYTHONPATH : $out/bin/idalib/python \
         --prefix PATH : ${pythonForIDA}/bin:$IDADIR \
         --prefix LD_LIBRARY_PATH : $out/lib
