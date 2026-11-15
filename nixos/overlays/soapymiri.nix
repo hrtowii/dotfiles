@@ -16,7 +16,8 @@ in
 {
   libmirisdr = final.callPackage ../pkgs/libmirisdr { };
   soapymiri = final.callPackage ../pkgs/soapymiri { };
-  ida-pro = final.callPackage ../pkgs/ida93 { };
+  ida-pro = final.callPackage ../pkgs/ida95 { };
+  ida-pro93 = final.callPackage ../pkgs/ida93 { };
   # osmo-tetra = final.callPackage ../pkgs/osmo-sdr {};
   gqrx = (prev.gqrx.override { gnuradioMinimal = patchedGnuradioMinimal; }).overrideAttrs (old: {
     nativeBuildInputs = (old.nativeBuildInputs or [ ]) ++ [ prev.makeWrapper ];
