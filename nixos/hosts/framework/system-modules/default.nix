@@ -35,7 +35,7 @@
     ../../../modules/pwn.nix
     ../../../modules/qt.nix
     ../../../modules/sdr.nix
-#    ../../../modules/ida.nix
+    ../../../modules/ida.nix
     # ../../../modules/cache
     # ../../../modules/cache/cachix.nix
     ../../../modules/sway.nix
