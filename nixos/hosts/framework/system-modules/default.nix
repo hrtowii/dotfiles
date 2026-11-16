@@ -6,6 +6,7 @@
 }:
 {
   imports = [
+    ./power.nix
     ../../../modules/docker.nix
     ../../../modules/steam.nix
     ../../../modules/python.nix
