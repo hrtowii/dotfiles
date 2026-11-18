@@ -62,8 +62,8 @@ in
               };
           keybindings = lib.mkIf stylixEnabled (
             lib.mkForce {
-              "XF86MonBrightnessUp" = "exec ${pkgs.brightnessctl} set 5%+";
-              "XF86MonBrightnessDown" = "exec ${pkgs.brightnessctl} set 5%-";
+              # "XF86MonBrightnessUp" = "exec ${pkgs.brightnessctl} set 5%+";
+              # "XF86MonBrightnessDown" = "exec ${pkgs.brightnessctl} set 5%-";
             }
           );
           modes = lib.mkIf stylixEnabled (lib.mkForce { });
