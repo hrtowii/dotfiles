@@ -21,7 +21,6 @@
     ../../../modules/keyring.nix
     ../../../modules/uwsm.nix
     ../../../modules/dotnet.nix
-    ../../../modules/nvidia.nix
     ../../../modules/zsh.nix
     ../../../modules/tablet.nix
     ../../../modules/env.nix
@@ -44,21 +43,32 @@
     ../../../modules/stylix.nix
     ../../../modules/moonlight.nix
     ../../../modules/niri.nix
+    ./pond.nix
   ];
   stylixConfig = {
-    enable   = true;
+    enable = true;
     # wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
     # wallpaper = ../../../home-manager/config/wallpapers/asyablackwhite.jpg;
     # wallpaper = ../../../home-manager/config/wallpapers/top_half_homura.png;
-    wallpaper = ../../../home-manager/config/wallpapers/asyahigh.jpg;
+    # wallpaper = ../../../home-manager/config/wallpapers/asyahigh.jpg;
+    wallpaper = ../../../home-manager/config/wallpapers/asya-love.png;
+
     fonts = {
       # monospace = { name = "Fira Code"; package = pkgs.fira-code; };
       # serif = { name = "Noto Serif"; package = pkgs.noto-fonts; };
-      # sansSerif = { 
-      serif = { name = "Pond Gramercy"; };
+      # sansSerif = {
+      serif = {
+        name = "Pond Gramercy";
+      };
       sizes.terminal = 12;
-      sway = { name = "Xanh Mono"; size = 8; };
-      i3status = { name = "Xanh Mono"; size = 10; };
+      sway = {
+        name = "Xanh Mono";
+        size = 8;
+      };
+      i3status = {
+        name = "Xanh Mono";
+        size = 10;
+      };
     };
 
     duotone = false;

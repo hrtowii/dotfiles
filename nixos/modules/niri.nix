@@ -1,4 +1,8 @@
 { inputs, pkgs, config, lib, hostVars, ... }:
+let
+  pondShell = lib.attrByPath [ "programs" "pond" "shell" "enable" ] false config;
+  pondLauncher = lib.getExe pkgs.vicinae;
+in
 {
   imports = [ inputs.niri.nixosModules.niri ];
 
@@ -13,7 +17,7 @@
       binds = {
         "Mod+Return".action.spawn = "kitty";
         "Mod+Q".action.close-window = [];
-        "Mod+Space".action.spawn = "wofi";
+        "Mod+Space".action.spawn = if pondShell then [ pondLauncher "toggle" ] else "wofi";
 
         "Mod+J".action.focus-column-left = [];
         "Mod+K".action.focus-window-or-workspace-down = [];
@@ -128,10 +132,14 @@
         }
       ];
 
-      spawn-at-startup = [
-        { argv = [ "swaync" ]; }
-        { argv = [ "waybar" ]; }
-      ];
+      spawn-at-startup =
+        if pondShell then [
+          { argv = [ pondLauncher "server" ]; }
+          { argv = [ (lib.getExe config.programs.pond.shell.package) ]; }
+        ] else [
+          { argv = [ "swaync" ]; }
+          { argv = [ "waybar" ]; }
+        ];
     }
     (lib.mkIf (!(config ? stylix && config.stylix.enable)) {
       layout.border = {
@@ -139,14 +147,14 @@
         active = { color = "#c4a7e7"; };
         inactive = { color = "#6e6a86"; };
       };
-      spawn-at-startup = lib.mkAfter [
+      spawn-at-startup = lib.mkIf (!pondShell) (lib.mkAfter [
         { argv = [ "wbg" "-s" (toString ../home-manager/config/wallpapers/kogecha.jpg) ]; }
-      ];
+      ]);
     })
     (lib.mkIf (config ? stylix && config.stylix.enable) {
-      spawn-at-startup = lib.mkAfter [
+      spawn-at-startup = lib.mkIf (!pondShell) (lib.mkAfter [
         { argv = [ "wbg" "-s" (toString config.stylix.image) ]; }
-      ];
+      ]);
     })
   ];
 }
