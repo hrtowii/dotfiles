@@ -989,6 +989,41 @@
         "type": "github"
       }
     },
+    "pond": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "pond-src": "pond-src"
+      },
+      "locked": {
+        "lastModified": 1795018874,
+        "narHash": "sha256-E7ktFlSgVdnT12Vz7rU7rAwRkF7f704egrmtAj/BKpo=",
+        "path": "/home/vi/dev/pond-interface",
+        "type": "path"
+      },
+      "original": {
+        "path": "/home/vi/dev/pond-interface",
+        "type": "path"
+      }
+    },
+    "pond-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1794903110,
+        "narHash": "sha256-yo5Ucd9IpiwAEiYo3DliLFTvZAG29zZUKEYHd3p03qc=",
+        "owner": "bflycomputer",
+        "repo": "pond-interface",
+        "rev": "00495c703d37a1d8adb46baac2d7aecd3e6dfad4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bflycomputer",
+        "ref": "main",
+        "repo": "pond-interface",
+        "type": "github"
+      }
+    },
     "pre-commit-hooks": {
       "inputs": {
         "flake-compat": "flake-compat_3",
@@ -1097,6 +1132,7 @@
         "nix-ld": "nix-ld",
         "nixcord": "nixcord",
         "nixpkgs": "nixpkgs_4",
+        "pond": "pond",
         "pwndbg": "pwndbg",
         "spicetify-nix": "spicetify-nix",
         "stable": "stable",

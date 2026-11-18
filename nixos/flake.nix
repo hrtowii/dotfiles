@@ -5,6 +5,11 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     stable.url = "github:NixOS/nixpkgs/nixos-25.05";
 
+    pond = {
+      url = "path:/home/vi/dev/pond-interface";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     nix-darwin = {
       # TODO: remove fork once https://github.com/nix-darwin/nix-darwin/pull/1789 is merged
       # url = "github:stepbrobd/nix-darwin/bundle";

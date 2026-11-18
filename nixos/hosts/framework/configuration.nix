@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, hostVars, ... }:
+{ config, lib, pkgs, hostVars, ... }:
 let config_path = ../../home-manager/config/pipewire/pipewire.conf.d/teapro.txt;
 in
 {
@@ -26,6 +26,14 @@ in
   networking.hostName = hostVars.hostname;
   networking.networkmanager.enable = true;
   networking.networkmanager.wifi.macAddress = "random";
+  systemd.services.NetworkManager-wait-online.enable = false;
+
+  virtualisation.docker = {
+    enableOnBoot = lib.mkForce false;
+    # The prune timer can start Docker even when boot activation is disabled.
+    autoPrune.enable = lib.mkForce false;
+  };
+
   # Set your time zone.
   time.timeZone = "Asia/Singapore";
 
