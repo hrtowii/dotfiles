@@ -51,7 +51,7 @@
     # wallpaper = ../../../home-manager/config/wallpapers/asyablackwhite.jpg;
     # wallpaper = ../../../home-manager/config/wallpapers/top_half_homura.png;
     # wallpaper = ../../../home-manager/config/wallpapers/asyahigh.jpg;
-    wallpaper = ../../../home-manager/config/wallpapers/asya-love.png;
+    wallpaper = ../../../home-manager/config/wallpapers/love-zato2.png;
 
     fonts = {
       # monospace = { name = "Fira Code"; package = pkgs.fira-code; };
