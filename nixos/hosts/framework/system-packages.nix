@@ -67,6 +67,12 @@
     rclone
     openssl
     claude-code
+    ncdu 
+    foliate
     statix
+    hyfetch 
+    framework-tool 
+    framework-tool-tui 
+    rizin 
   ];
 }
