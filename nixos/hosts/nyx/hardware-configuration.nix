@@ -30,6 +30,11 @@
       options = [ "subvol=nix" ];
     };
 
+  fileSystems."/mnt/disk2" =
+    { device = "/dev/disk/by-uuid/ddaa0b4a-62d5-4c77-8fb3-2addb9e25f68";
+      fsType = "btrfs";
+    };
+
   swapDevices =
     [ { device = "/dev/disk/by-uuid/ba2aa452-651b-40a7-9e12-0f452edabab7"; }
     ];
