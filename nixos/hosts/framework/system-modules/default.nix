@@ -25,6 +25,7 @@
     # ../../../modules/tablet.nix
     ../../../modules/env.nix
     ../../../modules/spotify-player.nix
+    ../../../modules/ostui.nix
     ../../../modules/slack.nix
     ../../../modules/vm.nix
     ../../../modules/ld.nix
