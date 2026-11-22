@@ -8,8 +8,17 @@
 let
   stylixEnabled = lib.attrByPath [ "stylix" "enable" ] false config;
   fontName = font: if font.name != null then font.name else config.stylix.fonts.monospace.name;
+  personalLauncher = config.programs.personalLauncher;
+  launcherConfig = path:
+    let contents = builtins.readFile path;
+    in if personalLauncher.enable then
+      lib.replaceStrings [ "bindsym $mod+space exec wofi --show drun\n" ]
+        [ "bindsym $mod+space exec ${lib.getExe personalLauncher.package}\n" ] contents
+    else contents;
 in
 {
+  imports = [ ./personal-launcher.nix ];
+
   config = {
     xdg.portal = {
       enable = true;
@@ -43,7 +52,11 @@ in
     ];
     home-manager.users.${hostVars.username} = {
       home.file.".config/sway/config" = lib.mkIf (!stylixEnabled) {
-        source = lib.mkDefault ../home-manager/config/i3/config;
+        source = lib.mkDefault (
+          if personalLauncher.enable then
+            pkgs.writeText "sway-personal-launcher.conf" (launcherConfig ../home-manager/config/i3/config)
+          else ../home-manager/config/i3/config
+        );
       };
       wayland.windowManager.sway = {
         enable = stylixEnabled;
@@ -109,7 +122,7 @@ in
             ]
           );
         };
-        extraConfig = builtins.readFile ../home-manager/config/i3/config-stylix;
+        extraConfig = launcherConfig ../home-manager/config/i3/config-stylix;
       };
     };
   };

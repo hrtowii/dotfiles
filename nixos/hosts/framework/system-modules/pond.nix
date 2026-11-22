@@ -38,7 +38,10 @@ in
     plymouth.enable = true;
     shell.enable = true;
     niri.enable = true;
-    vicinae.enable = true;
+    vicinae = {
+      enable = false;
+      fork.enable = false;
+    };
     fastfetch.enable = true;
     screenshot.enable = true;
   };

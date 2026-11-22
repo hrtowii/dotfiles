@@ -1037,8 +1037,8 @@
         "pond-vicinae": "pond-vicinae"
       },
       "locked": {
-        "lastModified": 1795351505,
-        "narHash": "sha256-rGGa8TNX3VDnZ85V9Sk0ZcxzW/jBvgrt0fXg6Y03UBU=",
+        "lastModified": 1795369211,
+        "narHash": "sha256-EKGA3ODUXXqK6YeZqnc04LBwkKEjY9+4/Uhjv7fCj6Q=",
         "path": "/home/vi/dev/pond-interface",
         "type": "path"
       },

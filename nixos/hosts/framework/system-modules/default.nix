@@ -45,6 +45,8 @@
     ../../../modules/niri.nix
     ./pond.nix
   ];
+  programs.personalLauncher.enable = true;
+
   stylixConfig = {
     enable = true;
     # wallpaper = ../../../home-manager/config/wallpapers/love-zato2.png;

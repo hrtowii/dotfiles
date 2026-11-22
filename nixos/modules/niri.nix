@@ -2,9 +2,11 @@
 let
   pondShell = lib.attrByPath [ "programs" "pond" "shell" "enable" ] false config;
   pondLauncher = lib.getExe config.programs.pond.vicinae.package;
+  pondVicinae = pondShell && config.programs.pond.vicinae.enable;
+  personalLauncher = config.programs.personalLauncher;
 in
 {
-  imports = [ inputs.niri.nixosModules.niri ];
+  imports = [ inputs.niri.nixosModules.niri ./personal-launcher.nix ];
 
   programs.niri.enable = true;
 
@@ -27,7 +29,10 @@ in
       binds = {
         "Mod+Return".action.spawn = "kitty";
         "Mod+Q".action.close-window = [];
-        "Mod+Space".action.spawn = if pondShell then [ pondLauncher "toggle" ] else "wofi";
+        "Mod+Space".action.spawn =
+          if personalLauncher.enable then lib.getExe personalLauncher.package
+          else if pondVicinae then [ pondLauncher "toggle" ]
+          else "wofi";
         "Mod+Shift+Space" = {
           action.toggle-window-floating = [];
           repeat = false;
@@ -99,6 +104,15 @@ in
           "pactl" "set-source-mute" "@DEFAULT_SOURCE@" "toggle"
         ];
 
+        "XF86MonBrightnessUp" = {
+          allow-when-locked = true;
+          action.spawn = [ (lib.getExe pkgs.brightnessctl) "--class=backlight" "set" "5%+" ];
+        };
+        "XF86MonBrightnessDown" = {
+          allow-when-locked = true;
+          action.spawn = [ (lib.getExe pkgs.brightnessctl) "--class=backlight" "set" "5%-" ];
+        };
+
         "Mod+WheelScrollDown" = {
           action.focus-column-right = [];
           cooldown-ms = 10;
@@ -155,9 +169,9 @@ in
 
       spawn-at-startup =
         if pondShell then [
-          { argv = [ pondLauncher "server" ]; }
           { argv = [ (lib.getExe config.programs.pond.shell.package) ]; }
-        ] else [
+        ] ++ lib.optional (pondVicinae && !personalLauncher.enable) { argv = [ pondLauncher "server" ]; }
+        else [
           { argv = [ "swaync" ]; }
           { argv = [ "waybar" ]; }
         ];
