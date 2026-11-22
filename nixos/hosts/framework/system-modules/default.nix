@@ -22,7 +22,7 @@
     ../../../modules/uwsm.nix
     ../../../modules/dotnet.nix
     ../../../modules/zsh.nix
-    ../../../modules/tablet.nix
+    # ../../../modules/tablet.nix
     ../../../modules/env.nix
     ../../../modules/spotify-player.nix
     ../../../modules/slack.nix
@@ -47,16 +47,14 @@
   ];
   stylixConfig = {
     enable = true;
-    # wallpaper = ../../../home-manager/config/wallpapers/yuriful.jpg;
-    # wallpaper = ../../../home-manager/config/wallpapers/asyablackwhite.jpg;
-    # wallpaper = ../../../home-manager/config/wallpapers/top_half_homura.png;
-    # wallpaper = ../../../home-manager/config/wallpapers/asyahigh.jpg;
-    wallpaper = ../../../home-manager/config/wallpapers/love-zato2.png;
-
+    # wallpaper = ../../../home-manager/config/wallpapers/love-zato2.png;
+    wallpaper = ../../../home-manager/config/wallpapers/teatime_wallpaper.jpg;
     fonts = {
       # monospace = { name = "Fira Code"; package = pkgs.fira-code; };
-      # serif = { name = "Noto Serif"; package = pkgs.noto-fonts; };
-      # sansSerif = {
+      sansSerif = {
+        package = pkgs.helvetica-neue-lt-std;
+        name = "Helvetica Neue LT Std";
+      };
       serif = {
         name = "Pond Gramercy";
       };

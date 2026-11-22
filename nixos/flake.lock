@@ -997,8 +997,8 @@
         "pond-src": "pond-src"
       },
       "locked": {
-        "lastModified": 1795018874,
-        "narHash": "sha256-E7ktFlSgVdnT12Vz7rU7rAwRkF7f704egrmtAj/BKpo=",
+        "lastModified": 1795343000,
+        "narHash": "sha256-dBSjfBkaLp2GUR2ZaxEjsfaE2MZar22dOQ9TO1XxGBQ=",
         "path": "/home/vi/dev/pond-interface",
         "type": "path"
       },

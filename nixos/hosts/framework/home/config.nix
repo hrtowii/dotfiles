@@ -11,8 +11,8 @@ in
     # ".config/spicetify".source = "${configDir}/spicetify";
     ".config/nvim".source =
       config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/nixos/home-manager/config/nvim-light";
-    ".config/neofetch".source = "${configDir}/neofetch";
-    ".config/fastfetch".source = "${configDir}/fastfetch";
+    # ".config/neofetch".source = "${configDir}/neofetch";
+    # ".config/fastfetch".source = "${configDir}/fastfetch";
     ".config/gqrx".source = "${configDir}/gqrx";
     ".config/uwsm".source = "${configDir}/uwsm";
     ".zshrc".source = "${configDir}/zsh/.zshrc";

@@ -37,6 +37,10 @@ in
     lockscreen.enable = true;
     plymouth.enable = true;
     shell.enable = true;
+    niri.enable = true;
+    vicinae.enable = true;
+    fastfetch.enable = true;
+    screenshot.enable = true;
   };
 
   programs.niri.package = lib.mkIf pond.shell.enable pkgs.niri;
@@ -72,7 +76,10 @@ in
 
     # Pond owns the notification bus in Niri. Keep the Sway service available.
     systemd.user.services.swaync.Unit.ConditionEnvironment = lib.mkIf pond.shell.enable (
-      lib.mkForce [ "WAYLAND_DISPLAY" "!XDG_CURRENT_DESKTOP=niri" ]
+      lib.mkForce [
+        "WAYLAND_DISPLAY"
+        "!XDG_CURRENT_DESKTOP=niri"
+      ]
     );
 
     wayland.windowManager.sway.extraConfig = lib.mkAfter ''

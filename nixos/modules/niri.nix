@@ -18,6 +18,10 @@ in
         "Mod+Return".action.spawn = "kitty";
         "Mod+Q".action.close-window = [];
         "Mod+Space".action.spawn = if pondShell then [ pondLauncher "toggle" ] else "wofi";
+        "Mod+Shift+Space" = {
+          action.toggle-window-floating = [];
+          repeat = false;
+        };
 
         "Mod+J".action.focus-column-left = [];
         "Mod+K".action.focus-window-or-workspace-down = [];
@@ -40,6 +44,9 @@ in
         "Mod+Shift+Right".action.move-column-right = [];
 
         "Mod+F".action.fullscreen-window = [];
+
+        "Mod+Equal".action.set-column-width = "+10%";
+        "Mod+Minus".action.set-column-width = "-10%";
 
         "Mod+1".action.focus-workspace = 1;
         "Mod+2".action.focus-workspace = 2;
