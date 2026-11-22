@@ -1,0 +1,11 @@
+window-rule {
+    background-effect {
+        xray false
+    }
+}
+
+layer-rule {
+    background-effect {
+        xray false
+    }
+}

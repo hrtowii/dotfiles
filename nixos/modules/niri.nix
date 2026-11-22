@@ -1,7 +1,7 @@
 { inputs, pkgs, config, lib, hostVars, ... }:
 let
   pondShell = lib.attrByPath [ "programs" "pond" "shell" "enable" ] false config;
-  pondLauncher = lib.getExe pkgs.vicinae;
+  pondLauncher = lib.getExe config.programs.pond.vicinae.package;
 in
 {
   imports = [ inputs.niri.nixosModules.niri ];
@@ -11,6 +11,16 @@ in
   environment.systemPackages = with pkgs; [ waybar nautilus wbg xwayland-satellite ];
 
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
+
+  home-manager.sharedModules = [
+    {
+      # niri-flake has no structured background-effect setting yet.
+      options.programs.niri.finalConfig = lib.mkOption {
+        apply = kdl:
+          if kdl == null then null else kdl + "\n" + builtins.readFile ./niri-translucency.kdl;
+      };
+    }
+  ];
 
   home-manager.users.${hostVars.username}.programs.niri.settings = lib.mkMerge [
     {
@@ -136,6 +146,10 @@ in
             bottom-right = 8.0;
           };
           clip-to-geometry = true;
+        }
+        {
+          matches = [{ app-id = "^kitty$"; }];
+          default-column-width.proportion = 0.6;
         }
       ];
 

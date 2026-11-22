@@ -68,6 +68,10 @@ in
   security.pam.services.pond-lockscreen = { };
   environment.sessionVariables.POND_PAM_SERVICE = "pond-lockscreen";
 
+  home-manager.sharedModules = lib.mkIf (pond.shell.enable && pond.niri.enable) [
+    inputs.pond.homeModules.niri
+  ];
+
   home-manager.users.${hostVars.username} = {
     programs.niri.settings = {
       binds."Mod+Alt+L".action.spawn = lock;

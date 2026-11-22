@@ -874,6 +874,22 @@
         "type": "github"
       }
     },
+    "nixpkgs-libxml2": {
+      "locked": {
+        "lastModified": 1751274312,
+        "narHash": "sha256-/bVBlRpECLVzjV19t5KMdMFWSwKLtb5RyXdjz3LJT+g=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "50ab793786d9de88ee30ec4e4c24fb4236fc2674",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs-packages": {
       "locked": {
         "lastModified": 1793795574,
@@ -964,6 +980,29 @@
         "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz"
       }
     },
+    "numen": {
+      "inputs": {
+        "nixpkgs": [
+          "pond",
+          "pond-vicinae",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1789761689,
+        "narHash": "sha256-kZmr3Bd0ehbq43/rDXtkuexWpMN8HyE0iqw1LlaartM=",
+        "owner": "vicinaehq",
+        "repo": "numen",
+        "rev": "7379178f9c2fc4dc0c1965c1800e62ef764118f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vicinaehq",
+        "ref": "v0.6.2",
+        "repo": "numen",
+        "type": "github"
+      }
+    },
     "nur": {
       "inputs": {
         "flake-parts": [
@@ -994,11 +1033,12 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "pond-src": "pond-src"
+        "pond-src": "pond-src",
+        "pond-vicinae": "pond-vicinae"
       },
       "locked": {
-        "lastModified": 1795343000,
-        "narHash": "sha256-dBSjfBkaLp2GUR2ZaxEjsfaE2MZar22dOQ9TO1XxGBQ=",
+        "lastModified": 1795351505,
+        "narHash": "sha256-rGGa8TNX3VDnZ85V9Sk0ZcxzW/jBvgrt0fXg6Y03UBU=",
         "path": "/home/vi/dev/pond-interface",
         "type": "path"
       },
@@ -1021,6 +1061,31 @@
         "owner": "bflycomputer",
         "ref": "main",
         "repo": "pond-interface",
+        "type": "github"
+      }
+    },
+    "pond-vicinae": {
+      "inputs": {
+        "nixpkgs": [
+          "pond",
+          "nixpkgs"
+        ],
+        "numen": "numen",
+        "soulver-cpp": "soulver-cpp",
+        "systems": "systems_4"
+      },
+      "locked": {
+        "lastModified": 1793674821,
+        "narHash": "sha256-t1kRf5vnV9r9kbtn5GvfdNNhH2eM0gcDUvhQ0yJs2Kk=",
+        "owner": "bflycomputer",
+        "repo": "vicinae",
+        "rev": "68847f4b70ecf2a723859d39032e857dccb7691c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bflycomputer",
+        "repo": "vicinae",
+        "rev": "68847f4b70ecf2a723859d39032e857dccb7691c",
         "type": "github"
       }
     },
@@ -1160,10 +1225,33 @@
         "type": "github"
       }
     },
+    "soulver-cpp": {
+      "inputs": {
+        "nixpkgs": [
+          "pond",
+          "pond-vicinae",
+          "nixpkgs"
+        ],
+        "nixpkgs-libxml2": "nixpkgs-libxml2"
+      },
+      "locked": {
+        "lastModified": 1783621734,
+        "narHash": "sha256-YBFO+aurlz2y2hTRN1Kl0RjX6JzHn0mYBmt4zb436Yg=",
+        "owner": "vicinaehq",
+        "repo": "soulver-cpp",
+        "rev": "00e926e2bd03118638c88981f6a67bfa107210c2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vicinaehq",
+        "repo": "soulver-cpp",
+        "type": "github"
+      }
+    },
     "spicetify-nix": {
       "inputs": {
         "nixpkgs": "nixpkgs_5",
-        "systems": "systems_4"
+        "systems": "systems_5"
       },
       "locked": {
         "lastModified": 1792919014,
@@ -1208,7 +1296,7 @@
           "nixpkgs"
         ],
         "nur": "nur",
-        "systems": "systems_5",
+        "systems": "systems_6",
         "tinted-kitty": "tinted-kitty",
         "tinted-schemes": "tinted-schemes",
         "tinted-tmux": "tinted-tmux",
@@ -1276,6 +1364,21 @@
     },
     "systems_4": {
       "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "systems_5": {
+      "locked": {
         "lastModified": 1791244623,
         "narHash": "sha256-uuanbkFk8a313Zfrxdcz8Us/yQtaxNnKJtX8v0ZPpd8=",
         "owner": "nix-systems",
@@ -1289,7 +1392,7 @@
         "type": "github"
       }
     },
-    "systems_5": {
+    "systems_6": {
       "locked": {
         "lastModified": 1774449309,
         "narHash": "sha256-brhZ8DmuGtzkCYHJg4HEd602amKm89Y9ytsFZ5uWD1w=",
