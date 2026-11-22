@@ -13,7 +13,10 @@ let
     let contents = builtins.readFile path;
     in if personalLauncher.enable then
       lib.replaceStrings [ "bindsym $mod+space exec wofi --show drun\n" ]
-        [ "bindsym $mod+space exec ${lib.getExe personalLauncher.package}\n" ] contents
+        [ ''
+          exec ${lib.getExe personalLauncher.package} start
+          bindsym --no-repeat $mod+space exec ${lib.getExe personalLauncher.package} toggle
+        '' ] contents
     else contents;
 in
 {

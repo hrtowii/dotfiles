@@ -29,10 +29,13 @@ in
       binds = {
         "Mod+Return".action.spawn = "kitty";
         "Mod+Q".action.close-window = [];
-        "Mod+Space".action.spawn =
-          if personalLauncher.enable then lib.getExe personalLauncher.package
-          else if pondVicinae then [ pondLauncher "toggle" ]
-          else "wofi";
+        "Mod+Space" = {
+          repeat = lib.mkIf personalLauncher.enable false;
+          action.spawn =
+            if personalLauncher.enable then [ (lib.getExe personalLauncher.package) "toggle" ]
+            else if pondVicinae then [ pondLauncher "toggle" ]
+            else "wofi";
+        };
         "Mod+Shift+Space" = {
           action.toggle-window-floating = [];
           repeat = false;
@@ -136,6 +139,8 @@ in
         tap = true;
       };
 
+      prefer-no-csd = true;
+
       layout.gaps = 5;
 
       layout.border.width = 2;
@@ -168,13 +173,13 @@ in
       ];
 
       spawn-at-startup =
-        if pondShell then [
+        (if pondShell then [
           { argv = [ (lib.getExe config.programs.pond.shell.package) ]; }
         ] ++ lib.optional (pondVicinae && !personalLauncher.enable) { argv = [ pondLauncher "server" ]; }
         else [
           { argv = [ "swaync" ]; }
           { argv = [ "waybar" ]; }
-        ];
+        ]) ++ lib.optional personalLauncher.enable { argv = [ (lib.getExe personalLauncher.package) "start" ]; };
     }
     (lib.mkIf (!(config ? stylix && config.stylix.enable)) {
       layout.border = {

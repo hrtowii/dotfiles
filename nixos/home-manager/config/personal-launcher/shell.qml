@@ -1,6 +1,9 @@
+//@ pragma ShellId personal-launcher
+
 import QtQuick
 import Quickshell
 import Quickshell.I3
+import Quickshell.Io
 import Quickshell.Wayland
 import Quickshell.Widgets
 
@@ -29,6 +32,7 @@ PanelWindow {
     }
     readonly property var entries: showingCards ? favorites : matches
     property int selected: 0
+    property bool presented: false
 
     screen: Quickshell.screens.find(output => I3.focusedMonitor
         && I3.monitorFor(output) === I3.focusedMonitor) ?? Quickshell.screens[0] ?? null
@@ -36,10 +40,11 @@ PanelWindow {
     implicitHeight: Math.min(Math.max(1, (screen?.height ?? 640) - 32),
         showingCards ? 255 : 111 + Math.min(8, Math.max(1, matches.length)) * 44)
     color: "transparent"
+    visible: presented
     exclusionMode: ExclusionMode.Ignore
     WlrLayershell.namespace: "personal-launcher"
     WlrLayershell.layer: WlrLayer.Overlay
-    WlrLayershell.keyboardFocus: WlrKeyboardFocus.Exclusive
+    WlrLayershell.keyboardFocus: presented ? WlrKeyboardFocus.Exclusive : WlrKeyboardFocus.None
     BackgroundEffect.blurRegion: Region {
         item: panel
         radius: panel.radius
@@ -47,6 +52,30 @@ PanelWindow {
 
     onQueryChanged: selected = 0
     onEntriesChanged: selected = Math.min(selected, Math.max(0, entries.length - 1))
+
+    IpcHandler {
+        target: "personalLauncher"
+
+        function open(): void {
+            launcher.showPanel();
+        }
+
+        function toggle(): void {
+            if (launcher.presented)
+                launcher.presented = false;
+            else
+                launcher.showPanel();
+        }
+    }
+
+    function showPanel() {
+        if (presented)
+            return;
+        search.clear();
+        selected = 0;
+        presented = true;
+        search.forceActiveFocus();
+    }
 
     function moveSelection(delta) {
         if (!entries.length)
@@ -67,7 +96,7 @@ PanelWindow {
         } else {
             app.execute();
         }
-        Qt.quit();
+        presented = false;
     }
 
     Rectangle {
@@ -104,7 +133,7 @@ PanelWindow {
                     selectByMouse: true
                     focus: true
 
-                    Keys.onEscapePressed: Qt.quit()
+                    Keys.onEscapePressed: launcher.presented = false
                     Keys.onReturnPressed: launcher.launch(launcher.entries[launcher.selected])
                     Keys.onEnterPressed: launcher.launch(launcher.entries[launcher.selected])
                     Keys.onUpPressed: launcher.moveSelection(-1)
