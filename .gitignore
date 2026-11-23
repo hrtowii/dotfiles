@@ -4,4 +4,5 @@ letsnote/spicetify
 letsnote/vesktop
 letsnote/vscode
 nixos/home-manager/fonts/.uuid
+/nixos/home-manager/fonts/otf-pond-gramercy/
 .DS_Store

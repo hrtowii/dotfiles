@@ -26,7 +26,6 @@ let
   ];
   fonts = pkgs.runCommand "framework-pond-fonts" { } ''
     install -Dm644 ${../../../home-manager/fonts/onest.ttf} "$out/share/fonts/truetype/Onest.ttf"
-    install -Dm644 -t "$out/share/fonts/opentype" ${../../../home-manager/fonts/otf-pond-gramercy}/PondGramercy-*.otf
   '';
 in
 {
