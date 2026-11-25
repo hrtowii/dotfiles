@@ -20,7 +20,7 @@
     ../../../home-manager/modules/osu.nix
     ../../../home-manager/modules/whatsapp.nix
     ../../../home-manager/modules/swaync.nix
-    ../../../home-manager/modules/art_daemon.nix
+    # ../../../home-manager/modules/art_daemon.nix
     ../../../home-manager/modules/nixcord.nix
     ./config.nix
   ];

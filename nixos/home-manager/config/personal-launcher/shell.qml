@@ -16,7 +16,7 @@ PanelWindow {
         .filter(app => !app.noDisplay && app.name && app.command.length > 0)
         .sort((left, right) => left.name.localeCompare(right.name))
     readonly property var favorites: {
-        const preferred = ["firefox", "discord", "org.telegram.desktop"];
+        const preferred = ["helium", "discord", "org.telegram.desktop"];
         const entries = preferred.map(id => launcher.apps.find(app => app.id === id
             || app.id === id + ".desktop")).filter(app => app);
         return entries.concat(launcher.apps.filter(app => !entries.includes(app))).slice(0, 3);
@@ -214,8 +214,8 @@ PanelWindow {
                             color: hover.hovered || index === launcher.selected ? "#327f6795" : "#147f6795"
 
                             IconImage {
-                                x: 18
-                                y: 18
+                                x: 24
+                                y: 24
                                 implicitSize: 24
                                 source: Quickshell.iconPath(card.modelData.icon, "application-x-executable")
                             }
